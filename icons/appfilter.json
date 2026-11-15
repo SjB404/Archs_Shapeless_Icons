@@ -1,1 +1,572 @@
-{}
+{
+ "com_digibites_accubattery": [
+  "ComponentInfo{com.digibites.accubattery/com.digibites.abatterysaver.BatterySaverActivity}"
+ ],
+ "com_alarmclock_xtreme_free": [
+  "ComponentInfo{com.alarmclock.xtreme.free/com.alarmclock.xtreme.free.AlarmClock}"
+ ],
+ "com_kaanelloed_iconeration": [
+  "ComponentInfo{com.kaanelloed.iconeration/com.kaanelloed.iconeration.MainActivity}"
+ ],
+ "com_jafolders_allefolders": [
+  "ComponentInfo{com.jafolders.allefolders/com.jafolders.allefolders.MainActivity}"
+ ],
+ "com_amazon_mshop_android_shopping": [
+  "ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}"
+ ],
+ "com_stellarstudiogames_abcandybirds": [
+  "ComponentInfo{com.StellarStudioGames.ABCandyBirds/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_oceanwing_soundcore": [
+  "ComponentInfo{com.oceanwing.soundcore/com.oceanwing.soundcore.activity.WelcomeActivity}"
+ ],
+ "com_armmc_app": [
+  "ComponentInfo{com.armmc.app/com.armmc.app.MainActivity}"
+ ],
+ "cm_aptoide_pt": [
+  "ComponentInfo{cm.aptoide.pt/cm.aptoide.pt.view.MainActivity}"
+ ],
+ "com_google_android_apps_googleassistant": [
+  "ComponentInfo{com.google.android.apps.googleassistant/com.google.android.apps.googleassistant.AssistantActivity}"
+ ],
+ "com_aurora_store": [
+  "ComponentInfo{com.aurora.store/com.aurora.store.ComposeActivity}"
+ ],
+ "com_azure_authenticator": [
+  "ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.LaunchActivity}"
+ ],
+ "com_llamalab_automate": [
+  "ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}"
+ ],
+ "com_handycloset_android_eraser": [
+  "ComponentInfo{com.handycloset.android.eraser/com.handycloset.android.eraser.MainActivity}"
+ ],
+ "com_playstack_balatro_android": [
+  "ComponentInfo{com.playstack.balatro.android/org.love2d.android.PlatformActivity}"
+ ],
+ "com_oneapps_batterynotification": [
+  "ComponentInfo{com.oneapps.batterynotification/com.oneapps.batterynotification.MainActivity}"
+ ],
+ "com_beeper_android": [
+  "ComponentInfo{com.beeper.android/com.beeper.chat.booper.MainActivity_Default}"
+ ],
+ "com_sirma_mobile_bible_android": [
+  "ComponentInfo{com.sirma.mobile.bible.android/youversion.bible.app.MainActivity}"
+ ],
+ "com_bol_shop": [
+  "ComponentInfo{com.bol.shop/com.bol.shop.launch.ui.LaunchActivity}"
+ ],
+ "ee_mtakso_client": [
+  "ComponentInfo{ee.mtakso.client/ee.mtakso.client.activity.SplashHomeActivity}"
+ ],
+ "com_brave_browser": [
+  "ComponentInfo{com.brave.browser/com.google.android.apps.chrome.Main}"
+ ],
+ "com_supercell_brawlstars": [
+  "ComponentInfo{com.supercell.brawlstars/com.supercell.brawlstars.GameApp}"
+ ],
+ "com_bunq_android": [
+  "ComponentInfo{com.bunq.android/com.bunq.android.ui.activity.SplashScreenActivity}"
+ ],
+ "nl_burgerking_app": [
+  "ComponentInfo{nl.burgerking.app/rbi.android.app.Launcher}"
+ ],
+ "com_samruston_buzzkill": [
+  "ComponentInfo{com.samruston.buzzkill/com.samruston.buzzkill.ui.MainActivity}"
+ ],
+ "com_cakewallet_cake_wallet": [
+  "ComponentInfo{com.cakewallet.cake_wallet/com.cakewallet.cake_wallet.MainActivity}"
+ ],
+ "com_google_android_calculator": [
+  "ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}"
+ ],
+ "com_google_android_calendar": [
+  "ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}"
+ ],
+ "com_azizi_calorie_calculator": [
+  "ComponentInfo{com.azizi.calorie_calculator/com.azizi.calorie_calculator.MainActivity}"
+ ],
+ "com_nothing_camera": [
+  "ComponentInfo{com.nothing.camera/com.nothing.camera.activity.CameraActivity}"
+ ],
+ "com_instructure_candroid": [
+  "ComponentInfo{com.instructure.candroid/com.instructure.student.activity.LoginActivity}"
+ ],
+ "com_openai_chatgpt": [
+  "ComponentInfo{com.openai.chatgpt/com.openai.chatgpt.MainActivity}"
+ ],
+ "com_android_chrome": [
+  "ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}"
+ ],
+ "com_anthropic_claude": [
+  "ComponentInfo{com.anthropic.claude/com.anthropic.claude.mainactivity.MainActivity}"
+ ],
+ "com_google_android_deskclock": [
+  "ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}"
+ ],
+ "com_google_android_contacts": [
+  "ComponentInfo{com.google.android.contacts/com.android.contacts.activities.PeopleActivity}"
+ ],
+ "eu_coolblue_shop": [
+  "ComponentInfo{eu.coolblue.shop/eu.coolblue.shop.presentation.splash.SplashActivity}"
+ ],
+ "com_yodo1_crossyroad": [
+  "ComponentInfo{com.yodo1.crossyroad/com.google.firebase.MessagingUnityPlayerActivity}"
+ ],
+ "com_deepseek_chat": [
+  "ComponentInfo{com.deepseek.chat/com.deepseek.chat.MainActivity}"
+ ],
+ "nl_rijksoverheid_digid_pub": [
+  "ComponentInfo{nl.rijksoverheid.digid.pub/crc64bbb4e1ca9d69cb46.MainActivity}"
+ ],
+ "com_discord": [
+  "ComponentInfo{com.discord/com.discord.main.MainDefault}"
+ ],
+ "custom_discord": [
+  "ComponentInfo{custom.discord/com.discord.app.AppActivity$Main}"
+ ],
+ "com_google_android_apps_docs_editors_docs": [
+  "ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity}"
+ ],
+ "tweeter_gif_twittervideodownloader": [
+  "ComponentInfo{tweeter.gif.twittervideodownloader/tweeter.gif.twittervideodownloader.ui.home.MainActivity}"
+ ],
+ "com_google_android_apps_docs": [
+  "ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}"
+ ],
+ "com_nothing_essentialapps": [
+  "ComponentInfo{com.nothing.essentialapps/com.nothing.essentialapps.MainActivity}"
+ ],
+ "com_etsy_android": [
+  "ComponentInfo{com.etsy.android/com.etsy.android.ui.homescreen.HomescreenTabsActivity}"
+ ],
+ "com_etsy_butter_sell_on_etsy": [
+  "ComponentInfo{com.etsy.butter.sell_on_etsy/com.etsy.butter.sell_on_etsy.MainActivity}"
+ ],
+ "org_fdroid_fdroid": [
+  "ComponentInfo{org.fdroid.fdroid/org.fdroid.IconActivity}"
+ ],
+ "com_facebook_katana": [
+  "ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}"
+ ],
+ "com_fairtrack_app": [
+  "ComponentInfo{com.fairtrack.app/com.fairtrack.app.MainActivity}"
+ ],
+ "com_fbto_fbtozorg": [
+  "ComponentInfo{com.fbto.fbtozorg/crc642b2bb0c383c764ff.SplashActivity}"
+ ],
+ "filesearcher_filefinder_everything_searcheverything": [
+  "ComponentInfo{filesearcher.filefinder.everything.searcheverything/filesearcher.filefinder.everything.searcheverything.MainActivity}"
+ ],
+ "com_google_android_apps_nbu_files": [
+  "ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}"
+ ],
+ "com_google_android_apps_adm": [
+  "ComponentInfo{com.google.android.apps.adm/com.google.android.apps.adm.activities.MainActivity}"
+ ],
+ "com_jndapp_flora_material_iconpack": [
+  "ComponentInfo{com.jndapp.flora.material.iconpack/com.jndapp.flora.material.iconpack.MainActivity}"
+ ],
+ "family_fomo_app": [
+  "ComponentInfo{family.fomo.app/family.fomo.app.MainActivity}"
+ ],
+ "org_futo_inputmethod_latin": [
+  "ComponentInfo{org.futo.inputmethod.latin/org.futo.inputmethod.latin.uix.settings.SettingsActivity}"
+ ],
+ "com_nothing_gallery": [
+  "ComponentInfo{com.nothing.gallery/com.nothing.gallery.activity.EntryActivity}"
+ ],
+ "com_google_android_apps_bard": [
+  "ComponentInfo{com.google.android.apps.bard/com.google.android.apps.bard.shellapp.BardEntryPointActivity}"
+ ],
+ "com_media_zatashima_studio": [
+  "ComponentInfo{com.media.zatashima.studio/com.media.zatashima.studio.LoadingScreen}"
+ ],
+ "com_github_android": [
+  "ComponentInfo{com.github.android/com.github.android.main.MainActivity}"
+ ],
+ "com_nothing_glyph": [
+  "ComponentInfo{com.nothing.glyph/com.nothing.glyph.MainActivity}"
+ ],
+ "com_google_android_gm": [
+  "ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}"
+ ],
+ "com_google_android_googlequicksearchbox": [
+  "ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}"
+ ],
+ "erfanrouhani_hapticfeedback": [
+  "ComponentInfo{erfanrouhani.hapticfeedback/erfanrouhani.hapticfeedback.ui.activities.SplashActivity}"
+ ],
+ "nl_dcentralize_beltegoed_hollandsnieuwe": [
+  "ComponentInfo{nl.dcentralize.beltegoed.hollandsnieuwe/nl.dcentralize.beltegoed.hollandsnieuwe.MainActivity}"
+ ],
+ "com_google_android_apps_chromecast_app": [
+  "ComponentInfo{com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.DiscoveryActivity}"
+ ],
+ "com_huawei_health": [
+  "ComponentInfo{com.huawei.health/com.huawei.health.MainActivity}"
+ ],
+ "jp_ne_ibis_ibispaintx_app": [
+  "ComponentInfo{jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.InitializeCheckActivity}"
+ ],
+ "com_ing_mobile": [
+  "ComponentInfo{com.ing.mobile/com.ing.mobile.app.activities.SplashActivity}"
+ ],
+ "fr_mathis_invisiblewidget": [
+  "ComponentInfo{fr.mathis.invisiblewidget/fr.mathis.invisiblewidget.MainActivity}"
+ ],
+ "com_justwatch_justwatch": [
+  "ComponentInfo{com.justwatch.justwatch/com.justwatch.justwatch.MainActivity}"
+ ],
+ "org_kde_kdeconnect_tp": [
+  "ComponentInfo{org.kde.kdeconnect_tp/org.kde.kdeconnect.ui.MainActivity}"
+ ],
+ "com_google_android_keep": [
+  "ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}"
+ ],
+ "io_github_sds100_keymapper": [
+  "ComponentInfo{io.github.sds100.keymapper/io.github.sds100.keymapper.MainActivity}"
+ ],
+ "com_pulsenet_inputset": [
+  "ComponentInfo{com.pulsenet.inputset/com.pulsenet.inputset.activity.ConnectionActivity}"
+ ],
+ "com_kraken_pay_app": [
+  "ComponentInfo{com.kraken.pay.app/com.kraken.pay.app.MainActivity}"
+ ],
+ "com_kraken_invest_app": [
+  "ComponentInfo{com.kraken.invest.app/com.kraken.invest.app.MainActivity}"
+ ],
+ "com_kraken_trade": [
+  "ComponentInfo{com.kraken.trade/com.kraken.trade.MainActivity}"
+ ],
+ "com_kraken_superwallet": [
+  "ComponentInfo{com.kraken.superwallet/com.kraken.superwallet.MainActivity}"
+ ],
+ "org_lds_ldssa": [
+  "ComponentInfo{org.lds.ldssa/org.lds.ldssa.ux.main.MainActivity}"
+ ],
+ "org_proninyaroslav_libretorrent": [
+  "ComponentInfo{org.proninyaroslav.libretorrent/org.proninyaroslav.libretorrent.MainActivity}"
+ ],
+ "com_life360_android_safetymapd": [
+  "ComponentInfo{com.life360.android.safetymapd/com.life360.koko.LauncherNormal}"
+ ],
+ "com_golightyear_mobile": [
+  "ComponentInfo{com.golightyear.mobile/com.golightyear.mobile.MainActivity}"
+ ],
+ "com_limebike": [
+  "ComponentInfo{com.limebike/com.limebike.launcher.LauncherActivity}"
+ ],
+ "com_lscsmartconnection_smart": [
+  "ComponentInfo{com.lscsmartconnection.smart/com.smart.ThingSplashActivity}"
+ ],
+ "com_google_android_apps_maps": [
+  "ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}"
+ ],
+ "nl_marktplaats_android": [
+  "ComponentInfo{nl.marktplaats.android/com.horizon.android.feature.feeds.homepage.SpringboardActivity}"
+ ],
+ "me_zhanghai_android_files": [
+  "ComponentInfo{me.zhanghai.android.files/me.zhanghai.android.files.filelist.FileListActivity}"
+ ],
+ "nl_com_media_markt": [
+  "ComponentInfo{nl.com.media.markt/com.mediamarkt.mms_oscapps_flutter.MainActivity}"
+ ],
+ "com_google_android_apps_tachyon": [
+  "ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity}"
+ ],
+ "com_google_android_apps_messaging": [
+  "ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}"
+ ],
+ "com_livestream_mevo": [
+  "ComponentInfo{com.livestream.mevo/com.livestream.mevo.activity.WelcomeActivity}"
+ ],
+ "com_touchtype_swiftkey": [
+  "ComponentInfo{com.touchtype.swiftkey/com.touchtype.LauncherActivityIcon}"
+ ],
+ "com_mojang_minecraftpe": [
+  "ComponentInfo{com.mojang.minecraftpe/com.mojang.minecraftpe.MainActivity}"
+ ],
+ "com_mixplorer": [
+  "ComponentInfo{com.mixplorer/com.mixplorer.activities.BrowseActivity}"
+ ],
+ "com_panshen_motioncure": [
+  "ComponentInfo{com.panshen.motioncure/com.panshen.motioncure.SplashActivity}"
+ ],
+ "com_pryshedko_mtisland": [
+  "ComponentInfo{com.pryshedko.mtisland/com.pryshedko.mtisland.MainAppActivity}"
+ ],
+ "com_prpr_musedash": [
+  "ComponentInfo{com.prpr.musedash/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_dhlparcel_nl": [
+  "ComponentInfo{com.dhlparcel.nl/com.dhlparcel.MainActivity}"
+ ],
+ "com_gameloft_android_anmp_gloftpohm": [
+  "ComponentInfo{com.gameloft.android.ANMP.GloftPOHM/com.gameloft.android.ANMP.GloftPOHM.MainActivity}"
+ ],
+ "com_netflix_mediaclient": [
+  "ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}"
+ ],
+ "org_schabi_newpipe": [
+  "ComponentInfo{org.schabi.newpipe/org.schabi.newpipe.MainActivity}"
+ ],
+ "nl_ns_android_activity": [
+  "ComponentInfo{nl.ns.android.activity/nl.ns.app.shell.startup.start.StartActivity}"
+ ],
+ "com_opautoclicker_autoclicker": [
+  "ComponentInfo{com.opautoclicker.autoclicker/com.opautoclicker.autoclicker.activities.MainActivity}"
+ ],
+ "net_mm2d_android_orientationfaker": [
+  "ComponentInfo{net.mm2d.android.orientationfaker/net.mm2d.android.orientationfaker.MainActivity}"
+ ],
+ "nl_caci_osiris_student_delt": [
+  "ComponentInfo{nl.caci.osiris.student.delt/nl.caci.osiris.student.delt.MainActivity}"
+ ],
+ "com_microsoft_office_outlook": [
+  "ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}"
+ ],
+ "eu_bandainamcoent_pacman256": [
+  "ComponentInfo{eu.bandainamcoent.pacman256/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "tv_parsec_client": [
+  "ComponentInfo{tv.parsec.client/tv.parsec.client.MainActivity}"
+ ],
+ "com_paypal_android_p2pmobile": [
+  "ComponentInfo{com.paypal.android.p2pmobile/com.paypal.oslo.app.MainActivity}"
+ ],
+ "com_google_android_dialer": [
+  "ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}"
+ ],
+ "com_google_android_apps_photos": [
+  "ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}"
+ ],
+ "ru_spaple_pinterest_downloader": [
+  "ComponentInfo{ru.spaple.pinterest.downloader/ru.spaple.pinterest.downloader.screens.mvvm.main.activity.presentation.MainActivity}"
+ ],
+ "com_pinterest": [
+  "ComponentInfo{com.pinterest/com.pinterest.activity.PinterestActivity}"
+ ],
+ "com_ea_game_pvzfree_row": [
+  "ComponentInfo{com.ea.game.pvzfree_row/com.ea.game.pvzfree_row.PvZActivity}"
+ ],
+ "com_google_android_play_games": [
+  "ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}"
+ ],
+ "com_android_vending": [
+  "ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}"
+ ],
+ "nl_tpp_mobile_android": [
+  "ComponentInfo{nl.tpp.mobile.android/nl.postnl.app.splash.SplashActivity}"
+ ],
+ "com_phascinate_precisevolume": [
+  "ComponentInfo{com.phascinate.precisevolume/com.phascinate.precisevolume.activities.kotlin.MainActivityKotlin}"
+ ],
+ "proton_android_authenticator": [
+  "ComponentInfo{proton.android.authenticator/proton.android.authenticator.app.ui.MainActivity}"
+ ],
+ "ch_protonmail_android": [
+  "ComponentInfo{ch.protonmail.android/ch.protonmail.android.RoutingActivity}"
+ ],
+ "proton_android_pass": [
+  "ComponentInfo{proton.android.pass/proton.android.pass.ui.MainActivity}"
+ ],
+ "com_batonresearch_pump": [
+  "ComponentInfo{com.batonresearch.pump/yisnz2.oQ9xs1.pQsbt9.nRGqf0}"
+ ],
+ "im_fdx_qrcode": [
+  "ComponentInfo{im.fdx.qrcode/im.fdx.qrcode.MainActivity}"
+ ],
+ "com_nothing_soundrecorder": [
+  "ComponentInfo{com.nothing.soundrecorder/com.nothing.soundrecorder.MainActivity}"
+ ],
+ "app_revenge": [
+  "ComponentInfo{app.revenge/com.discord.main.MainDefault}"
+ ],
+ "app_revenge_manager": [
+  "ComponentInfo{app.revenge.manager/app.revenge.manager.ui.activity.MainActivity}"
+ ],
+ "com_roblox_client": [
+  "ComponentInfo{com.roblox.client/com.roblox.client.startup.LauncherAliasMain}"
+ ],
+ "com_defaultcompany_robotdmobile01": [
+  "ComponentInfo{com.DefaultCompany.RoboTDMobile01/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_google_android_apps_safetyhub": [
+  "ComponentInfo{com.google.android.apps.safetyhub/com.google.android.apps.safetyhub.LauncherActivity}"
+ ],
+ "com_pieyel_scrabble": [
+  "ComponentInfo{com.pieyel.scrabble/com.scopely.unity.ScopelyUnityActivity}"
+ ],
+ "pro_capture_screenshot": [
+  "ComponentInfo{pro.capture.screenshot/pro.capture.screenshot.activity.SplashActivity}"
+ ],
+ "eu_thedarken_sdm": [
+  "ComponentInfo{eu.thedarken.sdm/eu.thedarken.sdm.main.ui.SDMMainActivity}"
+ ],
+ "eu_thedarken_sdm_unlocker": [
+  "ComponentInfo{eu.thedarken.sdm.unlocker/eu.thedarken.sdm.unlocker.MainActivity}"
+ ],
+ "com_junkfood_seal": [
+  "ComponentInfo{com.junkfood.seal/com.junkfood.seal.MainActivity}"
+ ],
+ "com_android_settings": [
+  "ComponentInfo{com.android.settings/com.android.settings.Settings}"
+ ],
+ "com_shazam_android": [
+  "ComponentInfo{com.shazam.android/com.shazam.android.activities.SplashActivity}"
+ ],
+ "com_google_android_apps_docs_editors_sheets": [
+  "ComponentInfo{com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.app.NewMainProxyActivity}"
+ ],
+ "org_thoughtcrime_securesms": [
+  "ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivity}"
+ ],
+ "com_maxistar_textpad": [
+  "ComponentInfo{com.maxistar.textpad/com.maxistar.textpad.activities.EditorActivity}"
+ ],
+ "com_okak_sleeptimer": [
+  "ComponentInfo{com.okak.sleeptimer/com.okak.sleeptimer.MainActivity}"
+ ],
+ "com_google_android_apps_docs_editors_slides": [
+  "ComponentInfo{com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.app.NewMainProxyActivity}"
+ ],
+ "com_niksoftware_snapseed": [
+  "ComponentInfo{com.niksoftware.snapseed/com.google.android.apps.snapseed.WelcomeScreenActivity}"
+ ],
+ "com_sony_songpal_mdr": [
+  "ComponentInfo{com.sony.songpal.mdr/com.sony.songpal.mdr.vim.activity.MdrMainActivity}"
+ ],
+ "com_soundcloud_android": [
+  "ComponentInfo{com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivity}"
+ ],
+ "com_prismtree_sponge": [
+  "ComponentInfo{com.prismtree.sponge/com.prismtree.sponge.MainActivity}"
+ ],
+ "com_spotify_music": [
+  "ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}"
+ ],
+ "com_squib_buddy": [
+  "ComponentInfo{com.squib.buddy/com.squib.buddy.MainActivity}"
+ ],
+ "dev_netlob_spotistats": [
+  "ComponentInfo{dev.netlob.spotistats/dev.netlob.spotistats.MainActivity}"
+ ],
+ "com_valvesoftware_android_steam_community": [
+  "ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.MainActivity}"
+ ],
+ "com_alkapps_subx": [
+  "ComponentInfo{com.alkapps.subx/com.alkapps.subx.MainActivity}"
+ ],
+ "com_github_catfriend1_syncthingandroid": [
+  "ComponentInfo{com.github.catfriend1.syncthingandroid/com.nutomic.syncthingandroid.onboarding.OnboardingActivity}"
+ ],
+ "com_tailscale_ipn": [
+  "ComponentInfo{com.tailscale.ipn/com.tailscale.ipn.MainActivity}"
+ ],
+ "com_bearpty_talklife": [
+  "ComponentInfo{com.bearpty.talklife/com.bearpty.talklife.MainActivity}"
+ ],
+ "tamigo_android_activities": [
+  "ComponentInfo{tamigo.android.activities/tamigo.android.activities.activities.StartActivity}"
+ ],
+ "com_google_android_apps_tasks": [
+  "ComponentInfo{com.google.android.apps.tasks/com.google.android.apps.tasks.ui.TaskListsActivity}"
+ ],
+ "com_microsoft_teams": [
+  "ComponentInfo{com.microsoft.teams/com.microsoft.skype.teams.Launcher}"
+ ],
+ "com_einnovation_temu": [
+  "ComponentInfo{com.einnovation.temu/com.baogong.splash.activity.MainFrameActivity}"
+ ],
+ "com_jletdev_terradefense": [
+  "ComponentInfo{com.JLETDev.TerraDefense/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_pine_terradefense": [
+  "ComponentInfo{com.Pine.TerraDefense/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_pinegd_terradefense": [
+  "ComponentInfo{com.PineGD.TerraDefense/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_terradefense_myapp": [
+  "ComponentInfo{com.terradefense.myapp/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "repost_share_tiktok_nowatermark_videosave_download_videodownloader_saver": [
+  "ComponentInfo{repost.share.tiktok.nowatermark.videosave.download.videodownloader.saver/repost.share.tiktok.nowatermark.videosave.download.videodownloader.saver.ui.splash.SplashActivity}"
+ ],
+ "ru_codeluck_tiktok_downloader": [
+  "ComponentInfo{ru.codeluck.tiktok.downloader/ru.codeluck.tiktok.downloader.mvvm.main.activity.presentation.MainActivity}"
+ ],
+ "com_abnamro_nl_tikkie": [
+  "ComponentInfo{com.abnamro.nl.tikkie/com.abnamro.nl.tikkie.applaunch.ui.launch.LaunchActivity}"
+ ],
+ "com_zhiliaoapp_musically_go": [
+  "ComponentInfo{com.zhiliaoapp.musically.go/com.zhiliaoapp.musically.go.mini.MainActivity}"
+ ],
+ "com_netflix_ngp_tombofthemask": [
+  "ComponentInfo{com.netflix.NGP.tombofthemask/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "org_lds_ldstools": [
+  "ComponentInfo{org.lds.ldstools/org.lds.ldstools.ux.main.MainActivity}"
+ ],
+ "com_gamespark_topking_gp": [
+  "ComponentInfo{com.gamespark.topking.gp/com.im30.aps.debug.UnityPlayerActivityCustom}"
+ ],
+ "com_google_android_apps_translate": [
+  "ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}"
+ ],
+ "tv_twitch_android_app": [
+  "ComponentInfo{tv.twitch.android.app/tv.twitch.android.app.core.LandingActivity}"
+ ],
+ "vladyslavpohrebniakov_uninstaller": [
+  "ComponentInfo{vladyslavpohrebniakov.uninstaller/vladyslavpohrebniakov.uninstaller.main.MainActivity}"
+ ],
+ "nl_mediapp_pharmeon": [
+  "ComponentInfo{nl.mediapp.pharmeon/nl.mediapp.pharmeon.MainActivity}"
+ ],
+ "com_ai_venice": [
+  "ComponentInfo{com.ai.venice/com.ai.venice.MainActivity}"
+ ],
+ "videoeditor_videomaker_videoeditorforyoutube": [
+  "ComponentInfo{videoeditor.videomaker.videoeditorforyoutube/com.camerasideas.instashot.main.MainActivity}"
+ ],
+ "video_watermaker_remover_logo_videowatermark": [
+  "ComponentInfo{video.watermaker.remover.logo.videowatermark/com.remove.watermaker.ui.SplashActivity}"
+ ],
+ "fr_vinted": [
+  "ComponentInfo{fr.vinted/com.vinted.feature.shell.MDActivity}"
+ ],
+ "com_google_android_apps_walletnfcrel": [
+  "ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.wallet.WalletActivity}"
+ ],
+ "com_pixelbin_watermarkremover_io": [
+  "ComponentInfo{com.pixelbin.watermarkremover.io/com.pixelbin.erase.bg.MainActivity}"
+ ],
+ "com_nothing_weather": [
+  "ComponentInfo{com.nothing.weather/com.nothing.weather.ui.main.MainActivity}"
+ ],
+ "net_mullvad_mullvadvpn": [
+  "ComponentInfo{net.mullvad.mullvadvpn/net.mullvad.mullvadvpn.feature.appearance.impl.obfuscation.MainActivityAltGame}"
+ ],
+ "com_whatsapp": [
+  "ComponentInfo{com.whatsapp/com.whatsapp.Main}"
+ ],
+ "com_transferwise_android": [
+  "ComponentInfo{com.transferwise.android/com.transferwise.android.activity.SplashActivity}"
+ ],
+ "com_wispr_flowapp": [
+  "ComponentInfo{com.wispr.flowapp/com.wispr.flowapp.activity.MainActivity}"
+ ],
+ "cn_wps_moffice_eng": [
+  "ComponentInfo{cn.wps.moffice_eng/cn.wps.moffice.documentmanager.ab.proxy.main}"
+ ],
+ "com_twitter_android": [
+  "ComponentInfo{com.twitter.android/com.x.android.main.MainActivity}"
+ ],
+ "com_xiaomi_smarthome": [
+  "ComponentInfo{com.xiaomi.smarthome/com.xiaomi.smarthome.SmartHomeMainActivity}"
+ ],
+ "de_mash_android_calendar": [
+  "ComponentInfo{de.mash.android.calendar/de.mash.android.calendar.core.activities.WidgetInstancesOverviewActivity}"
+ ]
+}
