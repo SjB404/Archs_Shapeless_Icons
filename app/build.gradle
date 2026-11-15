@@ -1,0 +1,41 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.arch.shapeless'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.arch.shapeless'
+        minSdk 29
+        targetSdk 34
+        // Every GitHub build gets a higher number, so a new APK installs over the old one.
+        versionCode((System.getenv('GITHUB_RUN_NUMBER') ?: '1').toInteger())
+        versionName "0.${System.getenv('GITHUB_RUN_NUMBER') ?: '1'}"
+    }
+
+    // Fixed key, so every build is signed the same way and updates install cleanly.
+    signingConfigs {
+        release {
+            storeFile file('../signing/release.jks')
+            storePassword 'shapeless'
+            keyAlias 'shapeless'
+            keyPassword 'shapeless'
+        }
+    }
+
+    buildTypes {
+        release {
+            // Must stay off: launchers look icons up by name, and shrinking would delete them.
+            minifyEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
