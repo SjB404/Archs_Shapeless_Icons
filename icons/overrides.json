@@ -1,31 +1,79 @@
 {
  "com_soundcloud_android": {
-  "custom": "soundcloud.png"
+  "svg": "soundcloud.svg"
+ },
+ "com_oceanwing_soundcore": {
+  "svg": "anker.svg"
+ },
+ "com_amazon_mshop_android_shopping": {
+  "svg": "amazon-light.svg"
+ },
+ "com_brave_browser": {
+  "svg": "brave.svg"
+ },
+ "com_android_chrome": {
+  "svg": "google-chrome.svg"
+ },
+ "com_google_android_apps_maps": {
+  "svg": "google-maps.svg"
+ },
+ "com_google_android_apps_translate": {
+  "svg": "google-translate.svg"
+ },
+ "com_google_android_apps_chromecast_app": {
+  "svg": "google-home.svg"
+ },
+ "com_openai_chatgpt": {
+  "svg": "openai.svg",
+  "infill": "#ffffff",
+  "infill_keep_center": true
+ },
+ "cm_aptoide_pt": {
+  "tol": 0.3,
+  "keep_largest": true
+ },
+ "com_huawei_health": {
+  "keep_largest": true
+ },
+ "com_playstack_balatro_android": {
+  "crop": [
+   0.475,
+   0.33,
+   0.775,
+   0.77
+  ],
+  "flood_color": "#f2f2f2",
+  "tol": 0.06,
+  "keep_largest": true,
+  "recolor": "none"
+ },
+ "com_oneapps_batterynotification": {
+  "drop_color": "#000000"
+ },
+ "com_supercell_brawlstars": {
+  "mode": "keeplight",
+  "keep_largest": true
+ },
+ "com_kraken_superwallet": {
+  "mode": "mono",
+  "color": "#ffffff"
+ },
+ "com_livestream_mevo": {
+  "mode": "fgflood",
+  "flood_color": "auto"
+ },
+ "com_bearpty_talklife": {},
+ "com_squib_buddy": {
+  "mode": "full"
+ },
+ "com_digibites_accubattery": {
+  "mode": "full"
  },
  "com_stellarstudiogames_abcandybirds": {
   "mode": "full"
  },
  "com_handycloset_android_eraser": {
   "mode": "full"
- },
- "com_supercell_brawlstars": {
-  "mode": "full"
- },
- "com_android_chrome": {
-  "mode": "full",
-  "radius": 29
- },
- "com_kraken_superwallet": {
-  "mode": "full"
- },
- "com_lscsmartconnection_smart": {
-  "mode": "flood",
-  "flood_color": "#ffffff"
- },
- "nl_com_media_markt": {
-  "mode": "flood",
-  "flood_color": "#df0000",
-  "tol": 0.3
  },
  "com_prpr_musedash": {
   "mode": "full"
@@ -42,24 +90,30 @@
  "com_batonresearch_pump": {
   "mode": "full"
  },
+ "com_lscsmartconnection_smart": {
+  "mode": "flood",
+  "flood_color": "#ffffff"
+ },
+ "nl_com_media_markt": {
+  "mode": "flood",
+  "flood_color": "#df0000",
+  "tol": 0.3
+ },
  "nl_mediapp_pharmeon": {
   "mode": "flood",
   "flood_color": "#ffffff"
  },
- "com_squib_buddy": {
-  "mode": "full"
- },
  "eu_thedarken_sdm_unlocker": {
   "mode": "flood"
  },
- "com_google_android_apps_chromecast_app": {
-  "drop_white": true
+ "com_google_android_deskclock": {
+  "mode": "flood"
+ },
+ "proton_android_authenticator": {
+  "mode": "fgflood"
  },
  "com_nothing_weather": {
   "dark_to": "#ffffff"
- },
- "com_google_android_deskclock": {
-  "mode": "flood"
  },
  "com_sirma_mobile_bible_android": {
   "mode": "asis"
@@ -67,25 +121,38 @@
  "com_mojang_minecraftpe": {
   "mode": "asis"
  },
- "cm_aptoide_pt": {
-  "tol": 0.3
- },
- "proton_android_authenticator": {
-  "mode": "fgflood"
- },
  "com_mixplorer": {
   "shadow": 0.7
  },
  "fr_mathis_invisiblewidget": {
   "shadow": 0.7
  },
- "com_google_android_apps_translate": {
-  "shadow": 0.7
+ "com_junkfood_seal": {
+  "infill": "#ffffff"
  },
- "com_amazon_mshop_android_shopping": {
-  "color": "#ff9900"
+ "com_ai_venice": {
+  "infill": "bg"
  },
- "com_digibites_accubattery": {
-  "mode": "full"
+ "com_golightyear_mobile": {
+  "infill": "#ffffff"
+ },
+ "com_nothing_gallery": {
+  "infill": "#ffffff"
+ },
+ "video_watermaker_remover_logo_videowatermark": {
+  "flood_color": "#097efe",
+  "tol": 0.3,
+  "keep_largest": true
+ },
+ "de_mash_android_calendar": {
+  "flood_color": "#4354b6",
+  "tol": 0.2,
+  "keep_largest": true
+ },
+ "eu_bandainamcoent_pacman256": {
+  "keep_largest": true
+ },
+ "nl_caci_osiris_student_delt": {
+  "recolor": "none"
  }
 }
