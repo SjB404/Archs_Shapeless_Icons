@@ -3,7 +3,7 @@
   "svg": "soundcloud.svg"
  },
  "com_oceanwing_soundcore": {
-  "svg": "anker.svg"
+  "custom": "anker.png"
  },
  "com_amazon_mshop_android_shopping": {
   "svg": "amazon-light.svg"
@@ -36,16 +36,7 @@
   "keep_largest": true
  },
  "com_playstack_balatro_android": {
-  "crop": [
-   0.475,
-   0.33,
-   0.775,
-   0.77
-  ],
-  "flood_color": "#f2f2f2",
-  "tol": 0.06,
-  "keep_largest": true,
-  "recolor": "none"
+  "custom": "balatro.png"
  },
  "com_oneapps_batterynotification": {
   "drop_color": "#000000"
