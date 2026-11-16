@@ -1,7 +1,7 @@
 # Design rules
 
 These rules say how every icon in Arch's Shapeless Icons should look. They're built from everything
-Arch has asked for so far. The icon agents use them together with:
+Arch has asked for so far. Use them together with:
 
 - `ICON_PROCESS.md`: the step-by-step method for making one icon
 - `app_notes.json`: what each app's icon should be (Arch's words about it, the rules that matter
@@ -24,7 +24,11 @@ Arch's messages, in order. The rules quote them word for word.
 | M4 | Use real logos from online |
 | M5 | Feedback on version 4, plus asking for a repeatable plan and these rules |
 | M6 | Note about lookalike apps |
-| M7 | Terra Defense note (passed on by the coordinator) |
+| M7 | Terra Defense note |
+| M8 | Feedback on version 5 (Bible, Play Store too sharp, two-tone Google icons too bland, Snapseed, Sponge) |
+| M9 | SoundCloud redesign picture to copy, the icon index, "the icon doesn't need gradients" |
+| M10 | Feedback on version 6 (16 Nov 2026), with six pictures to copy, and to do all the work directly |
+| M11 | bunq: the full colour range and slightly thicker letters |
 
 ---
 
@@ -302,11 +306,15 @@ recolouring unless a rule above asks for it.
 **How.**
 - Look up the official colour codes (brand page, official SVG) and check them against the app's own
   icon.
-- Keep the real logo's gradients, and don't add new ones.
+- Flat colours by default. M9 (SoundCloud): "the icon doesn't need gradients". M10: "remove all the
+  gradients from the Microsoft apps". So a logo's gradients become flat colours (pick the middle shade).
+  A gradient stays only where Arch asks for one (Kraken Wallet "silver (not grey)", Kraken Pro "give it a
+  sheen or something") or where he picked a logo file that has one (Beeper's older logo).
 - When the installed icon and what Arch expects differ, go with Arch. For example, Venice is red.
 
 **Examples.** Claude #D97757 (flat), Twitch #9146FF, Venice red #DD3300, Coolblue #FF6600 and
-#0090E3, Steam's blue gradient.
+#0090E3, Steam's blue gradient, the Microsoft apps (flat since M10), bol #3366FF (M10: "less faded and more
+of an average app blue, maybe a bit richer"), bunq's full 12-colour stripe range (M11).
 
 ---
 
@@ -347,7 +355,8 @@ skull". M5: "tomb of the mask netflix edition should be the little yellow guy fu
 - If the original crops it, find full official art elsewhere.
 - Drop game title lettering and publisher badges (like Gameloft's), unless the lettering is the logo.
 
-**Examples.** Balatro (the Joker), Brawl Stars (the skull), Tomb of the Mask (the yellow guy),
+**Examples.** Balatro (the Joker), Brawl Stars (the star badge with the skull: M10 "change the brawl stars
+logo to the image provided" replaces the skull-only version), Tomb of the Mask (the yellow guy),
 Crossy Road (the chicken), Angry Crusher Catapult (the bird in the slingshot), Plants vs. Zombies
 (the zombie), My Little Pony (Twilight Sparkle), MuseDash (the girl's head), Top Lords (the king),
 PAC-MAN 256 (Pac-Man), Minecraft (the grass block).
@@ -405,18 +414,19 @@ looks good".
 
 | App | Design to use |
 |---|---|
-| Gmail | The classic 2013–2020 logo: a white envelope with the red "M" line (Wikimedia "Gmail Icon (2013-2020)") |
-| Maps | The classic red pin with the dark red dot in the middle |
+| Gmail | M10: the 2020 "M" shape in two reds (sides dark red #C5221F, the V red #EA4335) on a white envelope rectangle |
+| Maps | M10: the 2020 pin with the same sections, in two reds (the band through the hole dark red, the rest red) |
 | Calendar | Blue page with a white "31" |
-| Docs / Sheets / Slides | Blue / green / yellow page or tile with white marks |
+| Docs / Sheets / Slides | Blue / green / yellow page or tile with white marks (Sheets' grid uses the official, even measurements: M10 "the grid is off") |
 | Drive | The triangle in three colours: green, yellow, blue |
 | Translate | Version 4, exactly (Arch likes it) |
 | Keep Notes | Yellow light bulb |
 | Meet | Yellow video camera |
 | Files | Blue file with the coloured folded corner (Arch painted it) |
-| Home | Four-colour house outline, see-through inside (Arch painted it) |
-| Play Store | Four-colour play triangle (Arch painted it) |
-| Photos, Chrome, Google G, Assistant, Wallet, Gemini, Find Hub, Safety, Play Games | Their own well-known shapes are already distinct: keep them |
+| Home | Four-colour house outline, see-through inside (Arch painted it); corners as round as the Play Store's (M10, see R27) |
+| Play Store | The current four-colour play triangle with its very rounded corners (M10: copy of the picture Arch sent) |
+| Play Games | The current logo: green play triangle with the mint controller (M10: "fix the play games logo") |
+| Photos, Chrome, Google G, Assistant, Wallet, Gemini, Find Hub, Safety | Their own well-known shapes are already distinct: keep them |
 | Phone, Contacts, Messages, Clock, Tasks | All blue, but each has its own shape: keep them |
 
 Draw all the Google apps side by side (R26), and check that none of them can be mixed up at 48 px.
@@ -558,6 +568,38 @@ each one still stands out.
 
 ---
 
+### R27. Corners that should look equally round get the same curve length, not the same radius
+**Rule.** When Arch asks for corners "as rounded as" another icon, match how round they look, not the
+number. A sharp corner and a wide (blunt) corner with the same radius look different: the sharp one looks
+much rounder. So give every corner the same length of curve (at icon size) as the corners it should match.
+
+**From.** M10: "make the Google home corners as rounded as the Google store (in terms of optical roundness,
+not software rounding values cus a sharp and weak corner with the same rounding on each look like
+different rounding".
+
+**How.** Measure the reference corners' radius and angle, work out their curve length at icon size, then
+pick each new corner's radius so its curve is just as long: a right angle needs a bigger radius than a
+sharp 60° corner, and a wide 135° corner a much bigger one.
+
+**Examples.** Google Home (right-angle corners radius 69, eaves 138, to match the Play Store's 60° corners).
+
+### R28. A picture Arch sends is the thing to copy
+**Rule.** When Arch sends a picture with "like this" or "change it to this", copy that picture's shapes
+as exactly as possible (measure them), then apply only the changes he asked for (colours, no border).
+
+**From.** M10: "copy the shape of the image provided and make it aptoide orange", "change the brawl stars
+logo to the image provided", "like the provided image but without the grey border", "change the google
+store logo to the image provided".
+
+**How.** Measure the picture (edges, circles, corners), draw clean shapes from the measurements, and
+check by laying the drawing over the picture until they match. Fix obvious flaws in the picture only when
+they're clearly not part of the design.
+
+**Examples.** Aptoide, Brawl Stars, PostNL, Play Store, Maps and Gmail (sections and shape), DHL (a clean
+version of his sketch).
+
+---
+
 ## Checklist before delivering an icon
 
 - [ ] It's the real logo, found online and recognisable at a glance (R2, R3).
@@ -571,6 +613,7 @@ each one still stands out.
 - [ ] It's easy to see at 48 px on dark grey, and on blue-grey too (R24).
 - [ ] It can't be mixed up with another niche app (R25), and it fits its family (R26).
 - [ ] It matches the app's `direction` and `arch_said` in `app_notes.json`.
+- [ ] Colours are flat unless Arch asked for a gradient (R13). Matched corners look equally round (R27).
 
 ---
 

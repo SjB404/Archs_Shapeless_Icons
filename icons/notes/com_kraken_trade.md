@@ -1,2 +1,7 @@
-# Kraken Pro
-White dome plus white rounded PRO tag with see-through letters (Inter SemiBold outlines, so they show the background; dark on the drawer). Same dome as Kraken. Hand-drawn SVG (generator: /home/claude/work/kraken/gen.py), proportions measured from the Play Store icon (/home/claude/refs/<name>/play.png). The library 'logos__kraken' drawing is a different (Kraken-named) logo and was not used. No container, no outline.
+# Kraken Pro (version 7)
+Arch (M10): "make kraken pro the same color as normal kraken, but then make the color richer, give it a sheen or
+something, it's the pro version".
+
+Same shapes (Kraken mark and PRO tag with the letters cut out). One gradient across the whole logo: deeper, richer
+purple than the normal Kraken app (#7132F5): #8C55FF top-left, #6A24FF, a light #A47DFF sheen band across the
+middle, #4D14D6 bottom-right.

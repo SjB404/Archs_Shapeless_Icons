@@ -1,4 +1,3 @@
-# Microsoft SwiftKey Keyboard
-- Source: built from the Play Store icon: keyboard and keys redrawn as shapes, circle with the current cyan-to-blue gradient, white yarn swoosh traced from the Play icon (vtracer, binary).
-- Differs from Arch's installed icon (flat blue circle): the Play icon is the newer gradient version. Soft shadow under the circle removed (R7).
-- Keyboard stays because it is part of the logo.
+# SwiftKey (version 7)
+Arch (M10): "remove all the gradients from the Microsoft apps".
+Same shapes; flat keyboard #BEBED4 with white keys, flat blue circle #2F86F2 with the white swirl.

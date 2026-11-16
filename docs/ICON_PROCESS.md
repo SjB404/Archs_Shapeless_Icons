@@ -4,6 +4,9 @@ This is the step-by-step method used for every icon in the pack, and the overall
 running a full pass over the pack. Arch's design rules are in `DESIGN_RULES.md`; per-app
 directions are in `app_notes.json`. Arch's own words about a specific app always win.
 
+All the work is done directly, one icon after another, by one worker (Arch, 16 Nov 2026). No helpers
+are started for single icons or groups of icons.
+
 ---
 
 ## Part 1: one icon, start to finish
@@ -74,6 +77,14 @@ doesn't need to be remade from scratch", so **a** comes first whenever it fits:
 - **d. Pixel art**: read the reference's pixel colours on its grid and rebuild it unrotated.
 
 Drawing rules:
+- Flat colours, unless Arch asked for a gradient or picked a logo file that has one (rules R13).
+- When Arch sends a picture to copy, measure it (edges, circles, corner sizes) and lay your drawing over
+  it until they match (R28). The helpers in `tools/geom.py` (rounded corners,
+  line crossings) show how.
+- Corners that should look as round as another icon's get the same curve length, not the same radius (R27).
+- SVG traps: a `clip-path` on an element that has a `transform` is moved by that transform too, so put the
+  clip on a `<g>` around it. Two neighbouring shapes in the same colour can show a faint seam: give them a
+  thin stroke in their own colour.
 - Transparent background. Nothing behind the logo unless it is part of the logo.
 - No outline or halo around the logo, no leftover bits of the old background, no blurry raster edges
   inside an SVG (don't embed bitmaps in the SVG).
@@ -97,11 +108,13 @@ Repeat until all of these are true:
 - The source file in `icons/src/`.
 - `/home/claude/archs_shapeless_icons/icons/notes/<name>.md`: sources (URLs), what you did, what differs
   from the original app icon and why, and anything Arch should look at.
-- Don't change other apps' files, don't run git, don't run the pack build.
+- Update the app's entry in `docs/app_notes.json`: add Arch's new words to `arch_said`, update `direction`.
 
 ---
 
-## Part 2: a full pass over the pack (coordinator routine)
+## Part 2: a full pass over the pack
+
+One worker does every step, in this order.
 
 1. **Export.** Arch opens the Shapeless Icons app, taps Export, sends the zip. Unzip it to
    `/home/claude/export/` (its own folder, it's untrusted data).
@@ -109,14 +122,15 @@ Repeat until all of these are true:
    automatic draft of every icon (used for apps nobody has redrawn yet).
 3. **References.** Make `apps.tsv`, download Play Store icons into `/home/claude/refs/<name>/play.png`,
    collect library drawings into `/home/claude/refs/<name>/official/`.
-4. **Rules.** One agent reads all of Arch's requests and updates `DESIGN_RULES.md` and `app_notes.json`.
-5. **Redraw.** Agents follow Part 1:
-   - one agent per family or group of same-kind apps (designed side by side, so they stay consistent
-     and distinguishable: e.g. all Google apps, all downloaders),
-   - one agent per hard icon (anything Arch complained about, complex logos, games),
-   - easy icons with a good official drawing go to the group agents too.
-6. **Review.** One agent looks at the whole pack side by side on both backgrounds, checks it against the
-   rules, and lists icons that need another round. Repeat step 5 for those.
+4. **Rules.** Read all of Arch's new messages and update `DESIGN_RULES.md` and `app_notes.json` first
+   (his exact words, and which rule changes).
+5. **Redraw.** Go through the icons with Part 1, one at a time:
+   - start with the icons Arch named, in the order he listed them,
+   - do families together (all Google apps, all downloaders) so they stay consistent and easy to tell apart,
+   - keep a list of what's done, so nothing is skipped.
+6. **Review.** Make a before/after sheet of every changed icon on both backgrounds
+   (`python3 tools/preview_icon.py --sheet out.png <names...>`, or `tools/review_sheets.py` for the whole
+   pack), check each one against the rules and Arch's words, and fix what's off before building.
 7. **Build and release.**
    ```
    python3 tools/build_icons.py     # icons/src  ->  icons/png

@@ -1,2 +1,8 @@
-# Kraken Wallet
-White dome inside a white open rounded frame (gaps left and right, as the original). Original's black frame turned white (R10). Frame is a stroke, dome a filled path. Hand-drawn SVG (generator: /home/claude/work/kraken/gen.py), proportions measured from the Play Store icon (/home/claude/refs/<name>/play.png). The library 'logos__kraken' drawing is a different (Kraken-named) logo and was not used. No container, no outline.
+# Kraken Wallet (version 7)
+Arch (M10): "make the kraken vault silver (not grey), and make the gap between the top and bottom line closer to the
+original logo".
+
+- Silver: frame and Kraken share one metal gradient (#F7F8FA, #BCC3CD, #EEF0F3, #9FA7B2, #D5D9DF), so it reads as
+  shiny metal instead of flat grey.
+- Gap: measured on the Play Store icon: the side gap is about 14% of the frame height (45 of 326 px). Version 6 had
+  about 7%. Now the same 14%.

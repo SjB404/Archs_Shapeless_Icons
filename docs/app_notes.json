@@ -87,13 +87,14 @@
  "cm_aptoide_pt": {
   "label": "Aptoide",
   "arch_said": [
-   "aptoide should be just the logo fullscreen"
+   "aptoide should be just the logo fullscreen",
+   "aptoide should have a gap like in the image provided, tbh if you copied the shape of the image provided and made it aptoide orange that would be great"
   ],
   "rules": [
    "R9",
    "R6"
   ],
-  "direction": "Just Aptoide's folded 'V' mark, fullscreen, in Aptoide's orange (the original background's orange, about #E45C28 to #F0903C; the fold can be a slightly different orange as in the real logo). Same design as version 4 but flat and clean, without the light edge.",
+  "direction": "Copy of the picture Arch sent (folded V with the diagonal gap), measured and redrawn clean, flat Aptoide orange #EE8434.",
   "status": "redo"
  },
  "com_google_android_apps_googleassistant": {
@@ -116,11 +117,13 @@
  },
  "com_azure_authenticator": {
   "label": "Authenticator",
-  "arch_said": [],
+  "arch_said": [
+   "remove all the gradients from the Microsoft apps"
+  ],
   "rules": [
    "R26"
   ],
-  "direction": "Same design as version 4, redrawn clean: Microsoft Authenticator's blue padlock with the person inside, in its blue shades.",
+  "direction": "Microsoft Authenticator's padlock with the person, flat blues.",
   "status": "redo"
  },
  "com_llamalab_automate": {
@@ -146,13 +149,14 @@
   "label": "Balatro",
   "arch_said": [
    "balatro should just be the balatro clown",
-   "balatro has rotated pixel art which is blurry, should be sharp pixel art, and straight, cus its pixel art, redrawing as pixel art if you can't edit it to be as such"
+   "balatro has rotated pixel art which is blurry, should be sharp pixel art, and straight, cus its pixel art, redrawing as pixel art if you can't edit it to be as such",
+   "saturate the balatro icon more"
   ],
   "rules": [
    "R15",
    "R16"
   ],
-  "direction": "Just the Joker clown as straight, sharp pixel art: take the jester from Balatro's unrotated Joker card sprite (e.g. from the Balatro wiki) or rebuild it pixel by pixel, and deliver it as a .pixel.png at native size. No card, no rotation, no blur.",
+  "direction": "The Joker pixel art, colours more saturated (greys and white unchanged).",
   "status": "redo"
  },
  "com_oneapps_batterynotification": {
@@ -169,17 +173,21 @@
  },
  "com_beeper_android": {
   "label": "Beeper",
-  "arch_said": [],
+  "arch_said": [
+   "update beeper logo to this: https://logosandtypes.com/wp-content/uploads/2024/04/beeper-old.svg"
+  ],
   "rules": [
    "R4",
    "R9"
   ],
-  "direction": "Beeper's 'B' speech-bubble mark in Beeper blue (the original background's blue, about #3050F4), as Arch painted it on his home screen. Same as version 4, redrawn clean.",
+  "direction": "Beeper's older logo from that exact file (its two gradients kept, since Arch picked this file), background box removed.",
   "status": "redo"
  },
  "com_sirma_mobile_bible_android": {
   "label": "Bible",
-  "arch_said": [],
+  "arch_said": [
+   "the holy bible, rounding should line up with the book insides, how it was originally was pretty good tbh"
+  ],
   "rules": [
    "R15",
    "R8"
@@ -191,7 +199,8 @@
   "label": "bol",
   "arch_said": [
    "bol should be blue",
-   "the bol logo isn't very readable, needs to be changed to a lighter blue, keep in mind that dark or black logos are hard to read, so lightening the color or making it white would usually be better"
+   "the bol logo isn't very readable, needs to be changed to a lighter blue, keep in mind that dark or black logos are hard to read, so lightening the color or making it white would usually be better",
+   "make the bol.com blue less faded and more of an average app blue, maybe a bit richer"
   ],
   "rules": [
    "R9",
@@ -199,7 +208,7 @@
    "R14",
    "R24"
   ],
-  "direction": "The 'bol.' wordmark in a clearly lighter version of bol blue (around #7F9CFF; the real #0000A4 disappears on the dark drawer, and mid blues vanish on the blue wallpaper). Wordmark only, the dot in the same blue.",
+  "direction": "bol wordmark in a rich, ordinary app blue #3366FF.",
   "status": "redo"
  },
  "ee_mtakso_client": {
@@ -229,23 +238,27 @@
  "com_supercell_brawlstars": {
   "label": "Brawl Stars",
   "arch_said": [
-   "brawl stars should just be the brawl skull"
+   "brawl stars should just be the brawl skull",
+   "change the brawl stars logo to the image provided"
   ],
   "rules": [
    "R15",
    "R12"
   ],
-  "direction": "Just the Brawl Stars skull: the white skull with its black eyes and features, no ring, badge or background. Same as version 4, redrawn clean.",
+  "direction": "The star badge with the skull from the picture Arch sent, redrawn as clean shapes measured from it (white, light, mid and dark star faces, light rim, black ring, yellow skull).",
   "status": "redo"
  },
  "com_bunq_android": {
   "label": "bunq",
-  "arch_said": [],
+  "arch_said": [
+   "bunq logo should have a 2x2 grid of letters: bu nq",
+   "I just realised that Bunq doesn't have their full range of colors, cus the logo is smaller than the full range, please fix, please also make the line either of the letter slightly thicker"
+  ],
   "rules": [
    "R9",
    "R14"
   ],
-  "direction": "The 'bunq' wordmark filled with bunq's rainbow stripes (the original background's pattern taken over by the letters), as in version 4, redrawn clean.",
+  "direction": "The letters in a 2x2 grid, 'bu' over 'nq', slightly bolder than the wordmark. The full 12-colour stripe range from the app's own icon background runs once through the letters in reading order (three hard-edged stripes per letter).",
   "status": "redo"
  },
  "nl_burgerking_app": {
@@ -605,13 +618,14 @@
  "family_fomo_app": {
   "label": "fomo",
   "arch_said": [
-   "FOMO is missing a pupil"
+   "FOMO is missing a pupil",
+   "fix the fomo logo"
   ],
   "rules": [
    "R7",
    "R10"
   ],
-  "direction": "fomo's two lavender-white eyes, each with its dark navy (#08081C) slanted pupil. Version 4 left the left pupil see-through, so it read as a notch: fill both pupils with the same dark navy, and close the left eye with a thin white edge if needed so it clearly reads as a pupil.",
+  "direction": "The real logo measured: the same slanted ellipse twice, right eye on top, slanted pupils in the icon's navy; a thin light rim closes the left eye so its pupil reads (M5).",
   "status": "redo"
  },
  "org_futo_inputmethod_latin": {
@@ -682,13 +696,15 @@
  "com_google_android_gm": {
   "label": "Gmail",
   "arch_said": [
-   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be, like the maps icob should be red, and the gmail should have the red line and stuff"
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be, like the maps icob should be red, and the gmail should have the red line and stuff",
+   "redo the Google maps and gmail logos, image provided relevant, gmail should have the same shape, but have a white background rectangle and be dualtone red",
+   "make the gmail logo a full rectangle, the m is sticking out of the logo"
   ],
   "rules": [
    "R18",
    "R3"
   ],
-  "direction": "The classic Gmail logo (2013 to 2020): a white envelope with the red 'M' line (Google red #EA4335 with the darker red sides #C5221F). Not the four-colour or gradient 'M'. Source: Wikimedia 'Gmail Icon (2013-2020)'.",
+  "direction": "The 2020 M shape in two reds (sides dark red #C5221F, the V red #EA4335) on a full white envelope rectangle: flat top, corners following the M's own rounded corners, so nothing sticks out.",
   "status": "redo"
  },
  "com_google_android_googlequicksearchbox": {
@@ -724,14 +740,15 @@
  "com_google_android_apps_chromecast_app": {
   "label": "Home",
   "arch_said": [
-   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be",
+   "make the Google home corners as rounded as the Google store (in terms of optical roundness, not software rounding values cus a sharp and weak corner with the same rounding on each look like different rounding"
   ],
   "rules": [
    "R4",
    "R7",
    "R18"
   ],
-  "direction": "Google Home's house outline in its four colours (red roof, yellow left, green bottom, blue right) with the inside of the house see-through, exactly as Arch painted it. Redrawn clean.",
+  "direction": "The four-colour house outline, see-through inside, redrawn as clean geometry; corners rounded to look as round as the Play Store's (same curve length: right angles r=69, eaves r=138).",
   "status": "redo"
  },
  "com_huawei_health": {
@@ -845,23 +862,27 @@
  },
  "com_kraken_trade": {
   "label": "Kraken Pro",
-  "arch_said": [],
+  "arch_said": [
+   "make kraken pro the same color as normal kraken, but then make the color richer, give it a sheen or something, it's the pro version"
+  ],
   "rules": [
    "R10",
    "R20",
    "R26"
   ],
-  "direction": "The white Kraken 'm' with the white 'PRO' tag under it (dark letters in the tag), as in version 4, redrawn clean. The PRO tag is what tells it apart from Kraken.",
+  "direction": "Kraken mark and PRO tag in Kraken purple, deeper and richer than the normal Kraken app (#7132F5), with a diagonal metallic sheen. PRO letters cut out.",
   "status": "redo"
  },
  "com_kraken_superwallet": {
   "label": "Kraken Wallet",
-  "arch_said": [],
+  "arch_said": [
+   "make the kraken vault silver (not grey), and make the gap between the top and bottom line closer to the original logo"
+  ],
   "rules": [
    "R10",
    "R26"
   ],
-  "direction": "The white Kraken 'm' inside the white rounded frame, as in version 4 (the original's black frame on a metal circle would vanish on dark grey). Redrawn clean.",
+  "direction": "Frame and Kraken in silver (a metal sheen, not flat grey); the gap between the top and bottom bracket as big as in the real logo (about 14% of the frame height).",
   "status": "redo"
  },
  "org_lds_ldssa": {
@@ -929,13 +950,14 @@
  "com_google_android_apps_maps": {
   "label": "Maps",
   "arch_said": [
-   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be, like the maps icob should be red, and the gmail should have the red line and stuff"
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be, like the maps icob should be red, and the gmail should have the red line and stuff",
+   "redo the Google maps and gmail logos, image provided relevant, Google maps should have the same sections, but be dual tone red"
   ],
   "rules": [
    "R18",
    "R3"
   ],
-  "direction": "The classic red Google Maps pin: a red teardrop pin (Google red #EA4335 with a darker red shade) with the dark red dot in the middle. Not the four-colour or gradient pin.",
+  "direction": "The 2020 pin with the same sections in two reds: the band through the hole dark red #C5221F, the rest Google red #EA4335, hole see-through.",
   "status": "redo"
  },
  "nl_marktplaats_android": {
@@ -1000,11 +1022,13 @@
  },
  "com_touchtype_swiftkey": {
   "label": "Microsoft SwiftKey Keyboard",
-  "arch_said": [],
+  "arch_said": [
+   "remove all the gradients from the Microsoft apps"
+  ],
   "rules": [
    "R26"
   ],
-  "direction": "SwiftKey's blue circle with the white swoosh, sitting on the light-grey keyboard, as in version 4, redrawn clean.",
+  "direction": "SwiftKey's blue circle with the white swirl over the light keyboard, flat colours.",
   "status": "redo"
  },
  "com_mojang_minecraftpe": {
@@ -1059,12 +1083,15 @@
  },
  "com_dhlparcel_nl": {
   "label": "My DHL",
-  "arch_said": [],
+  "arch_said": [
+   "the dhl logo could be something fun kinda like the crude sketch provided",
+   "redo the dhl logo from my crude sketch with fable, and take some creatieve liberty"
+  ],
   "rules": [
    "R14",
    "R13"
   ],
-  "direction": "The red DHL wordmark with its speed lines (DHL red #D40511), with no yellow background, as in version 4, redrawn clean.",
+  "direction": "A fun cartoon delivery van after Arch's sketch, with some creative liberty: yellow #FFCC00 van with a sloped windscreen and short nose, grey cab window, red #D40511 DHL letters (real letterforms), red bottom strip over the wheels, headlight, speed dashes behind it, dark tyres with light hubs.",
   "status": "redo"
  },
  "com_gameloft_android_anmp_gloftpohm": {
@@ -1139,11 +1166,13 @@
  },
  "com_microsoft_office_outlook": {
   "label": "Outlook",
-  "arch_said": [],
+  "arch_said": [
+   "remove all the gradients from the Microsoft apps"
+  ],
   "rules": [
    "R26"
   ],
-  "direction": "Outlook's blue envelope (the current Outlook icon), as in version 4, redrawn clean.",
+  "direction": "Outlook's open envelope with the three sheets, flat blues, shading layers removed.",
   "status": "redo"
  },
  "eu_bandainamcoent_pacman256": {
@@ -1159,11 +1188,13 @@
  },
  "tv_parsec_client": {
   "label": "Parsec",
-  "arch_said": [],
+  "arch_said": [
+   "fix the parsec logo you botched it, it currently doesn't look like their original logo"
+  ],
   "rules": [
    "R6"
   ],
-  "direction": "Parsec's logo (the pink-red and blue offset rounded squares), filling the icon; version 4 is much too small. Redrawn clean.",
+  "direction": "Measured from the real logo: tall slanted square ring in Parsec red #F5004A, the blue #26ABFF copy behind it up and to the right.",
   "status": "redo"
  },
  "com_paypal_android_p2pmobile": {
@@ -1179,7 +1210,8 @@
  "com_google_android_dialer": {
   "label": "Phone",
   "arch_said": [
-   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be",
+   "the phone icon and other dual tone google icons look too bland right now, the normal phone icon looked good with the different shades, just needed to be made bigger"
   ],
   "rules": [
    "R4",
@@ -1236,35 +1268,40 @@
  "com_google_android_play_games": {
   "label": "Play Games",
   "arch_said": [
-   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be",
+   "fix the play games logo"
   ],
   "rules": [
    "R18"
   ],
-  "direction": "Play Games' green triangle with the mint game controller, as in version 4, redrawn clean.",
+  "direction": "The current Play Games logo (dashboard-icons): green play triangle with the mint controller, flat colours.",
   "status": "redo"
  },
  "com_android_vending": {
   "label": "Play Store",
   "arch_said": [
-   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be",
+   "Google play store is too sharp",
+   "change the google store logo to the image provided"
   ],
   "rules": [
    "R4",
    "R18"
   ],
-  "direction": "The Play Store triangle in its four colours (blue, green, yellow, red), with no circle, as Arch painted it. Redrawn clean from the official logo.",
+  "direction": "The current Play logo copied from the picture Arch sent (M10): four-colour triangle (#4285F4, #34A853, #FBBC04, #EA4335) split on the diagonals, with its very rounded corners.",
   "status": "redo"
  },
  "nl_tpp_mobile_android": {
   "label": "PostNL",
-  "arch_said": [],
+  "arch_said": [
+   "make the postnl logo an orange triangle with white text instead of what it is now, like the provided image but without the grey border"
+  ],
   "rules": [
    "R9",
    "R14",
    "R17"
   ],
-  "direction": "PostNL's logo, the rounded outline with the small crown and 'postnl' inside, all in PostNL orange (#F46800), as in version 4. Make the outline and letters thick enough to read at phone size.",
+  "direction": "Solid PostNL-orange (#F46800) logo shape with the white crown and white 'postnl', no grey border.",
   "status": "redo"
  },
  "com_phascinate_precisevolume": {
@@ -1461,12 +1498,13 @@
  "com_google_android_apps_docs_editors_sheets": {
   "label": "Sheets",
   "arch_said": [
-   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be",
+   "fix the Google sheets icon the grid is off and its annoying me"
   ],
   "rules": [
    "R18"
   ],
-  "direction": "Google Sheets in green: the green page or tile with the white table lines, as in version 4 but without the odd light-blue gradient on the right edge. Green keeps it apart from Docs (blue) and Slides (yellow).",
+  "direction": "Classic green Sheets page with the table grid at the official, even measurements.",
   "status": "redo"
  },
  "org_thoughtcrime_securesms": {
@@ -1514,7 +1552,9 @@
  },
  "com_niksoftware_snapseed": {
   "label": "Snapseed",
-  "arch_said": [],
+  "arch_said": [
+   "the snapseed icon is broken"
+  ],
   "rules": [],
   "direction": "Snapseed's green leaf in its greens, as in version 4, redrawn clean.",
   "status": "redo"
@@ -1530,18 +1570,23 @@
   "label": "SoundCloud",
   "arch_said": [
    "or soundcloud, it has 7 stripes but it could be 4 or 5, and have them be thicker and the icon be orange so it looks better",
-   "also soundclouds logo looks awful, just redesign it from scratch, make the lines on the left and a half cloud on the right"
+   "also soundclouds logo looks awful, just redesign it from scratch, make the lines on the left and a half cloud on the right",
+   "the soundcloud icon still looks bad, I will draw something to help you out with that, then you just need to vectorise it",
+   "I found this soundcloud redesign, use this, the maker says it's free to use, vectorise it",
+   "the icon doesn't need gradients"
   ],
   "rules": [
    "R17",
    "R4"
   ],
-  "direction": "Arch's redesign, the same as version 4: 4 thick orange bars rising from left to right, then the half cloud on the right, all in SoundCloud orange (#FF5500). Redrawn clean.",
+  "direction": "The Dribbble SoundCloud redesign Arch picked, built from the PSD's own vector shapes, in flat SoundCloud oranges (no gradients).",
   "status": "redo"
  },
  "com_prismtree_sponge": {
   "label": "Sponge",
-  "arch_said": [],
+  "arch_said": [
+   "the sponge icon also doesn't match the rounding of the top shape that makes up the sponge"
+  ],
   "rules": [],
   "direction": "Sponge's yellow sponge with the orange base and the white bubbles, as in version 4, redrawn clean, with no dark circle.",
   "status": "redo"
@@ -1588,11 +1633,14 @@
  },
  "com_alkapps_subx": {
   "label": "SubX",
-  "arch_said": [],
+  "arch_said": [
+   "fix the shared logo",
+   "*shared = sharesub I think"
+  ],
   "rules": [
    "R25"
   ],
-  "direction": "SubX's blue stacked file with the white 'S', as in version 4, redrawn clean.",
+  "direction": "SubX's wallet: blue front panel with the white S (R9), lighter back panel, three cards sticking out of the top, all leaning at the logo's angle with evenly rounded corners.",
   "status": "redo"
  },
  "com_github_catfriend1_syncthingandroid": {
@@ -1647,11 +1695,13 @@
  },
  "com_microsoft_teams": {
   "label": "Teams",
-  "arch_said": [],
+  "arch_said": [
+   "remove all the gradients from the Microsoft apps"
+  ],
   "rules": [
    "R26"
   ],
-  "direction": "Teams' two purple people, as in version 4, redrawn clean.",
+  "direction": "Teams' two people in Teams' own flat purples #5059C9 and #7B83EB.",
   "status": "redo"
  },
  "com_einnovation_temu": {

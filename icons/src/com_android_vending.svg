@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 326 140 150"><defs><clipPath id="t"><path d="M29.50 361.03A15 15 0 0 1 51.48 347.75L136.16 392.25A10 10 0 0 1 136.16 409.95L51.48 454.45A15 15 0 0 1 29.50 441.17Z"/></clipPath></defs><g clip-path="url(#t)"><path fill="#4285F4" d="M99.1 401.1L-40.1 271.3V530.9Z"/><path fill="#34A853" d="M99.1 401.1L-40.1 271.3H180V319.8Z"/><path fill="#FBBC04" d="M99.1 401.1L180 319.8V481.9Z"/><path fill="#EA4335" d="M99.1 401.1L180 481.9V600H-40.1V530.9Z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="111 82 257 284">
+<!-- Google Play Store: the current Play logo, copied from the image Arch sent (rounded corners r~33 on a ~334 side) -->
+<defs><clipPath id="t"><path d="M111 114.3 A32.5 32.5 0 0 1 159.62 86.08 L350.85 195.35 A33 33 0 0 1 350.85 252.65 L159.62 361.92 A32.5 32.5 0 0 1 111 333.7 Z"/></clipPath></defs>
+<g clip-path="url(#t)">
+<path fill="#4285F4" d="M232 224L-168 -176L-168 624Z"/>
+<path fill="#34A853" d="M232 224L-168 -176L632 -176Z"/>
+<path fill="#FBBC04" d="M232 224L632 -176L632 624Z"/>
+<path fill="#EA4335" d="M232 224L632 624L-168 624Z"/>
+</g>
+</svg>
+

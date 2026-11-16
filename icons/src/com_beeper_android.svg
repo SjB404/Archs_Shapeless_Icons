@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 898 1108"><path fill="#2F5BF8" fill-rule="evenodd" d="M175 1087V590C175 572 165 572 150 560C80 520 25 420 25 310C25 150 150 18 305 18H595C760 18 875 150 875 330C875 440 810 520 730 595C800 640 875 720 875 830C875 940 810 1020 700 1065C670 1078 650 1087 630 1087Z M320 102H570C700 102 790 200 790 330C790 400 770 440 740 460L385 818C378 824 374 822 374 815C376 790 420 590 426 545C426 538 420 538 415 538H300C200 538 108 440 108 320C108 190 200 102 320 102Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <!-- Beeper's older logo, from logosandtypes.com (beeper-old.svg), as Arch asked. Background box removed. -->
+  <defs>
+    <linearGradient id="lower" x1="70.66" y1="82.14" x2="67.18" y2="-7" gradientTransform="translate(0 149.89) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b547e9"/>
+      <stop offset="1" stop-color="#4958f5"/>
+    </linearGradient>
+    <linearGradient id="upper" x1="78.83" y1="14.93" x2="77.26" y2="100.73" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9b71"/>
+      <stop offset="1" stop-color="#db48f3"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#lower)" fill-rule="evenodd" d="M100.1,72.02l-72.57-7.3-12.05,62.65h0l-1.07,5.56c-1.98,10.29,9.7,15.44,18.5,8.17l16.62-13.73h39.93c15.56,0,30.56-12.39,33.51-27.67,2.94-15.28-7.29-27.67-22.86-27.67Z"/>
+  <path fill="url(#upper)" d="M133.73,43.76c-3,15.62-18.32,28.25-34.21,28.25H60.19l-32.18,26.56c-3.07,2.55-7.12,.75-6.44-2.85l4.57-23.72,7.23-37.58c1.99-10.45,12.25-18.92,22.89-18.92h54.14c15.88,0,26.34,12.66,23.34,28.25Z"/>
+</svg>
