@@ -1,0 +1,1 @@
+Note from Iconify logos tiktok-icon (refs/.../logos__tiktok-icon.svg): white body (it was black there) with cyan and red offset edges. Lightning bolt top-left (R20) traced from the Play Store icon, simplified to a 16-point polygon, placed at its real position relative to the note.

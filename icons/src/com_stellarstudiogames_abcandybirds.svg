@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1248 1040">
+<!-- slingshot -->
+<path d="M682,318 Q676,286 720,282 L770,282 Q800,286 802,320 L830,470 Q850,560 940,606 Q975,560 985,420 L980,275 Q984,246 1030,244 L1060,246 Q1092,252 1094,290 L1095,430 Q1090,560 1010,660 L1052,972 L908,972 L896,730 Q880,650 800,610 Q730,540 710,440 Z" fill="#c98f5e" stroke="#7a4a2a" stroke-width="9" stroke-linejoin="round"/>
+<path d="M930,640 Q905,700 920,950" fill="none" stroke="#a8703f" stroke-width="22" stroke-linecap="round" opacity=".5"/>
+<!-- tail and tuft -->
+<path d="M200,720 L80,682 L112,672 L78,660 L125,640 L190,640 Z" fill="#f5c824" stroke="#8a6a00" stroke-width="9" stroke-linejoin="round"/>
+<path d="M140,384 L195,300 L222,340 L312,332 L330,380 Z" fill="#f5c824" stroke="#8a6a00" stroke-width="9" stroke-linejoin="round"/>
+<!-- bird body -->
+<ellipse cx="345" cy="545" rx="212" ry="208" fill="#f5c824" stroke="#8a6a00" stroke-width="10"/>
+<path d="M200,690 Q330,760 480,660 Q420,730 320,740 Q240,735 200,690Z" fill="#e3a812" opacity=".7"/>
+<!-- eyes -->
+<ellipse cx="305" cy="512" rx="58" ry="62" fill="#fff" stroke="#5a4300" stroke-width="6"/>
+<ellipse cx="445" cy="468" rx="52" ry="60" fill="#fff" stroke="#5a4300" stroke-width="6"/>
+<circle cx="345" cy="505" r="22" fill="#2a1a00"/>
+<circle cx="475" cy="458" r="22" fill="#2a1a00"/>
+<path d="M245,442 Q320,385 425,382 Q350,410 262,452 Z" fill="#4a3000" stroke="#4a3000" stroke-width="8" stroke-linejoin="round"/>
+<!-- beak -->
+<path d="M392,590 Q440,570 505,545 Q520,560 490,600 Q455,628 420,622 Q395,612 392,590Z" fill="#f7941d" stroke="#c96a00" stroke-width="6" stroke-linejoin="round"/>
+<!-- bands -->
+<path d="M975,335 L995,392 L295,612 L255,552 Z" fill="#7a4325" stroke="#4a2713" stroke-width="6" stroke-linejoin="round"/>
+<path d="M715,430 L790,460 L310,640 L275,590 Z" fill="#8a4f2c" stroke="#4a2713" stroke-width="6" stroke-linejoin="round"/>
+<!-- wraps -->
+<rect x="688" y="325" width="128" height="110" rx="26" fill="#6b3f2a" stroke="#3d2214" stroke-width="7"/>
+<rect x="974" y="296" width="128" height="92" rx="26" fill="#6b3f2a" stroke="#3d2214" stroke-width="7"/>
+<!-- pouch -->
+<path d="M170,505 Q115,520 115,580 L140,690 Q150,735 200,730 L290,700 Q315,680 300,640 L270,520 Q250,500 170,505Z" fill="#b98253" stroke="#7a4a2a" stroke-width="9" stroke-linejoin="round"/>
+<path d="M195,548 L242,528 L302,650 L262,676 Z" fill="#d6b9a4" stroke="#8a6a50" stroke-width="5" stroke-linejoin="round"/>
+</svg>

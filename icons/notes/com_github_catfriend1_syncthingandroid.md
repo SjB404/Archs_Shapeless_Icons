@@ -1,0 +1,1 @@
+Ring with four connected nodes after Syncthing's logo (Play icon, simpleicons shape for reference), redrawn as ring + lines + nodes. Blue gradient #2DB9E3 to #0886C9 from the app icon. Disc dropped; ring kept (R8). Fork icon matches Syncthing's.

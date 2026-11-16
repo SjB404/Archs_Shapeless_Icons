@@ -1,0 +1,1 @@
+Automate: whole logo including the phone with the smiley from bg.png (R3): yellow robot arm with grey pointer touching the phone. Phone frame lightened to #6A6A6A so it shows on the dark drawer. No blue circle or long shadow (R7). Proportions approximated by eye.

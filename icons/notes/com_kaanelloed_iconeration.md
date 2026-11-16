@@ -1,0 +1,1 @@
+Alembicons: flask (see-through) and jar (gold fill) as bold line art in orange #E2602F, slightly lighter than #C85028 for the dark drawer. Dropped the muddy grey fill and the tiny 8 and 3 marks (unreadable). Flask shape is simplified.

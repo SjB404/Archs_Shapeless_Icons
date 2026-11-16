@@ -1,0 +1,1 @@
+Source: Play Store icon; spiky edge traced from its radii, rings measured. Round by design (R8). The black gaps between rings and the black centre are see-through; white note in the middle. Check: the original has black there.

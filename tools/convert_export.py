@@ -335,7 +335,7 @@ def fit(img, fill=1.0):
     nw, nh = max(1, round(w * scale)), max(1, round(h * scale))
     crop = resize(crop, (nw, nh))
     canvas = Image.new("RGBA", (OUT, OUT), (0, 0, 0, 0))
-    canvas.paste(crop, ((OUT - nw) // 2, (OUT - nh) // 2), crop)
+    canvas.paste(crop, ((OUT - nw) // 2, (OUT - nh) // 2))   # no mask: masking here darkens the edges
     return canvas
 
 

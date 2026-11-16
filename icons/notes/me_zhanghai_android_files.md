@@ -1,0 +1,1 @@
+Hand-drawn folder after the real Material Files icon (white folder with tab, lighter front). No ready-made SVG matched. Blue #2F7CF2 back, lighter #7DB4FF front for readability on both backgrounds (R24). Container removed. Folder shape keeps it apart from Google Files (blue file with corner) and the other blue tools (R25).

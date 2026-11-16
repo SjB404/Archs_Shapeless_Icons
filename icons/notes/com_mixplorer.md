@@ -1,0 +1,1 @@
+Hand-drawn polygons measured from the exported fg layer (M, bar, hourglass X). Long shadow removed (R7). Colour a lighter MiX blue (#2A96F0, brand #1E88E5) so it reads on the wallpaper. Distinct from the other blue file tools by its angular shapes.

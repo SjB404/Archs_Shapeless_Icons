@@ -1,0 +1,1 @@
+Aurora Store: hand-drawn SVG from the exported fg layer (no ready-made logo exists). Basket in the app's purple #6C63FF (R9: white logo takes its background colour), triangle behind it lighter lavender so it stays visible, teal and pink bags and coloured A as in the original. No shadows.

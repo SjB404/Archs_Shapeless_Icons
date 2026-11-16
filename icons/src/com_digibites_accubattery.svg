@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 510">
+<defs><clipPath id="b"><rect x="0" y="50" width="320" height="460" rx="58"/></clipPath>
+<linearGradient id="f" x1="0" y1="140" x2="0" y2="510" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#76ff0a"/><stop offset="1" stop-color="#46df08"/></linearGradient></defs>
+<rect x="100" y="0" width="120" height="80" rx="18" fill="#2a8a7a"/>
+<rect x="0" y="50" width="320" height="460" rx="58" fill="#278574"/>
+<g clip-path="url(#b)">
+<path d="M0,190 C60,165 130,140 165,142 C230,146 280,170 320,150 L320,510 L0,510 Z" fill="url(#f)"/>
+<path d="M165,142 C225,110 280,125 320,150 C280,170 230,146 165,142 Z" fill="#14ae62"/>
+</g>
+<path d="M160,208 H268 V300 C268,370 218,420 160,450 C102,420 52,370 52,300 V208 Z" fill="#f8f8f8" stroke="#f8f8f8" stroke-width="10" stroke-linejoin="round" transform="translate(0,0)"/>
+<polygon points="178,236 108,332 150,332 132,416 212,308 168,308" fill="#137468" stroke="#137468" stroke-width="6" stroke-linejoin="round"/>
+</svg>

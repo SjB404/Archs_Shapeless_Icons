@@ -1,0 +1,1 @@
+No ready-made logo existed. Drawn by hand as geometry, measured from the exported fg layer (B-shaped speech bubble, ring + tail cut-out), as Arch painted it. Colour #2F5BF8 sampled from the middle of the original blue gradient. Same shape as version 4 but smooth.

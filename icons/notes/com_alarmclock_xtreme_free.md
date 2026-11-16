@@ -1,0 +1,1 @@
+Source: Play Store icon (hand-drawn). Light blue #33bbff (as v4, readable on dark), white face, 12 ticks, dark hands, red second hand, two bells, hammer and legs in light grey. Bells and legs keep it apart from Google Clock (R25).

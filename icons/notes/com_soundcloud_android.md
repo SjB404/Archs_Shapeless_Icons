@@ -1,0 +1,1 @@
+Redesigned per Arch: 4 thick orange (#FF5500) rounded bars rising left to right, then half cloud (flat left edge, big dome, small bump) on the right. Drawn from scratch; supersedes icons/svg/soundcloud.svg.

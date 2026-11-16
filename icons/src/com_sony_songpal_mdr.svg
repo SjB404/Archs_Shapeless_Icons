@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 55 345 380">
+<defs><linearGradient id="t" x1="390" y1="130" x2="195" y2="270" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2b5cff"/><stop offset="0.45" stop-color="#2e5fff"/><stop offset="1" stop-color="#b9c8ff"/></linearGradient>
+<clipPath id="c"><circle cx="219" cy="316" r="113"/></clipPath></defs>
+<path d="M190,66 L440,186 L190,310 Z" fill="url(#t)" stroke="url(#t)" stroke-width="12" stroke-linejoin="round"/>
+<g clip-path="url(#c)">
+<polygon points="90,100 190,100 190,320 90,368" fill="#ffcd33"/>
+<polygon points="190,100 360,100 360,230 190,320" fill="#fff"/>
+<polygon points="90,370 190,320 360,238 360,460 90,460" fill="#ff6633"/>
+</g>
+</svg>

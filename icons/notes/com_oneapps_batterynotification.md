@@ -1,0 +1,1 @@
+Source: exported fg layer (hand-drawn). White bell inside the battery outline, even 24-unit lines, everything inside see-through (Arch: black in the bell should be transparent). Terminal is a solid bar so it reads at small size.

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 480">
+<defs><linearGradient id="r" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EAE4F6"/><stop offset="1" stop-color="#D6D8F2"/></linearGradient></defs>
+<!-- feet -->
+<polygon points="128,392 188,420 188,452 128,424" fill="#FF8A5C"/>
+<polygon points="188,420 226,400 226,432 188,452" fill="#E8603A"/>
+<polygon points="258,392 292,378 292,430 258,446" fill="#E8603A"/>
+<polygon points="226,408 258,392 258,446 226,430" fill="#FF8A5C"/>
+<!-- body -->
+<polygon points="123,145 212,196 316,140 227,89" fill="#FFFFFF"/>
+<polygon points="123,145 212,196 212,420 123,369" fill="#F4F4FB"/>
+<polygon points="212,196 316,140 316,364 212,420" fill="url(#r)"/>
+<!-- tail -->
+<polygon points="316,226 336,215 356,226 336,237" fill="#FFFFFF"/>
+<polygon points="316,226 336,237 336,282 316,271" fill="#E4E4F6"/>
+<polygon points="336,237 356,226 356,271 336,282" fill="#D0D4F0"/>
+<!-- wing -->
+<polygon points="240,338 302,306 356,336 292,370" fill="#FFFFFF"/>
+<polygon points="240,338 292,370 292,408 240,376" fill="#F4F4FB"/>
+<polygon points="292,370 356,336 356,372 292,408" fill="#D4D6F0"/>
+<!-- eye -->
+<polygon points="240,214 256,206 256,224 240,232" fill="#2B0A1E"/>
+<!-- comb -->
+<polygon points="168,122 226,89 256,106 198,139" fill="#FF5C78"/>
+<polygon points="168,122 198,139 198,170 168,153" fill="#FF6B8A"/>
+<polygon points="198,139 256,106 256,136 198,170" fill="#F5304F"/>
+<!-- wattle -->
+<polygon points="124,262 154,280 154,310 124,292" fill="#FF6B8A"/>
+<polygon points="154,280 184,263 184,293 154,310" fill="#F5304F"/>
+<!-- beak -->
+<polygon points="110,222 152,198 184,216 142,240" fill="#FFC96B"/>
+<polygon points="110,222 142,240 142,284 110,266" fill="#FFCB6B"/>
+<polygon points="142,240 184,216 184,260 142,284" fill="#FF9A48"/>
+</svg>

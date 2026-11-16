@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 60 250 250">
+<defs>
+<linearGradient id="m" gradientUnits="userSpaceOnUse" x1="150" y1="72" x2="190" y2="300"><stop offset="0" stop-color="#B4A0FF"/><stop offset=".16" stop-color="#7B58FF"/><stop offset=".5" stop-color="#6D4AFF"/><stop offset=".72" stop-color="#8A6EE6"/><stop offset=".88" stop-color="#D2B655"/><stop offset="1" stop-color="#E6C23A"/></linearGradient>
+<linearGradient id="t" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C7B8FF"/><stop offset="1" stop-color="#A48CFF"/></linearGradient>
+<linearGradient id="r" x1="0.5" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#B9A6FF"/><stop offset="1" stop-color="#C9B8F0"/></linearGradient>
+</defs>
+<path d="M185.500 99A86.500 86.500 0 1 0 272 185.500" fill="none" stroke="url(#m)" stroke-width="53" stroke-linecap="round"/>
+<path d="M272 185.500A86.500 86.500 0 0 1 240 252" fill="none" stroke="url(#r)" stroke-width="53" stroke-linecap="round"/>
+<circle cx="185.500" cy="172" r="19" fill="#8A68FF"/>
+<rect x="178.500" y="175" width="14" height="40" rx="7" fill="#8A68FF"/>
+</svg>

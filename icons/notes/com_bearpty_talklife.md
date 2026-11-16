@@ -1,0 +1,1 @@
+No official vector. Traced the script from the exported fg layer (upscaled and smoothed first). Gradient lightened from original #A004E8 -> #500CFC to #C24BF5 (top) -> #7C58FF (bottom) so it reads on the dark drawer (R10). Source is only ~210px so outlines are a little soft in places.

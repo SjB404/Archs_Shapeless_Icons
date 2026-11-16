@@ -1,0 +1,1 @@
+Essential Apps: traced from the exported fg layer. Yellow #FFC800 oval and slash (R11), cross and the slash gap inside the oval dark #1A1A1A. Dark parts are filled, not see-through, so they look the same on any wallpaper.

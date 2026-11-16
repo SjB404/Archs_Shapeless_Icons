@@ -1,0 +1,1 @@
+Hand-drawn green Android maid from the v4/export art (green head, white bow, eyes, collar, scalloped apron). Gap between collar and apron is see-through. Lawnicons only has a line drawing, so not used.

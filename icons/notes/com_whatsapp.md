@@ -1,0 +1,1 @@
+Source: Simple Icons whatsapp path (/home/claude/refs/com_whatsapp/official/simpleicons__whatsapp.svg). Bubble outline with phone cut out, WhatsApp green #25D366, no container. Same design as version 4, cleaner.

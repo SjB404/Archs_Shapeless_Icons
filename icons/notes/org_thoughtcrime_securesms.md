@@ -1,0 +1,1 @@
+Source: Simple Icons signal path (refs/.../simpleicons__signal.svg). Solid bubble plus dashed ring, no container. Colour #2F40FD sampled from the middle of the Play Store icon's blue gradient (it is more violet than Signal's website blue #3A76F0). Arch may want #3A76F0 instead.

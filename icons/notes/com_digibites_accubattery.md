@@ -1,0 +1,1 @@
+Source: Play Store icon (hand-drawn). Battery (no round crop, no landscape), dark-green terminal and empty part (#278574, slightly lighter than original so it shows on dark grey), two-green wave fill, white shield, dark-green bolt.

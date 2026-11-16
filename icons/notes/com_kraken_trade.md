@@ -1,0 +1,2 @@
+# Kraken Pro
+White dome plus white rounded PRO tag with see-through letters (Inter SemiBold outlines, so they show the background; dark on the drawer). Same dome as Kraken. Hand-drawn SVG (generator: /home/claude/work/kraken/gen.py), proportions measured from the Play Store icon (/home/claude/refs/<name>/play.png). The library 'logos__kraken' drawing is a different (Kraken-named) logo and was not used. No container, no outline.

@@ -1,0 +1,1981 @@
+{
+ "com_digibites_accubattery": {
+  "label": "AccuBattery",
+  "arch_said": [],
+  "rules": [
+   "R3",
+   "R5",
+   "R8"
+  ],
+  "direction": "Draw it as a battery instead of a round crop: AccuBattery's green battery (rounded body, small dark-green terminal on top, the wavy charge line across it in its two greens) with the white shield and green lightning bolt in the middle. No circle and no near-black area at the top.",
+  "status": "redo"
+ },
+ "com_alarmclock_xtreme_free": {
+  "label": "Alarm Clock Xtreme",
+  "arch_said": [],
+  "rules": [
+   "R25"
+  ],
+  "direction": "Same design as version 4, redrawn clean: the light-blue alarm clock with its two bells and little legs, white face, dark hands and red second hand. The bells and legs keep it apart from Google's round Clock.",
+  "status": "redo"
+ },
+ "com_kaanelloed_iconeration": {
+  "label": "Alembicons",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R10",
+   "R17"
+  ],
+  "direction": "The alembic flask and the jar as clean, bold line art in Alembicons' orange-brown (#C85028, a little lighter if the lines get lost on the dark drawer), the jar filled with its gold colour, the flask see-through inside. Drop version 4's muddy grey fills; keep the little 8 and 3 only if they stay readable.",
+  "status": "redo"
+ },
+ "com_jafolders_allefolders": {
+  "label": "AlleFolders",
+  "arch_said": [],
+  "rules": [
+   "R9"
+  ],
+  "direction": "The % sign filled with the red-and-orange sunburst stripes of the original background (the logo takes over the background's pattern), like version 4 but with crisp edges.",
+  "status": "redo"
+ },
+ "com_amazon_mshop_android_shopping": {
+  "label": "Amazon Shopping",
+  "arch_said": [
+   "Amazon is missing its a"
+  ],
+  "rules": [
+   "R10",
+   "R14"
+  ],
+  "direction": "Amazon's classic logo: the lowercase 'a' with the orange smile arrow under it. The 'a' is white (the real one is black, which vanishes on dark grey), the arrow Amazon orange (#FF9900). Same design as version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_stellarstudiogames_abcandybirds": {
+  "label": "Angry Crusher Catapult",
+  "arch_said": [],
+  "rules": [
+   "R15"
+  ],
+  "direction": "Main subject only: the yellow bird sitting in the wooden slingshot, cut out cleanly. No sky, grass or circle behind it.",
+  "status": "redo"
+ },
+ "com_oceanwing_soundcore": {
+  "label": "Anker soundcore",
+  "arch_said": [
+   "Anker is not readable, replace it with the Anker a with the lightning bolt",
+   "like the Anker with the bolt, there is a design for that, so I want you to find the logo, download the image and use it in the pack, or redraw based on the image, the Anker A with lightning bolt is just 1 example",
+   "I want all apps redrawn from scratch (except for Anker)"
+  ],
+  "rules": [
+   "R23",
+   "R14"
+  ],
+  "direction": "Keep the version 4 icon exactly as it is: the real Anker 'A' with the lightning bolt (from seeklogo). Do not redraw it.",
+  "status": "keep"
+ },
+ "com_armmc_app": {
+  "label": "Anvil-MC",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R14"
+  ],
+  "direction": "The 'anvil mc' wordmark on two lines in Anvil-MC's green (#40CC6C, the original background colour), as in version 4, redrawn clean and as big as possible.",
+  "status": "redo"
+ },
+ "cm_aptoide_pt": {
+  "label": "Aptoide",
+  "arch_said": [
+   "aptoide should be just the logo fullscreen"
+  ],
+  "rules": [
+   "R9",
+   "R6"
+  ],
+  "direction": "Just Aptoide's folded 'V' mark, fullscreen, in Aptoide's orange (the original background's orange, about #E45C28 to #F0903C; the fold can be a slightly different orange as in the real logo). Same design as version 4 but flat and clean, without the light edge.",
+  "status": "redo"
+ },
+ "com_google_android_apps_googleassistant": {
+  "label": "Assistant",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Keep the Assistant's four dots (big blue, red, yellow, small green) in Google's colours, redrawn clean. Already distinct from the other Google apps.",
+  "status": "redo"
+ },
+ "com_aurora_store": {
+  "label": "Aurora Store",
+  "arch_said": [],
+  "rules": [],
+  "direction": "Same design as version 4, redrawn clean: the purple shopping basket with the colourful 'A' triangle and the little bags behind it.",
+  "status": "redo"
+ },
+ "com_azure_authenticator": {
+  "label": "Authenticator",
+  "arch_said": [],
+  "rules": [
+   "R26"
+  ],
+  "direction": "Same design as version 4, redrawn clean: Microsoft Authenticator's blue padlock with the person inside, in its blue shades.",
+  "status": "redo"
+ },
+ "com_llamalab_automate": {
+  "label": "Automate",
+  "arch_said": [],
+  "rules": [
+   "R3",
+   "R7"
+  ],
+  "direction": "Use the whole logo, not just the arm: the yellow robot arm with its grey pointer touching the phone with the smiley face (dark-grey phone, white screen, dark smiley). Version 4 missed the phone because it sits in the background layer. No blue background and no long shadow.",
+  "status": "redo"
+ },
+ "com_handycloset_android_eraser": {
+  "label": "Background Eraser",
+  "arch_said": [],
+  "rules": [
+   "R8"
+  ],
+  "direction": "Keep it round: the checkerboard 'see-through' disc with its blue ring is the logo. Redrawn clean with crisp light grey and white squares.",
+  "status": "redo"
+ },
+ "com_playstack_balatro_android": {
+  "label": "Balatro",
+  "arch_said": [
+   "balatro should just be the balatro clown",
+   "balatro has rotated pixel art which is blurry, should be sharp pixel art, and straight, cus its pixel art, redrawing as pixel art if you can't edit it to be as such"
+  ],
+  "rules": [
+   "R15",
+   "R16"
+  ],
+  "direction": "Just the Joker clown as straight, sharp pixel art: take the jester from Balatro's unrotated Joker card sprite (e.g. from the Balatro wiki) or rebuild it pixel by pixel, and deliver it as a .pixel.png at native size. No card, no rotation, no blur.",
+  "status": "redo"
+ },
+ "com_oneapps_batterynotification": {
+  "label": "Battery Sound",
+  "arch_said": [
+   "battery saver has black in the bell, should be transparent"
+  ],
+  "rules": [
+   "R7",
+   "R12"
+  ],
+  "direction": "The white bell inside the white battery outline, with every inside see-through (no black fill anywhere). Same design as version 4, redrawn clean with even line thickness.",
+  "status": "redo"
+ },
+ "com_beeper_android": {
+  "label": "Beeper",
+  "arch_said": [],
+  "rules": [
+   "R4",
+   "R9"
+  ],
+  "direction": "Beeper's 'B' speech-bubble mark in Beeper blue (the original background's blue, about #3050F4), as Arch painted it on his home screen. Same as version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_sirma_mobile_bible_android": {
+  "label": "Bible",
+  "arch_said": [],
+  "rules": [
+   "R15",
+   "R8"
+  ],
+  "direction": "The red-brown 'HOLY BIBLE' book with its cream page edge and red ribbon, as in the original; the book is the object, so nothing behind it. Redrawn clean with crisp lettering.",
+  "status": "redo"
+ },
+ "com_bol_shop": {
+  "label": "bol",
+  "arch_said": [
+   "bol should be blue",
+   "the bol logo isn't very readable, needs to be changed to a lighter blue, keep in mind that dark or black logos are hard to read, so lightening the color or making it white would usually be better"
+  ],
+  "rules": [
+   "R9",
+   "R10",
+   "R14",
+   "R24"
+  ],
+  "direction": "The 'bol.' wordmark in a clearly lighter version of bol blue (around #7F9CFF; the real #0000A4 disappears on the dark drawer, and mid blues vanish on the blue wallpaper). Wordmark only, the dot in the same blue.",
+  "status": "redo"
+ },
+ "ee_mtakso_client": {
+  "label": "Bolt",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R13",
+   "R14",
+   "R24"
+  ],
+  "direction": "The 'Bolt' wordmark in Bolt's bright brand green (about #34D186), brighter than version 4's darker green, which faded on the blue wallpaper. Wordmark only.",
+  "status": "redo"
+ },
+ "com_brave_browser": {
+  "label": "Brave",
+  "arch_said": [
+   "brave has a white excess from the background around it"
+  ],
+  "rules": [
+   "R4",
+   "R7"
+  ],
+  "direction": "Brave's orange lion head (orange-red gradient with the white face details), exactly the real logo, with no white rim or leftover background around it. As Arch painted it.",
+  "status": "redo"
+ },
+ "com_supercell_brawlstars": {
+  "label": "Brawl Stars",
+  "arch_said": [
+   "brawl stars should just be the brawl skull"
+  ],
+  "rules": [
+   "R15",
+   "R12"
+  ],
+  "direction": "Just the Brawl Stars skull: the white skull with its black eyes and features, no ring, badge or background. Same as version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_bunq_android": {
+  "label": "bunq",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R14"
+  ],
+  "direction": "The 'bunq' wordmark filled with bunq's rainbow stripes (the original background's pattern taken over by the letters), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "nl_burgerking_app": {
+  "label": "Burger King NL",
+  "arch_said": [
+   "Burger king has cutout residue",
+   "the burger king logo still looks messy"
+  ],
+  "rules": [
+   "R3",
+   "R7",
+   "R13"
+  ],
+  "direction": "Redraw from the official 2021 Burger King logo (vector): two orange bun halves (#FF8732) with 'BURGER KING' in red (#D62300) between them. Clean vector shapes only: no cream background, no dark fringe or cut-out residue around the letters.",
+  "status": "redo"
+ },
+ "com_samruston_buzzkill": {
+  "label": "BuzzKill",
+  "arch_said": [],
+  "rules": [
+   "R11"
+  ],
+  "direction": "BuzzKill's speech bubble in its yellow (the original background colour), with the heart, star, hexagon and dots in dark grey inside it (the original's dark bubble would vanish). Same idea as version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_cakewallet_cake_wallet": {
+  "label": "Cake Wallet",
+  "arch_said": [],
+  "rules": [
+   "R10"
+  ],
+  "direction": "Cake Wallet's folded 'slice' with the orange, yellow and blue stripes, but with the near-black body turned light (white, with a light grey for the folded side) so it shows on the dark drawer. The stripes keep their colours.",
+  "status": "redo"
+ },
+ "com_google_android_calculator": {
+  "label": "Calculator",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Keep Google Calculator's design: four round buttons (minus, times, plus, equals) in its dark green and mint green with white symbols, redrawn clean. Already distinct from the other Google apps.",
+  "status": "redo"
+ },
+ "com_google_android_calendar": {
+  "label": "Calendar",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Google Calendar as a blue calendar page with a big white '31' (like version 4 and the older single-colour Calendar icon). Already recognisable by its own colour and shape; redrawn clean.",
+  "status": "redo"
+ },
+ "com_azizi_calorie_calculator": {
+  "label": "Calorie Calculator",
+  "arch_said": [],
+  "rules": [
+   "R12",
+   "R25"
+  ],
+  "direction": "The white fork and spoon side by side, as in version 4, redrawn clean with no black square. White and upright keeps it apart from FairTrack's green crossed knife and spoon.",
+  "status": "redo"
+ },
+ "com_nothing_camera": {
+  "label": "Camera",
+  "arch_said": [
+   "\"1 good question, inverting the color to where the outer layer is white should probably do fine, white camera with a black lens and a red dot, etc\""
+  ],
+  "rules": [
+   "R4",
+   "R10",
+   "R24",
+   "R26"
+  ],
+  "direction": "Inverted colours (Arch's answer): white camera body, BLACK lens, red dot. No circle.",
+  "status": "redo"
+ },
+ "com_instructure_candroid": {
+  "label": "Canvas",
+  "arch_said": [],
+  "rules": [
+   "R8"
+  ],
+  "direction": "Canvas's red ring of dots and segments, as in version 4, redrawn clean and evenly spaced.",
+  "status": "redo"
+ },
+ "com_openai_chatgpt": {
+  "label": "ChatGPT",
+  "arch_said": [
+   "ChatGPT should have white infill like a donut shape"
+  ],
+  "rules": [
+   "R10"
+  ],
+  "direction": "The OpenAI knot with white infill like a donut: the knot's outer shape filled white, the hexagon hole in the middle see-through, and the knot's lines in black on top. Same design as version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_android_chrome": {
+  "label": "Chrome",
+  "arch_said": [],
+  "rules": [
+   "R8",
+   "R18"
+  ],
+  "direction": "Chrome's round logo (red, yellow and green segments around the blue centre with its white ring); it's round by design, so keep it round. Redrawn clean from the official logo.",
+  "status": "redo"
+ },
+ "com_anthropic_claude": {
+  "label": "Claude",
+  "arch_said": [
+   "Claude is off color"
+  ],
+  "rules": [
+   "R9",
+   "R13"
+  ],
+  "direction": "Claude's spark in Claude's official orange (#D97757) as one flat colour, without version 4's darker brown centre. The rays as in the real logo.",
+  "status": "redo"
+ },
+ "com_google_android_deskclock": {
+  "label": "Clock",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18",
+   "R8"
+  ],
+  "direction": "Keep Google Clock's round blue clock face with the white hands and the small dot, redrawn clean. The round face is the logo.",
+  "status": "redo"
+ },
+ "com_google_android_contacts": {
+  "label": "Contacts",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Google Contacts' blue person (head and shoulders, two blues), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "eu_coolblue_shop": {
+  "label": "Coolblue",
+  "arch_said": [
+   "the coolblue blue infill is not only inaccurate but is also filled in bad, the cool lie logo should have a small blue circle around it instead, seen as that's the logo"
+  ],
+  "rules": [
+   "R8",
+   "R13",
+   "R14"
+  ],
+  "direction": "Round, as Arch asked: the orange disc (#FF6600) with 'cool' and 'blue' in white letters, and a thin Coolblue-blue ring (#0090E3) around the disc. The letters are white, never filled blue, and the whole logo fills the icon.",
+  "status": "redo"
+ },
+ "com_yodo1_crossyroad": {
+  "label": "Crossy Road",
+  "arch_said": [
+   "the crossy road chicken is blue"
+  ],
+  "rules": [
+   "R12",
+   "R15",
+   "R16"
+  ],
+  "direction": "The Crossy Road chicken in its real colours: white body with the light lavender-grey shading on the shadow sides (#DCDCF4), red comb and wattle, orange beak and feet, black eye. No blue tint and no sky. Draw the blocks as clean flat shapes.",
+  "status": "redo"
+ },
+ "com_deepseek_chat": {
+  "label": "DeepSeek",
+  "arch_said": [],
+  "rules": [],
+  "direction": "DeepSeek's blue whale (#4D6BFE) with its eye cut out, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "nl_rijksoverheid_digid_pub": {
+  "label": "DigiD",
+  "arch_said": [],
+  "rules": [
+   "R10",
+   "R14"
+  ],
+  "direction": "The 'DigiD' wordmark: 'Dig' in white and 'iD' in DigiD orange, no black background. Same as version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_discord": {
+  "label": "Discord",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R26"
+  ],
+  "direction": "Discord's Clyde (the game-controller face) in Discord blurple (#5865F2) with the eyes cut out see-through, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "custom_discord": {
+  "label": "DISCXRD",
+  "arch_said": [],
+  "rules": [
+   "R20",
+   "R26"
+  ],
+  "direction": "This modded Discord keeps its own icon: the rainbow-striped Clyde with dark eyes, as in the original and version 4, redrawn clean. The rainbow is what sets it apart from the real Discord.",
+  "status": "redo"
+ },
+ "com_google_android_apps_docs_editors_docs": {
+  "label": "Docs",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Google Docs: the blue page with the folded corner and white text lines, as in version 4, redrawn clean. Blue keeps it apart from Sheets (green) and Slides (yellow).",
+  "status": "redo"
+ },
+ "tweeter_gif_twittervideodownloader": {
+  "label": "Downmio",
+  "arch_said": [],
+  "rules": [
+   "R8",
+   "R9",
+   "R25"
+  ],
+  "direction": "Downmio's thick light-blue ring with the down arrow inside (the white parts turned into the app's light blue), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_google_android_apps_docs": {
+  "label": "Drive",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Google Drive's triangle in its three colours (green, yellow, blue, no red), flat and clean like the classic Drive logo. Already distinct from the other Google apps.",
+  "status": "redo"
+ },
+ "com_nothing_essentialapps": {
+  "label": "Essential Apps",
+  "arch_said": [],
+  "rules": [
+   "R11",
+   "R26"
+  ],
+  "direction": "Nothing's Essential logo: the yellow oval with the dark asterisk-cross and the slash, as in version 4 (a yellow oval instead of the original black one so it shows on the dark drawer). Redrawn clean.",
+  "status": "redo"
+ },
+ "com_etsy_android": {
+  "label": "Etsy",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R14",
+   "R26"
+  ],
+  "direction": "The 'Etsy' wordmark in Etsy orange (#F1641E), in Etsy's serif lettering, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_etsy_butter_sell_on_etsy": {
+  "label": "Etsy Seller",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R10",
+   "R20",
+   "R26"
+  ],
+  "direction": "The 'Etsy' wordmark in the Seller app's blue-violet (#4C68C4), made lighter so it's readable (version 4 almost vanished on the blue wallpaper). Blue versus orange is what tells it apart from Etsy, so keep it clearly blue-violet, just lighter.",
+  "status": "redo"
+ },
+ "org_fdroid_fdroid": {
+  "label": "F-Droid",
+  "arch_said": [],
+  "rules": [],
+  "direction": "F-Droid's logo: the light-green robot head with antennas and white eyes on the blue box with the white swirl, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_facebook_katana": {
+  "label": "Facebook",
+  "arch_said": [
+   "\"4 steam in particular is build around the circle logo, it looks very nice, Pinterest would look nice as standalone red P, same with the others, steam is a bit of an edge case\""
+  ],
+  "rules": [
+   "R9",
+   "R8"
+  ],
+  "direction": "Standalone f, no circle (Arch: 'same with the others'). Facebook's 'f' in Facebook blue (#0866FF), as in version 4, redrawn clean. No circle, since the 'f' alone is recognisable (open question 4).",
+  "status": "redo"
+ },
+ "com_fairtrack_app": {
+  "label": "FairTrack",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R10",
+   "R25"
+  ],
+  "direction": "The crossed knife and spoon in FairTrack's green, a little brighter than the original #2C7C30 so it reads on the dark drawer. Green and crossed keeps it apart from Calorie Calculator's white fork and spoon.",
+  "status": "redo"
+ },
+ "com_fbto_fbtozorg": {
+  "label": "FBTO Zorg app",
+  "arch_said": [
+   "FBTO should be the word only,"
+  ],
+  "rules": [
+   "R14",
+   "R10"
+  ],
+  "direction": "Only the word 'FBTO': no white pill and no medical case. 'FBT' in white (the real dark blue #004C9C vanishes on dark grey) and the 'O' as FBTO's multicoloured ring, filling the width.",
+  "status": "redo"
+ },
+ "filesearcher_filefinder_everything_searcheverything": {
+  "label": "FileFinder",
+  "arch_said": [],
+  "rules": [
+   "R9"
+  ],
+  "direction": "The blue magnifying glass with its light lens and the speed lines, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_google_android_apps_nbu_files": {
+  "label": "Files",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R4",
+   "R18"
+  ],
+  "direction": "Files by Google: the blue file with the green, yellow and red folded corner, no circle, as Arch painted it. Redrawn clean.",
+  "status": "redo"
+ },
+ "com_google_android_apps_adm": {
+  "label": "Find Hub",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18",
+   "R8"
+  ],
+  "direction": "Find Hub's ring (blue, red, yellow and green segments around the round centre), redrawn clean and bold enough to read at phone size.",
+  "status": "redo"
+ },
+ "com_jndapp_flora_material_iconpack": {
+  "label": "Flora",
+  "arch_said": [],
+  "rules": [],
+  "direction": "Flora's multicoloured flower with the white centre, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "family_fomo_app": {
+  "label": "fomo",
+  "arch_said": [
+   "FOMO is missing a pupil"
+  ],
+  "rules": [
+   "R7",
+   "R10"
+  ],
+  "direction": "fomo's two lavender-white eyes, each with its dark navy (#08081C) slanted pupil. Version 4 left the left pupil see-through, so it read as a notch: fill both pupils with the same dark navy, and close the left eye with a thin white edge if needed so it clearly reads as a pupil.",
+  "status": "redo"
+ },
+ "org_futo_inputmethod_latin": {
+  "label": "FUTO Keyboard",
+  "arch_said": [],
+  "rules": [
+   "R14",
+   "R10"
+  ],
+  "direction": "The white 'FUTO' wordmark with the white keyboard keys under it, as in version 4, redrawn clean, with no dark circle.",
+  "status": "redo"
+ },
+ "com_nothing_gallery": {
+  "label": "Gallery",
+  "arch_said": [
+   "\"1 good question, inverting the color to where the outer layer is white should probably do fine, white camera with a black lens and a red dot, etc\""
+  ],
+  "rules": [
+   "R10",
+   "R26"
+  ],
+  "direction": "Inverted colours (Arch's answer to open question 1): the outer/main shape white, the parts that were white become black, red accents stay red. Nothing's photo icon turned white: a white rounded frame, the picture area see-through, a white mountain shape and the red sun dot. Same family look as the other Nothing apps (white with red accents).",
+  "status": "redo"
+ },
+ "com_google_android_apps_bard": {
+  "label": "Gemini",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Gemini's four-point star with its blue, red, yellow and green gradient, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_media_zatashima_studio": {
+  "label": "GIF Maker-Editor",
+  "arch_said": [],
+  "rules": [
+   "R8",
+   "R15"
+  ],
+  "direction": "Just the round 'GIF' badge (black disc, metallic ring, colourful 'GIF' letters), without the rainbow background behind it. Redrawn clean and crisp.",
+  "status": "redo"
+ },
+ "com_github_android": {
+  "label": "GitHub",
+  "arch_said": [],
+  "rules": [
+   "R8",
+   "R10"
+  ],
+  "direction": "The GitHub mark: a white circle with the Octocat cut out (see-through), as in version 4. The circle is part of GitHub's logo. Redrawn from the official mark.",
+  "status": "redo"
+ },
+ "com_nothing_glyph": {
+  "label": "Glyph",
+  "arch_said": [
+   "\"1 good question, inverting the color to where the outer layer is white should probably do fine, white camera with a black lens and a red dot, etc\""
+  ],
+  "rules": [
+   "R10",
+   "R26"
+  ],
+  "direction": "Inverted colours (Arch's answer to open question 1): the outer/main shape white, the parts that were white become black, red accents stay red. Nothing's Glyph pattern turned white: white rounded squares in the diamond pattern, with the red one in the middle. Redrawn clean.",
+  "status": "redo"
+ },
+ "com_google_android_gm": {
+  "label": "Gmail",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be, like the maps icob should be red, and the gmail should have the red line and stuff"
+  ],
+  "rules": [
+   "R18",
+   "R3"
+  ],
+  "direction": "The classic Gmail logo (2013 to 2020): a white envelope with the red 'M' line (Google red #EA4335 with the darker red sides #C5221F). Not the four-colour or gradient 'M'. Source: Wikimedia 'Gmail Icon (2013-2020)'.",
+  "status": "redo"
+ },
+ "com_google_android_googlequicksearchbox": {
+  "label": "Google",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Google's 'G' in the classic flat four colours (red, yellow, green, blue), which stays crisper at phone size than the gradient one. Redrawn clean.",
+  "status": "redo"
+ },
+ "erfanrouhani_hapticfeedback": {
+  "label": "Haptic feedback",
+  "arch_said": [],
+  "rules": [
+   "R8"
+  ],
+  "direction": "Keep the round sound-wave disc (dark centre with the music note, purple-blue rings, the spiky colourful edge); it's round by design. Redrawn clean.",
+  "status": "redo"
+ },
+ "nl_dcentralize_beltegoed_hollandsnieuwe": {
+  "label": "hollandsnieuwe",
+  "arch_said": [],
+  "rules": [
+   "R10",
+   "R14"
+  ],
+  "direction": "The 'hollands nieuwe.' wordmark on two lines: the dark indigo letters (#200C54) turned white, and the orange, pink-red and purple letters kept in their colours. No white circle.",
+  "status": "redo"
+ },
+ "com_google_android_apps_chromecast_app": {
+  "label": "Home",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R4",
+   "R7",
+   "R18"
+  ],
+  "direction": "Google Home's house outline in its four colours (red roof, yellow left, green bottom, blue right) with the inside of the house see-through, exactly as Arch painted it. Redrawn clean.",
+  "status": "redo"
+ },
+ "com_huawei_health": {
+  "label": "Huawei Health",
+  "arch_said": [],
+  "rules": [
+   "R9"
+  ],
+  "direction": "Huawei Health's heart drawn as a thick stroke, in its orange gradient (#FCA044 to #FC8820), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "jp_ne_ibis_ibispaintx_app": {
+  "label": "ibisPaint X",
+  "arch_said": [],
+  "rules": [
+   "R10"
+  ],
+  "direction": "The 'iP' logo: the 'i' and the 'P' in white (version 4 made them dark navy, which disappears), with the rainbow colour wheel as the P's round part. No navy background.",
+  "status": "redo"
+ },
+ "com_ing_mobile": {
+  "label": "ING",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R14"
+  ],
+  "direction": "ING's lion in ING orange (#FF6200), as in version 4, redrawn clean with crisp detail. No 'NL' text, no orange square.",
+  "status": "redo"
+ },
+ "fr_mathis_invisiblewidget": {
+  "label": "Invisible Widget",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R10",
+   "R24",
+   "R7"
+  ],
+  "direction": "The two mountains in a lighter version of the app's blue (the original #3C5CA8 is too dark; about #7C8CE0), with no long shadow. If that still fades on the blue wallpaper, use white mountains.",
+  "status": "redo"
+ },
+ "com_justwatch_justwatch": {
+  "label": "JustWatch",
+  "arch_said": [
+   "justwatch needs the text removed"
+  ],
+  "rules": [
+   "R14"
+  ],
+  "direction": "Only JustWatch's yellow 'play' mark made of small triangles, with no 'JustWatch' text, filling the icon. JustWatch yellow (about #F8D040, with its slight gradient).",
+  "status": "redo"
+ },
+ "org_kde_kdeconnect_tp": {
+  "label": "KDE Connect",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R25"
+  ],
+  "direction": "KDE Connect's phone in KDE blue (about #3DAEE9) with the dark screen and the blue KDE gear-K on it, as in version 4, redrawn clean. The dark screen and the K keep it apart from Orientation Control's rotated phone.",
+  "status": "redo"
+ },
+ "com_google_android_keep": {
+  "label": "Keep Notes",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Keep's yellow light bulb with the orange base and the soft glow, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "io_github_sds100_keymapper": {
+  "label": "Key Mapper",
+  "arch_said": [],
+  "rules": [],
+  "direction": "Key Mapper's red game-pad cross tile overlapped by the blue keyboard tile, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_pulsenet_inputset": {
+  "label": "KeyLinker",
+  "arch_said": [],
+  "rules": [
+   "R5",
+   "R9",
+   "R25"
+  ],
+  "direction": "Just the tilted game controller in KeyLinker's blue gradient, with its X and buttons cut out see-through. Drop the white phone body and the dot under it.",
+  "status": "redo"
+ },
+ "com_kraken_pay_app": {
+  "label": "Krak",
+  "arch_said": [],
+  "rules": [
+   "R26"
+  ],
+  "direction": "Krak's arch (the 'n' shape) in its red-orange gradient, as in version 4, redrawn clean, with no black circle.",
+  "status": "redo"
+ },
+ "com_kraken_invest_app": {
+  "label": "Kraken",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R26"
+  ],
+  "direction": "Kraken's 'm' mark in Kraken purple (#7132F5), as in version 4, redrawn clean. Lighten it slightly only if it doesn't stand out on the dark drawer.",
+  "status": "redo"
+ },
+ "com_kraken_trade": {
+  "label": "Kraken Pro",
+  "arch_said": [],
+  "rules": [
+   "R10",
+   "R20",
+   "R26"
+  ],
+  "direction": "The white Kraken 'm' with the white 'PRO' tag under it (dark letters in the tag), as in version 4, redrawn clean. The PRO tag is what tells it apart from Kraken.",
+  "status": "redo"
+ },
+ "com_kraken_superwallet": {
+  "label": "Kraken Wallet",
+  "arch_said": [],
+  "rules": [
+   "R10",
+   "R26"
+  ],
+  "direction": "The white Kraken 'm' inside the white rounded frame, as in version 4 (the original's black frame on a metal circle would vanish on dark grey). Redrawn clean.",
+  "status": "redo"
+ },
+ "org_lds_ldssa": {
+  "label": "Library",
+  "arch_said": [],
+  "rules": [
+   "R10",
+   "R24",
+   "R26"
+  ],
+  "direction": "The white Christus statue inside its white arch outline (the original white artwork), with no blue background. Version 4's dark teal is too dark to see.",
+  "status": "redo"
+ },
+ "org_proninyaroslav_libretorrent": {
+  "label": "LibreTorrent",
+  "arch_said": [],
+  "rules": [
+   "R8",
+   "R9"
+  ],
+  "direction": "LibreTorrent's purple ring with the connected nodes, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_life360_android_safetymapd": {
+  "label": "Life360",
+  "arch_said": [],
+  "rules": [
+   "R8",
+   "R9",
+   "R10"
+  ],
+  "direction": "Life360's purple spiral ring, as in version 4, redrawn clean. Lighten the purple slightly if the thin lines fade on the dark drawer.",
+  "status": "redo"
+ },
+ "com_golightyear_mobile": {
+  "label": "Lightyear",
+  "arch_said": [],
+  "rules": [
+   "R10"
+  ],
+  "direction": "Lightyear's lightning-bolt outline in white (the real logo is near-black #100C28, which disappears on dark grey). Redrawn clean.",
+  "status": "redo"
+ },
+ "com_limebike": {
+  "label": "Lime",
+  "arch_said": [],
+  "rules": [
+   "R8"
+  ],
+  "direction": "Lime's green lime wheel (the ring with its segments), round by design, in Lime green (#00DC00), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_lscsmartconnection_smart": {
+  "label": "LSC Smart Connect",
+  "arch_said": [],
+  "rules": [
+   "R5",
+   "R9",
+   "R10",
+   "R14"
+  ],
+  "direction": "Only the 'LSC' letters, like FBTO (the word is the brand, the house just means 'smart home'), in LSC blue lightened to about #4DA3FF so it reads; no dark square. If the letters alone look too bare, the house with the wifi signal may sit above them, in the same blue.",
+  "status": "redo"
+ },
+ "com_google_android_apps_maps": {
+  "label": "Maps",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be, like the maps icob should be red, and the gmail should have the red line and stuff"
+  ],
+  "rules": [
+   "R18",
+   "R3"
+  ],
+  "direction": "The classic red Google Maps pin: a red teardrop pin (Google red #EA4335 with a darker red shade) with the dark red dot in the middle. Not the four-colour or gradient pin.",
+  "status": "redo"
+ },
+ "nl_marktplaats_android": {
+  "label": "Marktplaats",
+  "arch_said": [
+   "the marktplaats logo could be just the logo, in the ugly marktplaats brown, because its not a logo with a bunch of colors"
+  ],
+  "rules": [
+   "R5",
+   "R11"
+  ],
+  "direction": "Just the Marktplaats mark (the '>' chevron with the curved line under it, like a '≥') in Marktplaats tan-brown (#EDA566, the colour of the original circle). No square, no circle, and not the dark slate colour.",
+  "status": "redo"
+ },
+ "me_zhanghai_android_files": {
+  "label": "Material Files",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R25"
+  ],
+  "direction": "The folder in Material Files blue (#1870E8), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "nl_com_media_markt": {
+  "label": "MediaMarkt",
+  "arch_said": [],
+  "rules": [],
+  "direction": "MediaMarkt's red swirl (the red spiral blades) with the gaps between the blades see-through, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_google_android_apps_tachyon": {
+  "label": "Meet",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Meet's yellow video camera with the orange lens part, as in version 4, redrawn clean. The yellow sets it apart from the other Google apps.",
+  "status": "redo"
+ },
+ "com_google_android_apps_messaging": {
+  "label": "Messages",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Google Messages' blue speech bubble, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_livestream_mevo": {
+  "label": "Mevo",
+  "arch_said": [],
+  "rules": [
+   "R8"
+  ],
+  "direction": "Mevo's camera lens: the light ring with the side tab, the dark lens with its small highlight inside, and the two orange dots above and below. Round by design, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_touchtype_swiftkey": {
+  "label": "Microsoft SwiftKey Keyboard",
+  "arch_said": [],
+  "rules": [
+   "R26"
+  ],
+  "direction": "SwiftKey's blue circle with the white swoosh, sitting on the light-grey keyboard, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_mojang_minecraftpe": {
+  "label": "Minecraft",
+  "arch_said": [],
+  "rules": [
+   "R16",
+   "R15",
+   "R8"
+  ],
+  "direction": "The Minecraft grass block as sharp pixel art (.pixel.png at native size, for example 16x16): green grass top, brown dirt with the grey stone specks, straight and crisp.",
+  "status": "redo"
+ },
+ "com_mixplorer": {
+  "label": "MiX",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R7"
+  ],
+  "direction": "The 'MiX' logo shapes in MiX blue (#1C88E4), as in version 4, redrawn clean, with no long shadow.",
+  "status": "redo"
+ },
+ "com_panshen_motioncure": {
+  "label": "MotionEase",
+  "arch_said": [
+   "\"1 good question, inverting the color to where the outer layer is white should probably do fine, white camera with a black lens and a red dot, etc\""
+  ],
+  "rules": [
+   "R10",
+   "R26"
+  ],
+  "direction": "Inverted colours (Arch's answer to open question 1): the outer/main shape white, the parts that were white become black, red accents stay red. MotionEase's dot pattern in white (the real dots are black and vanish on dark grey), with the same dot sizes and spacing as the original.",
+  "status": "redo"
+ },
+ "com_pryshedko_mtisland": {
+  "label": "MT Capsule",
+  "arch_said": [],
+  "rules": [],
+  "direction": "MT Capsule's green stacked diamonds above the dark capsule with the blue-to-red outline, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_prpr_musedash": {
+  "label": "MuseDash",
+  "arch_said": [],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Main subject only: the pink-haired Muse Dash girl's head (hair, face, yellow bow) cut out, with no circle. The store art crops her hair, so find full official art of her head; if that's impossible, keep the crop but shaped by her hair, not a circle.",
+  "status": "redo"
+ },
+ "com_dhlparcel_nl": {
+  "label": "My DHL",
+  "arch_said": [],
+  "rules": [
+   "R14",
+   "R13"
+  ],
+  "direction": "The red DHL wordmark with its speed lines (DHL red #D40511), with no yellow background, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_gameloft_android_anmp_gloftpohm": {
+  "label": "My Little Pony",
+  "arch_said": [],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Main subject only: Twilight Sparkle's head (lavender coat, horn, dark-blue mane with the pink and purple streaks), cut out cleanly. Drop the circle, the Gameloft badge and the small My Little Pony title logo.",
+  "status": "redo"
+ },
+ "com_netflix_mediaclient": {
+  "label": "Netflix",
+  "arch_said": [],
+  "rules": [
+   "R13",
+   "R19"
+  ],
+  "direction": "Netflix's red 'N' ribbon (#E50914 with its darker shading), as in version 4, redrawn clean, with no black background. The same N is the corner badge on Netflix editions.",
+  "status": "redo"
+ },
+ "org_schabi_newpipe": {
+  "label": "NewPipe",
+  "arch_said": [],
+  "rules": [
+   "R9"
+  ],
+  "direction": "NewPipe's play-triangle mark in its red, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "nl_ns_android_activity": {
+  "label": "NS",
+  "arch_said": [],
+  "rules": [
+   "R11"
+  ],
+  "direction": "The NS double-arrow logo in NS yellow (#FFC917), taking the background colour because the real dark blue (#003082) vanishes on dark grey. As in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_opautoclicker_autoclicker": {
+  "label": "OP Auto Clicker",
+  "arch_said": [],
+  "rules": [
+   "R10",
+   "R24",
+   "R25"
+  ],
+  "direction": "The computer mouse, lighter than in version 4: a light grey to white body with a slightly darker grey split between the buttons, so it reads on both backgrounds. No white circle.",
+  "status": "redo"
+ },
+ "net_mm2d_android_orientationfaker": {
+  "label": "Orientation Control",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R25"
+  ],
+  "direction": "The rotated phone outline with the turn arrows and the gear, in the app's blue (#2094F0), as in version 4, redrawn clean with even line thickness.",
+  "status": "redo"
+ },
+ "nl_caci_osiris_student_delt": {
+  "label": "OSIRIS Deltion College",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R14",
+   "R7"
+  ],
+  "direction": "Words only, in Deltion orange (#EC7C00, the original background colour): 'OSIRIS' big on top and the 'deltion' logo with its slashes below. Drop the tiny 'college' if it can't be read at phone size. No orange square, and none of version 4's white and orange edge residue.",
+  "status": "redo"
+ },
+ "com_microsoft_office_outlook": {
+  "label": "Outlook",
+  "arch_said": [],
+  "rules": [
+   "R26"
+  ],
+  "direction": "Outlook's blue envelope (the current Outlook icon), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "eu_bandainamcoent_pacman256": {
+  "label": "PAC-MAN 256",
+  "arch_said": [],
+  "rules": [
+   "R15",
+   "R16",
+   "R5"
+  ],
+  "direction": "PAC-MAN 256's pixel-art Pac-Man with the glitchy '256' blocks under him, as sharp, straight pixel art (.pixel.png). Remove the leftover yellow strip at the bottom that version 4 has.",
+  "status": "redo"
+ },
+ "tv_parsec_client": {
+  "label": "Parsec",
+  "arch_said": [],
+  "rules": [
+   "R6"
+  ],
+  "direction": "Parsec's logo (the pink-red and blue offset rounded squares), filling the icon; version 4 is much too small. Redrawn clean.",
+  "status": "redo"
+ },
+ "com_paypal_android_p2pmobile": {
+  "label": "PayPal",
+  "arch_said": [],
+  "rules": [
+   "R10",
+   "R13"
+  ],
+  "direction": "PayPal's double 'P' in PayPal's blues, with the front P light blue and the dark navy back P brightened (to about #0070E0) so both Ps show on the dark drawer.",
+  "status": "redo"
+ },
+ "com_google_android_dialer": {
+  "label": "Phone",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R4",
+   "R18"
+  ],
+  "direction": "Google Phone's blue handset (two blues), with no circle, as Arch painted it. Redrawn clean.",
+  "status": "redo"
+ },
+ "com_google_android_apps_photos": {
+  "label": "Photos",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Google Photos' pinwheel in its four colours, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "ru_spaple_pinterest_downloader": {
+  "label": "Pinget",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R25",
+   "R26"
+  ],
+  "direction": "Pinget's curved down arrow in red (#EC1818, the original background colour), as in version 4, redrawn clean. The red keeps it apart from its sister app Tikget (white arrow).",
+  "status": "redo"
+ },
+ "com_pinterest": {
+  "label": "Pinterest",
+  "arch_said": [
+   "\"4 steam in particular is build around the circle logo, it looks very nice, Pinterest would look nice as standalone red P, same with the others, steam is a bit of an edge case\""
+  ],
+  "rules": [
+   "R9",
+   "R8",
+   "R26"
+  ],
+  "direction": "Standalone red P, no circle (Arch's answer). Pinterest's 'P' in Pinterest red (#E60023), as in version 4, redrawn clean. No circle (open question 4).",
+  "status": "redo"
+ },
+ "com_ea_game_pvzfree_row": {
+  "label": "Plants vs. Zombies FREE",
+  "arch_said": [],
+  "rules": [
+   "R15",
+   "R14"
+  ],
+  "direction": "Main subject only: the classic Plants vs. Zombies zombie (head and shoulders: the grey-green face, the bulging eyes, the brown coat) cut out cleanly. Drop the sunburst and the 'Plants vs Zombies' lettering so the zombie can be big; use official zombie art for the part the lettering covers.",
+  "status": "redo"
+ },
+ "com_google_android_play_games": {
+  "label": "Play Games",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Play Games' green triangle with the mint game controller, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_android_vending": {
+  "label": "Play Store",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R4",
+   "R18"
+  ],
+  "direction": "The Play Store triangle in its four colours (blue, green, yellow, red), with no circle, as Arch painted it. Redrawn clean from the official logo.",
+  "status": "redo"
+ },
+ "nl_tpp_mobile_android": {
+  "label": "PostNL",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R14",
+   "R17"
+  ],
+  "direction": "PostNL's logo, the rounded outline with the small crown and 'postnl' inside, all in PostNL orange (#F46800), as in version 4. Make the outline and letters thick enough to read at phone size.",
+  "status": "redo"
+ },
+ "com_phascinate_precisevolume": {
+  "label": "Precise Volume",
+  "arch_said": [],
+  "rules": [],
+  "direction": "Precise Volume's blue gear with the white speaker symbol in the centre, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "proton_android_authenticator": {
+  "label": "Proton Authenticator",
+  "arch_said": [],
+  "rules": [
+   "R26"
+  ],
+  "direction": "Proton Authenticator's curled 'C' with the keyhole, in its purple-to-yellow gradient, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "ch_protonmail_android": {
+  "label": "Proton Mail",
+  "arch_said": [],
+  "rules": [
+   "R26"
+  ],
+  "direction": "Proton Mail's purple envelope 'M', as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "proton_android_pass": {
+  "label": "Proton Pass",
+  "arch_said": [],
+  "rules": [
+   "R26"
+  ],
+  "direction": "Proton Pass's purple gradient diamond, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_batonresearch_pump": {
+  "label": "pump.fun",
+  "arch_said": [],
+  "rules": [
+   "R5"
+  ],
+  "direction": "Only the pump.fun pill (the diagonal capsule, white half and green half, with its thin dark edge). Remove the mint-green circle version 4 still has.",
+  "status": "redo"
+ },
+ "im_fdx_qrcode": {
+  "label": "QR Scanner",
+  "arch_said": [],
+  "rules": [
+   "R5",
+   "R9",
+   "R25"
+  ],
+  "direction": "A QR code on its own, with no card or square behind it: the modules in the app's light blue, with the three corner squares bold so it reads as a QR code. If light blue fades on the blue wallpaper, use white modules with light-blue corner squares.",
+  "status": "redo"
+ },
+ "com_nothing_soundrecorder": {
+  "label": "Recorder",
+  "arch_said": [
+   "\"1 good question, inverting the color to where the outer layer is white should probably do fine, white camera with a black lens and a red dot, etc\""
+  ],
+  "rules": [
+   "R10",
+   "R26"
+  ],
+  "direction": "Inverted colours (Arch's answer to open question 1): the outer/main shape white, the parts that were white become black, red accents stay red. Nothing's recorder waveform turned white: white bars and dots with the red line through the middle. Redrawn clean.",
+  "status": "redo"
+ },
+ "app_revenge": {
+  "label": "Revenge",
+  "arch_said": [],
+  "rules": [
+   "R20",
+   "R9",
+   "R26"
+  ],
+  "direction": "Revenge keeps its own icon: the Discord-style Clyde in Revenge's red with the eyes see-through, as in version 4, redrawn clean. The red sets it apart from Discord.",
+  "status": "redo"
+ },
+ "app_revenge_manager": {
+  "label": "Revenge Manager",
+  "arch_said": [],
+  "rules": [
+   "R20",
+   "R9",
+   "R26"
+  ],
+  "direction": "Revenge Manager's red tilted mask face with the angry eyes, in the same red as Revenge, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_roblox_client": {
+  "label": "Roblox",
+  "arch_said": [],
+  "rules": [
+   "R8",
+   "R9"
+  ],
+  "direction": "Roblox's tilted square with the square hole (the logo itself is a square) in Roblox blue (#305CFC, the original background colour), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_defaultcompany_robotdmobile01": {
+  "label": "RoboTD Mobile [01]",
+  "arch_said": [
+   "\"3 yeah just leave those, but it's an exception, not the standard\""
+  ],
+  "rules": [
+   "R20",
+   "R10"
+  ],
+  "direction": "Dev build: keep the version 4 icon as is (Arch's answer). This is an exception, not the standard.",
+  "status": "keep"
+ },
+ "com_google_android_apps_safetyhub": {
+  "label": "Safety",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Personal Safety's red and blue star shape, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_pieyel_scrabble": {
+  "label": "Scrabble GO",
+  "arch_said": [],
+  "rules": [
+   "R8",
+   "R15"
+  ],
+  "direction": "Scrabble GO's round orange tile with the white 'S' and the small '1', as in version 4 (the round tile is the logo here). Redrawn clean.",
+  "status": "redo"
+ },
+ "pro_capture_screenshot": {
+  "label": "Screen Master",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R25"
+  ],
+  "direction": "Screen Master's crop frame with the pencil, in its blue (#0098F8), as in version 4, redrawn clean with even lines.",
+  "status": "redo"
+ },
+ "eu_thedarken_sdm": {
+  "label": "SD Maid",
+  "arch_said": [],
+  "rules": [
+   "R26"
+  ],
+  "direction": "SD Maid's green Android with the white maid bow and apron, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "eu_thedarken_sdm_unlocker": {
+  "label": "SD Maid Pro",
+  "arch_said": [],
+  "rules": [
+   "R20",
+   "R26"
+  ],
+  "direction": "The same Android maid as SD Maid, plus the gold key badge in the bottom-right corner. That's the Pro version's own mark, so keep it where the original has it.",
+  "status": "redo"
+ },
+ "com_junkfood_seal": {
+  "label": "Seal",
+  "arch_said": [],
+  "rules": [
+   "R10",
+   "R12"
+  ],
+  "direction": "Seal's line-drawn seal with white infill (white body, black lines), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_android_settings": {
+  "label": "Settings",
+  "arch_said": [],
+  "rules": [
+   "R10"
+  ],
+  "direction": "The Settings gear in white to light grey with the round hole, with no grey circle, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_shazam_android": {
+  "label": "Shazam",
+  "arch_said": [
+   "\"4 steam in particular is build around the circle logo, it looks very nice, Pinterest would look nice as standalone red P, same with the others, steam is a bit of an edge case\""
+  ],
+  "rules": [
+   "R9",
+   "R8"
+  ],
+  "direction": "Standalone S mark, no circle (Arch: 'same with the others'). Shazam's 'S' shape in Shazam blue (#0088FF), as in version 4, redrawn clean. No circle (open question 4).",
+  "status": "redo"
+ },
+ "com_google_android_apps_docs_editors_sheets": {
+  "label": "Sheets",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Google Sheets in green: the green page or tile with the white table lines, as in version 4 but without the odd light-blue gradient on the right edge. Green keeps it apart from Docs (blue) and Slides (yellow).",
+  "status": "redo"
+ },
+ "org_thoughtcrime_securesms": {
+  "label": "Signal",
+  "arch_said": [],
+  "rules": [
+   "R9"
+  ],
+  "direction": "Signal's speech bubble with the dashed ring around it, in Signal blue (the original background's blue), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_maxistar_textpad": {
+  "label": "Simple Text Editor",
+  "arch_said": [],
+  "rules": [
+   "R12"
+  ],
+  "direction": "The notepad with white paper and grey lines, the black pencil with the pink eraser, and the little green Android peeking from the top-left, as in the original. The paper must be white (version 4 made it see-through).",
+  "status": "redo"
+ },
+ "com_okak_sleeptimer": {
+  "label": "Sleep Timer",
+  "arch_said": [
+   "you could fix icons of generic apps that look bad, like the sleep timer one that I redrew",
+   "\"5 moon and a clock instead of cloud would be nice\""
+  ],
+  "rules": [
+   "R4",
+   "R12",
+   "R17"
+  ],
+  "direction": "Big white crescent moon (Arch's own redraw) with a small clock where the cloud was (Arch's answer: 'moon and a clock instead of cloud'). No dark circle.",
+  "status": "redo"
+ },
+ "com_google_android_apps_docs_editors_slides": {
+  "label": "Slides",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Google Slides in yellow: the yellow tile with the white slide rectangle, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_niksoftware_snapseed": {
+  "label": "Snapseed",
+  "arch_said": [],
+  "rules": [],
+  "direction": "Snapseed's green leaf in its greens, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_sony_songpal_mdr": {
+  "label": "Sound Connect",
+  "arch_said": [],
+  "rules": [],
+  "direction": "Sony Sound Connect's logo, the blue triangle with the yellow, white and orange circle, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_soundcloud_android": {
+  "label": "SoundCloud",
+  "arch_said": [
+   "or soundcloud, it has 7 stripes but it could be 4 or 5, and have them be thicker and the icon be orange so it looks better",
+   "also soundclouds logo looks awful, just redesign it from scratch, make the lines on the left and a half cloud on the right"
+  ],
+  "rules": [
+   "R17",
+   "R4"
+  ],
+  "direction": "Arch's redesign, the same as version 4: 4 thick orange bars rising from left to right, then the half cloud on the right, all in SoundCloud orange (#FF5500). Redrawn clean.",
+  "status": "redo"
+ },
+ "com_prismtree_sponge": {
+  "label": "Sponge",
+  "arch_said": [],
+  "rules": [],
+  "direction": "Sponge's yellow sponge with the orange base and the white bubbles, as in version 4, redrawn clean, with no dark circle.",
+  "status": "redo"
+ },
+ "com_spotify_music": {
+  "label": "Spotify",
+  "arch_said": [],
+  "rules": [
+   "R8"
+  ],
+  "direction": "Keep Spotify round: the green circle (#1ED760) with the three dark sound waves, as in version 4. The circle is part of Spotify's logo.",
+  "status": "redo"
+ },
+ "com_squib_buddy": {
+  "label": "Squib",
+  "arch_said": [],
+  "rules": [
+   "R22",
+   "R4",
+   "R8"
+  ],
+  "direction": "Arch's own app, so keep his design: the orange blob (#D87454) with the two black square eyes, round, as big as possible. Same as version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "dev_netlob_spotistats": {
+  "label": "stats.fm",
+  "arch_said": [],
+  "rules": [],
+  "direction": "stats.fm's three green bars (#1ED760), as in version 4, redrawn clean, with no dark background.",
+  "status": "redo"
+ },
+ "com_valvesoftware_android_steam_community": {
+  "label": "Steam",
+  "arch_said": [
+   "certain logos are simply designed to be round, and making them not round makes them look bad or be unrecognisable, such as the steam logo. simply making the steam logo a circle with a white shaft thing is good",
+   "\"4 steam in particular is build around the circle logo, it looks very nice, Pinterest would look nice as standalone red P, same with the others, steam is a bit of an edge case\""
+  ],
+  "rules": [
+   "R8",
+   "R13"
+  ],
+  "direction": "Steam's round logo: the blue gradient circle (dark navy at the top to bright blue at the bottom, as in the store icon) with the white piston/shaft mark, filling the icon. Not the blue shaft on its own like version 4.",
+  "status": "redo"
+ },
+ "com_alkapps_subx": {
+  "label": "SubX",
+  "arch_said": [],
+  "rules": [
+   "R25"
+  ],
+  "direction": "SubX's blue stacked file with the white 'S', as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_github_catfriend1_syncthingandroid": {
+  "label": "Syncthing-Fork",
+  "arch_said": [],
+  "rules": [
+   "R8",
+   "R9"
+  ],
+  "direction": "Syncthing's ring with the connected nodes, in Syncthing blue, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_tailscale_ipn": {
+  "label": "Tailscale",
+  "arch_said": [],
+  "rules": [
+   "R10"
+  ],
+  "direction": "Tailscale's 3x3 dots: the lit dots white, and the dim dots as faint see-through white so they look dim on both backgrounds. As in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_bearpty_talklife": {
+  "label": "TalkLife",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R10"
+  ],
+  "direction": "The 'Talk Life' script in TalkLife purple (the original gradient runs from #500CFC to #A004E8), made lighter so the thin script reads on the dark drawer.",
+  "status": "redo"
+ },
+ "tamigo_android_activities": {
+  "label": "tamigo",
+  "arch_said": [],
+  "rules": [
+   "R9"
+  ],
+  "direction": "tamigo's mark in tamigo coral (#FC6C58), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_google_android_apps_tasks": {
+  "label": "Tasks",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18",
+   "R8"
+  ],
+  "direction": "Google Tasks' blue round button with the white check, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_microsoft_teams": {
+  "label": "Teams",
+  "arch_said": [],
+  "rules": [
+   "R26"
+  ],
+  "direction": "Teams' two purple people, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_einnovation_temu": {
+  "label": "Temu",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R14"
+  ],
+  "direction": "The Temu logo, the row of small icons (dress, rocking horse, shoe, bag) above 'TEMU', in Temu orange (#F87400), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_jletdev_terradefense": {
+  "label": "Terra Defense",
+  "arch_said": [
+   "btw the terra defense unity games, you can skip those, those are dev games, they are fine as is right now v4"
+  ],
+  "rules": [
+   "R23"
+  ],
+  "direction": "Dev builds, keep the version 4 icon as is (Arch's request).",
+  "status": "keep"
+ },
+ "com_pine_terradefense": {
+  "label": "Terra Defense",
+  "arch_said": [
+   "btw the terra defense unity games, you can skip those, those are dev games, they are fine as is right now v4"
+  ],
+  "rules": [
+   "R23"
+  ],
+  "direction": "Dev builds, keep the version 4 icon as is (Arch's request).",
+  "status": "keep"
+ },
+ "com_pinegd_terradefense": {
+  "label": "Terra Defense",
+  "arch_said": [
+   "btw the terra defense unity games, you can skip those, those are dev games, they are fine as is right now v4"
+  ],
+  "rules": [
+   "R23"
+  ],
+  "direction": "Dev builds, keep the version 4 icon as is (Arch's request).",
+  "status": "keep"
+ },
+ "com_terradefense_myapp": {
+  "label": "Terra Defense",
+  "arch_said": [
+   "btw the terra defense unity games, you can skip those, those are dev games, they are fine as is right now v4"
+  ],
+  "rules": [
+   "R23"
+  ],
+  "direction": "Dev builds, keep the version 4 icon as is (Arch's request).",
+  "status": "keep"
+ },
+ "repost_share_tiktok_nowatermark_videosave_download_videodownloader_saver": {
+  "label": "Tik Saver",
+  "arch_said": [],
+  "rules": [
+   "R25",
+   "R26"
+  ],
+  "direction": "Tik Saver's white download arrow into a tray, with TikTok's cyan and red offset edges, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "ru_codeluck_tiktok_downloader": {
+  "label": "Tikget",
+  "arch_said": [],
+  "rules": [
+   "R12",
+   "R25",
+   "R26"
+  ],
+  "direction": "Tikget's white curved down arrow, as in version 4, redrawn clean. White keeps it apart from its red sister app Pinget.",
+  "status": "redo"
+ },
+ "com_abnamro_nl_tikkie": {
+  "label": "Tikkie",
+  "arch_said": [],
+  "rules": [],
+  "direction": "Tikkie's teal speech bubble with the purple '€', as in version 4, redrawn clean, with no purple circle behind it.",
+  "status": "redo"
+ },
+ "com_zhiliaoapp_musically_go": {
+  "label": "TikTok Lite",
+  "arch_said": [],
+  "rules": [
+   "R20",
+   "R26"
+  ],
+  "direction": "TikTok's note in white with the cyan and red offset edges, plus the small lightning bolt at the top-left that marks the Lite version (part of its real icon). As in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_netflix_ngp_tombofthemask": {
+  "label": "Tomb of the Mask",
+  "arch_said": [
+   "tomb of the mask netflix edition should be the little yellow guy full size, with a small netflix logo in the corner to indicate its a netflix version of an app",
+   "e.g. all netflix version apps get a small neflix logo in the corner"
+  ],
+  "rules": [
+   "R19",
+   "R15",
+   "R16"
+  ],
+  "direction": "The little yellow masked guy as sharp pixel art, as big as possible, plus a small red Netflix 'N' in the top-left corner (about a third of the width, also drawn as pixel art). No maze, no black box.",
+  "status": "redo"
+ },
+ "org_lds_ldstools": {
+  "label": "Tools",
+  "arch_said": [],
+  "rules": [
+   "R10",
+   "R24",
+   "R26"
+  ],
+  "direction": "The white chapel with its steeple (the original white artwork), with no blue background. Version 4's dark teal is too dark to see.",
+  "status": "redo"
+ },
+ "com_gamespark_topking_gp": {
+  "label": "Top Lords",
+  "arch_said": [],
+  "rules": [
+   "R15"
+  ],
+  "direction": "Main subject only: the king with his gold crown and blue cape, cut out, with the '+1' sign if it fits. No soldiers, gate, sky or circle.",
+  "status": "redo"
+ },
+ "com_google_android_apps_translate": {
+  "label": "Translate",
+  "arch_said": [
+   "Google translate looks good",
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18",
+   "R2"
+  ],
+  "direction": "Arch likes it, so use the same design as version 4: the blue card with the white 'G' and the light-grey card with the '文'. Just redraw it clean.",
+  "status": "redo"
+ },
+ "tv_twitch_android_app": {
+  "label": "Twitch",
+  "arch_said": [
+   "twitch is the wrong color"
+  ],
+  "rules": [
+   "R9",
+   "R13"
+  ],
+  "direction": "Twitch's Glitch logo in Twitch purple (#9146FF; the darker purple in some libraries is old): the purple speech-bubble shape with the white 'screen' inside and the two purple eyes. No black.",
+  "status": "redo"
+ },
+ "vladyslavpohrebniakov_uninstaller": {
+  "label": "UnApp",
+  "arch_said": [],
+  "rules": [
+   "R10",
+   "R17"
+  ],
+  "direction": "UnApp's white triangle outline, as in version 4, redrawn clean with a thick, even line.",
+  "status": "redo"
+ },
+ "nl_mediapp_pharmeon": {
+  "label": "Uw Zorg Online",
+  "arch_said": [
+   "uw zorg online could just be the uwzorg plus logo"
+  ],
+  "rules": [
+   "R14"
+  ],
+  "direction": "Only the Uw Zorg Online plus: the two overlapping rounded bars in royal blue (#0C3CD8) and teal (#30B4C0) with the blended overlap, as in the store icon. No words. Brighten the blue a little if it fades on the dark drawer.",
+  "status": "redo"
+ },
+ "com_ai_venice": {
+  "label": "Venice AI",
+  "arch_said": [
+   "Venice AI is the wrong color"
+  ],
+  "rules": [
+   "R13"
+  ],
+  "direction": "Venice's crossed keys with the shield on top, in Venice red (#DD3300, as in the Play Store icon), not navy. The insides of the clover-shaped key bows and of the shield are see-through.",
+  "status": "redo"
+ },
+ "videoeditor_videomaker_videoeditorforyoutube": {
+  "label": "Video Maker",
+  "arch_said": [],
+  "rules": [
+   "R7"
+  ],
+  "direction": "Video Maker's red-pink video camera with the film reels on top, as in version 4 but without the dark diagonal shadow under it. Redrawn clean.",
+  "status": "redo"
+ },
+ "video_watermaker_remover_logo_videowatermark": {
+  "label": "Video Watermark",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R7"
+  ],
+  "direction": "The video camera (body and lens triangle) in the app's blue gradient, with the striped water drop in white inside the body. No outline around the camera (version 4 has a light edge).",
+  "status": "redo"
+ },
+ "fr_vinted": {
+  "label": "Vinted",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R10",
+   "R13"
+  ],
+  "direction": "Vinted's 'V' in a lighter Vinted teal (around #09B1BA, Vinted's earlier lighter teal); the current dark teal fades on both backgrounds.",
+  "status": "redo"
+ },
+ "com_google_android_apps_walletnfcrel": {
+  "label": "Wallet",
+  "arch_said": [
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+  ],
+  "rules": [
+   "R18"
+  ],
+  "direction": "Google Wallet's stacked cards (green, yellow, red, blue), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_pixelbin_watermarkremover_io": {
+  "label": "WatermarkRemover",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R10"
+  ],
+  "direction": "The eraser outline in WatermarkRemover purple, lightened a little so the lines read on the dark drawer. As in version 4, redrawn clean with even lines.",
+  "status": "redo"
+ },
+ "com_nothing_weather": {
+  "label": "Weather",
+  "arch_said": [],
+  "rules": [
+   "R4",
+   "R10",
+   "R12",
+   "R26"
+  ],
+  "direction": "As Arch painted it: a big white cloud with the red maple leaf (Nothing red, about #D71921) peeking out at the top-right. Same as version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "net_mullvad_mullvadvpn": {
+  "label": "Whack-a-mole",
+  "arch_said": [
+   "I gave up on the vpn",
+   "\"2 mullvad show the original logo, but simplify and beutify it a bit, their logo kinda sucks\""
+  ],
+  "rules": [
+   "R21",
+   "R4"
+  ],
+  "direction": "Show Mullvad VPN's ORIGINAL logo (the mole), not the Whack-a-mole disguise. Simplify and beautify it a bit (Arch: their logo kinda sucks): cleaner shapes, fewer fussy details, same recognisable mole and Mullvad colours.",
+  "status": "redo"
+ },
+ "com_whatsapp": {
+  "label": "WhatsApp",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R8"
+  ],
+  "direction": "WhatsApp's speech-bubble outline with the phone inside, in WhatsApp green (#25D366), as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_transferwise_android": {
+  "label": "Wise",
+  "arch_said": [],
+  "rules": [
+   "R11"
+  ],
+  "direction": "Wise's flag mark in Wise's bright lime green (#9FE870), taking the background colour because the real dark-green flag vanishes on dark grey. As in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_wispr_flowapp": {
+  "label": "Wispr Flow",
+  "arch_said": [],
+  "rules": [
+   "R10"
+  ],
+  "direction": "Wispr Flow's white sound bars with rounded ends, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "cn_wps_moffice_eng": {
+  "label": "WPS Office",
+  "arch_said": [],
+  "rules": [
+   "R9"
+  ],
+  "direction": "WPS's 'W' in its red-orange gradient as in the original, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_twitter_android": {
+  "label": "X",
+  "arch_said": [],
+  "rules": [
+   "R10"
+  ],
+  "direction": "The X logo in white, as in version 4, redrawn clean.",
+  "status": "redo"
+ },
+ "com_xiaomi_smarthome": {
+  "label": "Xiaomi Home",
+  "arch_said": [],
+  "rules": [
+   "R9"
+  ],
+  "direction": "Xiaomi Home's cup-shaped mark in its green (#18C884), as in version 4, redrawn clean with even line thickness.",
+  "status": "redo"
+ },
+ "de_mash_android_calendar": {
+  "label": "Your Calendar Widget",
+  "arch_said": [],
+  "rules": [
+   "R25",
+   "R10"
+  ],
+  "direction": "A white calendar page with its two binder rings and an indigo '7' (the original's white page), not a blue page: blue would look like Google Calendar, and the indigo is too dark. No indigo circle.",
+  "status": "redo"
+ }
+}

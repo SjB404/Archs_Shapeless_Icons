@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EBEBEB"/></linearGradient>
+<linearGradient id="flap" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#CFCFCF"/></linearGradient>
+<linearGradient id="pen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2B2B2B"/><stop offset="0.3" stop-color="#8C8C8C"/><stop offset="0.45" stop-color="#2B2B2B"/><stop offset="1" stop-color="#0D0D0D"/></linearGradient>
+<linearGradient id="fer" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7A7A7A"/><stop offset="0.35" stop-color="#F0F0F0"/><stop offset="0.7" stop-color="#9C9C9C"/><stop offset="1" stop-color="#5E5E5E"/></linearGradient>
+<linearGradient id="era" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0A8F0"/><stop offset="1" stop-color="#C46BC8"/></linearGradient>
+</defs>
+<!-- android peeking behind the paper -->
+<g fill="#A4C639">
+<path d="M42,92 A80,80 0 0 1 202,92 Z"/>
+<rect x="42" y="98" width="160" height="140" rx="14"/>
+<rect x="4" y="100" width="34" height="130" rx="17"/>
+<path d="M82,26 L68,4" stroke="#A4C639" stroke-width="9" stroke-linecap="round" fill="none"/>
+<path d="M162,26 L176,4" stroke="#A4C639" stroke-width="9" stroke-linecap="round" fill="none"/>
+</g>
+<circle cx="90" cy="62" r="8" fill="#FFFFFF"/><circle cx="154" cy="62" r="8" fill="#FFFFFF"/>
+<!-- paper -->
+<path d="M70,160 L215,62 H448 V468 H68 Z" fill="url(#paper)" stroke="#A6A6A0" stroke-width="6" stroke-linejoin="round"/>
+<path d="M72,160 L213,66 L207,150 Q206,158 198,159 Z" fill="url(#flap)" stroke="#A6A6A0" stroke-width="4" stroke-linejoin="round"/>
+<rect x="110" y="232" width="296" height="10" rx="5" fill="#B9B9B2"/><rect x="110" y="262" width="296" height="10" rx="5" fill="#B9B9B2"/><rect x="110" y="292" width="296" height="10" rx="5" fill="#B9B9B2"/><rect x="110" y="322" width="296" height="10" rx="5" fill="#B9B9B2"/><rect x="110" y="352" width="296" height="10" rx="5" fill="#B9B9B2"/><rect x="110" y="382" width="296" height="10" rx="5" fill="#B9B9B2"/><rect x="110" y="412" width="296" height="10" rx="5" fill="#B9B9B2"/>
+<!-- pencil -->
+<g transform="translate(175,388) rotate(-53.7)">
+<path d="M0,0 L78,-33 V33 Z" fill="#F4E38A" stroke="#C9B132" stroke-width="5" stroke-linejoin="round"/>
+<path d="M0,0 L26,-11 V11 Z" fill="#111111"/>
+<rect x="76" y="-33" width="290" height="66" fill="url(#pen)"/>
+<rect x="364" y="-33" width="46" height="66" fill="url(#fer)"/>
+<path d="M410,-33 H436 A20,20 0 0 1 456,-13 V13 A20,20 0 0 1 436,33 H410 Z" fill="url(#era)"/>
+</g>
+</svg>

@@ -1,0 +1,2 @@
+# Krak
+Krak's double arch, two strokes with round ends, coral gradient (#FF6B66 top to #FF4A40 bottom, sampled from the Play icon). Black circle removed. Hand-drawn SVG (generator: /home/claude/work/kraken/gen.py), proportions measured from the Play Store icon (/home/claude/refs/<name>/play.png). The library 'logos__kraken' drawing is a different (Kraken-named) logo and was not used. No container, no outline.

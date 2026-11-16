@@ -1,0 +1,2 @@
+# Kraken Wallet
+White dome inside a white open rounded frame (gaps left and right, as the original). Original's black frame turned white (R10). Frame is a stroke, dome a filled path. Hand-drawn SVG (generator: /home/claude/work/kraken/gen.py), proportions measured from the Play Store icon (/home/claude/refs/<name>/play.png). The library 'logos__kraken' drawing is a different (Kraken-named) logo and was not used. No container, no outline.

@@ -21,7 +21,12 @@ Open the app and tap **Export**. It saves a zip to Downloads with every app's ic
 
 ## How the pack is built
 
-- `icons/png/<name>.png`: the icon images (edit these)
-- `icons/appfilter.json`: which app each image belongs to
-- `tools/build_pack.py`: turns those into the files launchers read
+- `icons/src/<name>.svg`: each icon's clean drawing (`.pixel.png` for pixel art, `.png` only when a drawing
+  couldn't do the art justice). `icons/notes/<name>.md` says where each logo came from and why it looks the way it does.
+- `docs/ICON_PROCESS.md`: the step-by-step method used for every icon, and the routine for a full pass.
+- `docs/DESIGN_RULES.md`: Arch's design rules; `docs/app_notes.json`: the direction for each app.
+- `docs/IDEAS.md`: ideas for later.
+- `tools/build_icons.py` renders the drawings into `icons/png/`; `tools/build_pack.py` turns those into the
+  files launchers read (`icons/appfilter.json` says which image belongs to which app).
+- `tools/preview_icon.py` and `tools/review_sheets.py` show icons on Arch's wallpaper and app drawer colours.
 - Every push to `main` builds a new APK and puts it in Releases.

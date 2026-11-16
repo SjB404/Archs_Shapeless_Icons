@@ -1,0 +1,1 @@
+Arch's own redraw: big white crescent moon; his answer: moon and a clock instead of the cloud. Small white clock (hands see-through) bottom-left with a gap cut from the moon. Drawn with shapely as one polygon path. Home screen app: checked on wallpaper.
