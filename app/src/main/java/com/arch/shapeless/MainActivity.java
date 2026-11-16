@@ -80,6 +80,11 @@ public class MainActivity extends Activity {
         info.setPadding(0, pad / 2, 0, pad);
         root.addView(info);
 
+        Button browse = new Button(this);
+        browse.setText("Browse icons");
+        browse.setOnClickListener(v -> startActivity(new Intent(this, IconIndexActivity.class)));
+        root.addView(browse);
+
         exportAll = new Button(this);
         exportAll.setText("Export all apps");
         exportAll.setOnClickListener(v -> startExport(false));

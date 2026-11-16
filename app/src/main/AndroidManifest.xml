@@ -37,5 +37,11 @@
                 <category android:name="com.teslacoilsw.launcher.THEME" />
             </intent-filter>
         </activity>
+
+        <!-- Icon index: browse and search every icon in the pack. -->
+        <activity
+            android:name=".IconIndexActivity"
+            android:exported="false"
+            android:label="Icon index" />
     </application>
 </manifest>

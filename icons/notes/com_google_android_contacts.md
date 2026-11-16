@@ -1,2 +1,2 @@
-# Contacts
-Person shape from the official dashboard-icons Contacts logo with its blue circle removed (R9: the white person takes the blue): head #1A73E8, shoulders #4285F4.
+# Contacts (v6 fix)
+Was flat blue. Now the app's own two-tone person, redrawn by hand from the exported fg.png: dark #0057CC head and front torso, with lighter back shapes #86A9FF (left) and #578CFF (right) behind it. No circle.
