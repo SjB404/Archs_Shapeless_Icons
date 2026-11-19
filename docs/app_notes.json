@@ -12,11 +12,14 @@
  },
  "com_alarmclock_xtreme_free": {
   "label": "Alarm Clock Xtreme",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
+  ],
   "rules": [
    "R25"
   ],
-  "direction": "Same design as version 4, redrawn clean: the light-blue alarm clock with its two bells and little legs, white face, dark hands and red second hand. The bells and legs keep it apart from Google's round Clock.",
+  "direction": "Same design as version 4, redrawn clean: the light-blue alarm clock with its two bells and little legs, white face, dark hands and red second hand. The bells and legs keep it apart from Google's round Clock. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "com_kaanelloed_iconeration": {
@@ -88,13 +91,16 @@
   "label": "Aptoide",
   "arch_said": [
    "aptoide should be just the logo fullscreen",
-   "aptoide should have a gap like in the image provided, tbh if you copied the shape of the image provided and made it aptoide orange that would be great"
+   "aptoide should have a gap like in the image provided, tbh if you copied the shape of the image provided and made it aptoide orange that would be great",
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"aptoide should be dual tone\""
   ],
   "rules": [
    "R9",
-   "R6"
+   "R6",
+   "R28"
   ],
-  "direction": "Copy of the picture Arch sent (folded V with the diagonal gap), measured and redrawn clean, flat Aptoide orange #EE8434.",
+  "direction": "Copy of the picture Arch sent (folded V with the diagonal gap), in two tones of Aptoide orange like the app's own icon (M13), flat.",
   "status": "redo"
  },
  "com_google_android_apps_googleassistant": {
@@ -128,21 +134,27 @@
  },
  "com_llamalab_automate": {
   "label": "Automate",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
+  ],
   "rules": [
    "R3",
    "R7"
   ],
-  "direction": "Use the whole logo, not just the arm: the yellow robot arm with its grey pointer touching the phone with the smiley face (dark-grey phone, white screen, dark smiley). Version 4 missed the phone because it sits in the background layer. No blue background and no long shadow.",
+  "direction": "Use the whole logo, not just the arm: the yellow robot arm with its grey pointer touching the phone with the smiley face (dark-grey phone, white screen, dark smiley). Version 4 missed the phone because it sits in the background layer. No blue background and no long shadow. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "com_handycloset_android_eraser": {
   "label": "Background Eraser",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"background eraser needs a bigger checkered pattern\""
+  ],
   "rules": [
    "R8"
   ],
-  "direction": "Keep it round: the checkerboard 'see-through' disc with its blue ring is the logo. Redrawn clean with crisp light grey and white squares.",
+  "direction": "The round checkered disc with the blue ring, with bigger checker squares (fewer of them) so the pattern reads at phone size.",
   "status": "redo"
  },
  "com_playstack_balatro_android": {
@@ -186,13 +198,15 @@
  "com_sirma_mobile_bible_android": {
   "label": "Bible",
   "arch_said": [
-   "the holy bible, rounding should line up with the book insides, how it was originally was pretty good tbh"
+   "the holy bible, rounding should line up with the book insides, how it was originally was pretty good tbh",
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
    "R15",
    "R8"
   ],
-  "direction": "The red-brown 'HOLY BIBLE' book with its cream page edge and red ribbon, as in the original; the book is the object, so nothing behind it. Redrawn clean with crisp lettering.",
+  "direction": "The red-brown 'HOLY BIBLE' book with its cream page edge and red ribbon, as in the original; the book is the object, so nothing behind it. Redrawn clean with crisp lettering. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "com_bol_shop": {
@@ -277,11 +291,14 @@
  },
  "com_samruston_buzzkill": {
   "label": "BuzzKill",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
+  ],
   "rules": [
    "R11"
   ],
-  "direction": "BuzzKill's speech bubble in its yellow (the original background colour), with the heart, star, hexagon and dots in dark grey inside it (the original's dark bubble would vanish). Same idea as version 4, redrawn clean.",
+  "direction": "BuzzKill's speech bubble in its yellow (the original background colour), with the heart, star, hexagon and dots in dark grey inside it (the original's dark bubble would vanish). Same idea as version 4, redrawn clean. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "com_cakewallet_cake_wallet": {
@@ -384,24 +401,31 @@
  "com_google_android_deskclock": {
   "label": "Clock",
   "arch_said": [
-   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be",
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"the google clock needs to be something inbetween the dualtone previous icon and the current one, if the edge of the dualtone and the hands of the dualtonw were thicker it would look good\"",
+   "M13: \"i dislike the new gradient shiny whatever you call it, fluent 3d icons that both google and microsoft are doing\""
   ],
   "rules": [
    "R18",
-   "R8"
+   "R8",
+   "R30",
+   "R29"
   ],
-  "direction": "Keep Google Clock's round blue clock face with the white hands and the small dot, redrawn clean. The round face is the logo.",
+  "direction": "Flat, in between the earlier two-tone clock and the current one: the two-tone design with a thicker ring and thicker hands, no gloss or gradient (R30).",
   "status": "redo"
  },
  "com_google_android_contacts": {
   "label": "Contacts",
   "arch_said": [
-   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be",
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
    "R18"
   ],
-  "direction": "Google Contacts' blue person (head and shoulders, two blues), as in version 4, redrawn clean.",
+  "direction": "Google Contacts' blue person (head and shoulders, two blues), as in version 4, redrawn clean. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "eu_coolblue_shop": {
@@ -420,14 +444,16 @@
  "com_yodo1_crossyroad": {
   "label": "Crossy Road",
   "arch_said": [
-   "the crossy road chicken is blue"
+   "the crossy road chicken is blue",
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
    "R12",
    "R15",
    "R16"
   ],
-  "direction": "The Crossy Road chicken in its real colours: white body with the light lavender-grey shading on the shadow sides (#DCDCF4), red comb and wattle, orange beak and feet, black eye. No blue tint and no sky. Draw the blocks as clean flat shapes.",
+  "direction": "The Crossy Road chicken in its real colours: white body with the light lavender-grey shading on the shadow sides (#DCDCF4), red comb and wattle, orange beak and feet, black eye. No blue tint and no sky. Draw the blocks as clean flat shapes. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "com_deepseek_chat": {
@@ -577,11 +603,14 @@
  },
  "filesearcher_filefinder_everything_searcheverything": {
   "label": "FileFinder",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
+  ],
   "rules": [
    "R9"
   ],
-  "direction": "The blue magnifying glass with its light lens and the speed lines, as in version 4, redrawn clean.",
+  "direction": "The blue magnifying glass with its light lens and the speed lines, as in version 4, redrawn clean. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "com_google_android_apps_nbu_files": {
@@ -804,12 +833,15 @@
  },
  "org_kde_kdeconnect_tp": {
   "label": "KDE Connect",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"kde connect should have the logo on screen be white\""
+  ],
   "rules": [
    "R9",
    "R25"
   ],
-  "direction": "KDE Connect's phone in KDE blue (about #3DAEE9) with the dark screen and the blue KDE gear-K on it, as in version 4, redrawn clean. The dark screen and the K keep it apart from Orientation Control's rotated phone.",
+  "direction": "The blue phone with the dark screen, and the KDE Connect logo on the screen in white.",
   "status": "redo"
  },
  "com_google_android_keep": {
@@ -832,13 +864,17 @@
  },
  "com_pulsenet_inputset": {
   "label": "KeyLinker",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"keylinker doesnt look anything like the logo\" (sent the real logo: /home/claude/refs/com_pulsenet_inputset/arch_ref_m13.png)"
+  ],
   "rules": [
    "R5",
    "R9",
-   "R25"
+   "R25",
+   "R28"
   ],
-  "direction": "Just the tilted game controller in KeyLinker's blue gradient, with its X and buttons cut out see-through. Drop the white phone body and the dot under it.",
+  "direction": "Copy the real logo Arch sent (R28): the white gamepad outline with the cross and four dots on the blue gradient, the white strip with the blue dot; no container.",
   "status": "redo"
  },
  "com_kraken_pay_app": {
@@ -898,23 +934,31 @@
  },
  "org_proninyaroslav_libretorrent": {
   "label": "LibreTorrent",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"a simple icon with very thin lines looks bad, for example libretorrent, screenmaster, life360\" (R29)"
+  ],
   "rules": [
    "R8",
-   "R9"
+   "R9",
+   "R29"
   ],
-  "direction": "LibreTorrent's purple ring with the connected nodes, as in version 4, redrawn clean.",
+  "direction": "The real LibreTorrent mark with clearly thicker lines (R29).",
   "status": "redo"
  },
  "com_life360_android_safetymapd": {
   "label": "Life360",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"a simple icon with very thin lines looks bad, for example libretorrent, screenmaster, life360\" (R29)"
+  ],
   "rules": [
    "R8",
    "R9",
-   "R10"
+   "R10",
+   "R29"
   ],
-  "direction": "Life360's purple spiral ring, as in version 4, redrawn clean. Lighten the purple slightly if the thin lines fade on the dark drawer.",
+  "direction": "The real Life360 ring mark with clearly thicker lines (R29).",
   "status": "redo"
  },
  "com_golightyear_mobile": {
@@ -937,14 +981,17 @@
  },
  "com_lscsmartconnection_smart": {
   "label": "LSC Smart Connect",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"lsc has no house elements\""
+  ],
   "rules": [
    "R5",
    "R9",
    "R10",
    "R14"
   ],
-  "direction": "Only the 'LSC' letters, like FBTO (the word is the brand, the house just means 'smart home'), in LSC blue lightened to about #4DA3FF so it reads; no dark square. If the letters alone look too bare, the house with the wifi signal may sit above them, in the same blue.",
+  "direction": "The LSC letters with the house and wifi signal above them (M13), in LSC blue light enough to read; no dark square.",
   "status": "redo"
  },
  "com_google_android_apps_maps": {
@@ -1085,23 +1132,28 @@
   "label": "My DHL",
   "arch_said": [
    "the dhl logo could be something fun kinda like the crude sketch provided",
-   "redo the dhl logo from my crude sketch with fable, and take some creatieve liberty"
+   "redo the dhl logo from my crude sketch with fable, and take some creatieve liberty",
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"remove the speed lines behind the dhl van, absolutely no room for that with such a small yet dense logo\""
   ],
   "rules": [
    "R14",
    "R13"
   ],
-  "direction": "A fun cartoon delivery van after Arch's sketch, with some creative liberty: yellow #FFCC00 van with a sloped windscreen and short nose, grey cab window, red #D40511 DHL letters (real letterforms), red bottom strip over the wheels, headlight, speed dashes behind it, dark tyres with light hubs.",
+  "direction": "The DHL van from Arch's sketch, without the speed lines behind it.",
   "status": "redo"
  },
  "com_gameloft_android_anmp_gloftpohm": {
   "label": "My Little Pony",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"mlp looks decent but it should be normal twilight not alicorn season 9 twilight\""
+  ],
   "rules": [
    "R15",
    "R5"
   ],
-  "direction": "Main subject only: Twilight Sparkle's head (lavender coat, horn, dark-blue mane with the pink and purple streaks), cut out cleanly. Drop the circle, the Gameloft badge and the small My Little Pony title logo.",
+  "direction": "Twilight Sparkle as the normal unicorn (not the season 9 alicorn), head only, no logo or badge.",
   "status": "redo"
  },
  "com_netflix_mediaclient": {
@@ -1134,13 +1186,16 @@
  },
  "com_opautoclicker_autoclicker": {
   "label": "OP Auto Clicker",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
+  ],
   "rules": [
    "R10",
    "R24",
    "R25"
   ],
-  "direction": "The computer mouse, lighter than in version 4: a light grey to white body with a slightly darker grey split between the buttons, so it reads on both backgrounds. No white circle.",
+  "direction": "The computer mouse, lighter than in version 4: a light grey to white body with a slightly darker grey split between the buttons, so it reads on both backgrounds. No white circle. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "net_mm2d_android_orientationfaker": {
@@ -1177,13 +1232,17 @@
  },
  "eu_bandainamcoent_pacman256": {
   "label": "PAC-MAN 256",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"pacman 256 the grey looks terrible, apps are allowed to have a dark grey or even black outline, its only bad when the whole app is one color and its black, cus thats hard to see\""
+  ],
   "rules": [
    "R15",
    "R16",
-   "R5"
+   "R5",
+   "R10"
   ],
-  "direction": "PAC-MAN 256's pixel-art Pac-Man with the glitchy '256' blocks under him, as sharp, straight pixel art (.pixel.png). Remove the leftover yellow strip at the bottom that version 4 has.",
+  "direction": "Pac-Man 256 pixel art without the grey; its dark or black outline may stay (R10 update).",
   "status": "redo"
  },
  "tv_parsec_client": {
@@ -1306,18 +1365,24 @@
  },
  "com_phascinate_precisevolume": {
   "label": "Precise Volume",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
+  ],
   "rules": [],
-  "direction": "Precise Volume's blue gear with the white speaker symbol in the centre, as in version 4, redrawn clean.",
+  "direction": "Precise Volume's blue gear with the white speaker symbol in the centre, as in version 4, redrawn clean. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "proton_android_authenticator": {
   "label": "Proton Authenticator",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
+  ],
   "rules": [
    "R26"
   ],
-  "direction": "Proton Authenticator's curled 'C' with the keyhole, in its purple-to-yellow gradient, as in version 4, redrawn clean.",
+  "direction": "Proton Authenticator's curled 'C' with the keyhole, in its purple-to-yellow gradient, as in version 4, redrawn clean. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "ch_protonmail_android": {
@@ -1340,11 +1405,14 @@
  },
  "com_batonresearch_pump": {
   "label": "pump.fun",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
+  ],
   "rules": [
    "R5"
   ],
-  "direction": "Only the pump.fun pill (the diagonal capsule, white half and green half, with its thin dark edge). Remove the mint-green circle version 4 still has.",
+  "direction": "Only the pump.fun pill (the diagonal capsule, white half and green half, with its thin dark edge). Remove the mint-green circle version 4 still has. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "im_fdx_qrcode": {
@@ -1437,12 +1505,16 @@
  },
  "pro_capture_screenshot": {
   "label": "Screen Master",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"a simple icon with very thin lines looks bad, for example libretorrent, screenmaster, life360\" (R29)"
+  ],
   "rules": [
    "R9",
-   "R25"
+   "R25",
+   "R29"
   ],
-  "direction": "Screen Master's crop frame with the pencil, in its blue (#0098F8), as in version 4, redrawn clean with even lines.",
+  "direction": "The real Screen Master crop-frame and pen mark with clearly thicker lines (R29).",
   "status": "redo"
  },
  "eu_thedarken_sdm": {
@@ -1585,10 +1657,12 @@
  "com_prismtree_sponge": {
   "label": "Sponge",
   "arch_said": [
-   "the sponge icon also doesn't match the rounding of the top shape that makes up the sponge"
+   "the sponge icon also doesn't match the rounding of the top shape that makes up the sponge",
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [],
-  "direction": "Sponge's yellow sponge with the orange base and the white bubbles, as in version 4, redrawn clean, with no dark circle.",
+  "direction": "Sponge's yellow sponge with the orange base and the white bubbles, as in version 4, redrawn clean, with no dark circle. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "com_spotify_music": {
@@ -1645,12 +1719,15 @@
  },
  "com_github_catfriend1_syncthingandroid": {
   "label": "Syncthing-Fork",
-  "arch_said": [],
+  "arch_said": [
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
+  ],
   "rules": [
    "R8",
    "R9"
   ],
-  "direction": "Syncthing's ring with the connected nodes, in Syncthing blue, as in version 4, redrawn clean.",
+  "direction": "Syncthing's ring with the connected nodes, in Syncthing blue, as in version 4, redrawn clean. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "com_tailscale_ipn": {
@@ -1920,12 +1997,14 @@
  "com_google_android_apps_walletnfcrel": {
   "label": "Wallet",
   "arch_said": [
-   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be"
+   "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be",
+   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
    "R18"
   ],
-  "direction": "Google Wallet's stacked cards (green, yellow, red, blue), as in version 4, redrawn clean.",
+  "direction": "Google Wallet's stacked cards (green, yellow, red, blue), as in version 4, redrawn clean. M13: the version 8.2 icon is inaccurate; redo it from the real logo.",
   "status": "redo"
  },
  "com_pixelbin_watermarkremover_io": {

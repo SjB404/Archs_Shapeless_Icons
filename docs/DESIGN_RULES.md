@@ -30,6 +30,7 @@ Arch's messages, in order. The rules quote them word for word.
 | M10 | Feedback on version 6 (16 Nov 2026), with six pictures to copy, and to do all the work directly |
 | M11 | bunq: the full colour range and slightly thicker letters |
 | M12 | "wallpaper blue isn't going to stay wallpaper blue": the wallpaper changes (it already did), so the app shows the real wallpaper see-through |
+| M13 | Feedback on version 8.2 (19 Nov 2026), sent as the app's shared picture of 26 apps (`/home/claude/refs/_m13/shared_26_apps.png`) plus the real KeyLinker logo: "fix all of these", thin lines on simple logos, no glossy 3D look, dark outlines are fine, and notes per app |
 
 ---
 
@@ -265,6 +266,10 @@ be better". M3: "ChatGPT should have white infill like a donut shape".
 - **Black line drawings:** keep the lines black, but fill the drawing's own outer shape with white,
   like a donut. The hole in the middle stays see-through (ChatGPT, Seal).
 - Small dark details inside a light shape are fine: Brawl Stars' eyes, Squib's eyes, fomo's pupils.
+- A dark grey or black outline that's part of the art is fine too. M13: "apps are allowed to have a dark
+  grey or even black outline, its only bad when the whole app is one color and its black, cus thats hard
+  to see". So only an icon that is entirely dark gets lighter or white; an outlined icon keeps its outline
+  (PAC-MAN 256's black outline instead of grey).
 
 **Examples.**
 - **Turned white:** Camera, Gallery, Glyph, Recorder, MotionEase, Weather (white with red), Lightyear,
@@ -334,15 +339,15 @@ of an average app blue, maybe a bit richer"), bunq's full 12-colour stripe range
 
 **How.**
 - Drop taglines and small second words, like "college" under Deltion.
-- An extra picture that only describes the service goes too, like FBTO's medical case or LSC's
-  house.
+- An extra picture that only describes the service goes too, like FBTO's medical case. Not LSC's
+  house: M13 "lsc has no house elements", so LSC keeps the house with the signal above its letters.
 - Game titles follow R15.
 
 **Examples.**
 - **Symbol only:** JustWatch, Uw Zorg Online, Anker, ING (no "NL").
-- **Word only:** FBTO, bol, Bolt, Etsy, DigiD, bunq, Anvil-MC, hollandsnieuwe, LSC, OSIRIS, My DHL.
+- **Word only:** FBTO, bol, Bolt, Etsy, DigiD, bunq, Anvil-MC, hollandsnieuwe, OSIRIS, My DHL.
 - **Word and picture form one logo, so both stay:** Burger King, Coolblue, PostNL, Temu, Amazon's
-  "a" and smile, Kraken Pro's PRO tag.
+  "a" and smile, Kraken Pro's PRO tag, LSC (house with signal above the letters, M13).
 
 ### R15. Games and picture icons: the main subject only
 **Rule.** For games and other picture icons, show only the main character or object, cut out
@@ -359,7 +364,8 @@ skull". M5: "tomb of the mask netflix edition should be the little yellow guy fu
 **Examples.** Balatro (the Joker), Brawl Stars (the star badge with the skull: M10 "change the brawl stars
 logo to the image provided" replaces the skull-only version), Tomb of the Mask (the yellow guy),
 Crossy Road (the chicken), Angry Crusher Catapult (the bird in the slingshot), Plants vs. Zombies
-(the zombie), My Little Pony (Twilight Sparkle), MuseDash (the girl's head), Top Lords (the king),
+(the zombie), My Little Pony (Twilight Sparkle as the normal unicorn, M13: "normal twilight not alicorn season 9
+twilight"), MuseDash (the girl's head), Top Lords (the king),
 PAC-MAN 256 (Pac-Man), Minecraft (the grass block).
 
 ### R16. Pixel art stays sharp and straight
@@ -391,7 +397,7 @@ the lines on the left and a half cloud on the right".
 - Only do this where Arch asked, or for generic niche apps whose logo is too thin or fussy at phone
   size.
 - Big brands keep their real logo (R2).
-- Thin lines that disappear at 48 px may be thickened a little.
+- Thin lines on a simple logo get thicker: see R29.
 
 **Examples.** SoundCloud (4 thick orange bars and a half cloud), Sleep Timer (big white moon), PostNL
 (lines thick enough to see), Battery Sound, UnApp.
@@ -520,7 +526,7 @@ apps come from his screenshots. M12: the wallpaper changes.
 - **Blue-grey hides:** mid blues, teals and greys. In a test, a mid blue like #4466FF nearly
   vanished on it, while #7F9CFF was easy to see on both backgrounds.
 - **If the two backgrounds disagree,** the dark drawer wins, except for home screen apps.
-- **Thin lines** disappear at 48 px. Thicken them a little without changing the logo.
+- **Thin lines** disappear at 48 px and look weak. On a simple logo, make them thicker (R29).
 - **Fix it with colour** (R10), never with outlines, glows or shadows (R7).
 
 **Home screen apps** (from his screenshot): Squib, Files, Play Store, Whack-a-mole, Weather, Home,
@@ -601,6 +607,44 @@ they're clearly not part of the design.
 **Examples.** Aptoide, Brawl Stars, PostNL, Play Store, Maps and Gmail (sections and shape), DHL (a clean
 version of his sketch).
 
+### R29. Simple logos get thicker lines; detailed logos keep theirs
+**Rule.** A simple logo drawn with thin lines looks bad as an icon: make its lines and shapes clearly
+thicker. A detailed, complicated logo keeps its line weights, because thickening would clog it up.
+
+**From.** M13: "a simple icon with very thin lines looks bad, for example libretorrent, screenmaster, life360,
+if its a detailed complicated logo like ING, making the lines/shapes thicker will ruin it, but if its a
+relatively simple logo, thin lines look bad and making them a bit thicker would be better". And: "bunq was
+a really good example, making the lines thicker made it look amazing".
+
+**How.**
+- Simple means a few lines or shapes: a ring, a crop frame, a thin outline symbol, letters. Detailed means
+  many small parts that need their gaps to read (ING's lion, character art, pictures).
+- Thicken evenly: every line by the same amount, keeping the logo's shape, the gaps between parts and the
+  corners. Open the gaps up again where thickening closes them.
+- Aim for lines that look solid at 48 px, like bunq's letters (M11). Compare at phone size.
+- This overrides "keep the line weights" from R2 for simple logos; the shapes and colours still stay
+  faithful.
+
+**Examples.** Thicker: bunq (M11, the good example), LibreTorrent, Screen Master, Life360, Google Clock's
+ring and hands (M13). Leave alone: ING.
+
+### R30. No glossy 3D look
+**Rule.** Arch doesn't like the new shiny, gradient, 3D-looking icons (the "fluent" look Google and
+Microsoft moved to). Use the flat design instead: the brand's earlier flat logo, or a flat version in
+between the old and new designs.
+
+**From.** M13: "as a geberal rule of thumb, i dislike the new gradient shiny whatever you call it, fluent 3d
+icons that both google and microsoft are doing". On Google Clock: "the google clock needs to be something
+inbetween the dualtone previous icon and the current one, if the edge of the dualtone and the hands of the
+dualtonw were thicker it would look good".
+
+**How.**
+- Drop gloss, highlights, soft shading and 3D depth; keep flat colours (R13).
+- When the new design changed the shape too, take the earlier flat design and bring over only what makes
+  the new one better (Clock: the flat two-tone clock with a thicker ring and hands).
+
+**Examples.** Google Clock (M13), the Microsoft apps (flat since M10).
+
 ---
 
 ## Checklist before delivering an icon
@@ -617,6 +661,7 @@ version of his sketch).
 - [ ] It can't be mixed up with another niche app (R25), and it fits its family (R26).
 - [ ] It matches the app's `direction` and `arch_said` in `app_notes.json`.
 - [ ] Colours are flat unless Arch asked for a gradient (R13). Matched corners look equally round (R27).
+- [ ] A simple logo has solid, thick-enough lines; a detailed one keeps its own (R29). No glossy 3D look (R30).
 
 ---
 
