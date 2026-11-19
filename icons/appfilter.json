@@ -546,6 +546,7 @@
   "ComponentInfo{com.nothing.weather/com.nothing.weather.ui.main.MainActivity}"
  ],
  "net_mullvad_mullvadvpn": [
+  "ComponentInfo{net.mullvad.mullvadvpn/net.mullvad.mullvadvpn.feature.appearance.impl.obfuscation.MainActivityAltDefault}",
   "ComponentInfo{net.mullvad.mullvadvpn/net.mullvad.mullvadvpn.feature.appearance.impl.obfuscation.MainActivityAltGame}"
  ],
  "com_whatsapp": [
@@ -568,5 +569,11 @@
  ],
  "de_mash_android_calendar": [
   "ComponentInfo{de.mash.android.calendar/de.mash.android.calendar.core.activities.WidgetInstancesOverviewActivity}"
+ ],
+ "nl_arch_deltionrooster": [
+  "ComponentInfo{nl.arch.deltionrooster/nl.arch.deltionrooster.MainActivity}"
+ ],
+ "nl_ns_spaarstation": [
+  "ComponentInfo{nl.ns.spaarstation/crc64bd249f11e5b60d77.SplashScreen}"
  ]
 }

@@ -11,6 +11,8 @@ Output (generated, don't edit by hand):
   app/src/main/res/drawable-nodpi/<name>.png
   app/src/main/res/xml/appfilter.xml   + app/src/main/assets/appfilter.xml
   app/src/main/res/xml/drawable.xml    + app/src/main/assets/drawable.xml
+  app/src/main/assets/labels.json      app names (from docs/app_notes.json), shown in the app for apps
+                                       that aren't installed
 """
 import json
 import re
@@ -22,6 +24,7 @@ from xml.sax.saxutils import quoteattr
 ROOT = Path(__file__).resolve().parent.parent
 SRC_PNG = ROOT / "icons" / "png"
 MAP = ROOT / "icons" / "appfilter.json"
+NOTES = ROOT / "docs" / "app_notes.json"
 RES = ROOT / "app" / "src" / "main" / "res"
 ASSETS = ROOT / "app" / "src" / "main" / "assets"
 OUT_PNG = RES / "drawable-nodpi"
@@ -69,6 +72,10 @@ def main() -> int:
         folder.mkdir(parents=True, exist_ok=True)
         (folder / "appfilter.xml").write_text("\n".join(appfilter) + "\n")
         (folder / "drawable.xml").write_text("\n".join(drawable) + "\n")
+
+    notes = json.loads(NOTES.read_text()) if NOTES.exists() else {}
+    labels = {name: notes.get(name, {}).get("label", name) for name in sorted(mapping)}
+    (ASSETS / "labels.json").write_text(json.dumps(labels, indent=1, ensure_ascii=False) + "\n")
 
     print(f"Built pack: {len(mapping)} icons, {sum(len(v) for v in mapping.values())} app links")
     return 0

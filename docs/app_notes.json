@@ -1951,7 +1951,7 @@
   "status": "redo"
  },
  "net_mullvad_mullvadvpn": {
-  "label": "Whack-a-mole",
+  "label": "Mullvad VPN",
   "arch_said": [
    "I gave up on the vpn",
    "\"2 mullvad show the original logo, but simplify and beutify it a bit, their logo kinda sucks\""
@@ -1960,7 +1960,7 @@
    "R21",
    "R4"
   ],
-  "direction": "Show Mullvad VPN's ORIGINAL logo (the mole), not the Whack-a-mole disguise. Simplify and beautify it a bit (Arch: their logo kinda sucks): cleaner shapes, fewer fussy details, same recognisable mole and Mullvad colours.",
+  "direction": "Show Mullvad VPN's ORIGINAL logo (the mole), not the Whack-a-mole disguise. Simplify and beautify it a bit (Arch: their logo kinda sucks): cleaner shapes, fewer fussy details, same recognisable mole and Mullvad colours. The pack covers both launcher entries: the normal one (MainActivityAltDefault, added in version 8) and the Whack-a-mole disguise (MainActivityAltGame).",
   "status": "redo"
  },
  "com_whatsapp": {
@@ -2027,5 +2027,25 @@
   ],
   "direction": "A white calendar page with its two binder rings and an indigo '7' (the original's white page), not a blue page: blue would look like Google Calendar, and the indigo is too dark. No indigo circle.",
   "status": "redo"
+ },
+ "nl_arch_deltionrooster": {
+  "label": "Deltion Rooster",
+  "arch_said": [],
+  "rules": [
+   "R9",
+   "R13"
+  ],
+  "direction": "Arch's own school schedule app. The calendar from its icon in Deltion orange #F58220 (white logo on orange -> orange logo, R9); the date squares that showed the orange background are see-through.",
+  "status": "done"
+ },
+ "nl_ns_spaarstation": {
+  "label": "Lekker Onderweg",
+  "arch_said": [],
+  "rules": [
+   "R12",
+   "R13"
+  ],
+  "direction": "NS's savings-card app for station food (Kiosk, Julia's, StationsHuiskamer). The white paper cup (stays white, R12) and the golden croissant from its icon; purple background and long shadow left out, the purple outlines between the croissant pieces became see-through gaps.",
+  "status": "done"
  }
 }

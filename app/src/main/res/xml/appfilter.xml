@@ -159,7 +159,9 @@
     <item component="ComponentInfo{jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.InitializeCheckActivity}" drawable="jp_ne_ibis_ibispaintx_app" />
     <item component="ComponentInfo{me.zhanghai.android.files/me.zhanghai.android.files.filelist.FileListActivity}" drawable="me_zhanghai_android_files" />
     <item component="ComponentInfo{net.mm2d.android.orientationfaker/net.mm2d.android.orientationfaker.MainActivity}" drawable="net_mm2d_android_orientationfaker" />
+    <item component="ComponentInfo{net.mullvad.mullvadvpn/net.mullvad.mullvadvpn.feature.appearance.impl.obfuscation.MainActivityAltDefault}" drawable="net_mullvad_mullvadvpn" />
     <item component="ComponentInfo{net.mullvad.mullvadvpn/net.mullvad.mullvadvpn.feature.appearance.impl.obfuscation.MainActivityAltGame}" drawable="net_mullvad_mullvadvpn" />
+    <item component="ComponentInfo{nl.arch.deltionrooster/nl.arch.deltionrooster.MainActivity}" drawable="nl_arch_deltionrooster" />
     <item component="ComponentInfo{nl.burgerking.app/rbi.android.app.Launcher}" drawable="nl_burgerking_app" />
     <item component="ComponentInfo{nl.caci.osiris.student.delt/nl.caci.osiris.student.delt.MainActivity}" drawable="nl_caci_osiris_student_delt" />
     <item component="ComponentInfo{nl.com.media.markt/com.mediamarkt.mms_oscapps_flutter.MainActivity}" drawable="nl_com_media_markt" />
@@ -167,6 +169,7 @@
     <item component="ComponentInfo{nl.marktplaats.android/com.horizon.android.feature.feeds.homepage.SpringboardActivity}" drawable="nl_marktplaats_android" />
     <item component="ComponentInfo{nl.mediapp.pharmeon/nl.mediapp.pharmeon.MainActivity}" drawable="nl_mediapp_pharmeon" />
     <item component="ComponentInfo{nl.ns.android.activity/nl.ns.app.shell.startup.start.StartActivity}" drawable="nl_ns_android_activity" />
+    <item component="ComponentInfo{nl.ns.spaarstation/crc64bd249f11e5b60d77.SplashScreen}" drawable="nl_ns_spaarstation" />
     <item component="ComponentInfo{nl.rijksoverheid.digid.pub/crc64bbb4e1ca9d69cb46.MainActivity}" drawable="nl_rijksoverheid_digid_pub" />
     <item component="ComponentInfo{nl.tpp.mobile.android/nl.postnl.app.splash.SplashActivity}" drawable="nl_tpp_mobile_android" />
     <item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.IconActivity}" drawable="org_fdroid_fdroid" />

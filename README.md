@@ -6,9 +6,20 @@ An Android icon pack with no circles, squircles or other border shapes: just the
 
 Download the newest APK from [Releases](../../releases/latest), install it, then pick **Shapeless Icons** in your launcher's icon pack setting.
 
+## The app
+
+- **Search bar and icon list**: every icon in the pack, plus the apps on the phone that don't have one yet.
+  The buttons under the search bar show all of them, only the apps on this phone, or only the ones still missing an icon.
+- **Compare**: tap an icon to see it next to the app's own icon. The compare button next to the search bar
+  does this for the whole list. The app's own icon is read from the installed app itself, so it's never an old copy.
+- **Background**: switches between the app drawer grey and the wallpaper blue, to check icons on both.
+- **Orange mark**: the app changed since its icon was made (it starts through a different entry now),
+  so the pack doesn't recognise it until the icon is updated.
+
 ## Requesting icons
 
-Open the app and tap **Export**. It saves a zip to Downloads with every app's icon split into layers:
+Open the app, tap **Export** and pick **Apps without an icon** (or **All apps**). It saves a zip to Downloads
+with each app's icon split into layers:
 
 | File | What it is |
 |---|---|

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="32 30 44 46">
+<!-- Deltion Rooster (Arch's own app): the calendar from the app icon, measured from the export (dp units of the
+     108 dp icon layer). White logo on Deltion orange -> orange logo (R9); the date squares that showed the orange
+     background are see-through. -->
+<path fill="#F58220" fill-rule="evenodd" d="M36 36H72A4 4 0 0 1 76 40V72A4 4 0 0 1 72 76H36A4 4 0 0 1 32 72V40A4 4 0 0 1 36 36Z
+M41 30H45V36H41Z M63 30H67V36H63Z
+M38 48H46V56H38Z M50 48H58V56H50Z M62 48H70V56H62Z M38 60H46V68H38Z M50 60H58V68H50Z"/>
+</svg>
