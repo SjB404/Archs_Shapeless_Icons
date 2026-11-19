@@ -1,1 +1,1 @@
-Orientation Control: tilted phone outline, rotate arrow and gear, in the app's blue #2094F0 (R9), even line thickness. Drawn by eye from the exported fg.
+Traced from the export fg.png white parts (vtracer), in the app's blue #2094F0 (R9), with an 22-unit stroke around the trace to thicken every line (R29, M13). The real gear has 6 rounded teeth; the earlier redraw had 12.
