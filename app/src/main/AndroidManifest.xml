@@ -14,6 +14,14 @@
         android:icon="@drawable/ic_launcher"
         android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
 
+        <!-- Hands the icon pictures (from "copy" with icons switched on) to the app they're shared with,
+             read-only and only for that share. -->
+        <provider
+            android:name=".SharedFiles"
+            android:authorities="com.arch.shapeless.shared"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+
         <!-- adjustResize: the icon list gets shorter when the keyboard opens, so nothing hides behind it.
              configChanges: turning the phone keeps the screen as it is instead of starting it over.
              Wallpaper theme: the window lets the phone's real wallpaper show through (used by the see-through background). -->

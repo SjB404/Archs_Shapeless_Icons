@@ -13,6 +13,10 @@ Download the newest APK from [Releases](../../releases/latest), install it, then
 - **Compare**: tap an icon to see it next to the app's own icon. The compare button next to the search bar
   does this for the whole list. The app's own icon is read from the installed app itself, so it's never an old copy.
 - **Background**: switches between the app drawer grey and see-through, so the icons show on your real wallpaper.
+- **Pick and copy**: tap **Select** (bottom right) or long-press an icon, tap the apps you want, then tap the
+  check button: their names are copied one per line, ready to paste in a chat. The gear sets what's copied
+  (names, package names, icons). Icons can't go on the clipboard with text, so with an icon switched on the
+  share menu also opens with one picture of all the picked icons.
 - **Orange mark**: the app changed since its icon was made (it starts through a different entry now),
   so the pack doesn't recognise it until the icon is updated.
 

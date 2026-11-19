@@ -2,6 +2,8 @@ package com.arch.shapeless;
 
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -37,18 +39,22 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.ScrollView;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
+import java.util.Set;
 
 /**
  * The app's only screen. It has two jobs:
  *  1. Being the icon pack (launchers find it through the manifest, nothing to do here).
  *  2. Showing every icon in the pack under a search bar, next to each app's own icon when asked,
  *     and exporting app icons as a zip so new icons can be made.
+ *  3. Picking apps (select mode) and copying their names, one per line, to paste in a chat.
  *
  * Background: the drawer grey, or see-through so the phone's real wallpaper shows behind the icons
  * (the window always lets the wallpaper through; in drawer mode the screen is painted grey on top).
@@ -74,6 +80,7 @@ public class MainActivity extends Activity {
     private FrameLayout frame;      // the whole screen
     private LinearLayout content;   // title, search, buttons and the icon list
     private LinearLayout top;       // everything above the icon list
+    private LinearLayout header;    // title row (swapped for the selection bar while picking apps)
     private TextView title, subtitle, compareHint, emptyText;
     private ImageView emptyIcon;
     private LinearLayout searchPill, exportButton;
@@ -89,6 +96,14 @@ public class MainActivity extends Activity {
     private FrameLayout detailStage;
     private final List<TextView> detailTexts = new ArrayList<>(), detailNotes = new ArrayList<>();
     private TextView[] detailBgChips;
+
+    // Picking apps to copy.
+    private boolean selecting;
+    private final Set<String> selected = new HashSet<>();
+    private LinearLayout selectBar, fab;
+    private TextView selectCount, selectAllButton, fabText, flash;
+    private ImageView fabIcon;
+    private ImageButton copySettingsButton;
 
     private Dialog sheet;
     private Uri lastZip;
@@ -124,6 +139,10 @@ public class MainActivity extends Activity {
     public void onBackPressed() {
         if (detailEntry != null) {
             hideDetail();
+            return;
+        }
+        if (selecting) {
+            setSelecting(false);
             return;
         }
         super.onBackPressed();
@@ -165,7 +184,7 @@ public class MainActivity extends Activity {
         int side = dp(16);
 
         // Title with the export and help buttons, and the counts under it.
-        LinearLayout header = new LinearLayout(this);
+        header = new LinearLayout(this);
         header.setGravity(Gravity.CENTER_VERTICAL);
         header.setPadding(side + dp(4), dp(16), side, 0);
         title = Ui.text(this, "Shapeless Icons", 22, Ui.TEXT, true);
@@ -184,6 +203,28 @@ public class MainActivity extends Activity {
         subtitle = Ui.text(this, "Loading…", 13, Ui.TEXT_DIM, false);
         subtitle.setPadding(side + dp(4), 0, side, 0);
         top.addView(subtitle);
+
+        // While picking apps: how many are picked, select all, and what to copy.
+        selectBar = new LinearLayout(this);
+        selectBar.setGravity(Gravity.CENTER_VERTICAL);
+        selectBar.setPadding(side - dp(2), dp(16), side, dp(18));
+        selectBar.setVisibility(View.GONE);
+        ImageButton stop = Ui.iconButton(this, R.drawable.ic_close, "Stop selecting");
+        stop.setOnClickListener(v -> setSelecting(false));
+        selectBar.addView(stop, new LinearLayout.LayoutParams(dp(44), dp(44)));
+        selectCount = Ui.text(this, "", 20, Ui.TEXT, true);
+        selectCount.setSingleLine(true);
+        selectCount.setPadding(dp(10), 0, 0, 0);
+        selectBar.addView(selectCount, new LinearLayout.LayoutParams(0, WRAP, 1f));
+        selectAllButton = Ui.text(this, "Select all", 14, Ui.TEXT, true);
+        selectAllButton.setGravity(Gravity.CENTER);
+        selectAllButton.setPadding(dp(16), 0, dp(16), 0);
+        selectAllButton.setOnClickListener(v -> selectAllShown());
+        selectBar.addView(selectAllButton, marginLp(WRAP, dp(40), dp(8)));
+        copySettingsButton = Ui.iconButton(this, R.drawable.ic_settings, "What to copy");
+        copySettingsButton.setOnClickListener(v -> showCopySettings());
+        selectBar.addView(copySettingsButton, marginLp(dp(44), dp(44), dp(8)));
+        top.addView(selectBar);
 
         // Search bar, with the compare and background buttons next to it.
         LinearLayout searchRow = new LinearLayout(this);
@@ -291,11 +332,21 @@ public class MainActivity extends Activity {
         grid.setSelector(new ColorDrawable(Color.TRANSPARENT));
         grid.setCacheColorHint(Color.TRANSPARENT); // the background can be see-through
         grid.setClipToPadding(false);
-        grid.setPadding(dp(10), dp(6), dp(10), dp(24));
+        grid.setPadding(dp(10), dp(6), dp(10), dp(96)); // room to scroll the last row above the floating button
         grid.setFastScrollEnabled(true);
         adapter = new IconAdapter();
         grid.setAdapter(adapter);
-        grid.setOnItemClickListener((parent, view, position, id) -> showDetail(shown.get(position)));
+        grid.setOnItemClickListener((parent, view, position, id) -> {
+            PackIndex.Entry e = shown.get(position);
+            if (selecting) toggle(e);
+            else showDetail(e);
+        });
+        grid.setOnItemLongClickListener((parent, view, position, id) -> {
+            hideKeyboard();
+            if (!selecting) setSelecting(true);
+            toggle(shown.get(position));
+            return true;
+        });
         grid.setOnScrollListener(new AbsListView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(AbsListView view, int state) {
@@ -323,6 +374,34 @@ public class MainActivity extends Activity {
         grid.setEmptyView(empty);
         content.addView(gridBox, new LinearLayout.LayoutParams(MATCH, 0, 1f));
         frame.addView(content, new FrameLayout.LayoutParams(MATCH, MATCH));
+
+        // Floating button, bottom right: "Select" to start picking apps, then a check that copies them.
+        fab = new LinearLayout(this);
+        fab.setGravity(Gravity.CENTER);
+        fab.setElevation(dp(6));
+        fab.setClickable(true);
+        fab.setFocusable(true);
+        fabIcon = new ImageView(this);
+        fab.addView(fabIcon, new LinearLayout.LayoutParams(dp(24), dp(24)));
+        fabText = Ui.text(this, "Select", 15, Ui.TEXT, true);
+        fab.addView(fabText, marginLp(WRAP, WRAP, dp(10)));
+        fab.setOnClickListener(v -> {
+            if (selecting) copySelection();
+            else setSelecting(true);
+        });
+        FrameLayout.LayoutParams fablp = new FrameLayout.LayoutParams(WRAP, dp(56), Gravity.BOTTOM | Gravity.END);
+        fablp.setMargins(0, 0, dp(20), dp(20));
+        frame.addView(fab, fablp);
+
+        flash = Ui.text(this, "", 14, Ui.TEXT, true);
+        flash.setBackground(Ui.rounded(0xF2232325, dp(18)));
+        flash.setPadding(dp(16), dp(10), dp(16), dp(10));
+        flash.setElevation(dp(6));
+        flash.setVisibility(View.GONE);
+        FrameLayout.LayoutParams flashlp = new FrameLayout.LayoutParams(WRAP, WRAP, Gravity.BOTTOM | Gravity.END);
+        flashlp.setMargins(dp(20), 0, dp(20), dp(88));
+        frame.addView(flash, flashlp);
+        styleFab();
 
         detail = new FrameLayout(this);
         detail.setVisibility(View.GONE);
@@ -356,6 +435,9 @@ public class MainActivity extends Activity {
         exportButton.setBackground(surface(dp(22), false));
         helpButton.setBackground(surface(dp(22), false));
         colourButton.setBackground(surface(dp(24), false));
+        selectAllButton.setBackground(surface(dp(20), false));
+        copySettingsButton.setBackground(surface(dp(22), false));
+        shadow(selectCount);
         styleCompareButton();
         styleChips();
         shadow(title);
@@ -446,6 +528,7 @@ public class MainActivity extends Activity {
         adapter.notifyDataSetChanged();
         if (toTop) grid.setSelection(0);
         updateEmpty();
+        updateSelectBar();
     }
 
     private void updateEmpty() {
@@ -512,7 +595,7 @@ public class MainActivity extends Activity {
     private final class Cell {
         final boolean compare;
         final LinearLayout root;
-        final ImageView pack, own, badge;
+        final ImageView pack, own, badge, tick;
         final TextView label;
 
         Cell(boolean compare) {
@@ -538,6 +621,10 @@ public class MainActivity extends Activity {
             int bp = dp(3);
             badge.setPadding(bp, bp, bp, bp);
             packBox.addView(badge, new FrameLayout.LayoutParams(dp(20), dp(20), Gravity.TOP | Gravity.END));
+            tick = new ImageView(c);
+            int tp = dp(3);
+            tick.setPadding(tp, tp, tp, tp);
+            packBox.addView(tick, new FrameLayout.LayoutParams(dp(22), dp(22), Gravity.TOP | Gravity.START));
             icons.addView(packBox);
             own = new ImageView(c);
             if (compare) {
@@ -590,7 +677,31 @@ public class MainActivity extends Activity {
             } else {
                 badge.setVisibility(View.GONE);
             }
+            if (selecting) {
+                boolean on = selected.contains(e.key);
+                tick.setVisibility(View.VISIBLE);
+                tick.setImageDrawable(on ? Ui.icon(MainActivity.this, R.drawable.ic_done, DARK) : null);
+                tick.setBackground(tickBackground(on));
+                root.setBackground(Ui.ripple(on ? 0x38FFFFFF : 0, dp(16)));
+            } else {
+                tick.setVisibility(View.GONE);
+                root.setBackground(Ui.ripple(0, dp(16)));
+            }
         }
+    }
+
+    /** The circle in a cell's corner while picking apps: white with a check when picked, an empty ring when not. */
+    private Drawable tickBackground(boolean on) {
+        GradientDrawable g = new GradientDrawable();
+        g.setShape(GradientDrawable.OVAL);
+        if (on) {
+            g.setColor(Ui.ACCENT);
+            g.setStroke(dp(2), onWallpaper ? DARK : Ui.DRAWER);
+        } else {
+            g.setColor(0x4D000000);
+            g.setStroke(dp(2), 0xE6FFFFFF);
+        }
+        return g;
     }
 
     private Drawable badgeBackground(int colour) {
@@ -620,6 +731,8 @@ public class MainActivity extends Activity {
         hideKeyboard();
         if (sheet != null) sheet.dismiss();
         detailEntry = e;
+        fab.setVisibility(View.INVISIBLE);
+        flash.setVisibility(View.GONE);
         detail.animate().cancel();
         content.animate().cancel();
         detail.removeAllViews();
@@ -774,6 +887,7 @@ public class MainActivity extends Activity {
     private void hideDetail() {
         if (detailEntry == null) return;
         detailEntry = null;
+        fab.setVisibility(View.VISIBLE);
         content.animate().cancel();
         content.setVisibility(View.VISIBLE);
         content.animate().alpha(1f).setDuration(180).start();
@@ -783,6 +897,7 @@ public class MainActivity extends Activity {
 
     private void closeDetailNow() {
         detailEntry = null;
+        fab.setVisibility(View.VISIBLE);
         content.animate().cancel();
         detail.animate().cancel();
         content.setVisibility(View.VISIBLE);
@@ -809,6 +924,209 @@ public class MainActivity extends Activity {
         } catch (Exception ex) {
             Toast.makeText(this, "Couldn't open " + e.label, Toast.LENGTH_SHORT).show();
         }
+    }
+
+    // ---------------------------------------------------------------- picking apps and copying them
+
+    private void setSelecting(boolean on) {
+        if (selecting == on) return;
+        selecting = on;
+        if (!on) selected.clear();
+        header.setVisibility(on ? View.GONE : View.VISIBLE);
+        subtitle.setVisibility(on ? View.GONE : View.VISIBLE);
+        selectBar.setVisibility(on ? View.VISIBLE : View.GONE);
+        updateSelectBar();
+        adapter.notifyDataSetChanged();
+        fab.setScaleX(0.85f);
+        fab.setScaleY(0.85f);
+        fab.animate().scaleX(1f).scaleY(1f).setDuration(160).start();
+        if (on && !prefs.getBoolean("select_hint_seen", false)) {
+            prefs.edit().putBoolean("select_hint_seen", true).apply();
+            flash("Tap apps to pick them, then tap the check to copy");
+        }
+    }
+
+    private void toggle(PackIndex.Entry e) {
+        if (!selected.remove(e.key)) selected.add(e.key);
+        updateSelectBar();
+        adapter.notifyDataSetChanged();
+    }
+
+    /** Picks every app the list shows right now (after search and filter); if they're all picked already, clears. */
+    private void selectAllShown() {
+        if (allShownSelected()) selected.clear();
+        else for (PackIndex.Entry e : shown) selected.add(e.key);
+        updateSelectBar();
+        adapter.notifyDataSetChanged();
+    }
+
+    private boolean allShownSelected() {
+        if (shown.isEmpty()) return false;
+        for (PackIndex.Entry e : shown) if (!selected.contains(e.key)) return false;
+        return true;
+    }
+
+    private void updateSelectBar() {
+        int n = selected.size();
+        selectCount.setText(n == 0 ? "Pick apps" : n + " selected");
+        selectAllButton.setText(allShownSelected() ? "Clear" : "Select all");
+        styleFab();
+    }
+
+    private void styleFab() {
+        if (selecting) {
+            boolean any = !selected.isEmpty(); // white once something is picked, grey before
+            fabIcon.setImageDrawable(Ui.icon(this, R.drawable.ic_done, any ? DARK : 0x99FFFFFF));
+            fabText.setVisibility(View.GONE);
+            fab.setPadding(dp(16), 0, dp(16), 0); // 24 + 2 x 16 = 56: a circle
+            fab.setBackground(Ui.ripple(any ? Ui.ACCENT : 0xFF4A4A4E, dp(28)));
+            fab.setContentDescription("Copy the picked apps");
+            fab.setTooltipText("Copy the picked apps");
+        } else {
+            fabIcon.setImageDrawable(Ui.icon(this, R.drawable.ic_checklist, Ui.TEXT));
+            fabText.setVisibility(View.VISIBLE);
+            fab.setPadding(dp(18), 0, dp(22), 0);
+            fab.setBackground(Ui.ripple(0xFF3A3A3D, dp(28)));
+            fab.setContentDescription("Select apps");
+            fab.setTooltipText("Select apps");
+        }
+    }
+
+    private final Runnable hideFlash = () -> flash.animate().alpha(0f).setDuration(250)
+            .withEndAction(() -> flash.setVisibility(View.GONE)).start();
+
+    /** A short message above the floating button that fades away by itself. */
+    private void flash(String message) {
+        flash.removeCallbacks(hideFlash);
+        flash.animate().cancel();
+        flash.setText(message);
+        flash.setVisibility(View.VISIBLE);
+        flash.setAlpha(0f);
+        flash.animate().alpha(1f).setDuration(150).start();
+        flash.postDelayed(hideFlash, 2200);
+    }
+
+    /** The picked apps, in list order. */
+    private List<PackIndex.Entry> selectedEntries() {
+        List<PackIndex.Entry> out = new ArrayList<>();
+        if (index == null) return out;
+        for (PackIndex.Entry e : index.entries) if (selected.contains(e.key)) out.add(e);
+        return out;
+    }
+
+    /**
+     * Copies the picked apps, one per line: names, package names or both, as set with the gear.
+     * When an icon is switched on there too, the share menu also opens with a picture of the icons.
+     */
+    private void copySelection() {
+        List<PackIndex.Entry> picked = selectedEntries();
+        if (picked.isEmpty()) {
+            flash("Pick some apps first");
+            return;
+        }
+        boolean name = prefs.getBoolean("copy_name", true), pkg = prefs.getBoolean("copy_pkg", false);
+        boolean packIcon = prefs.getBoolean("copy_pack", false), ownIcon = prefs.getBoolean("copy_own", false);
+        if (!name && !pkg && !packIcon && !ownIcon) name = true;
+
+        StringBuilder sb = new StringBuilder();
+        if (name || pkg) {
+            for (PackIndex.Entry e : picked) {
+                if (sb.length() > 0) sb.append('\n');
+                if (name && pkg) sb.append(e.label).append(" (").append(e.packageName).append(')');
+                else if (name) sb.append(e.label);
+                else sb.append(e.packageName);
+            }
+        }
+        final String text = sb.toString();
+        int n = picked.size();
+        String apps = n + (n == 1 ? " app" : " apps");
+        if (!text.isEmpty()) {
+            ClipboardManager cm = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+            if (cm != null) cm.setPrimaryClip(ClipData.newPlainText("Apps", text));
+        }
+        if (!packIcon && !ownIcon) {
+            flash("Copied " + apps);
+            return;
+        }
+        flash(text.isEmpty() ? "Making the picture…" : "Copied " + apps + ", making the picture…");
+        final Context app = getApplicationContext();
+        final boolean withPkg = pkg;
+        new Thread(() -> {
+            ArrayList<Uri> pictures;
+            try {
+                pictures = IconSheet.make(app, picked, packIcon, ownIcon, withPkg);
+            } catch (Exception | OutOfMemoryError ex) {
+                pictures = null;
+            }
+            final ArrayList<Uri> result = pictures;
+            runOnUiThread(() -> {
+                if (isDestroyed()) return;
+                if (result == null || result.isEmpty()) {
+                    flash("Couldn't make the picture");
+                    return;
+                }
+                shareIcons(result, text);
+            });
+        }).start();
+    }
+
+    private void shareIcons(ArrayList<Uri> pictures, String text) {
+        Intent send = new Intent(pictures.size() == 1 ? Intent.ACTION_SEND : Intent.ACTION_SEND_MULTIPLE);
+        send.setType("image/png");
+        if (pictures.size() == 1) send.putExtra(Intent.EXTRA_STREAM, pictures.get(0));
+        else send.putParcelableArrayListExtra(Intent.EXTRA_STREAM, pictures);
+        if (!text.isEmpty()) send.putExtra(Intent.EXTRA_TEXT, text);
+        ClipData clip = ClipData.newRawUri("Icons", pictures.get(0));
+        for (int i = 1; i < pictures.size(); i++) clip.addItem(new ClipData.Item(pictures.get(i)));
+        send.setClipData(clip);
+        send.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        try {
+            startActivity(Intent.createChooser(send, "Send the icons"));
+        } catch (Exception ex) {
+            flash("No app to send it to");
+        }
+    }
+
+    /** What the check button copies. */
+    private void showCopySettings() {
+        Dialog d = newSheet();
+        LinearLayout box = sheetBox(d, "What to copy");
+        TextView intro = Ui.text(this, "Each picked app goes on its own line.", 14, Ui.TEXT_DIM, false);
+        intro.setPadding(0, dp(2), 0, dp(4));
+        box.addView(intro);
+        box.addView(toggleRow("App name", "Spotify", "copy_name", true));
+        box.addView(toggleRow("Package name", "com.spotify.music", "copy_pkg", false));
+        box.addView(toggleRow("Shapeless icon", "The icon from this pack", "copy_pack", false));
+        box.addView(toggleRow("App's own icon", "The app's default icon", "copy_own", false));
+        TextView note = Ui.text(this, "Icons can't go on the clipboard together with text. With an icon switched on, "
+                + "the names are still copied, and the share menu opens with one picture of all the icons: pick Claude there.",
+                13, Ui.TEXT_DIM, false);
+        note.setPadding(0, dp(14), 0, 0);
+        box.addView(note);
+        showSheet(d, box);
+    }
+
+    private View toggleRow(String title, String example, String key, boolean byDefault) {
+        LinearLayout row = new LinearLayout(this);
+        row.setGravity(Gravity.CENTER_VERTICAL);
+        row.setPadding(dp(4), dp(10), dp(2), dp(10));
+        row.setBackground(Ui.ripple(0, dp(14)));
+        LinearLayout texts = new LinearLayout(this);
+        texts.setOrientation(LinearLayout.VERTICAL);
+        texts.addView(Ui.text(this, title, 16, Ui.TEXT, true));
+        TextView ex = Ui.text(this, example, 13, Ui.TEXT_FAINT, false);
+        ex.setPadding(0, dp(2), 0, 0);
+        texts.addView(ex);
+        row.addView(texts, new LinearLayout.LayoutParams(0, WRAP, 1f));
+        Switch sw = new Switch(this);
+        int[][] states = {{android.R.attr.state_checked}, {}};
+        sw.setThumbTintList(new ColorStateList(states, new int[]{Ui.ACCENT, 0xFFB8B8BC}));
+        sw.setTrackTintList(new ColorStateList(states, new int[]{0x99FFFFFF, 0x33FFFFFF}));
+        sw.setChecked(prefs.getBoolean(key, byDefault));
+        sw.setOnCheckedChangeListener((b, on) -> prefs.edit().putBoolean(key, on).apply());
+        row.addView(sw);
+        row.setOnClickListener(v -> sw.toggle());
+        return row;
     }
 
     // ---------------------------------------------------------------- export
@@ -930,6 +1248,9 @@ public class MainActivity extends Activity {
                         + "The app's own icon is read from the app itself, so it's always the current one."));
         box.addView(step(R.drawable.ic_palette, Ui.TEXT, "Background",
                 "Switches between the drawer grey and your wallpaper: the app turns see-through, so you see the icons on your real wallpaper."));
+        box.addView(step(R.drawable.ic_checklist, Ui.TEXT, "Pick and copy",
+                "Tap Select (bottom right), or long-press an icon, then tap the apps you want. The check button copies "
+                        + "their names, one per line, ready to paste in a chat. The gear sets what's copied: names, package names, icons."));
         box.addView(step(R.drawable.ic_warning, Ui.WARN, "Orange mark",
                 "The app changed since its icon was made, so the pack doesn't recognise it right now."));
         box.addView(step(R.drawable.ic_download, Ui.TEXT, "Missing icons",
