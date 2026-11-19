@@ -19,9 +19,8 @@ import android.widget.TextView;
 /** Small helpers for building the screens in code (the app has no layout files). */
 final class Ui {
 
-    /** Arch's dark grey app drawer and his blue-grey wallpaper: icons are previewed on these. */
+    /** Arch's dark grey app drawer. The other preview background is his real wallpaper (the app turns see-through). */
     static final int DRAWER = 0xFF2F2F2F;
-    static final int WALLPAPER = 0xFF4F7D95;
 
     static final int TEXT = 0xFFFFFFFF;
     static final int TEXT_DIM = 0xB3FFFFFF;
@@ -85,12 +84,6 @@ final class Ui {
         b.setContentDescription(hint);
         b.setTooltipText(hint);
         return b;
-    }
-
-    /** Shows an icon button as switched on (white) or off (see-through). */
-    static void setActive(Context c, ImageButton b, int iconRes, boolean on) {
-        b.setImageDrawable(icon(c, iconRes, on ? 0xFF1C1C1E : TEXT));
-        b.setBackground(ripple(on ? ACCENT : FILL, dp(c, 20)));
     }
 
     /** Rounded button with an icon in front of its text. */

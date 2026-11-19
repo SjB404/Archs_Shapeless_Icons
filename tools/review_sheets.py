@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Contact sheets of the whole pack, rendered exactly like the build, with app names.
-Each app shows twice: on Arch's dark grey app drawer and on his blue-grey wallpaper.
+Each app shows twice: on Arch's dark grey app drawer and on a sample blue-grey wallpaper (his real wallpaper changes).
 
     python3 tools/review_sheets.py [out_prefix]   -> <out_prefix>_1.png, _2.png, ...
 """

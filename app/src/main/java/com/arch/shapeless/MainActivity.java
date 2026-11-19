@@ -11,6 +11,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.InsetDrawable;
+import android.graphics.drawable.RippleDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.Editable;
@@ -22,6 +23,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.view.animation.DecelerateInterpolator;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AbsListView;
@@ -47,11 +49,16 @@ import java.util.Locale;
  *  1. Being the icon pack (launchers find it through the manifest, nothing to do here).
  *  2. Showing every icon in the pack under a search bar, next to each app's own icon when asked,
  *     and exporting app icons as a zip so new icons can be made.
+ *
+ * Background: the drawer grey, or see-through so the phone's real wallpaper shows behind the icons
+ * (the window always lets the wallpaper through; in drawer mode the screen is painted grey on top).
  */
 public class MainActivity extends Activity {
 
     private static final int SHOW_ALL = 0, SHOW_ON_PHONE = 1, SHOW_MISSING = 2;
     private static final int DARK = 0xFF1C1C1E;      // icons and text on white buttons
+    /** See-through mode: light darkening behind the status bar and the top controls, so they stay readable on any wallpaper. */
+    private static final int SCRIM = 0x4D000000;
     private static final int MATCH = ViewGroup.LayoutParams.MATCH_PARENT;
     private static final int WRAP = ViewGroup.LayoutParams.WRAP_CONTENT;
 
@@ -64,14 +71,25 @@ public class MainActivity extends Activity {
     private String query = "";
     private boolean compare, onWallpaper;
 
-    private LinearLayout root;
-    private TextView subtitle, compareHint, emptyText;
+    private FrameLayout frame;      // the whole screen
+    private LinearLayout content;   // title, search, buttons and the icon list
+    private LinearLayout top;       // everything above the icon list
+    private TextView title, subtitle, compareHint, emptyText;
     private ImageView emptyIcon;
+    private LinearLayout searchPill, exportButton;
     private EditText search;
-    private ImageButton clearButton, compareButton, colourButton;
+    private ImageButton helpButton, clearButton, compareButton, colourButton;
     private final TextView[] chips = new TextView[3];
     private GridView grid;
     private IconAdapter adapter;
+
+    // One app's close-up, shown over everything else.
+    private FrameLayout detail;
+    private PackIndex.Entry detailEntry;
+    private FrameLayout detailStage;
+    private final List<TextView> detailTexts = new ArrayList<>(), detailNotes = new ArrayList<>();
+    private TextView[] detailBgChips;
+
     private Dialog sheet;
     private Uri lastZip;
 
@@ -101,6 +119,16 @@ public class MainActivity extends Activity {
         super.onDestroy();
     }
 
+    @Override
+    @SuppressWarnings("deprecation")
+    public void onBackPressed() {
+        if (detailEntry != null) {
+            hideDetail();
+            return;
+        }
+        super.onBackPressed();
+    }
+
     // ---------------------------------------------------------------- loading
 
     private void reload() {
@@ -128,49 +156,51 @@ public class MainActivity extends Activity {
     // ---------------------------------------------------------------- the home screen
 
     private void buildScreen() {
-        root = new LinearLayout(this);
-        root.setOrientation(LinearLayout.VERTICAL);
-        root.setFocusableInTouchMode(true); // lets the search bar give up focus
+        frame = new FrameLayout(this);
+        content = new LinearLayout(this);
+        content.setOrientation(LinearLayout.VERTICAL);
+        content.setFocusableInTouchMode(true); // lets the search bar give up focus
+        top = new LinearLayout(this);
+        top.setOrientation(LinearLayout.VERTICAL);
         int side = dp(16);
 
         // Title with the export and help buttons, and the counts under it.
         LinearLayout header = new LinearLayout(this);
         header.setGravity(Gravity.CENTER_VERTICAL);
         header.setPadding(side + dp(4), dp(16), side, 0);
-        TextView title = Ui.text(this, "Shapeless Icons", 22, Ui.TEXT, true);
+        title = Ui.text(this, "Shapeless Icons", 22, Ui.TEXT, true);
         title.setSingleLine(true);
         title.setEllipsize(TextUtils.TruncateAt.END);
         header.addView(title, new LinearLayout.LayoutParams(0, WRAP, 1f));
 
-        LinearLayout export = Ui.pillButton(this, R.drawable.ic_download, "Export", false);
-        export.setContentDescription("Export icons");
-        export.setOnClickListener(v -> showExportSheet());
-        header.addView(export, marginLp(WRAP, dp(44), dp(8)));
-        ImageButton help = Ui.iconButton(this, R.drawable.ic_info, "How it works");
-        help.setOnClickListener(v -> showInfoSheet());
-        header.addView(help, marginLp(dp(44), dp(44), dp(8)));
-        root.addView(header);
+        exportButton = Ui.pillButton(this, R.drawable.ic_download, "Export", false);
+        exportButton.setContentDescription("Export icons");
+        exportButton.setOnClickListener(v -> showExportSheet());
+        header.addView(exportButton, marginLp(WRAP, dp(44), dp(8)));
+        helpButton = Ui.iconButton(this, R.drawable.ic_info, "How it works");
+        helpButton.setOnClickListener(v -> showInfoSheet());
+        header.addView(helpButton, marginLp(dp(44), dp(44), dp(8)));
+        top.addView(header);
         subtitle = Ui.text(this, "Loading…", 13, Ui.TEXT_DIM, false);
         subtitle.setPadding(side + dp(4), 0, side, 0);
-        root.addView(subtitle);
+        top.addView(subtitle);
 
         // Search bar, with the compare and background buttons next to it.
         LinearLayout searchRow = new LinearLayout(this);
         searchRow.setGravity(Gravity.CENTER_VERTICAL);
         searchRow.setPadding(side, dp(16), side, 0);
 
-        LinearLayout pill = new LinearLayout(this);
-        pill.setGravity(Gravity.CENTER_VERTICAL);
-        pill.setBackground(Ui.rounded(Ui.FILL, dp(24)));
-        pill.setPadding(dp(14), 0, dp(4), 0);
+        searchPill = new LinearLayout(this);
+        searchPill.setGravity(Gravity.CENTER_VERTICAL);
+        searchPill.setPadding(dp(14), 0, dp(4), 0);
         ImageView glass = new ImageView(this);
         glass.setImageDrawable(Ui.icon(this, R.drawable.ic_search, Ui.TEXT_DIM));
-        pill.addView(glass, new LinearLayout.LayoutParams(dp(22), dp(22)));
+        searchPill.addView(glass, new LinearLayout.LayoutParams(dp(22), dp(22)));
 
         search = new EditText(this);
         search.setBackground(null);
         search.setHint("Search icons");
-        search.setHintTextColor(Ui.TEXT_FAINT);
+        search.setHintTextColor(Ui.TEXT_DIM);
         search.setTextColor(Ui.TEXT);
         search.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
         search.setSingleLine(true);
@@ -201,8 +231,8 @@ public class MainActivity extends Activity {
             hideKeyboard();
             return true;
         });
-        pill.addView(search, new LinearLayout.LayoutParams(0, dp(48), 1f));
-        pill.setOnClickListener(v -> showKeyboard());
+        searchPill.addView(search, new LinearLayout.LayoutParams(0, dp(48), 1f));
+        searchPill.setOnClickListener(v -> showKeyboard());
 
         clearButton = new ImageButton(this);
         clearButton.setImageDrawable(Ui.icon(this, R.drawable.ic_close, Ui.TEXT_DIM));
@@ -210,8 +240,8 @@ public class MainActivity extends Activity {
         clearButton.setContentDescription("Clear search");
         clearButton.setVisibility(View.GONE);
         clearButton.setOnClickListener(v -> search.setText(""));
-        pill.addView(clearButton, new LinearLayout.LayoutParams(dp(40), dp(40)));
-        searchRow.addView(pill, new LinearLayout.LayoutParams(0, dp(48), 1f));
+        searchPill.addView(clearButton, new LinearLayout.LayoutParams(dp(40), dp(40)));
+        searchRow.addView(searchPill, new LinearLayout.LayoutParams(0, dp(48), 1f));
 
         compareButton = Ui.iconButton(this, R.drawable.ic_compare, "Compare with each app's own icon");
         compareButton.setOnClickListener(v -> {
@@ -220,10 +250,10 @@ public class MainActivity extends Activity {
             applyCompare();
         });
         searchRow.addView(compareButton, marginLp(dp(48), dp(48), dp(8)));
-        colourButton = Ui.iconButton(this, R.drawable.ic_palette, "Switch background: drawer or wallpaper");
+        colourButton = Ui.iconButton(this, R.drawable.ic_palette, "Background: drawer grey or your wallpaper");
         colourButton.setOnClickListener(v -> setWallpaper(!onWallpaper));
         searchRow.addView(colourButton, marginLp(dp(48), dp(48), dp(8)));
-        root.addView(searchRow);
+        top.addView(searchRow);
 
         // Which apps to show.
         HorizontalScrollView chipScroll = new HorizontalScrollView(this);
@@ -245,11 +275,12 @@ public class MainActivity extends Activity {
             chips[i] = chip;
         }
         chipScroll.addView(chipRow);
-        root.addView(chipScroll);
+        top.addView(chipScroll);
 
         compareHint = Ui.text(this, "Left: Shapeless · right: the app's own icon", 12, Ui.TEXT_DIM, false);
-        compareHint.setPadding(side + dp(4), dp(6), side, 0);
-        root.addView(compareHint);
+        compareHint.setPadding(side + dp(4), dp(6), side, dp(2));
+        top.addView(compareHint);
+        content.addView(top);
 
         // The icons.
         FrameLayout gridBox = new FrameLayout(this);
@@ -258,6 +289,7 @@ public class MainActivity extends Activity {
         grid.setStretchMode(GridView.STRETCH_COLUMN_WIDTH);
         grid.setVerticalSpacing(dp(2));
         grid.setSelector(new ColorDrawable(Color.TRANSPARENT));
+        grid.setCacheColorHint(Color.TRANSPARENT); // the background can be see-through
         grid.setClipToPadding(false);
         grid.setPadding(dp(10), dp(6), dp(10), dp(24));
         grid.setFastScrollEnabled(true);
@@ -289,10 +321,16 @@ public class MainActivity extends Activity {
         elp.topMargin = dp(64);
         gridBox.addView(empty, elp);
         grid.setEmptyView(empty);
-        root.addView(gridBox, new LinearLayout.LayoutParams(MATCH, 0, 1f));
+        content.addView(gridBox, new LinearLayout.LayoutParams(MATCH, 0, 1f));
+        frame.addView(content, new FrameLayout.LayoutParams(MATCH, MATCH));
 
-        setContentView(root);
-        root.requestFocus();
+        detail = new FrameLayout(this);
+        detail.setVisibility(View.GONE);
+        detail.setClickable(true); // nothing behind it reacts while it's open
+        frame.addView(detail, new FrameLayout.LayoutParams(MATCH, MATCH));
+
+        setContentView(frame);
+        content.requestFocus();
     }
 
     private void setWallpaper(boolean on) {
@@ -301,33 +339,89 @@ public class MainActivity extends Activity {
         applyBackground();
     }
 
-    private int previewColour() {
-        return onWallpaper ? Ui.WALLPAPER : Ui.DRAWER;
+    private void applyBackground() {
+        // The window always lets the wallpaper through; drawer mode paints the screen grey on top of it.
+        frame.setBackgroundColor(onWallpaper ? Color.TRANSPARENT : Ui.DRAWER);
+        Window w = getWindow();
+        w.setStatusBarColor(onWallpaper ? SCRIM : Ui.DRAWER);
+        w.setNavigationBarColor(onWallpaper ? Color.TRANSPARENT : Ui.DRAWER);
+        restyle();
+        adapter.notifyDataSetChanged(); // labels and badges look a little different on the wallpaper
     }
 
-    private void applyBackground() {
-        int bg = previewColour();
-        root.setBackgroundColor(bg);
-        Window w = getWindow();
-        w.setBackgroundDrawable(new ColorDrawable(bg));
-        w.setStatusBarColor(bg);
-        w.setNavigationBarColor(bg);
-        adapter.notifyDataSetChanged(); // the badges have a ring in the background colour
+    /** Colours that depend on the background: on the wallpaper, controls get a darker see-through fill and text a soft shadow. */
+    private void restyle() {
+        top.setBackground(onWallpaper ? fade() : null);
+        searchPill.setBackground(surface(dp(24), false));
+        exportButton.setBackground(surface(dp(22), false));
+        helpButton.setBackground(surface(dp(22), false));
+        colourButton.setBackground(surface(dp(24), false));
+        styleCompareButton();
+        styleChips();
+        shadow(title);
+        soft(subtitle);
+        soft(compareHint);
+        soft(emptyText);
+        if (detailStage != null) detailStage.setBackground(onWallpaper ? fade() : null);
+        for (TextView t : detailTexts) shadow(t);
+        for (TextView t : detailNotes) soft(t);
+        if (detailBgChips != null) {
+            for (int i = 0; i < detailBgChips.length; i++) {
+                boolean on = (i == 1) == onWallpaper;
+                detailBgChips[i].setBackground(Ui.ripple(on ? Ui.ACCENT : Ui.FILL, dp(17)));
+                detailBgChips[i].setTextColor(on ? DARK : Ui.TEXT);
+            }
+        }
+    }
+
+    /** Background for a button or the search bar. "on" means switched on: white. */
+    private Drawable surface(float radius, boolean on) {
+        if (on) return Ui.ripple(Ui.ACCENT, radius);
+        if (!onWallpaper) return Ui.ripple(Ui.FILL, radius);
+        GradientDrawable fill = Ui.rounded(0x52000000, radius);
+        fill.setStroke(Math.max(1, dp(1)), 0x2EFFFFFF);
+        return new RippleDrawable(ColorStateList.valueOf(0x40FFFFFF), fill, Ui.rounded(Color.WHITE, radius));
+    }
+
+    /** Darkening at the top that fades out, carrying on from the status bar's. */
+    private static Drawable fade() {
+        return new GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM, new int[]{SCRIM, 0x00000000});
+    }
+
+    /** On the wallpaper, white text gets a dark shadow so it stays readable on light wallpapers too. */
+    private void shadow(TextView t) {
+        if (onWallpaper) t.setShadowLayer(dp(3), 0, dp(1), 0xD9000000);
+        else t.setShadowLayer(0, 0, 0, 0);
+    }
+
+    /** Text that is dimmed on the drawer: full white with a shadow on the wallpaper. */
+    private void soft(TextView t) {
+        t.setTextColor(onWallpaper ? Ui.TEXT : Ui.TEXT_DIM);
+        shadow(t);
+    }
+
+    private void styleCompareButton() {
+        compareButton.setImageDrawable(Ui.icon(this, R.drawable.ic_compare, compare ? DARK : Ui.TEXT));
+        compareButton.setBackground(surface(dp(24), compare));
+    }
+
+    private void styleChips() {
+        for (int i = 0; i < chips.length; i++) {
+            boolean on = i == filter;
+            chips[i].setBackground(surface(dp(18), on));
+            chips[i].setTextColor(on ? DARK : Ui.TEXT);
+        }
     }
 
     private void applyCompare() {
-        Ui.setActive(this, compareButton, R.drawable.ic_compare, compare);
+        styleCompareButton();
         compareHint.setVisibility(compare ? View.VISIBLE : View.GONE);
         grid.setColumnWidth(dp(compare ? 110 : 70));
         adapter.notifyDataSetChanged();
     }
 
     private void applyFilter() {
-        for (int i = 0; i < chips.length; i++) {
-            boolean on = i == filter;
-            chips[i].setBackground(Ui.ripple(on ? Ui.ACCENT : Ui.FILL, dp(18)));
-            chips[i].setTextColor(on ? DARK : Ui.TEXT);
-        }
+        styleChips();
         refilter(true);
     }
 
@@ -370,7 +464,7 @@ public class MainActivity extends Activity {
             icon = R.drawable.ic_apps;
             text = "No apps here";
         }
-        emptyIcon.setImageDrawable(icon == 0 ? null : Ui.icon(this, icon, Ui.TEXT_FAINT));
+        emptyIcon.setImageDrawable(icon == 0 ? null : Ui.icon(this, icon, Ui.TEXT_DIM));
         emptyIcon.setVisibility(icon == 0 ? View.GONE : View.VISIBLE);
         emptyText.setText(text);
     }
@@ -384,7 +478,7 @@ public class MainActivity extends Activity {
     private void hideKeyboard() {
         InputMethodManager imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
         if (imm != null) imm.hideSoftInputFromWindow(search.getWindowToken(), 0);
-        root.requestFocus();
+        content.requestFocus();
     }
 
     // ---------------------------------------------------------------- the grid
@@ -467,6 +561,7 @@ public class MainActivity extends Activity {
 
         void bind(PackIndex.Entry e) {
             label.setText(e.label);
+            shadow(label);
             if (e.hasPackIcon()) {
                 pack.setTag(null);
                 pack.setImageResource(e.resId);
@@ -502,7 +597,7 @@ public class MainActivity extends Activity {
         GradientDrawable g = new GradientDrawable();
         g.setShape(GradientDrawable.OVAL);
         g.setColor(colour);
-        g.setStroke(dp(2), previewColour());
+        g.setStroke(dp(2), onWallpaper ? DARK : Ui.DRAWER);
         return g;
     }
 
@@ -511,20 +606,79 @@ public class MainActivity extends Activity {
         GradientDrawable g = new GradientDrawable();
         g.setColor(Color.TRANSPARENT);
         g.setCornerRadius(dp(12));
-        g.setStroke(Math.max(2, dp(1.5f)), Ui.TEXT_FAINT, dp(4), dp(3));
+        g.setStroke(Math.max(2, dp(1.5f)), Ui.TEXT_DIM, dp(4), dp(3));
         return new InsetDrawable(g, dp(4));
     }
 
-    // ---------------------------------------------------------------- one app, side by side
+    // ---------------------------------------------------------------- one app, close up
 
+    /**
+     * Shows one app: the pack's icon and the app's own icon big, straight on the chosen background
+     * (so on the real wallpaper in see-through mode), with the details in a panel below.
+     */
     private void showDetail(PackIndex.Entry e) {
         hideKeyboard();
-        Dialog d = newSheet();
-        LinearLayout box = sheetBox(d, e.label);
+        if (sheet != null) sheet.dismiss();
+        detailEntry = e;
+        detail.animate().cancel();
+        content.animate().cancel();
+        detail.removeAllViews();
+        detailTexts.clear();
+        detailNotes.clear();
+
+        LinearLayout column = new LinearLayout(this);
+        column.setOrientation(LinearLayout.VERTICAL);
+
+        // The two icons, side by side on the background. Tapping the empty space closes.
+        detailStage = new FrameLayout(this);
+        detailStage.setOnClickListener(v -> hideDetail());
+        LinearLayout pair = new LinearLayout(this);
+        pair.setGravity(Gravity.TOP);
+        ImageView packImg = new ImageView(this);
+        if (e.hasPackIcon()) packImg.setImageResource(e.resId);
+        else packImg.setImageDrawable(placeholder());
+        pair.addView(stageColumn(packImg, "Shapeless", e.hasPackIcon() ? "This pack's icon" : "No icon yet"));
+        ImageView ownImg = new ImageView(this);
+        String ownNote;
+        if (e.onPhone()) {
+            ownNote = "Read from the app just now";
+            live.large(e, dp(120), b -> {
+                if (b != null) ownImg.setImageBitmap(b);
+                else ownImg.setImageDrawable(placeholder());
+            });
+        } else {
+            ownNote = "App not on this phone";
+            ownImg.setImageDrawable(placeholder());
+        }
+        pair.addView(stageColumn(ownImg, "App's own icon", ownNote), marginLp(WRAP, WRAP, dp(24)));
+        detailStage.addView(pair, new FrameLayout.LayoutParams(WRAP, WRAP, Gravity.CENTER));
+        // Smaller icons when there isn't much room (phone on its side).
+        detailStage.addOnLayoutChangeListener((v, l, t, r, b, ol, ot, or, ob) -> {
+            int size = Math.max(dp(48), Math.min(dp(120), (b - t) - dp(120)));
+            if (packImg.getLayoutParams().width == size) return;
+            v.post(() -> {
+                for (ImageView iv : new ImageView[]{packImg, ownImg}) {
+                    ViewGroup.LayoutParams lp = iv.getLayoutParams();
+                    lp.width = size;
+                    lp.height = size;
+                    iv.setLayoutParams(lp);
+                }
+            });
+        });
+        column.addView(detailStage, new LinearLayout.LayoutParams(MATCH, 0, 1f));
+
+        // The panel with the details.
+        LinearLayout card = new LinearLayout(this);
+        card.setOrientation(LinearLayout.VERTICAL);
+        card.setClickable(true);
+        float r = dp(28);
+        card.setBackground(Ui.rounded(Ui.SHEET, r, r, 0, 0));
+        card.setPadding(dp(20), dp(10), dp(20), dp(24));
+        addSheetTop(card, e.label, v -> hideDetail());
 
         TextView pkg = Ui.text(this, e.packageName, 13, Ui.TEXT_FAINT, false);
         pkg.setTextIsSelectable(true);
-        box.addView(pkg);
+        card.addView(pkg);
 
         int statusIcon, statusColour = Ui.TEXT_DIM;
         String statusText;
@@ -547,62 +701,25 @@ public class MainActivity extends Activity {
                 statusIcon = R.drawable.ic_block;
                 statusText = "No icon in the pack yet. Export apps without an icon to get one made.";
         }
-        box.addView(iconLine(statusIcon, statusColour, statusText));
+        card.addView(iconLine(statusIcon, statusColour, statusText));
 
-        // The pack's icon and the app's own icon, next to each other on the background colour.
-        List<GradientDrawable> previews = new ArrayList<>();
-        LinearLayout panels = new LinearLayout(this);
-        panels.setPadding(0, dp(16), 0, 0);
-        ImageView packImg = new ImageView(this);
-        if (e.hasPackIcon()) packImg.setImageResource(e.resId);
-        else packImg.setImageDrawable(placeholder());
-        panels.addView(panel(packImg, "Shapeless", e.hasPackIcon() ? "This pack's icon" : "No icon yet", previews),
-                new LinearLayout.LayoutParams(0, MATCH, 1f));
-        ImageView ownImg = new ImageView(this);
-        String ownNote;
-        if (e.onPhone()) {
-            ownNote = "Read from the app just now";
-            live.large(e, dp(96), b -> {
-                if (b != null) ownImg.setImageBitmap(b);
-                else ownImg.setImageDrawable(placeholder());
-            });
-        } else {
-            ownNote = "App not on this phone";
-            ownImg.setImageDrawable(placeholder());
-        }
-        LinearLayout.LayoutParams olp = new LinearLayout.LayoutParams(0, MATCH, 1f);
-        olp.setMarginStart(dp(12));
-        panels.addView(panel(ownImg, "App's own icon", ownNote, previews), olp);
-        box.addView(panels);
-
-        // Background choice for the comparison.
+        // Background choice for the close-up (and the list).
         LinearLayout bgRow = new LinearLayout(this);
         bgRow.setGravity(Gravity.CENTER_VERTICAL);
-        bgRow.setPadding(dp(4), dp(14), 0, 0);
-        bgRow.addView(Ui.text(this, "Background", 13, Ui.TEXT_DIM, false), new LinearLayout.LayoutParams(0, WRAP, 1f));
-        GradientDrawable drawerDot = swatch(Ui.DRAWER), wallDot = swatch(Ui.WALLPAPER);
-        View drawerSwatch = new View(this), wallSwatch = new View(this);
-        drawerSwatch.setBackground(drawerDot);
-        drawerSwatch.setContentDescription("Drawer grey");
-        wallSwatch.setBackground(wallDot);
-        wallSwatch.setContentDescription("Wallpaper blue");
-        Runnable mark = () -> {
-            ringSwatch(drawerDot, !onWallpaper);
-            ringSwatch(wallDot, onWallpaper);
-            for (GradientDrawable g : previews) g.setColor(previewColour());
-        };
-        drawerSwatch.setOnClickListener(v -> {
-            setWallpaper(false);
-            mark.run();
-        });
-        wallSwatch.setOnClickListener(v -> {
-            setWallpaper(true);
-            mark.run();
-        });
-        mark.run();
-        bgRow.addView(drawerSwatch, marginLp(dp(30), dp(30), 0));
-        bgRow.addView(wallSwatch, marginLp(dp(30), dp(30), dp(10)));
-        box.addView(bgRow);
+        bgRow.setPadding(0, dp(16), 0, 0);
+        bgRow.addView(Ui.text(this, "Background", 14, Ui.TEXT_DIM, false), new LinearLayout.LayoutParams(0, WRAP, 1f));
+        String[] bgNames = {"Drawer", "Wallpaper"};
+        detailBgChips = new TextView[2];
+        for (int i = 0; i < 2; i++) {
+            TextView chip = Ui.text(this, bgNames[i], 14, Ui.TEXT, true);
+            chip.setGravity(Gravity.CENTER);
+            chip.setPadding(dp(14), 0, dp(14), 0);
+            final boolean wall = i == 1;
+            chip.setOnClickListener(v -> setWallpaper(wall));
+            bgRow.addView(chip, marginLp(WRAP, dp(34), i == 0 ? 0 : dp(8)));
+            detailBgChips[i] = chip;
+        }
+        card.addView(bgRow);
 
         // What you can do from here.
         LinearLayout buttons = new LinearLayout(this);
@@ -614,44 +731,73 @@ public class MainActivity extends Activity {
         }
         if (e.needsIcon()) {
             LinearLayout exp = Ui.pillButton(this, R.drawable.ic_download, "Export", e.component == null);
-            exp.setOnClickListener(v -> showExportSheet());
+            exp.setOnClickListener(v -> {
+                closeDetailNow();
+                showExportSheet();
+            });
             buttons.addView(exp, marginLp(WRAP, WRAP, buttons.getChildCount() > 0 ? dp(10) : 0));
         }
-        if (buttons.getChildCount() > 0) box.addView(buttons);
-        showSheet(d, box);
+        if (buttons.getChildCount() > 0) card.addView(buttons);
+        column.addView(card, new LinearLayout.LayoutParams(MATCH, WRAP));
+        detail.addView(column, new FrameLayout.LayoutParams(MATCH, MATCH));
+        restyle();
+
+        // Fade the list out and the close-up in, with the panel sliding up.
+        detail.setVisibility(View.VISIBLE);
+        detail.setAlpha(0f);
+        detail.animate().alpha(1f).setDuration(180).start();
+        content.animate().alpha(0f).setDuration(180).withEndAction(() -> content.setVisibility(View.INVISIBLE)).start();
+        card.setTranslationY(dp(80));
+        card.animate().translationY(0).setDuration(260).setInterpolator(new DecelerateInterpolator(2f)).start();
     }
 
-    private LinearLayout panel(ImageView img, String title, String note, List<GradientDrawable> previews) {
-        LinearLayout p = new LinearLayout(this);
-        p.setOrientation(LinearLayout.VERTICAL);
-        p.setGravity(Gravity.CENTER_HORIZONTAL);
-        GradientDrawable bg = Ui.rounded(previewColour(), dp(20));
-        previews.add(bg);
-        p.setBackground(bg);
-        p.setPadding(dp(10), dp(18), dp(10), dp(14));
+    private LinearLayout stageColumn(ImageView img, String title, String note) {
+        LinearLayout c = new LinearLayout(this);
+        c.setOrientation(LinearLayout.VERTICAL);
+        c.setGravity(Gravity.CENTER_HORIZONTAL);
         img.setScaleType(ImageView.ScaleType.FIT_CENTER);
-        p.addView(img, new LinearLayout.LayoutParams(dp(96), dp(96)));
-        TextView t = Ui.text(this, title, 14, Ui.TEXT, true);
+        c.addView(img, new LinearLayout.LayoutParams(dp(120), dp(120)));
+        TextView t = Ui.text(this, title, 15, Ui.TEXT, true);
         t.setGravity(Gravity.CENTER);
-        t.setPadding(0, dp(12), 0, 0);
-        p.addView(t, new LinearLayout.LayoutParams(MATCH, WRAP));
+        t.setPadding(0, dp(14), 0, 0);
+        c.addView(t, new LinearLayout.LayoutParams(WRAP, WRAP));
         TextView n = Ui.text(this, note, 12, Ui.TEXT_DIM, false);
         n.setGravity(Gravity.CENTER);
+        n.setMaxWidth(dp(150));
         n.setPadding(0, dp(2), 0, 0);
-        p.addView(n, new LinearLayout.LayoutParams(MATCH, WRAP));
-        return p;
+        c.addView(n, new LinearLayout.LayoutParams(WRAP, WRAP));
+        detailTexts.add(t);
+        detailNotes.add(n);
+        return c;
     }
 
-    private GradientDrawable swatch(int colour) {
-        GradientDrawable g = new GradientDrawable();
-        g.setShape(GradientDrawable.OVAL);
-        g.setColor(colour);
-        return g;
+    private void hideDetail() {
+        if (detailEntry == null) return;
+        detailEntry = null;
+        content.animate().cancel();
+        content.setVisibility(View.VISIBLE);
+        content.animate().alpha(1f).setDuration(180).start();
+        detail.animate().cancel();
+        detail.animate().alpha(0f).setDuration(160).withEndAction(this::clearDetail).start();
     }
 
-    private void ringSwatch(GradientDrawable g, boolean chosen) {
-        if (chosen) g.setStroke(dp(2), Ui.TEXT);
-        else g.setStroke(dp(1), Ui.FILL_STRONG);
+    private void closeDetailNow() {
+        detailEntry = null;
+        content.animate().cancel();
+        detail.animate().cancel();
+        content.setVisibility(View.VISIBLE);
+        content.setAlpha(1f);
+        clearDetail();
+    }
+
+    private void clearDetail() {
+        if (detailEntry != null) return; // opened again meanwhile
+        detail.setVisibility(View.GONE);
+        detail.removeAllViews();
+        detailStage = null;
+        detailTexts.clear();
+        detailNotes.clear();
+        detailBgChips = null;
     }
 
     private void openApp(PackIndex.Entry e) {
@@ -659,7 +805,7 @@ public class MainActivity extends Activity {
             Intent i = Intent.makeMainActivity(e.component);
             i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
             startActivity(i);
-            if (sheet != null) sheet.dismiss();
+            closeDetailNow();
         } catch (Exception ex) {
             Toast.makeText(this, "Couldn't open " + e.label, Toast.LENGTH_SHORT).show();
         }
@@ -783,7 +929,7 @@ public class MainActivity extends Activity {
                 "Tap an icon to see it next to the app's own icon. The compare button does this for every app at once. "
                         + "The app's own icon is read from the app itself, so it's always the current one."));
         box.addView(step(R.drawable.ic_palette, Ui.TEXT, "Background",
-                "Switches between the drawer grey and the wallpaper blue, to check icons on both."));
+                "Switches between the drawer grey and your wallpaper: the app turns see-through, so you see the icons on your real wallpaper."));
         box.addView(step(R.drawable.ic_warning, Ui.WARN, "Orange mark",
                 "The app changed since its icon was made, so the pack doesn't recognise it right now."));
         box.addView(step(R.drawable.ic_download, Ui.TEXT, "Missing icons",
@@ -842,7 +988,12 @@ public class MainActivity extends Activity {
         LinearLayout box = new LinearLayout(this);
         box.setOrientation(LinearLayout.VERTICAL);
         box.setPadding(dp(20), dp(10), dp(20), dp(24));
+        addSheetTop(box, title, v -> d.dismiss());
+        return box;
+    }
 
+    /** Grab handle, title and close button at the top of a panel. */
+    private void addSheetTop(LinearLayout box, String title, View.OnClickListener onClose) {
         View handle = new View(this);
         handle.setBackground(Ui.rounded(Ui.FILL_STRONG, dp(2)));
         LinearLayout.LayoutParams hlp = new LinearLayout.LayoutParams(dp(36), dp(4));
@@ -850,16 +1001,15 @@ public class MainActivity extends Activity {
         hlp.bottomMargin = dp(8);
         box.addView(handle, hlp);
 
-        LinearLayout top = new LinearLayout(this);
-        top.setGravity(Gravity.CENTER_VERTICAL);
+        LinearLayout row = new LinearLayout(this);
+        row.setGravity(Gravity.CENTER_VERTICAL);
         TextView t = Ui.text(this, title, 20, Ui.TEXT, true);
-        top.addView(t, new LinearLayout.LayoutParams(0, WRAP, 1f));
+        row.addView(t, new LinearLayout.LayoutParams(0, WRAP, 1f));
         ImageButton close = Ui.iconButton(this, R.drawable.ic_close, "Close");
         close.setTag("close");
-        close.setOnClickListener(v -> d.dismiss());
-        top.addView(close, marginLp(dp(40), dp(40), dp(8)));
-        box.addView(top);
-        return box;
+        close.setOnClickListener(onClose);
+        row.addView(close, marginLp(dp(40), dp(40), dp(8)));
+        box.addView(row);
     }
 
     private void showSheet(Dialog d, View content) {

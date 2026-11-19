@@ -23,6 +23,17 @@ jobs:
         with:
           gradle-version: '8.7'
 
+      # The release number comes from version.txt: 9 for a big release, 8.1 for a small one.
+      # Stops if that number was already released, so an old release is never overwritten.
+      - name: Read version
+        run: |
+          VERSION=$(tr -d '[:space:]' < version.txt)
+          if git ls-remote --exit-code --tags origin "refs/tags/v$VERSION" > /dev/null; then
+            echo "v$VERSION is already released: raise the number in version.txt"
+            exit 1
+          fi
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+
       - name: Generate pack files from icons/
         run: python3 tools/build_pack.py
 
@@ -30,13 +41,13 @@ jobs:
         run: gradle assembleRelease --no-daemon
 
       - name: Rename APK
-        run: cp app/build/outputs/apk/release/app-release.apk ShapelessIcons-v${{ github.run_number }}.apk
+        run: cp app/build/outputs/apk/release/app-release.apk ShapelessIcons-v${{ env.VERSION }}.apk
 
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ github.run_number }}
-          name: Shapeless Icons v${{ github.run_number }}
+          tag_name: v${{ env.VERSION }}
+          name: Shapeless Icons v${{ env.VERSION }}
           body: ${{ github.event.head_commit.message }}
-          files: ShapelessIcons-v${{ github.run_number }}.apk
+          files: ShapelessIcons-v${{ env.VERSION }}.apk
           make_latest: true

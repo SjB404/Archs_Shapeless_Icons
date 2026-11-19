@@ -29,6 +29,7 @@ Arch's messages, in order. The rules quote them word for word.
 | M9 | SoundCloud redesign picture to copy, the icon index, "the icon doesn't need gradients" |
 | M10 | Feedback on version 6 (16 Nov 2026), with six pictures to copy, and to do all the work directly |
 | M11 | bunq: the full colour range and slightly thicker letters |
+| M12 | "wallpaper blue isn't going to stay wallpaper blue": the wallpaper changes (it already did), so the app shows the real wallpaper see-through |
 
 ---
 
@@ -506,10 +507,12 @@ the launcher shape, draw it clean, and make it as big as possible.
 ### R24. Easy to see on both of Arch's backgrounds, at phone size
 **Rule.** Every icon must be easy to see at real phone size (about 48 px) on the dark grey app
 drawer (#2F2F2F), because every app is there. Apps on his home screen must also be easy to see on
-the blue-grey wallpaper (#4F7D95). All the others should be too, since he might move them there.
+his wallpaper. All the others should be too, since he might move them there. The wallpaper changes
+(M12), so the blue-grey (#4F7D95) in the checking tools is only a sample of a mid-tone wallpaper: an icon
+that reads on it reads on most wallpapers. The app's see-through background shows the real one.
 
 **From.** M5: dark logos are hard to read, and bol isn't readable. The backgrounds and the home screen
-apps come from his screenshots.
+apps come from his screenshots. M12: the wallpaper changes.
 
 **How.**
 - Check with `tools/preview_icon.py`. It shows both backgrounds, at 48 px too.

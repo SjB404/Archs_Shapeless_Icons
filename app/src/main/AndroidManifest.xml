@@ -15,10 +15,12 @@
         android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
 
         <!-- adjustResize: the icon list gets shorter when the keyboard opens, so nothing hides behind it.
-             configChanges: turning the phone keeps the screen as it is instead of starting it over. -->
+             configChanges: turning the phone keeps the screen as it is instead of starting it over.
+             Wallpaper theme: the window lets the phone's real wallpaper show through (used by the see-through background). -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
+            android:theme="@android:style/Theme.DeviceDefault.Wallpaper.NoTitleBar"
             android:windowSoftInputMode="adjustResize|stateHidden"
             android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden|navigation">
             <intent-filter>

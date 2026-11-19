@@ -6,7 +6,7 @@ Shows icons the way they'll look on Arch's phone, next to the originals, so they
     python3 tools/preview_icon.py --sheet out.png <name> <name> ...   -> one row per icon
 
 <name> is the drawable name (e.g. com_soundcloud_android). The icon is rendered from icons/src/
-exactly like the build does it. Single-icon view: big and phone-size, on Arch's blue-grey wallpaper
+exactly like the build does it. Single-icon view: big and phone-size, on a sample blue-grey wallpaper
 and dark grey app drawer, plus the Play Store icon, the version 4 icon and the exported original.
 """
 import sys
@@ -17,7 +17,7 @@ from PIL import Image, ImageDraw
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from icon_render import ROOT, render  # noqa: E402
 
-BLUE = (79, 125, 149)      # Arch's home screen wallpaper (approx.)
+BLUE = (79, 125, 149)      # sample mid-tone wallpaper (Arch's old one; his wallpaper changes)
 DARK = (47, 47, 47)        # Arch's app drawer
 WORK = Path("/home/claude/work")
 REFS = Path("/home/claude/refs")

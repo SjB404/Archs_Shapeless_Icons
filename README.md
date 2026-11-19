@@ -12,7 +12,7 @@ Download the newest APK from [Releases](../../releases/latest), install it, then
   The buttons under the search bar show all of them, only the apps on this phone, or only the ones still missing an icon.
 - **Compare**: tap an icon to see it next to the app's own icon. The compare button next to the search bar
   does this for the whole list. The app's own icon is read from the installed app itself, so it's never an old copy.
-- **Background**: switches between the app drawer grey and the wallpaper blue, to check icons on both.
+- **Background**: switches between the app drawer grey and see-through, so the icons show on your real wallpaper.
 - **Orange mark**: the app changed since its icon was made (it starts through a different entry now),
   so the pack doesn't recognise it until the icon is updated.
 
@@ -39,5 +39,6 @@ with each app's icon split into layers:
 - `docs/IDEAS.md`: ideas for later.
 - `tools/build_icons.py` renders the drawings into `icons/png/`; `tools/build_pack.py` turns those into the
   files launchers read (`icons/appfilter.json` says which image belongs to which app).
-- `tools/preview_icon.py` and `tools/review_sheets.py` show icons on Arch's wallpaper and app drawer colours.
-- Every push to `main` builds a new APK and puts it in Releases.
+- `tools/preview_icon.py` and `tools/review_sheets.py` show icons on Arch's app drawer grey and a sample wallpaper
+  colour (his real wallpaper changes; the app's see-through background shows the real one).
+- Every push to `main` builds a new APK and puts it in Releases, named after `version.txt`.
