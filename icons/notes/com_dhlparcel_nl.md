@@ -24,3 +24,4 @@ letter shapes (from Simple Icons, "dhl").
 - Tyres near-black #1B1B1B, hubs light grey #D5DADE
 
 Flat colours only, no gradients, nothing behind the van.
+M13: speed lines behind the van removed ('absolutely no room for that').

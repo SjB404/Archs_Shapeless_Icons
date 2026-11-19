@@ -1,1 +1,1 @@
-Source: Play Store icon (hand-drawn). Yellow #ffdf6c bubble (R11), heart, star, hexagon and two dots in dark grey #2a2a2e inside, as in version 4.
+Traced from the export fg.png: bubble, heart, star, hexagon, four dots in the app's exact sizes and places. Colours swapped because the app's dark bubble vanishes in the drawer: yellow bubble, dark shapes, slate dots stay slate (R10). M13.

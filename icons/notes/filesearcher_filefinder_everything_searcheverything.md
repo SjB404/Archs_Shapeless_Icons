@@ -1,1 +1,1 @@
-Hand-drawn magnifier with light-blue lens, blue ring and handle, three speed lines, from the Play icon. White ring on blue bg became blue (R9). Blue #2F95FF.
+Measured from the export fg.png: ring, thin neck, rounded handle, two tapered speed lines, lens with diagonal shine. White parts in the app's blue (R9), no drop shadow (R7), flat (R30), ring and handle slightly thicker (R29). M13.

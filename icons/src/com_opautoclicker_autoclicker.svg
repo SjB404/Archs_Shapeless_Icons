@@ -1,6 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 170">
-<rect x="5" y="5" width="100" height="160" rx="50" fill="#ececec"/>
-<path d="M5 70 H105 M55 5 V70" stroke="#8d8d8d" stroke-width="6" fill="none"/>
-<path d="M5 55 Q5 5 55 5 V70 H5Z" fill="#d4d4d4"/>
-<rect x="5" y="5" width="100" height="160" rx="50" fill="none" stroke="#ececec" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="141 106 150 219">
+<!-- OP Auto Clicker: measured from the app's own icon (export fg.png, M13): the mouse in three parts, two buttons
+     and the body, with see-through gaps between them, same outline as the app. The app's mid grey is lighter
+     here so it reads in the dark drawer (R10). -->
+<defs>
+<path id="m" d="M205.5 110H225.5A60 80 0 0 1 285.5 190V266A60 55 0 0 1 225.5 321H205.5A60 55 0 0 1 145.5 266V190A60 80 0 0 1 205.5 110Z"/>
+<clipPath id="a"><rect x="140" y="100" width="67.5" height="90"/></clipPath>
+<clipPath id="b"><rect x="224.5" y="100" width="70" height="90"/></clipPath>
+<clipPath id="c"><rect x="140" y="208" width="155" height="120"/></clipPath>
+</defs>
+<g fill="#D2D2D2"><use href="#m" clip-path="url(#a)"/><use href="#m" clip-path="url(#b)"/><use href="#m" clip-path="url(#c)"/></g>
 </svg>

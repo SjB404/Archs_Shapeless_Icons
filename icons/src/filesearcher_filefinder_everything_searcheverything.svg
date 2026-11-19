@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 190"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9CCBFF"/><stop offset="1" stop-color="#D6EBFF"/></linearGradient></defs><circle cx="108" cy="82" r="72" fill="url(#g)" stroke="#2F95FF" stroke-width="22"/><path d="M162 138L206 178" stroke="#2F95FF" stroke-width="28" stroke-linecap="round" fill="none"/><g stroke="#2F95FF" stroke-width="9" stroke-linecap="round"><path d="M4 50H26"/><path d="M12 72H30"/><path d="M4 96H24"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="112 120 214 175">
+<!-- FileFinder: measured from the app's own icon (export fg.png, M13): ring, thin neck, rounded handle and the two
+     tapered speed lines, with the lens and its diagonal shine. The white parts take the app's blue (R9); flat
+     colours, no drop shadow (R7, R30). The ring and handle are a little thicker than in the app (R29). -->
+<defs><clipPath id="l"><circle cx="219" cy="186" r="50"/></clipPath></defs>
+<circle cx="219" cy="186" r="50" fill="#84BDF4"/>
+<path d="M150 120L278 226L330 120Z" fill="#A6D0F8" clip-path="url(#l)"/>
+<g fill="none" stroke="#3A9BFF" stroke-linecap="round">
+<circle cx="219" cy="186" r="56.5" stroke-width="15"/>
+<path d="M258 227L276 245" stroke-width="13" stroke-linecap="butt"/>
+<path d="M276 245L313 282" stroke-width="25"/>
+</g>
+<path fill="#3A9BFF" d="M115 163L166 157L166 172L157 170.5Z M129 191.5L166 186L166 199L158 198Z"/>
+</svg>

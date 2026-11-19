@@ -13,7 +13,7 @@
  "com_alarmclock_xtreme_free": {
   "label": "Alarm Clock Xtreme",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
@@ -92,7 +92,7 @@
   "arch_said": [
    "aptoide should be just the logo fullscreen",
    "aptoide should have a gap like in the image provided, tbh if you copied the shape of the image provided and made it aptoide orange that would be great",
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"aptoide should be dual tone\""
   ],
   "rules": [
@@ -135,7 +135,7 @@
  "com_llamalab_automate": {
   "label": "Automate",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
@@ -148,7 +148,7 @@
  "com_handycloset_android_eraser": {
   "label": "Background Eraser",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"background eraser needs a bigger checkered pattern\""
   ],
   "rules": [
@@ -199,7 +199,7 @@
   "label": "Bible",
   "arch_said": [
    "the holy bible, rounding should line up with the book insides, how it was originally was pretty good tbh",
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
@@ -292,7 +292,7 @@
  "com_samruston_buzzkill": {
   "label": "BuzzKill",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
@@ -402,7 +402,7 @@
   "label": "Clock",
   "arch_said": [
    "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be",
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"the google clock needs to be something inbetween the dualtone previous icon and the current one, if the edge of the dualtone and the hands of the dualtonw were thicker it would look good\"",
    "M13: \"i dislike the new gradient shiny whatever you call it, fluent 3d icons that both google and microsoft are doing\""
   ],
@@ -419,7 +419,7 @@
   "label": "Contacts",
   "arch_said": [
    "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be",
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
@@ -445,7 +445,7 @@
   "label": "Crossy Road",
   "arch_said": [
    "the crossy road chicken is blue",
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
@@ -604,7 +604,7 @@
  "filesearcher_filefinder_everything_searcheverything": {
   "label": "FileFinder",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
@@ -834,7 +834,7 @@
  "org_kde_kdeconnect_tp": {
   "label": "KDE Connect",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"kde connect should have the logo on screen be white\""
   ],
   "rules": [
@@ -865,7 +865,7 @@
  "com_pulsenet_inputset": {
   "label": "KeyLinker",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"keylinker doesnt look anything like the logo\" (sent the real logo: /home/claude/refs/com_pulsenet_inputset/arch_ref_m13.png)"
   ],
   "rules": [
@@ -935,7 +935,7 @@
  "org_proninyaroslav_libretorrent": {
   "label": "LibreTorrent",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"a simple icon with very thin lines looks bad, for example libretorrent, screenmaster, life360\" (R29)"
   ],
   "rules": [
@@ -949,7 +949,7 @@
  "com_life360_android_safetymapd": {
   "label": "Life360",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"a simple icon with very thin lines looks bad, for example libretorrent, screenmaster, life360\" (R29)"
   ],
   "rules": [
@@ -982,7 +982,7 @@
  "com_lscsmartconnection_smart": {
   "label": "LSC Smart Connect",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"lsc has no house elements\""
   ],
   "rules": [
@@ -1031,10 +1031,16 @@
  },
  "nl_com_media_markt": {
   "label": "MediaMarkt",
-  "arch_said": [],
-  "rules": [],
-  "direction": "MediaMarkt's red swirl (the red spiral blades) with the gaps between the blades see-through, as in version 4, redrawn clean.",
-  "status": "redo"
+  "arch_said": [
+   "M13 (resent 20 Nov 2026 as a picture of 27 apps, MediaMarkt included): \"fix all of these\"",
+   "M13: \"and yeah everything else is just innacurate\""
+  ],
+  "rules": [
+   "R9",
+   "R2"
+  ],
+  "direction": "MediaMarkt's official red swirl (Simple Icons), gaps between the blades see-through. Checked against the app icon in M13: the shape is already the official one, so it stays.",
+  "status": "keep"
  },
  "com_google_android_apps_tachyon": {
   "label": "Meet",
@@ -1133,7 +1139,7 @@
   "arch_said": [
    "the dhl logo could be something fun kinda like the crude sketch provided",
    "redo the dhl logo from my crude sketch with fable, and take some creatieve liberty",
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"remove the speed lines behind the dhl van, absolutely no room for that with such a small yet dense logo\""
   ],
   "rules": [
@@ -1146,7 +1152,7 @@
  "com_gameloft_android_anmp_gloftpohm": {
   "label": "My Little Pony",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"mlp looks decent but it should be normal twilight not alicorn season 9 twilight\""
   ],
   "rules": [
@@ -1187,7 +1193,7 @@
  "com_opautoclicker_autoclicker": {
   "label": "OP Auto Clicker",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
@@ -1233,7 +1239,7 @@
  "eu_bandainamcoent_pacman256": {
   "label": "PAC-MAN 256",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"pacman 256 the grey looks terrible, apps are allowed to have a dark grey or even black outline, its only bad when the whole app is one color and its black, cus thats hard to see\""
   ],
   "rules": [
@@ -1366,7 +1372,7 @@
  "com_phascinate_precisevolume": {
   "label": "Precise Volume",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [],
@@ -1376,7 +1382,7 @@
  "proton_android_authenticator": {
   "label": "Proton Authenticator",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
@@ -1406,7 +1412,7 @@
  "com_batonresearch_pump": {
   "label": "pump.fun",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
@@ -1506,7 +1512,7 @@
  "pro_capture_screenshot": {
   "label": "Screen Master",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"a simple icon with very thin lines looks bad, for example libretorrent, screenmaster, life360\" (R29)"
   ],
   "rules": [
@@ -1658,7 +1664,7 @@
   "label": "Sponge",
   "arch_said": [
    "the sponge icon also doesn't match the rounding of the top shape that makes up the sponge",
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [],
@@ -1720,7 +1726,7 @@
  "com_github_catfriend1_syncthingandroid": {
   "label": "Syncthing-Fork",
   "arch_said": [
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [
@@ -1998,7 +2004,7 @@
   "label": "Wallet",
   "arch_said": [
    "Google apps used to be clear what the difference is, then they sent to using the same colours for all of them, now it's slightly better but still not what it used to be",
-   "M13 (version 8.2 picture of 26 apps): \"fix all of these\"",
+   "M13 (version 8.2 picture): \"fix all of these\"",
    "M13: \"and yeah everything else is just innacurate\""
   ],
   "rules": [

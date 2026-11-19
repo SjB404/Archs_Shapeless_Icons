@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380"><defs><radialGradient id="g" cx=".5" cy=".42" r=".6"><stop offset="0" stop-color="#A9A8FF"/><stop offset=".55" stop-color="#6A8CF8"/><stop offset="1" stop-color="#3B6EF5"/></radialGradient><linearGradient id="h" x1="0" x2="1"><stop offset="0" stop-color="#FF9BE6"/><stop offset=".45" stop-color="#fff"/></linearGradient></defs><circle cx="190" cy="190" r="143" fill="url(#g)"/><path d="M125 157L195 200" stroke="#1A1F4E" stroke-width="44" stroke-linecap="round"/><path d="M188 192L290 132" stroke="url(#h)" stroke-width="26" stroke-linecap="round"/><circle cx="190" cy="298" r="13" fill="#BBDDFF"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380">
+<!-- Google Clock, flat, in between the earlier two-tone icon and the 2026 one (M13): a darker blue edge
+     around a lighter blue face, thick navy hour hand and thick white minute hand at 10:10, light dot at
+     the 30-minute mark. No gradient or shine (R30); edge and hands thicker (R29). -->
+<circle cx="190" cy="190" r="186" fill="#1A5FE0"/>
+<circle cx="190" cy="190" r="150" fill="#5B93F7"/>
+<path d="M118 146L190 190" stroke="#152460" stroke-width="54" stroke-linecap="round"/>
+<path d="M190 190L282 133" stroke="#FFFFFF" stroke-width="36" stroke-linecap="round"/>
+<circle cx="190" cy="292" r="17" fill="#D2E3FF"/>
+</svg>

@@ -1,1 +1,1 @@
-KeyLinker: tilted game controller only, in the app's blue gradient, X and 4 buttons cut out see-through. Phone body and dot dropped (R5). Distinct from Key Mapper by shape and colour (R25).
+KeyLinker: the tilted controller from the real logo Arch sent (refs/com_pulsenet_inputset/arch_ref_m13.png), traced with vtracer. The icon cuts the left grip's ring off at the edge; it was finished with ellipses fitted to the visible ring (work/v9/kl_fit.py, kl_build.py). White lines on blue, so drawn in the app's blue #2EA6F2 (R9, R24). Phone frame and home dot left out (R5).

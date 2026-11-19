@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="60 70 181 173">
-<!-- Aptoide: the folded-V mark with the diagonal gap, copied from the image Arch sent, flat Aptoide orange -->
-<path fill="#EE8434" d="M67 83.35 A3.5 3.5 0 0 1 72.55 80.51 L143.32 131.63 A1.5 1.5 0 0 1 143.32 134.06 L81.02 179.06 A2 2 0 0 1 78.59 179 L75.15 176.2 A22 22 0 0 1 67 159.11 Z"/>
-<path fill="#EE8434" d="M228.95 80.51 A3.5 3.5 0 0 1 234.5 83.35 L234.5 159.11 A22 22 0 0 1 226.35 176.2 L158.94 230.86 A13 13 0 0 1 142.56 230.86 L87.23 186 A2 2 0 0 1 87.32 182.82 Z"/>
+<!-- Aptoide: the folded-V mark with the diagonal gap, copied from the image Arch sent (M10).
+     Two tones (M13 "aptoide should be dual tone"): the folded-back left wing in the deep orange,
+     the front piece in the light orange; both taken from the app icon's own background. -->
+<path fill="#D0521E" d="M67 83.35 A3.5 3.5 0 0 1 72.55 80.51 L143.32 131.63 A1.5 1.5 0 0 1 143.32 134.06 L81.02 179.06 A2 2 0 0 1 78.59 179 L75.15 176.2 A22 22 0 0 1 67 159.11 Z"/>
+<path fill="#F7953F" d="M228.95 80.51 A3.5 3.5 0 0 1 234.5 83.35 L234.5 159.11 A22 22 0 0 1 226.35 176.2 L158.94 230.86 A13 13 0 0 1 142.56 230.86 L87.23 186 A2 2 0 0 1 87.32 182.82 Z"/>
 </svg>
-

@@ -1,1 +1,1 @@
-Hand-drawn round blue clock face with gradient, navy and white hands, dot. Round face is the logo (R8).
+Google Clock, flat, between Google's earlier two-tone clock and the 2026 glossy one (M13): darker blue edge (thick) around a lighter blue face, thick navy hour hand and thick white minute hand at 10:10, light dot at the 30-minute mark. No gradient or shine (R30), thicker edge and hands (R29).

@@ -13,3 +13,4 @@ Changes from the store icon:
 
 Doubt: it is a clean vector of a 3D-looking pixel logo, not a native pixel-grid file, because the extrusion is diagonal.
 The game's yellow face has a faint shading that is left flat.
+M13: the grey 3D sides are black now, like the app (a dark outline is fine, R10).

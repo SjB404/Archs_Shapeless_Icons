@@ -30,7 +30,7 @@ Arch's messages, in order. The rules quote them word for word.
 | M10 | Feedback on version 6 (16 Nov 2026), with six pictures to copy, and to do all the work directly |
 | M11 | bunq: the full colour range and slightly thicker letters |
 | M12 | "wallpaper blue isn't going to stay wallpaper blue": the wallpaper changes (it already did), so the app shows the real wallpaper see-through |
-| M13 | Feedback on version 8.2 (19 Nov 2026), sent as the app's shared picture of 26 apps (`/home/claude/refs/_m13/shared_26_apps.png`) plus the real KeyLinker logo: "fix all of these", thin lines on simple logos, no glossy 3D look, dark outlines are fine, and notes per app |
+| M13 | Feedback on version 8.2 (19 Nov 2026), sent as the app's shared picture (26 apps with My Little Pony, `/home/claude/refs/_m13/shared_26_apps.png`; resent 20 Nov with 27 apps, MediaMarkt instead of My Little Pony) plus the real KeyLinker logo: "fix all of these", thin lines on simple logos, no glossy 3D look, dark outlines are fine, and notes per app |
 
 ---
 

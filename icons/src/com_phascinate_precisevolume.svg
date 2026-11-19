@@ -1,9 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<polygon points="405.4,204.6 453.0,221.3 453.0,290.7 405.4,307.4 398.0,325.3 419.8,370.7 370.7,419.8 325.3,398.0 307.4,405.4 290.7,453.0 221.3,453.0 204.6,405.4 186.7,398.0 141.3,419.8 92.2,370.7 114.0,325.3 106.6,307.4 59.0,290.7 59.0,221.3 106.6,204.6 114.0,186.7 92.2,141.3 141.3,92.2 186.7,114.0 204.6,106.6 221.3,59.0 290.7,59.0 307.4,106.6 325.3,114.0 370.7,92.2 419.8,141.3 398.0,186.7" fill="#3a68df" stroke="#3a68df" stroke-width="16" stroke-linejoin="round"/>
+<!-- Precise Volume: blue gear with rounded teeth, dark ring and lighter disc, white speaker with two sound waves,
+     as in the app icon (M13). The waves are thicker with round ends (R29). -->
+<polygon points="405.4,204.6 453.0,221.3 453.0,290.7 405.4,307.4 398.0,325.3 419.8,370.7 370.7,419.8 325.3,398.0 307.4,405.4 290.7,453.0 221.3,453.0 204.6,405.4 186.7,398.0 141.3,419.8 92.2,370.7 114.0,325.3 106.6,307.4 59.0,290.7 59.0,221.3 106.6,204.6 114.0,186.7 92.2,141.3 141.3,92.2 186.7,114.0 204.6,106.6 221.3,59.0 290.7,59.0 307.4,106.6 325.3,114.0 370.7,92.2 419.8,141.3 398.0,186.7" fill="#3a68df" stroke="#3a68df" stroke-width="30" stroke-linejoin="round"/>
 <circle cx="256" cy="256" r="152" fill="#3a68df"/>
 <circle cx="256" cy="256" r="132" fill="#2d62c8"/>
 <circle cx="256" cy="256" r="112" fill="#417fe6"/>
 <polygon points="185,234 217,234 257,198 257,314 217,278 185,278" fill="#fff" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
-<path d="M273,222 A42,42 0 0 1 273,290" fill="none" stroke="#fff" stroke-width="15" stroke-linecap="butt"/>
-<path d="M273,190 A74,74 0 0 1 273,322" fill="none" stroke="#fff" stroke-width="15" stroke-linecap="butt"/>
+<path d="M279,226 A36,36 0 0 1 279,286" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round"/>
+<path d="M287,196 A68,68 0 0 1 287,316" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round"/>
 </svg>

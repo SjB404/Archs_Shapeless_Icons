@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="14 14 164 164"><g fill="none" stroke="#9C27B0" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"><path d="M92 50c0 22 0 50-41 91"/><path d="M142 100c-22 0-50 0-91 41"/><path d="M153.9 86.2C147.1 87.2 142 93 142 100M155.1 114c-7.3-.5-13.1-6.5-13.1-14M153.9 86.2C147.7 62.7 129.2 44.2 105.8 38.1M155.1 114C149.9 145.8 122.3 170 89 170c-13.5 0-26.1-4-36.6-10.9M52.4 159.1c-3.4 3.2-7 5.9-11.4 5.9-7.700 0-14-6.300-14-14 0-4.700 2.300-8.900 5.900-11.400M32.900 139.600C26 129.100 22 116.500 22 103c0-33.300 24.200-60.900 56-66.100M78 36.900C78.500 44.200 84.600 50 92 50c7 0 12.800-5.100 13.800-11.900"/></g><g fill="#9C27B0"><circle cx="92" cy="36" r="17"/><circle cx="156" cy="100" r="17"/><circle cx="41" cy="151" r="17"/><circle cx="92" cy="50" r="12"/><circle cx="142" cy="100" r="12"/><circle cx="51" cy="141" r="12"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 30 172 170">
+<!-- LibreTorrent: the app's own vector logo (github.com/proninyaroslav/libretorrent, ic_launcher_foreground.xml):
+     ring, two curves and three dots, in the background purple (R9). Lines 1.7x thicker (R29, M13). -->
+<g fill="none" stroke="#9C27B0" stroke-width="17">
+<circle cx="120" cy="119.87" r="65.03"/>
+<path d="M170.84 120.04c-47.14-2.2-77.09 25.14-87.42 36.23"/>
+<path d="M119.96 69.12C121.27 123.01 91.18 147.35 83.29 156.47"/>
+</g>
+<g fill="#9C27B0">
+<circle cx="184.82" cy="119.78" r="20"/>
+<circle cx="119.62" cy="55" r="20"/>
+<circle cx="73.79" cy="166.19" r="20"/>
+</g>
+</svg>

@@ -1,12 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-45 70 1040 700">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="90 70 905 700">
 <!-- My DHL: fun delivery van after Arch's sketch, with creative liberty. DHL yellow #FFCC00, DHL red #D40511.
-     Real DHL letterforms from Simple Icons (dhl); the logo's side speed lines became the streaks behind the van. -->
-<!-- speed streaks -->
-<g fill="#FFCC00">
-<rect x="0" y="170" width="78" height="52" rx="26"/>
-<rect x="-45" y="305" width="123" height="52" rx="26"/>
-<rect x="18" y="440" width="60" height="52" rx="26"/>
-</g>
+     Real DHL letterforms from Simple Icons (dhl). M13: no speed lines behind the van. -->
 <!-- body: cargo box, sloped windscreen, short nose -->
 <path fill="#FFCC00" d="M100 135 Q100 80 155 80 L690 80 Q722 80 742 104 L880 275 L930 290 Q985 306 985 362 L985 600 Q985 640 945 640 L140 640 Q100 640 100 600 Z"/>
 <!-- red sill + bumper -->

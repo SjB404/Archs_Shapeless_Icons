@@ -1,1 +1,1 @@
-OP Auto Clicker: computer mouse in light grey/white with darker grey button split (R10), no white circle. Slightly simplified; light colour sets it apart from other grey/dark icons (R25).
+Measured from the export fg.png: mouse in three parts (two buttons, body) with see-through gaps, same outline. Mid grey lightened to #D2D2D2 for the dark drawer (R10). M13.
