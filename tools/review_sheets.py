@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Contact sheets of the whole pack, rendered exactly like the build, with app names.
-Each app shows twice: on Arch's dark grey app drawer and on a sample blue-grey wallpaper (his real wallpaper changes).
+Each app shows twice: on Arch's dark grey app drawer and on black.
 
     python3 tools/review_sheets.py [out_prefix]   -> <out_prefix>_1.png, _2.png, ...
 """
@@ -14,7 +14,7 @@ from PIL import Image, ImageDraw
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from icon_render import ROOT, render  # noqa: E402
 
-DARK, BLUE = (47, 47, 47), (79, 125, 149)
+DARK, BLACK = (47, 47, 47), (0, 0, 0)
 APPS = Path("/home/claude/work/apps.tsv")
 
 
@@ -37,7 +37,7 @@ def main():
             if ic is None:
                 p = ROOT / "icons" / "png" / f"{r['drawable']}.png"
                 ic = Image.open(p).convert("RGBA") if p.exists() else None
-            for j, bg in enumerate((DARK, BLUE)):
+            for j, bg in enumerate((DARK, BLACK)):
                 tile = Image.new("RGBA", (t, t), bg + (255,))
                 if ic is not None:
                     im = ic.convert("RGBa").resize((t - 12, t - 12), Image.LANCZOS).convert("RGBA")

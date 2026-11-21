@@ -30,6 +30,7 @@ Arch's messages, in order. The rules quote them word for word.
 | M10 | Feedback on version 6 (16 Nov 2026), with six pictures to copy, and to do all the work directly |
 | M11 | bunq: the full colour range and slightly thicker letters |
 | M12 | "wallpaper blue isn't going to stay wallpaper blue": the wallpaper changes (it already did), so the app shows the real wallpaper see-through |
+| M15 | 21 Nov 2026: "test against a dark grey and black background instead of grey and wallpaper" (R24) |
 | M13 | Feedback on version 8.2 (19 Nov 2026), sent as the app's shared picture (26 apps with My Little Pony, `/home/claude/refs/_m13/shared_26_apps.png`; resent 20 Nov with 27 apps, MediaMarkt instead of My Little Pony) plus the real KeyLinker logo: "fix all of these", thin lines on simple logos, no glossy 3D look, dark outlines are fine, and notes per app |
 
 ---
@@ -510,22 +511,17 @@ the launcher shape, draw it clean, and make it as big as possible.
 
 ## F. Checking
 
-### R24. Easy to see on both of Arch's backgrounds, at phone size
-**Rule.** Every icon must be easy to see at real phone size (about 48 px) on the dark grey app
-drawer (#2F2F2F), because every app is there. Apps on his home screen must also be easy to see on
-his wallpaper. All the others should be too, since he might move them there. The wallpaper changes
-(M12), so the blue-grey (#4F7D95) in the checking tools is only a sample of a mid-tone wallpaper: an icon
-that reads on it reads on most wallpapers. The app's see-through background shows the real one.
+### R24. Easy to see on dark grey and on black, at phone size
+**Rule.** Every icon must be easy to see at real phone size (about 48 px) on dark grey (#2F2F2F, the
+app drawer) and on black (#000000). Icons are tested against these two while they're made
+(Arch, 21 Nov 2026: "test against a dark grey and black background instead of grey and wallpaper").
 
-**From.** M5: dark logos are hard to read, and bol isn't readable. The backgrounds and the home screen
-apps come from his screenshots. M12: the wallpaper changes.
+**From.** M5: dark logos are hard to read, and bol isn't readable. M12: the wallpaper changes, so a
+sample wallpaper colour isn't a useful test. M15 (21 Nov 2026): dark grey and black are the test backgrounds.
 
 **How.**
 - Check with `tools/preview_icon.py`. It shows both backgrounds, at 48 px too.
-- **Dark grey hides:** black, navy, dark teal, dark purple and dark green.
-- **Blue-grey hides:** mid blues, teals and greys. In a test, a mid blue like #4466FF nearly
-  vanished on it, while #7F9CFF was easy to see on both backgrounds.
-- **If the two backgrounds disagree,** the dark drawer wins, except for home screen apps.
+- **Dark grey and black hide:** black, navy, dark teal, dark purple, dark green, dark greys.
 - **Thin lines** disappear at 48 px and look weak. On a simple logo, make them thicker (R29).
 - **Fix it with colour** (R10), never with outlines, glows or shadows (R7).
 
@@ -657,7 +653,7 @@ dualtonw were thicker it would look good".
 - [ ] Words follow R14. Games and pictures show only the main subject (R15). Pixel art is sharp and
       straight (R16).
 - [ ] Special groups are handled (R18 to R23).
-- [ ] It's easy to see at 48 px on dark grey, and on blue-grey too (R24).
+- [ ] It's easy to see at 48 px on dark grey and on black (R24).
 - [ ] It can't be mixed up with another niche app (R25), and it fits its family (R26).
 - [ ] It matches the app's `direction` and `arch_said` in `app_notes.json`.
 - [ ] Colours are flat unless Arch asked for a gradient (R13). Matched corners look equally round (R27).

@@ -6,7 +6,7 @@ Shows icons the way they'll look on Arch's phone, next to the originals, so they
     python3 tools/preview_icon.py --sheet out.png <name> <name> ...   -> one row per icon
 
 <name> is the drawable name (e.g. com_soundcloud_android). The icon is rendered from icons/src/
-exactly like the build does it. Single-icon view: big and phone-size, on a sample blue-grey wallpaper
+exactly like the build does it. Single-icon view: big and phone-size, on black
 and dark grey app drawer, plus the Play Store icon, the version 4 icon and the exported original.
 """
 import sys
@@ -17,7 +17,7 @@ from PIL import Image, ImageDraw
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from icon_render import ROOT, render  # noqa: E402
 
-BLUE = (79, 125, 149)      # sample mid-tone wallpaper (Arch's old one; his wallpaper changes)
+BLACK = (0, 0, 0)          # black background (Arch, 21 Nov 2026)
 DARK = (47, 47, 47)        # Arch's app drawer
 WORK = Path("/home/claude/work")
 REFS = Path("/home/claude/refs")
@@ -56,11 +56,11 @@ def single(name):
     c = Image.new("RGBA", (W, H), (120, 120, 120, 255))
     d = ImageDraw.Draw(c)
     d.text((10, 6), f"{name}{note}", fill="white")
-    c.alpha_composite(tile(new, 256, BLUE), (10, 24))
+    c.alpha_composite(tile(new, 256, BLACK), (10, 24))
     c.alpha_composite(tile(new, 256, DARK), (276, 24))
-    d.text((10, 284), "new: wallpaper / drawer (big)", fill="white")
+    d.text((10, 284), "new: black / dark grey (big)", fill="white")
     x = 10
-    for bg in (BLUE, DARK):
+    for bg in (BLACK, DARK):
         for s in (128, 72, 48):
             c.alpha_composite(tile(new, s, bg), (x, 300 + (128 - s)))
             x += s + 6
@@ -85,11 +85,11 @@ def sheet(out, names):
     W, H = cell * 4 + 300, (cell + 10) * len(names) + 30
     c = Image.new("RGBA", (W, H), (120, 120, 120, 255))
     d = ImageDraw.Draw(c)
-    d.text((10, 8), "new on drawer | new on wallpaper | play store | version 4", fill="white")
+    d.text((10, 8), "new on drawer | new on black | play store | version 4", fill="white")
     for i, n in enumerate(names):
         y = 28 + i * (cell + 10)
         new = render(n) or load(ROOT / "icons" / "png" / f"{n}.png")
-        ims = [(new, DARK), (new, BLUE), (load(REFS / n / "play.png"), DARK), (load(WORK / "v4_png" / f"{n}.png"), DARK)]
+        ims = [(new, DARK), (new, BLACK), (load(REFS / n / "play.png"), DARK), (load(WORK / "v4_png" / f"{n}.png"), DARK)]
         for j, (im, bg) in enumerate(ims):
             c.alpha_composite(tile(im, cell - 10, bg), (10 + j * cell, y))
         d.text((10 + 4 * cell, y + cell // 2 - 6), n, fill="white")

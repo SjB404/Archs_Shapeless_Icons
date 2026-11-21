@@ -94,7 +94,7 @@ Drawing rules:
 ### Step 5. Check it, fix it, check again
 Run `python3 /home/claude/archs_shapeless_icons/tools/preview_icon.py <name>` and look at
 `/home/claude/work/preview/<name>.png` (Read tool). It shows your icon exactly as the build will make it,
-big and at phone size, on a sample blue-grey wallpaper (his real one changes) and his dark grey app drawer, next to the Play
+big and at phone size, on dark grey (his app drawer) and on black, next to the Play
 Store icon, the version 4 icon and the exported original. For a family of apps, also compare them side
 by side: `python3 tools/preview_icon.py --sheet /home/claude/work/preview/<group>.png <name> <name> ...`
 
