@@ -2173,10 +2173,11 @@
   "label": "Bixby",
   "arch_said": [
    "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
-   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter",
+   "M18 (21 Nov 2026, marked-up screenshots of version 9.1): the b's outline was wrong (circled)"
   ],
   "rules": [],
-  "direction": "Bixby: the 'b' from the app's logo layer (its blue inner part is see-through), in one flat blue from the app's background (R9, M16).",
+  "direction": "Bixby: the b, outline traced from the 512 px Galaxy Store icon (M17). The white letter takes the tile's blue (R9); the light-lavender top-right quarter keeps its lavender; the counter is see-through. Flat, without One UI 8.5's 3D shading (M16).",
   "status": "done"
  },
  "com_sec_android_app_sbrowser": {
@@ -2265,10 +2266,11 @@
   "label": "Creative studio",
   "arch_said": [
    "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
-   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter",
+   "M18 (21 Nov 2026, marked-up screenshots of version 9.1): the end of the scribble was smeared (circled)"
   ],
   "rules": [],
-  "direction": "Creative studio: the white easel with the scribble, from the app's logo layer. Flat white easel without its soft shading (M16); the scribble's blue-to-teal fade is part of the drawing, so it keeps a simple two-colour fade. The board is white in the app, so it stays white (R12).",
+  "direction": "Creative studio: the easel board with its hook, lavender bottom ledge and two legs, and the scribble, outline traced from the 512 px Galaxy Store icon (M17). The board is white in the app, so it stays white (R12); hook, ledge and legs keep their light lavender. The scribble's colours run purple, blue, teal, green along the stroke as in the app, so it keeps that fade, without the 3D shading (M16).",
   "status": "done"
  },
  "com_imaginecurve_curve_prd": {
@@ -2348,10 +2350,11 @@
   "label": "Gallery",
   "arch_said": [
    "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
-   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter",
+   "M18 (21 Nov 2026, marked-up screenshots of version 9.1): petals sliced instead of separate petals meeting at the centre (arrows, question marks)"
   ],
   "rules": [],
-  "direction": "Samsung Gallery: the six-petal flower with its orange centre, from the app's logo layer. The petals are white on a pink-to-orange shade in the app, so each petal takes the colour behind it as one flat colour (R9, M16).",
+  "direction": "Samsung Gallery: the six-petal flower with its orange centre, every petal its own shape, outline traced from the 512 px Galaxy Store icon (M17). The petals keep their own colours from the app: three white, and three in light lavender-pink, peach and pink. The flower is drawn white in the logo, like the Camera and Clock in this family (R12). Flat (M16).",
   "status": "done"
  },
  "com_samsung_android_game_gamehome": {
@@ -2542,10 +2545,11 @@
   "label": "Notes",
   "arch_said": [
    "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
-   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter",
+   "M18 (21 Nov 2026, marked-up screenshots of version 9.1): wrong edges on the page and the folded corner (arrows)"
   ],
   "rules": [],
-  "direction": "Samsung Notes: the page with its rings and folded corner, outline traced from the Play Store icon (512 px) so the shape matches exactly (M17). White page on red in the app, so a flat red page with a light-red folded corner; the rings stay see-through (R9, M16).",
+  "direction": "Samsung Notes: the notebook page with its binding strip, three ring holes and the folded corner, outline traced from the 512 px Galaxy Store icon (M17). The white page takes the tile's red (R9); the binding strip keeps its light pink and the folded corner its salmon pink, as in the app; the holes and the cut corner are see-through. Flat (M16).",
   "status": "done"
  },
  "com_microsoft_skydrive": {
@@ -2572,20 +2576,22 @@
   "label": "PENUP",
   "arch_said": [
    "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
-   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter",
+   "M18 (21 Nov 2026, marked-up screenshots of version 9.1): the dark tip of the nib was missing (circled)"
   ],
   "rules": [],
-  "direction": "PENUP: the pen-nib arrow with its slit, outline traced from the Play Store icon (512 px) so the shape matches exactly (M17). White on blue in the app, so one flat blue (R9, M16).",
+  "direction": "PENUP: the pen-nib arrow with its slit and its darker tip, outline traced from the 512 px Galaxy Store icon (M17). The white nib takes the tile's blue (R9); the tip is dark navy in the app, shown as a deeper blue so it doesn't vanish on dark grey (R10). Flat, without the 3D shading (M16).",
   "status": "done"
  },
  "com_samsung_android_dialer": {
   "label": "Phone",
   "arch_said": [
    "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
-   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter",
+   "M18 (21 Nov 2026, marked-up screenshots of version 9.1): both ends of the handset were wrong (circled)"
   ],
   "rules": [],
-  "direction": "Samsung Phone: the handset from the app's logo layer, in one flat green from the app's background (R9, M16).",
+  "direction": "Samsung Phone: the handset with its two end pads, outline traced from the 512 px Galaxy Store icon (M17). The white front takes the tile's green (R9); the side of the handset, light mint in the app, keeps that mint, so both ends have their full shape. Flat, without the 3D shading (M16).",
   "status": "done"
  },
  "com_google_android_apps_playconsole": {
@@ -2711,10 +2717,11 @@
   "label": "Smart Switch",
   "arch_said": [
    "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
-   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter",
+   "M18 (21 Nov 2026, marked-up screenshots of version 9.1): the lower half of the S was wrong (circled)"
   ],
   "rules": [],
-  "direction": "Smart Switch: the S with its two arrowheads, outline traced from the Play Store icon (512 px) so the shape matches exactly (M17). Lavender S with white arrowheads on blue-purple in the app: flat blue-purple S with lighter arrowheads (R9, M16).",
+  "direction": "Smart Switch: the S made of two arrows, each with its arrowhead, outline traced from the 512 px Galaxy Store icon (M17). The lower arrow is white on the blue-purple tile in the app, so it takes that colour, a little lighter so it shows on dark grey (R9, R24); the upper arrow keeps its light lavender. One flat colour per arrow (M16).",
   "status": "done"
  },
  "com_samsung_android_oneconnect": {
@@ -2740,10 +2747,11 @@
   "label": "Store",
   "arch_said": [
    "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
-   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter",
+   "M18 (21 Nov 2026, marked-up screenshots of version 9.1): the band at the bottom of the bag was missing (circled)"
   ],
   "rules": [],
-  "direction": "Galaxy Store: the shopping bag with its handle and two dots (shape from the app's themed-icon layer), in one flat pink-red from the app's background (R9, M16).",
+  "direction": "Galaxy Store: the shopping bag with its handle, two dots and the band at the bottom, drawn from measurements of the app's own icon (export fg.png): body 172 wide with corner radii 8 (top) and 25.5 (bottom), handle a ring (radius 50 and 32.7) above the bag, dots radius 9.8, band from y 283 (M17). The white bag takes the tile's pink-red (R9); the dots and the space under the handle show the tile in the app, so they are see-through; the handle keeps its light pink and the band its light coral, as in the app. Flat (M16).",
   "status": "done"
  },
  "org_telegram_messenger": {
@@ -2786,10 +2794,11 @@
   "label": "Tips",
   "arch_said": [
    "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
-   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter",
+   "M18 (21 Nov 2026, marked-up screenshots of version 9.1): the bulb's base had merged into the bulb (circled)"
   ],
   "rules": [],
-  "direction": "Samsung Tips: the light bulb (shape from the app's themed-icon layer), in one flat orange from the app's background (R9, M16).",
+  "direction": "Samsung Tips: the light bulb with its base, outline traced from the 512 px Galaxy Store icon (M17). The white glass takes the tile's orange (R9); the base keeps its own light peach, as in the app. Flat, without One UI 8.5's 3D shading (M16).",
   "status": "done"
  },
  "com_thetrainline": {
@@ -2896,10 +2905,11 @@
   "label": "Wallet",
   "arch_said": [
    "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
-   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter",
+   "M18 (21 Nov 2026, marked-up screenshots of version 9.1): the flap's slanted edge didn't show (arrow)"
   ],
   "rules": [],
-  "direction": "Samsung Wallet: the white wallet card with the green, blue and purple cards and the white flap across them, outline traced from the Play Store icon (512 px) (M17). Flat colours, the frosted shading dropped (M16); the card is white in the app, so it stays white (R12).",
+  "direction": "Samsung Wallet: the wallet with its three cards (green, blue, purple) and the white flap with its slanted edge, outline traced from the 512 px Galaxy Store icon (M17); the cards are measured rounded rectangles. The wallet is white in the app, so it stays white (R12): the flap white, the frame around the cards light lavender as in the app, so the flap's edge shows. Flat (M16).",
   "status": "done"
  },
  "com_waze": {

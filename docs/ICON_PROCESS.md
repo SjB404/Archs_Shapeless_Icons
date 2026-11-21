@@ -31,6 +31,9 @@ Search until you're sure what the app's real, current logo looks like and what i
 - Wikimedia Commons often has official SVGs ("File:<Brand> logo.svg"). Its API limits this
   connection: send a real User-Agent, make few requests, wait 10+ seconds if you get "too many requests".
 - seeklogo.com (search page lists `images.seeklogo.com` PNGs), the brand's press kit.
+- Samsung's own apps: the Galaxy Store page `https://galaxystore.samsung.com/detail/<package>` links a 512 px icon
+  (`img.samsungapps.com/...NEW_WAP_ICON_512_512.png`), sharper than the export. Compare it with the export first:
+  a listing can still show an old icon (the Galaxy Store app's own listing did, Nov 2026).
 - More libraries on disk: Simple Icons / Iconify json in `/home/claude/logos/node_modules/@iconify-json/`
   (preview helper `/home/claude/logos/render.py`), `/home/claude/homarr-labs/dashboard-icons/svg/`,
   `/home/claude/lawnchairlauncher/lawnicons/svgs/`.

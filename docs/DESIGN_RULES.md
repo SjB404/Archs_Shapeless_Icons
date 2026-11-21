@@ -31,6 +31,7 @@ Arch's messages, in order. The rules quote them word for word.
 | M11 | bunq: the full colour range and slightly thicker letters |
 | M12 | "wallpaper blue isn't going to stay wallpaper blue": the wallpaper changes (it already did), so the app shows the real wallpaper see-through |
 | M15 | 21 Nov 2026: "test against a dark grey and black background instead of grey and wallpaper" (R24) |
+| M18 | 21 Nov 2026: marked-up screenshots of version 9.1: flattened icons lost their parts; redo from sharp sources, part by part, and check each against the original |
 | M17 | 21 Nov 2026: exact shapes matter, even a slight curve difference (R2) |
 | M16 | 21 Nov 2026: gradients that are part of the logo stay, glossy shading gets flattened; in between when a flatter old logo exists (R30) |
 | M13 | Feedback on version 8.2 (19 Nov 2026), sent as the app's shared picture (26 apps with My Little Pony, `/home/claude/refs/_m13/shared_26_apps.png`; resent 20 Nov with 27 apps, MediaMarkt instead of My Little Pony) plus the real KeyLinker logo: "fix all of these", thin lines on simple logos, no glossy 3D look, dark outlines are fine, and notes per app |
