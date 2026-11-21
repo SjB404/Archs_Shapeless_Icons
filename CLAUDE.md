@@ -13,3 +13,4 @@ Android icon pack with no border shapes: just each app's logo, as big as possibl
 - Arch isn't a designer or a specialist: explain things in plain everyday words.
 - Never remove an icon from the pack, even when the app is gone from Arch's phone or an export no longer lists it.
   When an app's activity name changes, add the new name and keep the old one.
+- Before working on icons, always show Arch an image list of them first (own icons with labels), and wait.
