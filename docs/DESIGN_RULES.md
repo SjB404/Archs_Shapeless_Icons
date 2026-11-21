@@ -31,6 +31,7 @@ Arch's messages, in order. The rules quote them word for word.
 | M11 | bunq: the full colour range and slightly thicker letters |
 | M12 | "wallpaper blue isn't going to stay wallpaper blue": the wallpaper changes (it already did), so the app shows the real wallpaper see-through |
 | M15 | 21 Nov 2026: "test against a dark grey and black background instead of grey and wallpaper" (R24) |
+| M16 | 21 Nov 2026: gradients that are part of the logo stay, glossy shading gets flattened; in between when a flatter old logo exists (R30) |
 | M13 | Feedback on version 8.2 (19 Nov 2026), sent as the app's shared picture (26 apps with My Little Pony, `/home/claude/refs/_m13/shared_26_apps.png`; resent 20 Nov with 27 apps, MediaMarkt instead of My Little Pony) plus the real KeyLinker logo: "fix all of these", thin lines on simple logos, no glossy 3D look, dark outlines are fine, and notes per app |
 
 ---
@@ -639,7 +640,28 @@ dualtonw were thicker it would look good".
 - When the new design changed the shape too, take the earlier flat design and bring over only what makes
   the new one better (Clock: the flat two-tone clock with a thicker ring and hands).
 
-**Examples.** Google Clock (M13), the Microsoft apps (flat since M10).
+- **Which gradients stay** (M16, 21 Nov 2026). Ask what the gradient is:
+  - **Part of the logo** (the brand's own colour fade, the same on its website and print, e.g. Instagram,
+    the AI logos Gemini and Copilot): keep it.
+  - **Shading** (soft light and shadow added by the new glossy style, e.g. the new Reddit Snoo, the new
+    OneDrive cloud, Samsung's One UI icons): flatten it to a few plain colours, one per part.
+    OneDrive: three blues, one per section of the cloud.
+- **How to decide:**
+  1. The logo had an earlier flatter version (Google's two-tone icons, Microsoft's 2019 flat icons, the old
+     OneDrive cloud): draw something in between, the current shape with the old flat colouring.
+  2. A new logo with no flatter version and a gradient built into the design: keep the gradient, but
+     simplify it (fewer stops, no glow or shine).
+  3. Unsure: show Arch both and let him pick. These are edge cases, so judge each logo on its own.
+- **Never** let a traced drawing turn a smooth shade into many stripes of nearly the same colour: pick the
+  few colours on purpose instead.
+
+**From (gradients).** M16: "simple gradients for logos is fine, like if a color gradient is part of the logo,
+that should be included, but if its the ugly shading of the new logos like the new reddit logo, the onedrive
+cloud, etc etc, it looks ugly so flatten the colors into more simple colors, some logos have it unavoidable,
+like ai logos like google gemini and copilot". "if there is a previous flatter logo (like the google dualtone
+logos) then try to do somewhere inbetween the current logo with flatter shading".
+
+**Examples.** Google Clock (M13), the Microsoft apps (flat since M10), OneDrive in three flat blues (M16).
 
 ---
 
