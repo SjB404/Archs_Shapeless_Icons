@@ -31,6 +31,7 @@ Arch's messages, in order. The rules quote them word for word.
 | M11 | bunq: the full colour range and slightly thicker letters |
 | M12 | "wallpaper blue isn't going to stay wallpaper blue": the wallpaper changes (it already did), so the app shows the real wallpaper see-through |
 | M15 | 21 Nov 2026: "test against a dark grey and black background instead of grey and wallpaper" (R24) |
+| M17 | 21 Nov 2026: exact shapes matter, even a slight curve difference (R2) |
 | M16 | 21 Nov 2026: gradients that are part of the logo stay, glossy shading gets flattened; in between when a flatter old logo exists (R30) |
 | M13 | Feedback on version 8.2 (19 Nov 2026), sent as the app's shared picture (26 apps with My Little Pony, `/home/claude/refs/_m13/shared_26_apps.png`; resent 20 Nov with 27 apps, MediaMarkt instead of My Little Pony) plus the real KeyLinker logo: "fix all of these", thin lines on simple logos, no glossy 3D look, dark outlines are fine, and notes per app |
 
@@ -82,6 +83,14 @@ Never redraw a logo into a "pack style".
 **How.** Compare your icon with the store icon and the exported original. Ask: would Arch recognise
 this app at once? If a change makes the logo look like a different app or a different style, undo
 it.
+
+**Exact shapes (M17, 21 Nov 2026).** "the exact shapes is somewhat important, a slight curve difference in how
+a logo is made matters". Flattening colours (R30) must never change the outline: every curve, corner,
+gap and thickness stays as in the real logo.
+- Best source first: the official vector (brand site, press kit, Wikimedia, Simple Icons) over a trace.
+- When tracing is the only option, trace the sharpest version available (the app's themed-icon layer
+  or the Play Store icon at 512 px, not a 432 px export), with as little smoothing as possible.
+- Lay the result over the reference at large size and check the curves match before calling it done.
 
 **Examples.**
 - Translate stays as it is ("Google translate looks good").
