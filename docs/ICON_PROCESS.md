@@ -139,3 +139,8 @@ One worker does every step, in this order.
    git commit && git push            # GitHub builds the APK and publishes release v<version.txt>
    ```
 8. **Arch checks it on his phone**, sends feedback, which becomes new notes and rules.
+
+## Never remove icons
+
+Arch (21 Nov 2026): "dont ever remove icons". Icons, drawables and app links stay in the pack even when the
+app is uninstalled or missing from an export. A changed activity name gets an extra link; the old one stays.
