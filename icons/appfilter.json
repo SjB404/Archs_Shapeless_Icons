@@ -207,7 +207,8 @@
   "ComponentInfo{com.huawei.health/com.huawei.health.MainActivity}"
  ],
  "jp_ne_ibis_ibispaintx_app": [
-  "ComponentInfo{jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.InitializeCheckActivity}"
+  "ComponentInfo{jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.InitializeCheckActivity}",
+  "ComponentInfo{jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.market.MarketAuthenticationActivity}"
  ],
  "com_ing_mobile": [
   "ComponentInfo{com.ing.mobile/com.ing.mobile.app.activities.SplashActivity}"
@@ -333,7 +334,8 @@
   "ComponentInfo{tv.parsec.client/tv.parsec.client.MainActivity}"
  ],
  "com_paypal_android_p2pmobile": [
-  "ComponentInfo{com.paypal.android.p2pmobile/com.paypal.oslo.app.MainActivity}"
+  "ComponentInfo{com.paypal.android.p2pmobile/com.paypal.oslo.app.MainActivity}",
+  "ComponentInfo{com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.startup.activities.StartupActivity}"
  ],
  "com_google_android_dialer": [
   "ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}"
@@ -372,7 +374,8 @@
   "ComponentInfo{proton.android.pass/proton.android.pass.ui.MainActivity}"
  ],
  "com_batonresearch_pump": [
-  "ComponentInfo{com.batonresearch.pump/yisnz2.oQ9xs1.pQsbt9.nRGqf0}"
+  "ComponentInfo{com.batonresearch.pump/yisnz2.oQ9xs1.pQsbt9.nRGqf0}",
+  "ComponentInfo{com.batonresearch.pump/bNpKP4.pXMq60.m4ggx2.rtIkZ5}"
  ],
  "im_fdx_qrcode": [
   "ComponentInfo{im.fdx.qrcode/im.fdx.qrcode.MainActivity}"
@@ -575,5 +578,281 @@
  ],
  "nl_ns_spaarstation": [
   "ComponentInfo{nl.ns.spaarstation/crc64bd249f11e5b60d77.SplashScreen}"
+ ],
+ "droom_sleepifucan": [
+  "ComponentInfo{droom.sleepIfUCan/droom.sleepIfUCan.activity.MainActivity}"
+ ],
+ "com_samsung_android_ardrawing": [
+  "ComponentInfo{com.samsung.android.ardrawing/com.samsung.android.ardrawing.main.ShortcutActivity}"
+ ],
+ "com_barclays_android_barclaysmobilebanking": [
+  "ComponentInfo{com.barclays.android.barclaysmobilebanking/com.barclays.android.registration.TbaSplashActivity}"
+ ],
+ "com_furryapp": [
+  "ComponentInfo{com.furryapp/com.furryapp.MainActivity.Next}"
+ ],
+ "com_samsung_android_bixby_agent": [
+  "ComponentInfo{com.samsung.android.bixby.agent/com.samsung.android.bixby.assistanthome.AssistantHomeLauncherActivity}"
+ ],
+ "com_sec_android_app_sbrowser": [
+  "ComponentInfo{com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivity}"
+ ],
+ "com_sec_android_app_popupcalculator": [
+  "ComponentInfo{com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator}"
+ ],
+ "com_samsung_android_calendar": [
+  "ComponentInfo{com.samsung.android.calendar/com.samsung.android.app.calendar.activity.MainActivity}"
+ ],
+ "com_sec_android_app_camera": [
+  "ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}"
+ ],
+ "com_chase_intl": [
+  "ComponentInfo{com.chase.intl/com.mobile.MainActivity}"
+ ],
+ "thrillseeker_app_chessington": [
+  "ComponentInfo{thrillseeker.app.chessington/attractionsio.com.occasio.ui.MainActivity}"
+ ],
+ "com_sec_android_app_clockpackage": [
+  "ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage}"
+ ],
+ "com_samsung_android_app_contacts": [
+  "ComponentInfo{com.samsung.android.app.contacts/com.samsung.android.contacts.contactslist.PeopleActivity}"
+ ],
+ "com_microsoft_copilot": [
+  "ComponentInfo{com.microsoft.copilot/com.microsoft.sapphire.app.main.SapphireMainActivity}"
+ ],
+ "com_samsung_android_app_sketchbook": [
+  "ComponentInfo{com.samsung.android.app.sketchbook/com.samsung.android.app.sketchbook.application.DrawingActivity}"
+ ],
+ "com_imaginecurve_curve_prd": [
+  "ComponentInfo{com.imaginecurve.curve.prd/com.curve.startup.launch.LaunchActivity}"
+ ],
+ "com_deliveroo_orderapp": [
+  "ComponentInfo{com.deliveroo.orderapp/com.deliveroo.orderapp.appicon.default}"
+ ],
+ "com_deviantart_android_damobile": [
+  "ComponentInfo{com.deviantart.android.damobile/com.deviantart.android.damobile.activity.HomeActivity}"
+ ],
+ "com_disney_disneyplus": [
+  "ComponentInfo{com.disney.disneyplus/com.bamtechmedia.dominguez.main.MainActivity}"
+ ],
+ "org_dolphinemu_dolphinemu": [
+  "ComponentInfo{org.dolphinemu.dolphinemu/org.dolphinemu.dolphinemu.ui.main.MainActivity}"
+ ],
+ "com_microsoft_emmx": [
+  "ComponentInfo{com.microsoft.emmx/com.microsoft.ruby.Main}"
+ ],
+ "com_microsoft_office_excel": [
+  "ComponentInfo{com.microsoft.office.excel/com.microsoft.office.apphost.LaunchActivity}"
+ ],
+ "com_samsung_android_app_find": [
+  "ComponentInfo{com.samsung.android.app.find/com.samsung.android.app.find.MainActivity}"
+ ],
+ "com_sec_android_gallery3d": [
+  "ComponentInfo{com.sec.android.gallery3d/com.samsung.android.gallery.app.activity.GalleryActivity}"
+ ],
+ "com_samsung_android_game_gamehome": [
+  "ComponentInfo{com.samsung.android.game.gamehome/com.samsung.android.game.gamehome.app.MainActivity}"
+ ],
+ "com_google_android_inputmethod_latin": [
+  "ComponentInfo{com.google.android.inputmethod.latin/com.google.android.libraries.inputmethod.launcher.LauncherActivity}"
+ ],
+ "com_samsung_sree": [
+  "ComponentInfo{com.samsung.sree/com.samsung.sree.ui.MainActivity}"
+ ],
+ "com_google_android_videos": [
+  "ComponentInfo{com.google.android.videos/com.google.android.videos.GoogleTvEntryPoint}"
+ ],
+ "ai_x_grok": [
+  "ComponentInfo{ai.x.grok/ai.x.grok.main.GrokActivity}"
+ ],
+ "com_sec_android_app_shealth": [
+  "ComponentInfo{com.sec.android.app.shealth/com.samsung.android.app.shealth.home.HomeMainActivity}"
+ ],
+ "com_indeed_android_jobsearch": [
+  "ComponentInfo{com.indeed.android.jobsearch/com.indeed.android.jobsearch.LaunchActivity}"
+ ],
+ "com_google_ar_lens": [
+  "ComponentInfo{com.google.ar.lens/com.google.vr.apps.ornament.app.lens.LensLauncherActivity}"
+ ],
+ "com_linkedin_android": [
+  "ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivityDefault}"
+ ],
+ "com_microsoft_office_officehubrow": [
+  "ComponentInfo{com.microsoft.office.officehubrow/com.microsoft.office.officesuite.OfficeSuiteActivity}"
+ ],
+ "com_samsung_android_voc": [
+  "ComponentInfo{com.samsung.android.voc/com.samsung.android.voc.LauncherActivity}"
+ ],
+ "com_samsung_android_messaging": [
+  "ComponentInfo{com.samsung.android.messaging/com.android.mms.ui.ConversationComposer}"
+ ],
+ "uk_co_metrobus": [
+  "ComponentInfo{uk.co.metrobus/com.discoverpassenger.LaunchActivity}"
+ ],
+ "co_uk_getmondo": [
+  "ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity}"
+ ],
+ "com_sec_android_app_music": [
+  "ComponentInfo{com.sec.android.app.music/com.sec.android.app.music.common.activity.MusicMainActivity}"
+ ],
+ "com_sec_android_app_myfiles": [
+  "ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.ui.MainActivity}"
+ ],
+ "com_stonegate_mypub_iorder": [
+  "ComponentInfo{com.stonegate.mypub.iorder/com.xibis.txdvenues.EntryActivity}"
+ ],
+ "com_google_android_apps_magazines": [
+  "ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity}"
+ ],
+ "com_samsung_android_app_spage": [
+  "ComponentInfo{com.samsung.android.app.spage/com.samsung.android.app.spage.main.LauncherActivity}"
+ ],
+ "com_nintendo_znca": [
+  "ComponentInfo{com.nintendo.znca/com.nintendo.coral.ui.boot.BootActivity}"
+ ],
+ "com_samsung_android_app_notes": [
+  "ComponentInfo{com.samsung.android.app.notes/com.samsung.android.app.notes.memolist.MemoListActivity}"
+ ],
+ "com_microsoft_skydrive": [
+  "ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.MainActivity}"
+ ],
+ "com_cbs_ca": [
+  "ComponentInfo{com.cbs.ca/com.paramount.android.pplus.features.splash.mobile.integration.SplashActivity}"
+ ],
+ "com_sec_penup": [
+  "ComponentInfo{com.sec.penup/com.sec.penup.ui.SplashActivity}"
+ ],
+ "com_samsung_android_dialer": [
+  "ComponentInfo{com.samsung.android.dialer/com.samsung.android.dialer.DialtactsActivity}"
+ ],
+ "com_google_android_apps_playconsole": [
+  "ComponentInfo{com.google.android.apps.playconsole/com.google.android.apps.play.console.mobile.MainActivity}"
+ ],
+ "com_google_android_music": [
+  "ComponentInfo{com.google.android.music/com.google.android.music.tombstone.LauncherActivity}"
+ ],
+ "com_google_android_apps_podcasts": [
+  "ComponentInfo{com.google.android.apps.podcasts/com.google.android.apps.podcasts.PodcastsActivity}"
+ ],
+ "com_amazon_avod_thirdpartyclient": [
+  "ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity}"
+ ],
+ "com_nsandi_nsiprizechecker": [
+  "ComponentInfo{com.nsandi.nsiPrizechecker/com.nsandi.nsi.prizechecker.presentation.firstaccess.ui.FirstAccessActivity}"
+ ],
+ "ch_protonvpn_android": [
+  "ComponentInfo{ch.protonvpn.android/ch.protonvpn.android.RoutingActivity}"
+ ],
+ "co_uk_aviva_quotemehappyconnect": [
+  "ComponentInfo{co.uk.aviva.quotemehappyconnect/com.intellimec.oneapp.navigation.NavigationActivity}"
+ ],
+ "com_reddit_frontpage": [
+  "ComponentInfo{com.reddit.frontpage/launcher.default}"
+ ],
+ "com_samsung_android_app_reminder": [
+  "ComponentInfo{com.samsung.android.app.reminder/com.samsung.android.app.reminder.ui.LaunchMainActivity}"
+ ],
+ "com_bellcarriagelimited_redhill": [
+  "ComponentInfo{com.bellcarriagelimited.redhill/com.autocab.premiumapp3.ui.activities.MainActivity}"
+ ],
+ "com_samsung_android_samsungpass": [
+  "ComponentInfo{com.samsung.android.samsungpass/com.samsung.android.samsungpass.launcher.EntryLauncher}"
+ ],
+ "com_samsung_ecomm_global_gbr": [
+  "ComponentInfo{com.samsung.ecomm.global.gbr/com.samsung.ecomm.global.shop_app.MainActivity}"
+ ],
+ "com_compassfree_digitalcompass_forandroid_app": [
+  "ComponentInfo{com.compassfree.digitalcompass.forandroid.app/com.zipoapps.premiumhelper.ui.splash.PHSplashActivity}"
+ ],
+ "com_sec_android_easymover": [
+  "ComponentInfo{com.sec.android.easyMover/com.sec.android.easyMover.ui.launch.LauncherActivity}"
+ ],
+ "com_samsung_android_oneconnect": [
+  "ComponentInfo{com.samsung.android.oneconnect/com.samsung.android.oneconnect.ui.SCMainActivity}"
+ ],
+ "com_valvesoftware_android_steam_friendsui": [
+  "ComponentInfo{com.valvesoftware.android.steam.friendsui/com.valvesoftware.android.steam.friendsui.MainActivity}"
+ ],
+ "com_sec_android_app_samsungapps": [
+  "ComponentInfo{com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.SamsungAppsMainActivity}"
+ ],
+ "org_telegram_messenger": [
+  "ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}"
+ ],
+ "com_netpulse_mobile_thegymgroup": [
+  "ComponentInfo{com.netpulse.mobile.thegymgroup/com.netpulse.mobile.launch.LaunchActivity}"
+ ],
+ "io_attractions_thorpepark": [
+  "ComponentInfo{io.attractions.thorpepark/attractionsio.com.occasio.ui.MainActivity}"
+ ],
+ "com_zhiliaoapp_musically": [
+  "ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity}"
+ ],
+ "com_samsung_android_app_tips": [
+  "ComponentInfo{com.samsung.android.app.tips/com.samsung.android.app.tips.TipsMainActivity}"
+ ],
+ "com_thetrainline": [
+  "ComponentInfo{com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivity}"
+ ],
+ "com_toofifi_mobile": [
+  "ComponentInfo{com.toofifi.mobile/com.mphotool.mobile.activity.WelcomeActivity}"
+ ],
+ "com_trello": [
+  "ComponentInfo{com.trello/com.trello.home.HomeActivity}"
+ ],
+ "com_samsung_android_tvplus": [
+  "ComponentInfo{com.samsung.android.tvplus/com.samsung.android.tvplus.MainActivity}"
+ ],
+ "com_ubercab": [
+  "ComponentInfo{com.ubercab/com.ubercab.presidio.app.core.root.RootActivity}"
+ ],
+ "com_ubercab_eats": [
+  "ComponentInfo{com.ubercab.eats/com.ubercab.eats.core.activity.LauncherActivity}"
+ ],
+ "com_unity3d_mobileremote": [
+  "ComponentInfo{com.unity3d.mobileremote/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_universalstudios_orlandoresort": [
+  "ComponentInfo{com.universalstudios.orlandoresort/com.universalstudios.upr_orlando.MainActivity}"
+ ],
+ "com_media_bestrecorder_audiorecorder": [
+  "ComponentInfo{com.media.bestrecorder.audiorecorder/com.media.bestrecorder.audiorecorder.NavigationActivity}"
+ ],
+ "com_sec_android_app_voicenote": [
+  "ComponentInfo{com.sec.android.app.voicenote/com.sec.android.app.voicenote.main.VNMainActivity}"
+ ],
+ "com_cepstral_flamethrower": [
+  "ComponentInfo{com.cepstral.flamethrower/com.cepstral.voice_forge.MainActivity}"
+ ],
+ "com_samsung_android_spay": [
+  "ComponentInfo{com.samsung.android.spay/com.samsung.android.spay.ui.SpayMainActivity}"
+ ],
+ "com_waze": [
+  "ComponentInfo{com.waze/com.waze.FreeMapAppActivity}"
+ ],
+ "com_samsung_android_app_watchmanager": [
+  "ComponentInfo{com.samsung.android.app.watchmanager/com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity}"
+ ],
+ "com_wetherspoon_orderandpay": [
+  "ComponentInfo{com.wetherspoon.orderandpay/com.wetherspoon.orderandpay.MainActivity}"
+ ],
+ "com_microsoft_xboxone_smartglass": [
+  "ComponentInfo{com.microsoft.xboxone.smartglass/com.microsoft.xbox.LauncherActivity}"
+ ],
+ "com_yoti_mobile_android_live": [
+  "ComponentInfo{com.yoti.mobile.android.live/com.yoti.mobile.android.LauncherActivity}"
+ ],
+ "com_camerasideas_trimmer": [
+  "ComponentInfo{com.camerasideas.trimmer/com.camerasideas.instashot.MainActivity}"
+ ],
+ "com_google_android_youtube": [
+  "ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}"
+ ],
+ "com_google_android_apps_youtube_music": [
+  "ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}"
+ ],
+ "com_google_android_apps_youtube_creator": [
+  "ComponentInfo{com.google.android.apps.youtube.creator/com.google.android.apps.youtube.creator.main.MainActivity}"
  ]
 }
