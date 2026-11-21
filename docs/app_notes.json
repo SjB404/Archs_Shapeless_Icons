@@ -2172,19 +2172,21 @@
  "com_samsung_android_bixby_agent": {
   "label": "Bixby",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Bixby: the white 'b' from the app's logo layer (its blue inner part is see-through), in the app's blue background gradient (R9).",
+  "direction": "Bixby: the 'b' from the app's logo layer (its blue inner part is see-through), in one flat blue from the app's background (R9, M16).",
   "status": "done"
  },
  "com_sec_android_app_sbrowser": {
   "label": "Browser",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Samsung Internet: the planet with its ring, from the app's logo layer.",
+  "direction": "Samsung Internet: the planet with its ring, outline traced from the Play Store icon (512 px) (M17). White planet on purple in the app, so the planet is flat purple (R9); the ring's cyan-to-lavender fade is part of the logo, so it keeps a simple two-colour fade, no shine (M16).",
   "status": "done"
  },
  "com_sec_android_app_popupcalculator": {
@@ -2262,10 +2264,11 @@
  "com_samsung_android_app_sketchbook": {
   "label": "Creative studio",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Creative studio: the white easel with the blue-green scribble and blue legs, from the app's logo layer; blue background left out (R5). The board is white in the app, so it stays white (R12).",
+  "direction": "Creative studio: the white easel with the scribble, from the app's logo layer. Flat white easel without its soft shading (M16); the scribble's blue-to-teal fade is part of the drawing, so it keeps a simple two-colour fade. The board is white in the app, so it stays white (R12).",
   "status": "done"
  },
  "com_imaginecurve_curve_prd": {
@@ -2334,19 +2337,21 @@
  "com_samsung_android_app_find": {
   "label": "Find",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter (Find: the pin curve was too flat)"
   ],
   "rules": [],
-  "direction": "Samsung Find: the location pin with its round centre, measured from the app's logo layer. White on blue in the app, so the pin takes the app's blue (R9) and the centre is a white dot.",
+  "direction": "Samsung Find: the location pin with its round centre and the oval under it, outline traced from the Play Store icon (512 px) so the pin's curve matches exactly (M17). White on blue in the app, so the pin takes the blue (R9); flat colours: pin blue, oval light blue, centre white (M16).",
   "status": "done"
  },
  "com_sec_android_gallery3d": {
   "label": "Gallery",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Samsung Gallery: the flower from the app's logo layer, on no background (R5).",
+  "direction": "Samsung Gallery: the six-petal flower with its orange centre, from the app's logo layer. The petals are white on a pink-to-orange shade in the app, so each petal takes the colour behind it as one flat colour (R9, M16).",
   "status": "done"
  },
  "com_samsung_android_game_gamehome": {
@@ -2397,10 +2402,11 @@
  "com_sec_android_app_shealth": {
   "label": "Health",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Samsung Health: the running figure from the app, white on a teal-green-blue gradient, so it takes the gradient (R9).",
+  "direction": "Samsung Health: the runner with her ponytail and the band on her wrist, outline traced from the Play Store icon (512 px) so the shape matches exactly (M17). White on a green-to-blue shade in the app, so one flat teal-green between the two, the wristband lighter (R9, M16).",
   "status": "done"
  },
  "com_indeed_android_jobsearch": {
@@ -2442,10 +2448,11 @@
  "com_samsung_android_voc": {
   "label": "Members",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Samsung Members: the M from the app's logo layer, in the app's blue gradient (R9).",
+  "direction": "Samsung Members: the M, outline traced from the Play Store icon (512 px) so the shape matches exactly (M17). White with a light-blue middle V on blue in the app, so blue with a light-blue V, flat (R9, M16).",
   "status": "done"
  },
  "com_samsung_android_messaging": {
@@ -2478,10 +2485,11 @@
  "com_sec_android_app_music": {
   "label": "Music",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Samsung Music: the white note from the app, in the app's purple gradient (R9).",
+  "direction": "Samsung Music: the note, outline traced from the Play Store icon (512 px) so the shape matches exactly (M17). White on purple in the app, so one flat purple (R9, M16).",
   "status": "done"
  },
  "com_sec_android_app_myfiles": {
@@ -2514,10 +2522,11 @@
  "com_samsung_android_app_spage": {
   "label": "News",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Samsung News: the white word 'News' from the app, in the app's red-pink gradient (R9, R14).",
+  "direction": "Samsung News: the word 'News' from the app, in one flat red-pink from the app's background (R9, R14, M16).",
   "status": "done"
  },
  "com_nintendo_znca": {
@@ -2532,19 +2541,22 @@
  "com_samsung_android_app_notes": {
   "label": "Notes",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Samsung Notes: the red notepad with its rings and folded corner from the app's logo layer.",
+  "direction": "Samsung Notes: the page with its rings and folded corner, outline traced from the Play Store icon (512 px) so the shape matches exactly (M17). White page on red in the app, so a flat red page with a light-red folded corner; the rings stay see-through (R9, M16).",
   "status": "done"
  },
  "com_microsoft_skydrive": {
   "label": "OneDrive",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter",
+   "M16: \"the onedrive cloud should be 3 colors 1 for each section\""
   ],
   "rules": [],
-  "direction": "OneDrive: Microsoft's current blue cloud from the app; white background left out (R5).",
+  "direction": "OneDrive: the current cloud, its outline traced from the Play Store icon (512 px) (M17), flattened to three blues, one per section: the dark back lobe, the blue middle and the light-blue front (M16, R30).",
   "status": "done"
  },
  "com_cbs_ca": {
@@ -2559,19 +2571,21 @@
  "com_sec_penup": {
   "label": "PENUP",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "PENUP: the white pen-nib arrow from the app, in the app's blue gradient (R9).",
+  "direction": "PENUP: the pen-nib arrow with its slit, outline traced from the Play Store icon (512 px) so the shape matches exactly (M17). White on blue in the app, so one flat blue (R9, M16).",
   "status": "done"
  },
  "com_samsung_android_dialer": {
   "label": "Phone",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Samsung Phone: the handset (shape from the app's themed-icon layer), in the app's green gradient (R9).",
+  "direction": "Samsung Phone: the handset from the app's logo layer, in one flat green from the app's background (R9, M16).",
   "status": "done"
  },
  "com_google_android_apps_playconsole": {
@@ -2640,10 +2654,11 @@
  "com_reddit_frontpage": {
   "label": "Reddit",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Reddit: Snoo's head from the app: white face, orange eyes, black mouth; the antenna lightened to grey so it shows in the drawer (R10). Snoo is white in Reddit's branding, so the face stays white (R12); orange background left out (R5).",
+  "direction": "Reddit: Snoo's head, outline traced from the Play Store icon (512 px) (M17), flattened: white face, flat orange eyes, dark grey mouth and antenna (lightened from black so the antenna shows in the drawer, R10). The new logo's soft shading is dropped (M16); Snoo is white in Reddit's branding, so the face stays white (R12).",
   "status": "done"
  },
  "com_samsung_android_app_reminder": {
@@ -2667,10 +2682,11 @@
  "com_samsung_android_samsungpass": {
   "label": "Samsung Pass",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Samsung Pass: the white word 'Pass' from the app, in the app's blue-purple gradient (R9, R14).",
+  "direction": "Samsung Pass: the word 'Pass' from the app, in one flat blue-purple from the app's background (R9, R14, M16).",
   "status": "done"
  },
  "com_samsung_ecomm_global_gbr": {
@@ -2694,19 +2710,21 @@
  "com_sec_android_easymover": {
   "label": "Smart Switch",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Smart Switch: the S made of two arrows from the app's logo layer, in the app's blue-purple gradient (R9).",
+  "direction": "Smart Switch: the S with its two arrowheads, outline traced from the Play Store icon (512 px) so the shape matches exactly (M17). Lavender S with white arrowheads on blue-purple in the app: flat blue-purple S with lighter arrowheads (R9, M16).",
   "status": "done"
  },
  "com_samsung_android_oneconnect": {
   "label": "SmartThings",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "SmartThings: the white hub with six links from the app, in the app's blue gradient (R9).",
+  "direction": "SmartThings: the hub with six links, outline traced from the Play Store icon (512 px) so the shape matches exactly (M17). White on blue in the app, so one flat blue (R9, M16).",
   "status": "done"
  },
  "com_valvesoftware_android_steam_friendsui": {
@@ -2721,10 +2739,11 @@
  "com_sec_android_app_samsungapps": {
   "label": "Store",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Galaxy Store: the shopping bag with its handle and two dots (shape from the app's themed-icon layer), in the app's pink-to-orange (R9).",
+  "direction": "Galaxy Store: the shopping bag with its handle and two dots (shape from the app's themed-icon layer), in one flat pink-red from the app's background (R9, M16).",
   "status": "done"
  },
  "org_telegram_messenger": {
@@ -2766,10 +2785,11 @@
  "com_samsung_android_app_tips": {
   "label": "Tips",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Samsung Tips: the light bulb (shape from the app's themed-icon layer), white on orange in the app, so it takes the orange (R9).",
+  "direction": "Samsung Tips: the light bulb (shape from the app's themed-icon layer), in one flat orange from the app's background (R9, M16).",
   "status": "done"
  },
  "com_thetrainline": {
@@ -2856,10 +2876,11 @@
  "com_sec_android_app_voicenote": {
   "label": "Voice Recorder",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Samsung Voice Recorder: the white sound-wave bars from the app, in the app's red gradient (R9).",
+  "direction": "Samsung Voice Recorder: the sound-wave bars, outline traced from the Play Store icon (512 px) so the shape matches exactly (M17). White on red in the app, so one flat red (R9, M16).",
   "status": "done"
  },
  "com_cepstral_flamethrower": {
@@ -2874,10 +2895,11 @@
  "com_samsung_android_spay": {
   "label": "Wallet",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Samsung Wallet: the white wallet card with the coloured cards and the diagonal flap from the app's logo layer; blue background left out (R5). The card is white in the app, so it stays white (R12).",
+  "direction": "Samsung Wallet: the white wallet card with the green, blue and purple cards and the white flap across them, outline traced from the Play Store icon (512 px) (M17). Flat colours, the frosted shading dropped (M16); the card is white in the app, so it stays white (R12).",
   "status": "done"
  },
  "com_waze": {
@@ -2892,10 +2914,11 @@
  "com_samsung_android_app_watchmanager": {
   "label": "Wearable",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
   ],
   "rules": [],
-  "direction": "Galaxy Wearable: the white word 'Wear' from the app, in the app's blue gradient (R9, R14).",
+  "direction": "Galaxy Wearable: the word 'Wear', outline traced from the Play Store icon (512 px) so the shape matches exactly (M17). White on blue in the app, so one flat blue (R9, M16).",
   "status": "done"
  },
  "com_wetherspoon_orderandpay": {
