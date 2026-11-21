@@ -24,26 +24,32 @@ jobs:
           gradle-version: '8.7'
 
       # The release number comes from version.txt: 9 for a big release, 8.1 for a small one.
-      # Stops if that number was already released, so an old release is never overwritten.
+      # If that number was already released (a push without a version raise), it skips the build and
+      # finishes without an error, so an old release is never overwritten.
       - name: Read version
         run: |
           VERSION=$(tr -d '[:space:]' < version.txt)
           if git ls-remote --exit-code --tags origin "refs/tags/v$VERSION" > /dev/null; then
-            echo "v$VERSION is already released: raise the number in version.txt"
-            exit 1
+            echo "v$VERSION is already released: nothing to build. Raise the number in version.txt to make a new release."
+            echo "SKIP=1" >> "$GITHUB_ENV"
+            exit 0
           fi
           echo "VERSION=$VERSION" >> "$GITHUB_ENV"
 
       - name: Generate pack files from icons/
+        if: env.SKIP != '1'
         run: python3 tools/build_pack.py
 
       - name: Build
+        if: env.SKIP != '1'
         run: gradle assembleRelease --no-daemon
 
       - name: Rename APK
+        if: env.SKIP != '1'
         run: cp app/build/outputs/apk/release/app-release.apk ShapelessIcons-v${{ env.VERSION }}.apk
 
       - name: Publish release
+        if: env.SKIP != '1'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ env.VERSION }}

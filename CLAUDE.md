@@ -9,7 +9,8 @@ Android icon pack with no border shapes: just each app's logo, as big as possibl
 - Notes per icon (sources, decisions): `icons/notes/<drawable>.md`
 - Build: `python3 tools/build_icons.py && python3 tools/build_pack.py`, raise the number in `version.txt`
   (whole number for a big release: 9; point number for a small one: 8.1, 8.2), then push; GitHub Actions
-  builds the APK and publishes it under Releases as v<version>. It refuses a number that's already released.
+  builds the APK and publishes it under Releases as v<version>. A push that doesn't raise the number builds nothing
+  (and doesn't fail), so an old release is never overwritten.
 - Arch isn't a designer or a specialist: explain things in plain everyday words.
 - Never remove an icon from the pack, even when the app is gone from Arch's phone or an export no longer lists it.
   When an app's activity name changes, add the new name and keep the old one.
