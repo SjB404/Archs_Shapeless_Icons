@@ -60,6 +60,7 @@
     <item drawable="com_facebook_katana" />
     <item drawable="com_fairtrack_app" />
     <item drawable="com_fbto_fbtozorg" />
+    <item drawable="com_fdgentertainment_supercatbros_gp" />
     <item drawable="com_furryapp" />
     <item drawable="com_gameloft_android_anmp_gloftpohm" />
     <item drawable="com_gamespark_topking_gp" />
@@ -145,10 +146,14 @@
     <item drawable="com_netflix_mediaclient" />
     <item drawable="com_netflix_ngp_tombofthemask" />
     <item drawable="com_netpulse_mobile_thegymgroup" />
+    <item drawable="com_neutronized_supercattales2" />
+    <item drawable="com_neutronized_supercattalespaws" />
     <item drawable="com_nianticlabs_pokemongo" />
     <item drawable="com_niksoftware_snapseed" />
     <item drawable="com_ninjakiwi_bloonstd6" />
+    <item drawable="com_ninjakiwi_bloonstdbattles2" />
     <item drawable="com_ninjakiwi_btdadventuretime" />
+    <item drawable="com_ninjakiwi_monkeycity" />
     <item drawable="com_nintendo_znca" />
     <item drawable="com_nothing_camera" />
     <item drawable="com_nothing_essentialapps" />
@@ -172,6 +177,7 @@
     <item drawable="com_pinterest" />
     <item drawable="com_pixelbin_watermarkremover_io" />
     <item drawable="com_playstack_balatro_android" />
+    <item drawable="com_poncle_vampiresurvivors" />
     <item drawable="com_prismtree_sponge" />
     <item drawable="com_prpr_musedash" />
     <item drawable="com_pryshedko_mtisland" />
@@ -240,6 +246,7 @@
     <item drawable="com_universalstudios_orlandoresort" />
     <item drawable="com_valvesoftware_android_steam_community" />
     <item drawable="com_valvesoftware_android_steam_friendsui" />
+    <item drawable="com_vizta_wefly" />
     <item drawable="com_waze" />
     <item drawable="com_wb_headsup" />
     <item drawable="com_wemademax_projectsb" />

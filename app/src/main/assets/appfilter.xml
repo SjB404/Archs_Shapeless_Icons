@@ -59,6 +59,7 @@
     <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="com_facebook_katana" />
     <item component="ComponentInfo{com.fairtrack.app/com.fairtrack.app.MainActivity}" drawable="com_fairtrack_app" />
     <item component="ComponentInfo{com.fbto.fbtozorg/crc642b2bb0c383c764ff.SplashActivity}" drawable="com_fbto_fbtozorg" />
+    <item component="ComponentInfo{com.FDGEntertainment.SuperCatBros.gp/com.FDGEntertainment.SuperCatBros.gp.AIRAppEntry}" drawable="com_fdgentertainment_supercatbros_gp" />
     <item component="ComponentInfo{com.furryapp/com.furryapp.MainActivity.Next}" drawable="com_furryapp" />
     <item component="ComponentInfo{com.gameloft.android.ANMP.GloftPOHM/com.gameloft.android.ANMP.GloftPOHM.MainActivity}" drawable="com_gameloft_android_anmp_gloftpohm" />
     <item component="ComponentInfo{com.gamespark.topking.gp/com.im30.aps.debug.UnityPlayerActivityCustom}" drawable="com_gamespark_topking_gp" />
@@ -144,10 +145,14 @@
     <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}" drawable="com_netflix_mediaclient" />
     <item component="ComponentInfo{com.netflix.NGP.tombofthemask/com.unity3d.player.UnityPlayerActivity}" drawable="com_netflix_ngp_tombofthemask" />
     <item component="ComponentInfo{com.netpulse.mobile.thegymgroup/com.netpulse.mobile.launch.LaunchActivity}" drawable="com_netpulse_mobile_thegymgroup" />
+    <item component="ComponentInfo{com.neutronized.supercattales2/com.neutronized.supercattales2.AIRAppEntry}" drawable="com_neutronized_supercattales2" />
+    <item component="ComponentInfo{com.neutronized.supercattalespaws/com.neutronized.supercattalespaws.AIRAppEntry}" drawable="com_neutronized_supercattalespaws" />
     <item component="ComponentInfo{com.nianticlabs.pokemongo/com.nianticproject.holoholo.libholoholo.unity.UnityMainActivity}" drawable="com_nianticlabs_pokemongo" />
     <item component="ComponentInfo{com.niksoftware.snapseed/com.google.android.apps.snapseed.WelcomeScreenActivity}" drawable="com_niksoftware_snapseed" />
     <item component="ComponentInfo{com.ninjakiwi.bloonstd6/com.unity3d.player.UnityPlayerActivity}" drawable="com_ninjakiwi_bloonstd6" />
+    <item component="ComponentInfo{com.ninjakiwi.bloonstdbattles2/com.ninjakiwi.MainActivityGradle}" drawable="com_ninjakiwi_bloonstdbattles2" />
     <item component="ComponentInfo{com.ninjakiwi.btdadventuretime/com.unity3d.player.UnityPlayerActivity}" drawable="com_ninjakiwi_btdadventuretime" />
+    <item component="ComponentInfo{com.ninjakiwi.monkeycity/com.ninjakiwi.MainActivityGradle}" drawable="com_ninjakiwi_monkeycity" />
     <item component="ComponentInfo{com.nintendo.znca/com.nintendo.coral.ui.boot.BootActivity}" drawable="com_nintendo_znca" />
     <item component="ComponentInfo{com.nothing.camera/com.nothing.camera.activity.CameraActivity}" drawable="com_nothing_camera" />
     <item component="ComponentInfo{com.nothing.essentialapps/com.nothing.essentialapps.MainActivity}" drawable="com_nothing_essentialapps" />
@@ -172,6 +177,7 @@
     <item component="ComponentInfo{com.pinterest/com.pinterest.activity.PinterestActivity}" drawable="com_pinterest" />
     <item component="ComponentInfo{com.pixelbin.watermarkremover.io/com.pixelbin.erase.bg.MainActivity}" drawable="com_pixelbin_watermarkremover_io" />
     <item component="ComponentInfo{com.playstack.balatro.android/org.love2d.android.PlatformActivity}" drawable="com_playstack_balatro_android" />
+    <item component="ComponentInfo{com.poncle.vampiresurvivors/com.unity3d.player.UnityPlayerActivity}" drawable="com_poncle_vampiresurvivors" />
     <item component="ComponentInfo{com.prismtree.sponge/com.prismtree.sponge.MainActivity}" drawable="com_prismtree_sponge" />
     <item component="ComponentInfo{com.prpr.musedash/com.unity3d.player.UnityPlayerActivity}" drawable="com_prpr_musedash" />
     <item component="ComponentInfo{com.pryshedko.mtisland/com.pryshedko.mtisland.MainAppActivity}" drawable="com_pryshedko_mtisland" />
@@ -240,6 +246,7 @@
     <item component="ComponentInfo{com.universalstudios.orlandoresort/com.universalstudios.upr_orlando.MainActivity}" drawable="com_universalstudios_orlandoresort" />
     <item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.MainActivity}" drawable="com_valvesoftware_android_steam_community" />
     <item component="ComponentInfo{com.valvesoftware.android.steam.friendsui/com.valvesoftware.android.steam.friendsui.MainActivity}" drawable="com_valvesoftware_android_steam_friendsui" />
+    <item component="ComponentInfo{com.vizta.wefly/com.moba.unityplugin.MobaGameMainActivityWithExtractor}" drawable="com_vizta_wefly" />
     <item component="ComponentInfo{com.waze/com.waze.FreeMapAppActivity}" drawable="com_waze" />
     <item component="ComponentInfo{com.wb.headsup/com.swrve.unity.firebase.MainActivity}" drawable="com_wb_headsup" />
     <item component="ComponentInfo{com.wemademax.projectsb/com.unity3d.player.UnityPlayerActivity}" drawable="com_wemademax_projectsb" />

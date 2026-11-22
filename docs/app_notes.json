@@ -3397,5 +3397,89 @@
   ],
   "direction": "Angry Birds 2: Red, kept as a picture; sky and hills left out.",
   "status": "done"
+ },
+ "com_vizta_wefly": {
+  "label": "ACECRAFT",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "ACECRAFT: the monkey pilot with his visor and thumbs-up, kept as a picture; yellow background left out; the icon itself crops him.",
+  "status": "done"
+ },
+ "com_ninjakiwi_bloonstdbattles2": {
+  "label": "Battles 2",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Bloons TD Battles 2: the two monkeys with their balloons, kept as a picture; white frame and lightning sky left out.",
+  "status": "done"
+ },
+ "com_ninjakiwi_monkeycity": {
+  "label": "Monkey City",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Monkey City: the monkey, kept as a picture; clock tower, balloons and sky left out.",
+  "status": "done"
+ },
+ "com_fdgentertainment_supercatbros_gp": {
+  "label": "Super Cat Bros",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Super Cat Bros: the grey cat with its golden bell, kept as a picture; sky, clouds and hill left out.",
+  "status": "done"
+ },
+ "com_neutronized_supercattales2": {
+  "label": "Super Cat Tales 2",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Super Cat Tales 2: the grey and white cat with its paws and bell, kept as a picture; cyan background left out.",
+  "status": "done"
+ },
+ "com_neutronized_supercattalespaws": {
+  "label": "Super Cat Tales: PAWS",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Super Cat Tales: PAWS: the grey and white cat with its bell, kept as a picture; sky and wind streaks left out.",
+  "status": "done"
+ },
+ "com_poncle_vampiresurvivors": {
+  "label": "Vampire Survivors",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Vampire Survivors: the vampire, head and shoulders, kept as a picture (painted art); red background and moon left out.",
+  "status": "done"
  }
 }

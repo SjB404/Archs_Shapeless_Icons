@@ -941,5 +941,26 @@
  ],
  "com_rovio_baba": [
   "ComponentInfo{com.rovio.baba/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_vizta_wefly": [
+  "ComponentInfo{com.vizta.wefly/com.moba.unityplugin.MobaGameMainActivityWithExtractor}"
+ ],
+ "com_ninjakiwi_bloonstdbattles2": [
+  "ComponentInfo{com.ninjakiwi.bloonstdbattles2/com.ninjakiwi.MainActivityGradle}"
+ ],
+ "com_ninjakiwi_monkeycity": [
+  "ComponentInfo{com.ninjakiwi.monkeycity/com.ninjakiwi.MainActivityGradle}"
+ ],
+ "com_fdgentertainment_supercatbros_gp": [
+  "ComponentInfo{com.FDGEntertainment.SuperCatBros.gp/com.FDGEntertainment.SuperCatBros.gp.AIRAppEntry}"
+ ],
+ "com_neutronized_supercattales2": [
+  "ComponentInfo{com.neutronized.supercattales2/com.neutronized.supercattales2.AIRAppEntry}"
+ ],
+ "com_neutronized_supercattalespaws": [
+  "ComponentInfo{com.neutronized.supercattalespaws/com.neutronized.supercattalespaws.AIRAppEntry}"
+ ],
+ "com_poncle_vampiresurvivors": [
+  "ComponentInfo{com.poncle.vampiresurvivors/com.unity3d.player.UnityPlayerActivity}"
  ]
 }
