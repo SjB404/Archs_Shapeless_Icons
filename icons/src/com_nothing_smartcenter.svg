@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="105.2 105.2 301.4 301.4">
+<!-- Nothing X: the X made of two capsules with the red dot, measured from the 512 px Play Store icon (M17). The black
+     capsule turns white and keeps Nothing's red dot (R10); the light grey capsule behind it becomes mid grey so the two
+     stay apart on the dark drawer. The white tile is left out (R5). -->
+<path d="M182.39 329.37L329.37 182.39" stroke="#9A9A9A" stroke-width="151.7" stroke-linecap="round" fill="none"/>
+<path d="M182.39 182.39L329.37 329.37" stroke="#FFFFFF" stroke-width="151.7" stroke-linecap="round" fill="none"/>
+<circle cx="329.37" cy="329.37" r="55.97" fill="#D71921"/>
+</svg>

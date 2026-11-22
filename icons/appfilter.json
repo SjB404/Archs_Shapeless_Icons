@@ -854,5 +854,8 @@
  ],
  "com_google_android_apps_youtube_creator": [
   "ComponentInfo{com.google.android.apps.youtube.creator/com.google.android.apps.youtube.creator.main.MainActivity}"
+ ],
+ "com_nothing_smartcenter": [
+  "ComponentInfo{com.nothing.smartcenter/com.nothing.smartcenter.host.MainActivity}"
  ]
 }

@@ -139,6 +139,7 @@
     <item component="ComponentInfo{com.nothing.essentialapps/com.nothing.essentialapps.MainActivity}" drawable="com_nothing_essentialapps" />
     <item component="ComponentInfo{com.nothing.gallery/com.nothing.gallery.activity.EntryActivity}" drawable="com_nothing_gallery" />
     <item component="ComponentInfo{com.nothing.glyph/com.nothing.glyph.MainActivity}" drawable="com_nothing_glyph" />
+    <item component="ComponentInfo{com.nothing.smartcenter/com.nothing.smartcenter.host.MainActivity}" drawable="com_nothing_smartcenter" />
     <item component="ComponentInfo{com.nothing.soundrecorder/com.nothing.soundrecorder.MainActivity}" drawable="com_nothing_soundrecorder" />
     <item component="ComponentInfo{com.nothing.weather/com.nothing.weather.ui.main.MainActivity}" drawable="com_nothing_weather" />
     <item component="ComponentInfo{com.nsandi.nsiPrizechecker/com.nsandi.nsi.prizechecker.presentation.firstaccess.ui.FirstAccessActivity}" drawable="com_nsandi_nsiprizechecker" />

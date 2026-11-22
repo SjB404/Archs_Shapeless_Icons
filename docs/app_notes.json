@@ -2993,5 +2993,17 @@
   "rules": [],
   "direction": "YouTube Studio: the red hexagon with the play button (dashboard-icons), in YouTube red like the app.",
   "status": "done"
+ },
+ "com_nothing_smartcenter": {
+  "label": "Nothing X",
+  "arch_said": [
+   "M20 (export of 21 Nov 2026, 23:04): \"also make these while ur at it\""
+  ],
+  "rules": [
+   "R5",
+   "R10"
+  ],
+  "direction": "Nothing X: the X of two capsules with the red dot, measured from the 512 px Play Store icon. Black capsule turns white with Nothing's red dot (#D71921); the light grey capsule becomes mid grey #9A9A9A; white tile left out.",
+  "status": "done"
  }
 }
