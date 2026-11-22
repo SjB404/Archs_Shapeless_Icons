@@ -2136,19 +2136,21 @@
  "droom_sleepifucan": {
   "label": "Alarmy",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Alarmy: the alarm clock (ring, two bells, hands) cut out of the app's white logo layer, in the app's purple-red-orange background gradient (R9).",
+  "direction": "Alarmy: the logo with its own colour fade (#8C1A70 to #FBB24E), simplified (R30).",
   "status": "done"
  },
  "com_samsung_android_ardrawing": {
   "label": "AR Doodle",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "AR Doodle: the rainbow squiggle from the app's logo layer, purple background left out (R5).",
+  "direction": "AR Doodle: the squiggle as one even line fitted to the logo, with its pink-to-cyan fade along the line and no tube shading; the yellow part crosses over the pink start.",
   "status": "done"
  },
  "com_barclays_android_barclaysmobilebanking": {
@@ -2163,10 +2165,11 @@
  "com_furryapp": {
   "label": "BARQ!",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "BARQ!: the speech bubble with BARQ! and its pink and blue offset edges, from the app icon; dark background left out (R5).",
+  "direction": "BARQ!: the store's crisp bubbles and letters (same design as the phone's), coloured like the phone: back bubble fading teal-purple-orange, letters dark teal to dark purple.",
   "status": "done"
  },
  "com_samsung_android_bixby_agent": {
@@ -2193,28 +2196,31 @@
  "com_sec_android_app_popupcalculator": {
   "label": "Calculator",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Samsung Calculator: the four round keys and the green equals key from the app's logo layer. The near-black keys are lightened to grey so they read in the dark drawer (R10).",
+  "direction": "Calculator: grey keys #616161, the green key #3DBB12, white symbols.",
   "status": "done"
  },
  "com_samsung_android_calendar": {
   "label": "Calendar",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Samsung Calendar: the calendar page with its teal top, two rings and the dark 31, from the app's logo layer. The page is the logo here, so it keeps its shape (R8); white page stays white (R12).",
+  "direction": "Calendar: the page with its teal band (no day name, like the phone), tabs, and dark digits.",
   "status": "done"
  },
  "com_sec_android_app_camera": {
   "label": "Camera",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Samsung Camera: the white camera with its lens and red dot, from the app's logo layer; grey background left out. The camera is white in the app, so it stays white (R12).",
+  "direction": "Camera: measured exactly: white body, red dot, lens of exact circles with the cyan-to-purple shine fading into the grey ring (R12).",
   "status": "done"
  },
  "com_chase_intl": {
@@ -2238,19 +2244,21 @@
  "com_sec_android_app_clockpackage": {
   "label": "Clock",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Samsung Clock: the white clock face with its hands, from the app's logo layer (R12).",
+  "direction": "Clock: measured exactly: white face, purple hour hand, dark minute hand poking just past the face, dark centre ring with a white dot.",
   "status": "done"
  },
  "com_samsung_android_app_contacts": {
   "label": "Contacts",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Samsung Contacts: the person (shape from the app's themed-icon layer), in the app's red (R9). The darker red circle around it is a container (R5).",
+  "direction": "Contacts: the person (round head, body) in Samsung red #F2302F.",
   "status": "done"
  },
  "com_microsoft_copilot": {
@@ -2276,10 +2284,11 @@
  "com_imaginecurve_curve_prd": {
   "label": "Curve Pay",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Curve Pay: the white Curve mark from the app; its background is near black, so the mark stays white (R10).",
+  "direction": "Curve Pay: the logo, part by part in flat colours.",
   "status": "done"
  },
  "com_deliveroo_orderapp": {
@@ -2294,19 +2303,21 @@
  "com_deviantart_android_damobile": {
   "label": "DeviantArt",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "DeviantArt: the mark (Simple Icons) in DeviantArt green #05CC47.",
+  "direction": "DeviantArt: the official logo in DeviantArt green #00E59B.",
   "status": "done"
  },
  "com_disney_disneyplus": {
   "label": "Disney+",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Disney+: the wordmark with its arc from the app. White on a near-black teal in the app, so it stays white (R10).",
+  "direction": "Disney+: the official logo, white, without the dark tile; the arc is plain white instead of a fade.",
   "status": "done"
  },
  "org_dolphinemu_dolphinemu": {
@@ -2321,19 +2332,21 @@
  "com_microsoft_emmx": {
   "label": "Edge",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Edge: Microsoft's official Edge logo (Iconify logos), white circle behind it left out (R5).",
+  "direction": "Edge: the current wave shape, flat in three colours (#0F5298, #0B86D8, #30C39A), no shading (M10, M16).",
   "status": "done"
  },
  "com_microsoft_office_excel": {
   "label": "Excel",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Excel: Microsoft's official Excel logo (dashboard-icons).",
+  "direction": "Excel: the current Excel shape, measured by hand and drawn flat in four greens, with the white X (M10, M16).",
   "status": "done"
  },
  "com_samsung_android_app_find": {
@@ -2360,10 +2373,11 @@
  "com_samsung_android_game_gamehome": {
   "label": "Gaming Hub",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Gaming Hub: the two rings, the cross and the third ring from the app's logo layer, purple background left out (R5).",
+  "direction": "Gaming Hub: drawn exactly: the purple and cyan rings and the yellow X.",
   "status": "done"
  },
  "com_google_android_inputmethod_latin": {
@@ -2378,10 +2392,11 @@
  "com_samsung_sree": {
   "label": "Global Goals",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Global Goals: the ring of the 17 UN goal colours from the app's logo layer.",
+  "direction": "Global Goals: the wheel drawn exactly, in the 17 official goal colours.",
   "status": "done"
  },
  "com_google_android_videos": {
@@ -2396,10 +2411,11 @@
  "ai_x_grok": {
   "label": "Grok",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Grok: the slashed-circle mark from the app. White on black in the app, so it stays white (R10).",
+  "direction": "Grok: the official mark, white.",
   "status": "done"
  },
  "com_sec_android_app_shealth": {
@@ -2415,10 +2431,11 @@
  "com_indeed_android_jobsearch": {
   "label": "Indeed Job Search",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Indeed: the arc and the i from the app, in Indeed blue, lightened from the app's #003A9B to the brand's #2164F3 so it reads in the dark drawer (R10, R13).",
+  "direction": "Indeed: the official logo in Indeed blue #2164F3.",
   "status": "done"
  },
  "com_google_ar_lens": {
@@ -2433,19 +2450,21 @@
  "com_linkedin_android": {
   "label": "LinkedIn",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "LinkedIn: the white 'in' from the app, in LinkedIn blue #0A66C2 (R9). The blue square is a container (R5).",
+  "direction": "LinkedIn: the 'in' letters only, in LinkedIn blue #0A66C2.",
   "status": "done"
  },
  "com_microsoft_office_officehubrow": {
   "label": "M365 Copilot",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "M365 Copilot: the Copilot mark with the black M365 label from the app; white circle left out (R5).",
+  "direction": "M365 Copilot: the current two-part Copilot mark with its colour fades (R30). The 'M365' label is left out; Arch's phone still shows the older ribbon mark with the label.",
   "status": "done"
  },
  "com_samsung_android_voc": {
@@ -2461,28 +2480,31 @@
  "com_samsung_android_messaging": {
   "label": "Messages",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Samsung Messages: the speech bubble with three dots from the app. White bubble on blue in the app, so the bubble takes the blue and the dots turn white (R9).",
+  "direction": "Messages: the bubble's squircle shape fitted exactly, its tail, and three dots; blue bubble with white dots (R9).",
   "status": "done"
  },
  "uk_co_metrobus": {
   "label": "Metrobus",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Metrobus: the blue double-decker bus with the coloured dots from the app; white background left out (R5).",
+  "direction": "Metrobus: the phone's bus traced cleanly in four flat colours, wheels and dots as exact circles, no shine line.",
   "status": "done"
  },
  "co_uk_getmondo": {
   "label": "Monzo",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Monzo: the four-colour M from the app (teal, green, yellow, coral); dark background left out (R5).",
+  "direction": "Monzo: the M in Monzo's four colours.",
   "status": "done"
  },
  "com_sec_android_app_music": {
@@ -2498,19 +2520,21 @@
  "com_sec_android_app_myfiles": {
   "label": "My Files",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Samsung My Files: the folder from the app's logo layer. Light on orange in the app, so it takes the orange: back in darker orange, front in yellow (R9, R30).",
+  "direction": "My Files: the folder, back #FBE29A and front #F2AE00.",
   "status": "done"
  },
  "com_stonegate_mypub_iorder": {
   "label": "My Pub",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "My Pub: the 'my pub' wordmark with ORDER & PAY from the app. Dark teal on mint in the app, so it takes the mint (R11).",
+  "direction": "My Pub: 'my pub' with ORDER & PAY in the app's mint (R11), without the thin inner lines.",
   "status": "done"
  },
  "com_google_android_apps_magazines": {
@@ -2526,10 +2550,11 @@
   "label": "News",
   "arch_said": [
    "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
-   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Samsung News: the word 'News' from the app, in one flat red-pink from the app's background (R9, R14, M16).",
+  "direction": "Samsung News: the logo in its pink-red #F5365C.",
   "status": "done"
  },
  "com_nintendo_znca": {
@@ -2606,10 +2631,11 @@
  "com_google_android_music": {
   "label": "Play Music",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Google Play Music: the orange triangle with the yellow record and white note, from the app.",
+  "direction": "Play Music: measured exactly: rounded triangle, the yellow disc cut by the lower edge and poking out over the top, orange centre, white Material note.",
   "status": "done"
  },
  "com_google_android_apps_podcasts": {
@@ -2624,19 +2650,21 @@
  "com_amazon_avod_thirdpartyclient": {
   "label": "Prime Video",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Prime Video: the 'prime video' words with the smile from the app; the words are the logo (R14). White on blue in the app, so in its blue, a little lighter (R9, R24).",
+  "direction": "Prime Video: the logo in Prime Video blue #1A98FF.",
   "status": "done"
  },
  "com_nsandi_nsiprizechecker": {
   "label": "Prize checker",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Prize checker: the NS&I letters from the app, in their coral; cream background left out (R5).",
+  "direction": "Prize checker: the logo in its coral #FD605B.",
   "status": "done"
  },
  "ch_protonvpn_android": {
@@ -2651,10 +2679,11 @@
  "co_uk_aviva_quotemehappyconnect": {
   "label": "Quotemehappy Connect",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Quotemehappy Connect: the 'Quote me happy.com Connect' words from the app. Dark green on lime in the app, so they take the lime (R11, R14).",
+  "direction": "Quotemehappy Connect: each letter from the store icon put in the phone's three-line layout (Quote me / happy.com / Connect), with the phone's own smile, in lime #B3DD31 (R11).",
   "status": "done"
  },
  "com_reddit_frontpage": {
@@ -2670,47 +2699,52 @@
  "com_samsung_android_app_reminder": {
   "label": "Reminder",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Samsung Reminder: the tick (shape from the app's themed-icon layer), in the app's purple, lightened a little (R9, R24). The darker circle is a container (R5).",
+  "direction": "Reminder: the long purple arm #7A3CFB and the short light-purple arm #C9B7F0.",
   "status": "done"
  },
  "com_bellcarriagelimited_redhill": {
   "label": "RoadRunners Gatwick",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "RoadRunners Gatwick: the lime RoadRunners Group badge with its black lettering, from the app; dark background left out (R5).",
+  "direction": "RoadRunners: the badge in its green #8DC53E, dark letters see-through.",
   "status": "done"
  },
  "com_samsung_android_samsungpass": {
   "label": "Samsung Pass",
   "arch_said": [
    "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
-   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter"
+   "M16: flatten the glossy shading into simple colours; M17: exact shapes matter",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Samsung Pass: the word 'Pass' from the app, in one flat blue-purple from the app's background (R9, R14, M16).",
+  "direction": "Samsung Pass: the logo in its blue #4A5CF5.",
   "status": "done"
  },
  "com_samsung_ecomm_global_gbr": {
   "label": "Samsung Shop",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Samsung Shop: the white word 'Shop' from the app, in the app's blue (R9, R14).",
+  "direction": "Samsung Shop: the word 'Shop' cut from the store icon, with the phone's letter spacing, in the app's blue #397BE1 (R9).",
   "status": "done"
  },
  "com_compassfree_digitalcompass_forandroid_app": {
   "label": "Smart Compass",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Smart Compass: the compass dial with N/E/S/W and the red needle, from the app. White on black in the app, so it stays white (R10).",
+  "direction": "Smart Compass: measured exactly: 40 ticks, N in red, E/S/W white, the star and ring in lighter grey (R10), the arrow needle, white centre dot.",
   "status": "done"
  },
  "com_sec_android_easymover": {
@@ -2737,10 +2771,11 @@
  "com_valvesoftware_android_steam_friendsui": {
   "label": "Steam Chat",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Steam Chat: the white Steam mark with its chat-bubble tail from the app. Its background is dark navy, so the mark stays white (R10).",
+  "direction": "Steam Chat: the logo, white.",
   "status": "done"
  },
  "com_sec_android_app_samsungapps": {
@@ -2766,28 +2801,31 @@
  "com_netpulse_mobile_thegymgroup": {
   "label": "The Gym Group",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "The Gym Group: the lime g from the app; blue background left out (R5).",
+  "direction": "The Gym Group: the logo, part by part in flat colours.",
   "status": "done"
  },
  "io_attractions_thorpepark": {
   "label": "Thorpe Park",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Thorpe Park: the white mark from the app, in the park's teal (R9).",
+  "direction": "Thorpe Park: the logo in its teal #1CAF98.",
   "status": "done"
  },
  "com_zhiliaoapp_musically": {
   "label": "TikTok",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "TikTok: the note with its cyan and red edges, from the app. The note is white in the app's icon, so it stays white (R10).",
+  "direction": "TikTok: the official note, white.",
   "status": "done"
  },
  "com_samsung_android_app_tips": {
@@ -2804,64 +2842,71 @@
  "com_thetrainline": {
   "label": "Trainline",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Trainline: the white word 'train' from the app, in Trainline teal #00A88F (R9, R14).",
+  "direction": "Trainline: the logo in Trainline mint #00A88F.",
   "status": "done"
  },
  "com_toofifi_mobile": {
   "label": "tranScreen",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "tranScreen: the cyan camera outline with the white play arrow from the app; the word under it is left out (R14) and so is the blue background (R5).",
+  "direction": "tranScreen: the cyan screen with the blue arrow and lens; the word left out.",
   "status": "done"
  },
  "com_trello": {
   "label": "Trello",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Trello: the board with its two columns from the app. White board on blue in the app, so the board takes Trello blue and the columns turn white (R9).",
+  "direction": "Trello: the board in Trello blue #1868DB with its two white columns.",
   "status": "done"
  },
  "com_samsung_android_tvplus": {
   "label": "TV",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Samsung TV Plus: the cyan and orange TV frames from the app; black background left out (R5).",
+  "direction": "Samsung TV Plus: the logo in its blue #1FB4EA and orange #EC5A2E.",
   "status": "done"
  },
  "com_ubercab": {
   "label": "Uber",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Uber: the white 'Uber' wordmark from the app; the words are the logo (R14). White on black, so it stays white (R10).",
+  "direction": "Uber: the official wordmark, white.",
   "status": "done"
  },
  "com_ubercab_eats": {
   "label": "Uber Eats",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Uber Eats: the 'Uber Eats' words from the app. Black on green in the app, so they take Uber Eats green #06C167 (R11, R14).",
+  "direction": "Uber Eats: the official logo in Uber Eats green #06C167.",
   "status": "done"
  },
  "com_unity3d_mobileremote": {
   "label": "Unity Remote",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Unity Remote: the Unity cube from the app. Grey on black in the app, so it is white here (R10).",
+  "direction": "Unity Remote: the new Unity cube, white, matching the phone's icon.",
   "status": "done"
  },
  "com_universalstudios_orlandoresort": {
@@ -2876,10 +2921,11 @@
  "com_media_bestrecorder_audiorecorder": {
   "label": "Voice Recorder",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Voice Recorder: the white microphone from the app's old-style icon, in its red (R9). The red ball is a container (R5).",
+  "direction": "Voice Recorder: the logo in its red #E3262B.",
   "status": "done"
  },
  "com_sec_android_app_voicenote": {
@@ -2895,10 +2941,11 @@
  "com_cepstral_flamethrower": {
   "label": "VoiceForge",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "VoiceForge: the figure with the sound waves from the app's logo layer; striped background left out (R5).",
+  "direction": "VoiceForge: the anvil and sound waves traced cleanly, filled with the cyan, blue and pink stripes from behind it (R9).",
   "status": "done"
  },
  "com_samsung_android_spay": {
@@ -2915,10 +2962,11 @@
  "com_waze": {
   "label": "Waze",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Waze: the smiling Waze ghost from the app. White with a black outline on cyan in the app, so the body takes the cyan (R9); outline and wheels stay dark.",
+  "direction": "Waze: the cyan smiling bubble with its black outline (M13).",
   "status": "done"
  },
  "com_samsung_android_app_watchmanager": {
@@ -2934,10 +2982,11 @@
  "com_wetherspoon_orderandpay": {
   "label": "Wetherspoon",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Wetherspoon: the W in its ring from the app, in the app's blue, lightened a little for the drawer (R9, R24). The ring is part of the logo (R8).",
+  "direction": "Wetherspoon: the logo in its blue #1E7BE0.",
   "status": "done"
  },
  "com_microsoft_xboxone_smartglass": {
@@ -2952,19 +3001,21 @@
  "com_yoti_mobile_android_live": {
   "label": "Yoti ID",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "Yoti ID: the YOTI badge (grey and blue halves, white O) from the app; the words 'Yoti ID' under it are left out (R14). Its dark outline is lightened so it reads in the drawer (R10).",
+  "direction": "Yoti ID: the badge in its own colours; the words left out.",
   "status": "done"
  },
  "com_camerasideas_trimmer": {
   "label": "YouCut - Video Editor",
   "arch_said": [
-   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped"
+   "M14 (Samsung export, 21 Nov 2026): add icons for these apps, games skipped",
+   "M19 (21 Nov 2026): \"please also check all of v9 icons and redo any that look bad\""
   ],
   "rules": [],
-  "direction": "YouCut: the scissors with the film-reel handle from the app. Black in the app, so white here (R10).",
+  "direction": "YouCut: the logo, white.",
   "status": "done"
  },
  "com_google_android_youtube": {

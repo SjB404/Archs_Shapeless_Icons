@@ -32,6 +32,8 @@ Arch's messages, in order. The rules quote them word for word.
 | M12 | "wallpaper blue isn't going to stay wallpaper blue": the wallpaper changes (it already did), so the app shows the real wallpaper see-through |
 | M15 | 21 Nov 2026: "test against a dark grey and black background instead of grey and wallpaper" (R24) |
 | M18 | 21 Nov 2026: marked-up screenshots of version 9.1: flattened icons lost their parts; redo from sharp sources, part by part, and check each against the original |
+| M19 | 21 Nov 2026: "please also check all of v9 icons and redo any that look bad": 51 icons redrawn in 9.3 to 9.8 from the best source (official logo, then the 512 px store icon, then the export), measured or traced part by part and checked against it. Where the store icon differs from the phone's (BARQ!, Metrobus, Smart Compass, Samsung Shop, Quotemehappy), the phone's version is kept |
+| M20 | 21 Nov 2026 (export 23:04): "also make these while ur at it": Nothing X added |
 | M17 | 21 Nov 2026: exact shapes matter, even a slight curve difference (R2) |
 | M16 | 21 Nov 2026: gradients that are part of the logo stay, glossy shading gets flattened; in between when a flatter old logo exists (R30) |
 | M13 | Feedback on version 8.2 (19 Nov 2026), sent as the app's shared picture (26 apps with My Little Pony, `/home/claude/refs/_m13/shared_26_apps.png`; resent 20 Nov with 27 apps, MediaMarkt instead of My Little Pony) plus the real KeyLinker logo: "fix all of these", thin lines on simple logos, no glossy 3D look, dark outlines are fine, and notes per app |
