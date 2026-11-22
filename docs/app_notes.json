@@ -3249,5 +3249,153 @@
   ],
   "direction": "Evolution Galaxy: the cat and dog on their planets and the white space shark, flat colours, no glow.",
   "status": "done"
+ },
+ "com_ninjakiwi_bloonstd6": {
+  "label": "Bloons TD 6",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Bloons TD 6: the dart monkey with his spiked ball, kept as a picture (shaded character art).",
+  "status": "done"
+ },
+ "com_ninjakiwi_btdadventuretime": {
+  "label": "Bloons Adventure Time TD",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Bloons Adventure Time TD: Finn riding the dart over a blue balloon, kept as a picture; the balloon's cut-off bottom is completed.",
+  "status": "done"
+ },
+ "com_halfbrick_jetpackjoyride": {
+  "label": "Jetpack",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Jetpack Joyride: Barry with his jetpack, kept as a picture.",
+  "status": "done"
+ },
+ "com_ironhidegames_android_kingdomrush": {
+  "label": "Kingdom Rush",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Kingdom Rush: the knight with his sword, kept as a picture.",
+  "status": "done"
+ },
+ "com_grapetree_meowtower": {
+  "label": "Meow Tower",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\"",
+   "M21: Meow Tower \"Normal cat, no hat\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Meow Tower: the cream cat with its pencil, kept as a picture; the Christmas hat is replaced by the cat's head top and ears.",
+  "status": "done"
+ },
+ "me_pou_app3d": {
+  "label": "Pou 3D",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Pou 3D: the 3D Pou with his feet, kept as a picture.",
+  "status": "done"
+ },
+ "com_ea_game_pvz2_row": {
+  "label": "PvZ 2",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\"",
+   "M21: PvZ 2 / 3 \"Keep the numbers\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "PvZ 2: the zombie with the big 2 and his hands, kept as a picture; swirl background left out.",
+  "status": "done"
+ },
+ "com_ea_gp_pvzn3xt": {
+  "label": "PvZ 3",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\"",
+   "M21: PvZ 2 / 3 \"Keep the numbers\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "PvZ 3: the zombie head with the big 3 and his hands, kept as a picture; swirl background and dark body left out.",
+  "status": "done"
+ },
+ "com_pvz_weebdevelopers": {
+  "label": "PVZ FirstPerson",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "PVZ FirstPerson: the peashooter, the zombie and the aiming circle, kept as a picture.",
+  "status": "done"
+ },
+ "com_sega_sonic1px": {
+  "label": "Sonic 1",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Sonic 1: Sonic pointing, kept as a picture.",
+  "status": "done"
+ },
+ "com_sega_sonic2_runner": {
+  "label": "Sonic 2",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\"",
+   "M21: Sonic 2 \"Sonic and Tails\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Sonic 2: Sonic and Tails with the 2, kept as a picture.",
+  "status": "done"
+ },
+ "com_rovio_baba": {
+  "label": "Angry Birds 2",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Angry Birds 2: Red, kept as a picture; sky and hills left out.",
+  "status": "done"
  }
 }

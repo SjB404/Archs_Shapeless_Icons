@@ -49,8 +49,10 @@
     <item component="ComponentInfo{com.discord/com.discord.main.MainDefault}" drawable="com_discord" />
     <item component="ComponentInfo{com.disney.disneyplus/com.bamtechmedia.dominguez.main.MainActivity}" drawable="com_disney_disneyplus" />
     <item component="ComponentInfo{com.dvdfu.chicken2/com.unity3d.player.UnityPlayerActivity}" drawable="com_dvdfu_chicken2" />
+    <item component="ComponentInfo{com.ea.game.pvz2_row/com.popcap.PvZ2.PvZ2GameActivity}" drawable="com_ea_game_pvz2_row" />
     <item component="ComponentInfo{com.ea.game.pvzfree_row/com.ea.game.pvzfree_row.PvZActivity}" drawable="com_ea_game_pvzfree_row" />
     <item component="ComponentInfo{com.ea.gp.bej3/com.ea.game.bejeweled3.Bejeweled3Activity}" drawable="com_ea_gp_bej3" />
+    <item component="ComponentInfo{com.ea.gp.pvzn3xt/com.ea.pvz3.YetiActivity}" drawable="com_ea_gp_pvzn3xt" />
     <item component="ComponentInfo{com.einnovation.temu/com.baogong.splash.activity.MainFrameActivity}" drawable="com_einnovation_temu" />
     <item component="ComponentInfo{com.etsy.android/com.etsy.android.ui.homescreen.HomescreenTabsActivity}" drawable="com_etsy_android" />
     <item component="ComponentInfo{com.etsy.butter.sell_on_etsy/com.etsy.butter.sell_on_etsy.MainActivity}" drawable="com_etsy_butter_sell_on_etsy" />
@@ -99,12 +101,15 @@
     <item component="ComponentInfo{com.google.android.videos/com.google.android.videos.GoogleTvEntryPoint}" drawable="com_google_android_videos" />
     <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="com_google_android_youtube" />
     <item component="ComponentInfo{com.google.ar.lens/com.google.vr.apps.ornament.app.lens.LensLauncherActivity}" drawable="com_google_ar_lens" />
+    <item component="ComponentInfo{com.grapetree.meowtower/com.unity3d.player.MeowActivity}" drawable="com_grapetree_meowtower" />
+    <item component="ComponentInfo{com.halfbrick.jetpackjoyride/com.halfbrick.mortar.MortarGameLauncherActivity}" drawable="com_halfbrick_jetpackjoyride" />
     <item component="ComponentInfo{com.handycloset.android.eraser/com.handycloset.android.eraser.MainActivity}" drawable="com_handycloset_android_eraser" />
     <item component="ComponentInfo{com.huawei.health/com.huawei.health.MainActivity}" drawable="com_huawei_health" />
     <item component="ComponentInfo{com.imaginecurve.curve.prd/com.curve.startup.launch.LaunchActivity}" drawable="com_imaginecurve_curve_prd" />
     <item component="ComponentInfo{com.indeed.android.jobsearch/com.indeed.android.jobsearch.LaunchActivity}" drawable="com_indeed_android_jobsearch" />
     <item component="ComponentInfo{com.ing.mobile/com.ing.mobile.app.activities.SplashActivity}" drawable="com_ing_mobile" />
     <item component="ComponentInfo{com.instructure.candroid/com.instructure.student.activity.LoginActivity}" drawable="com_instructure_candroid" />
+    <item component="ComponentInfo{com.ironhidegames.android.kingdomrush/com.ironhidegames.android.kr.act_game.KRGameActivity}" drawable="com_ironhidegames_android_kingdomrush" />
     <item component="ComponentInfo{com.jafolders.allefolders/com.jafolders.allefolders.MainActivity}" drawable="com_jafolders_allefolders" />
     <item component="ComponentInfo{com.JLETDev.TerraDefense/com.unity3d.player.UnityPlayerActivity}" drawable="com_jletdev_terradefense" />
     <item component="ComponentInfo{com.jndapp.flora.material.iconpack/com.jndapp.flora.material.iconpack.MainActivity}" drawable="com_jndapp_flora_material_iconpack" />
@@ -141,6 +146,8 @@
     <item component="ComponentInfo{com.netpulse.mobile.thegymgroup/com.netpulse.mobile.launch.LaunchActivity}" drawable="com_netpulse_mobile_thegymgroup" />
     <item component="ComponentInfo{com.nianticlabs.pokemongo/com.nianticproject.holoholo.libholoholo.unity.UnityMainActivity}" drawable="com_nianticlabs_pokemongo" />
     <item component="ComponentInfo{com.niksoftware.snapseed/com.google.android.apps.snapseed.WelcomeScreenActivity}" drawable="com_niksoftware_snapseed" />
+    <item component="ComponentInfo{com.ninjakiwi.bloonstd6/com.unity3d.player.UnityPlayerActivity}" drawable="com_ninjakiwi_bloonstd6" />
+    <item component="ComponentInfo{com.ninjakiwi.btdadventuretime/com.unity3d.player.UnityPlayerActivity}" drawable="com_ninjakiwi_btdadventuretime" />
     <item component="ComponentInfo{com.nintendo.znca/com.nintendo.coral.ui.boot.BootActivity}" drawable="com_nintendo_znca" />
     <item component="ComponentInfo{com.nothing.camera/com.nothing.camera.activity.CameraActivity}" drawable="com_nothing_camera" />
     <item component="ComponentInfo{com.nothing.essentialapps/com.nothing.essentialapps.MainActivity}" drawable="com_nothing_essentialapps" />
@@ -169,8 +176,10 @@
     <item component="ComponentInfo{com.prpr.musedash/com.unity3d.player.UnityPlayerActivity}" drawable="com_prpr_musedash" />
     <item component="ComponentInfo{com.pryshedko.mtisland/com.pryshedko.mtisland.MainAppActivity}" drawable="com_pryshedko_mtisland" />
     <item component="ComponentInfo{com.pulsenet.inputset/com.pulsenet.inputset.activity.ConnectionActivity}" drawable="com_pulsenet_inputset" />
+    <item component="ComponentInfo{com.pvz.weebdevelopers/com.unity3d.player.UnityPlayerGameActivity}" drawable="com_pvz_weebdevelopers" />
     <item component="ComponentInfo{com.reddit.frontpage/launcher.default}" drawable="com_reddit_frontpage" />
     <item component="ComponentInfo{com.roblox.client/com.roblox.client.startup.LauncherAliasMain}" drawable="com_roblox_client" />
+    <item component="ComponentInfo{com.rovio.baba/com.unity3d.player.UnityPlayerActivity}" drawable="com_rovio_baba" />
     <item component="ComponentInfo{com.samruston.buzzkill/com.samruston.buzzkill.ui.MainActivity}" drawable="com_samruston_buzzkill" />
     <item component="ComponentInfo{com.samsung.android.app.contacts/com.samsung.android.contacts.contactslist.PeopleActivity}" drawable="com_samsung_android_app_contacts" />
     <item component="ComponentInfo{com.samsung.android.app.find/com.samsung.android.app.find.MainActivity}" drawable="com_samsung_android_app_find" />
@@ -205,6 +214,8 @@
     <item component="ComponentInfo{com.sec.android.easyMover/com.sec.android.easyMover.ui.launch.LauncherActivity}" drawable="com_sec_android_easymover" />
     <item component="ComponentInfo{com.sec.android.gallery3d/com.samsung.android.gallery.app.activity.GalleryActivity}" drawable="com_sec_android_gallery3d" />
     <item component="ComponentInfo{com.sec.penup/com.sec.penup.ui.SplashActivity}" drawable="com_sec_penup" />
+    <item component="ComponentInfo{com.sega.sonic1px/com.sega.sonic2px.MainActivity}" drawable="com_sega_sonic1px" />
+    <item component="ComponentInfo{com.sega.sonic2.runner/com.sega.sonic2px.MainActivity}" drawable="com_sega_sonic2_runner" />
     <item component="ComponentInfo{com.shazam.android/com.shazam.android.activities.SplashActivity}" drawable="com_shazam_android" />
     <item component="ComponentInfo{com.sirma.mobile.bible.android/youversion.bible.app.MainActivity}" drawable="com_sirma_mobile_bible_android" />
     <item component="ComponentInfo{com.sony.songpal.mdr/com.sony.songpal.mdr.vim.activity.MdrMainActivity}" drawable="com_sony_songpal_mdr" />
@@ -265,6 +276,7 @@
     <item component="ComponentInfo{jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.InitializeCheckActivity}" drawable="jp_ne_ibis_ibispaintx_app" />
     <item component="ComponentInfo{jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.market.MarketAuthenticationActivity}" drawable="jp_ne_ibis_ibispaintx_app" />
     <item component="ComponentInfo{me.pou.app/me.pou.app.App}" drawable="me_pou_app" />
+    <item component="ComponentInfo{me.pou.app3d/com.unity3d.player.UnityPlayerActivity}" drawable="me_pou_app3d" />
     <item component="ComponentInfo{me.zhanghai.android.files/me.zhanghai.android.files.filelist.FileListActivity}" drawable="me_zhanghai_android_files" />
     <item component="ComponentInfo{net.mm2d.android.orientationfaker/net.mm2d.android.orientationfaker.MainActivity}" drawable="net_mm2d_android_orientationfaker" />
     <item component="ComponentInfo{net.mullvad.mullvadvpn/net.mullvad.mullvadvpn.feature.appearance.impl.obfuscation.MainActivityAltDefault}" drawable="net_mullvad_mullvadvpn" />

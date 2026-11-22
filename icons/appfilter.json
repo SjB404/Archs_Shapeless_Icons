@@ -905,5 +905,41 @@
  ],
  "br_com_tapps_evolutiongalaxy": [
   "ComponentInfo{br.com.tapps.evolutiongalaxy/br.com.tapps.love.SplashActivity}"
+ ],
+ "com_ninjakiwi_bloonstd6": [
+  "ComponentInfo{com.ninjakiwi.bloonstd6/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_ninjakiwi_btdadventuretime": [
+  "ComponentInfo{com.ninjakiwi.btdadventuretime/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_halfbrick_jetpackjoyride": [
+  "ComponentInfo{com.halfbrick.jetpackjoyride/com.halfbrick.mortar.MortarGameLauncherActivity}"
+ ],
+ "com_ironhidegames_android_kingdomrush": [
+  "ComponentInfo{com.ironhidegames.android.kingdomrush/com.ironhidegames.android.kr.act_game.KRGameActivity}"
+ ],
+ "com_grapetree_meowtower": [
+  "ComponentInfo{com.grapetree.meowtower/com.unity3d.player.MeowActivity}"
+ ],
+ "me_pou_app3d": [
+  "ComponentInfo{me.pou.app3d/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_ea_game_pvz2_row": [
+  "ComponentInfo{com.ea.game.pvz2_row/com.popcap.PvZ2.PvZ2GameActivity}"
+ ],
+ "com_ea_gp_pvzn3xt": [
+  "ComponentInfo{com.ea.gp.pvzn3xt/com.ea.pvz3.YetiActivity}"
+ ],
+ "com_pvz_weebdevelopers": [
+  "ComponentInfo{com.pvz.weebdevelopers/com.unity3d.player.UnityPlayerGameActivity}"
+ ],
+ "com_sega_sonic1px": [
+  "ComponentInfo{com.sega.sonic1px/com.sega.sonic2px.MainActivity}"
+ ],
+ "com_sega_sonic2_runner": [
+  "ComponentInfo{com.sega.sonic2.runner/com.sega.sonic2px.MainActivity}"
+ ],
+ "com_rovio_baba": [
+  "ComponentInfo{com.rovio.baba/com.unity3d.player.UnityPlayerActivity}"
  ]
 }

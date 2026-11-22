@@ -50,8 +50,10 @@
     <item drawable="com_discord" />
     <item drawable="com_disney_disneyplus" />
     <item drawable="com_dvdfu_chicken2" />
+    <item drawable="com_ea_game_pvz2_row" />
     <item drawable="com_ea_game_pvzfree_row" />
     <item drawable="com_ea_gp_bej3" />
+    <item drawable="com_ea_gp_pvzn3xt" />
     <item drawable="com_einnovation_temu" />
     <item drawable="com_etsy_android" />
     <item drawable="com_etsy_butter_sell_on_etsy" />
@@ -100,12 +102,15 @@
     <item drawable="com_google_android_videos" />
     <item drawable="com_google_android_youtube" />
     <item drawable="com_google_ar_lens" />
+    <item drawable="com_grapetree_meowtower" />
+    <item drawable="com_halfbrick_jetpackjoyride" />
     <item drawable="com_handycloset_android_eraser" />
     <item drawable="com_huawei_health" />
     <item drawable="com_imaginecurve_curve_prd" />
     <item drawable="com_indeed_android_jobsearch" />
     <item drawable="com_ing_mobile" />
     <item drawable="com_instructure_candroid" />
+    <item drawable="com_ironhidegames_android_kingdomrush" />
     <item drawable="com_jafolders_allefolders" />
     <item drawable="com_jletdev_terradefense" />
     <item drawable="com_jndapp_flora_material_iconpack" />
@@ -142,6 +147,8 @@
     <item drawable="com_netpulse_mobile_thegymgroup" />
     <item drawable="com_nianticlabs_pokemongo" />
     <item drawable="com_niksoftware_snapseed" />
+    <item drawable="com_ninjakiwi_bloonstd6" />
+    <item drawable="com_ninjakiwi_btdadventuretime" />
     <item drawable="com_nintendo_znca" />
     <item drawable="com_nothing_camera" />
     <item drawable="com_nothing_essentialapps" />
@@ -169,8 +176,10 @@
     <item drawable="com_prpr_musedash" />
     <item drawable="com_pryshedko_mtisland" />
     <item drawable="com_pulsenet_inputset" />
+    <item drawable="com_pvz_weebdevelopers" />
     <item drawable="com_reddit_frontpage" />
     <item drawable="com_roblox_client" />
+    <item drawable="com_rovio_baba" />
     <item drawable="com_samruston_buzzkill" />
     <item drawable="com_samsung_android_app_contacts" />
     <item drawable="com_samsung_android_app_find" />
@@ -205,6 +214,8 @@
     <item drawable="com_sec_android_easymover" />
     <item drawable="com_sec_android_gallery3d" />
     <item drawable="com_sec_penup" />
+    <item drawable="com_sega_sonic1px" />
+    <item drawable="com_sega_sonic2_runner" />
     <item drawable="com_shazam_android" />
     <item drawable="com_sirma_mobile_bible_android" />
     <item drawable="com_sony_songpal_mdr" />
@@ -264,6 +275,7 @@
     <item drawable="io_github_sds100_keymapper" />
     <item drawable="jp_ne_ibis_ibispaintx_app" />
     <item drawable="me_pou_app" />
+    <item drawable="me_pou_app3d" />
     <item drawable="me_zhanghai_android_files" />
     <item drawable="net_mm2d_android_orientationfaker" />
     <item drawable="net_mullvad_mullvadvpn" />
