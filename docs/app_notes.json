@@ -3056,5 +3056,198 @@
   ],
   "direction": "Nothing X: the X of two capsules with the red dot, measured from the 512 px Play Store icon. Black capsule turns white with Nothing's red dot (#D71921); the light grey capsule becomes mid grey #9A9A9A; white tile left out.",
   "status": "done"
+ },
+ "com_nianticlabs_pokemongo": {
+  "label": "Pokémon GO",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Pokemon GO: only the Poke Ball, measured: red top, black band, round button; flat red, white and black (R15, M16).",
+  "status": "done"
+ },
+ "com_techtreegames_thetower": {
+  "label": "The Tower",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "The Tower: only the hexagon, measured: light cyan outer hexagon, dark ring, cyan inner hexagon; no glow or streaks (R15, M16).",
+  "status": "done"
+ },
+ "com_zeptolab_thieves_google": {
+  "label": "King of Thieves",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\"",
+   "M21: King of Thieves \"Keep it black\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "King of Thieves: the thief's two eyes on a round black head, kept black as Arch chose.",
+  "status": "done"
+ },
+ "com_n3twork_tetris": {
+  "label": "Tetris",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Tetris: the coloured blocks and the TETRIS word (the logo), eight flat block colours; dark blue square and (R) left out.",
+  "status": "done"
+ },
+ "com_zutgames_ilovehue2": {
+  "label": "I Love Hue Too",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "I Love Hue Too: the heart of coloured triangles, kept as a picture because a drawing turned the triangles into blotches.",
+  "status": "done"
+ },
+ "com_wb_headsup": {
+  "label": "Heads Up!",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Heads Up!: the 'Heads Up!' lettering (the logo) in the card's blue (R9, R14).",
+  "status": "done"
+ },
+ "com_appspot_orium_blog_crossword_eng": {
+  "label": "Crosswords",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Crosswords: the grid with CROSS and WORD and the pencil, flat colours.",
+  "status": "done"
+ },
+ "com_ketchapp_donttouchthespikes": {
+  "label": "Don't Touch The Spikes",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Don't Touch The Spikes: only the pink bird, flat colours; spikes and background left out.",
+  "status": "done"
+ },
+ "com_dvdfu_chicken2": {
+  "label": "Chiki",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Chiki: the white chicken head with its yellow beak; white stays white (R12), no shading.",
+  "status": "done"
+ },
+ "com_wemademax_projectsb": {
+  "label": "Dragon BUURRP!",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Dragon BUURRP!: the orange dragon's head with its black outline (M13).",
+  "status": "done"
+ },
+ "com_zeptolab_ctr2_f2p_google": {
+  "label": "Cut the Rope 2",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Cut the Rope 2: Om Nom with the orange 2, flat colours, no glow or shadow.",
+  "status": "done"
+ },
+ "com_zm_nuts": {
+  "label": "Nut Sort",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Nut Sort: the three bolts with coloured nuts and the gold nut, kept as a picture (shiny 3D nuts); motion trail left out.",
+  "status": "done"
+ },
+ "me_pou_app": {
+  "label": "Pou",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Pou: Pou with his outline, eyes and smile, flat tan without shading.",
+  "status": "done"
+ },
+ "com_zeptolab_monsters_free_google": {
+  "label": "Pudding Monsters",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Pudding Monsters: the red jelly cube with its big eye; the cube is the monster, so its shape stays (R8); no shine.",
+  "status": "done"
+ },
+ "com_ea_gp_bej3": {
+  "label": "Classic",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Bejeweled Classic: the big blue diamond with its facets; the phone's icon crops it, so the store's whole diamond is used.",
+  "status": "done"
+ },
+ "br_com_tapps_evolutiongalaxy": {
+  "label": "Evolution Galaxy",
+  "arch_said": [
+   "M21 (22 Nov 2026): \"continue with the rest of the icons, the game icons\""
+  ],
+  "rules": [
+   "R15",
+   "R5"
+  ],
+  "direction": "Evolution Galaxy: the cat and dog on their planets and the white space shark, flat colours, no glow.",
+  "status": "done"
  }
 }

@@ -857,5 +857,53 @@
  ],
  "com_nothing_smartcenter": [
   "ComponentInfo{com.nothing.smartcenter/com.nothing.smartcenter.host.MainActivity}"
+ ],
+ "com_nianticlabs_pokemongo": [
+  "ComponentInfo{com.nianticlabs.pokemongo/com.nianticproject.holoholo.libholoholo.unity.UnityMainActivity}"
+ ],
+ "com_techtreegames_thetower": [
+  "ComponentInfo{com.TechTreeGames.TheTower/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_zeptolab_thieves_google": [
+  "ComponentInfo{com.zeptolab.thieves.google/com.zeptolab.thieves.ThievesActivity}"
+ ],
+ "com_n3twork_tetris": [
+  "ComponentInfo{com.n3twork.tetris/com.n3twork.NWUnityPlayerActivity}"
+ ],
+ "com_zutgames_ilovehue2": [
+  "ComponentInfo{com.zutgames.ilovehue2/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_wb_headsup": [
+  "ComponentInfo{com.wb.headsup/com.swrve.unity.firebase.MainActivity}"
+ ],
+ "com_appspot_orium_blog_crossword_eng": [
+  "ComponentInfo{com.appspot.orium_blog.crossword.eng/com.dev_orium.android.crossword.SplashActivity}"
+ ],
+ "com_ketchapp_donttouchthespikes": [
+  "ComponentInfo{com.ketchapp.donttouchthespikes/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_dvdfu_chicken2": [
+  "ComponentInfo{com.dvdfu.chicken2/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_wemademax_projectsb": [
+  "ComponentInfo{com.wemademax.projectsb/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_zeptolab_ctr2_f2p_google": [
+  "ComponentInfo{com.zeptolab.ctr2.f2p.google/com.zeptolab.ctr2.CTR2Activity}"
+ ],
+ "com_zm_nuts": [
+  "ComponentInfo{com.zm.nuts/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "me_pou_app": [
+  "ComponentInfo{me.pou.app/me.pou.app.App}"
+ ],
+ "com_zeptolab_monsters_free_google": [
+  "ComponentInfo{com.zeptolab.monsters.free.google/com.zeptolab.mvsl.MVSLActivity}"
+ ],
+ "com_ea_gp_bej3": [
+  "ComponentInfo{com.ea.gp.bej3/com.ea.game.bejeweled3.Bejeweled3Activity}"
+ ],
+ "br_com_tapps_evolutiongalaxy": [
+  "ComponentInfo{br.com.tapps.evolutiongalaxy/br.com.tapps.love.SplashActivity}"
  ]
 }

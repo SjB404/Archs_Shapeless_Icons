@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="488.4 494.5 1082 1082">
+<!-- Pokemon GO: only the Poke Ball (R15), measured from the app's logo layer: a circle with the red top, the black band
+     and the round button. Flat red, white and black, without the shine and shading (M16). The sky background is left
+     out (R5). -->
+<circle cx="1029.4" cy="1035.5" r="537.0" fill="#FFFFFF"/>
+<path fill="#DF3F22" d="M492.4 1037A537.0 537.0 0 0 1 1566.4 1037Z"/>
+<path fill="#050505" d="M493.3 1004.5L1565.5 1004.5A537.0 537.0 0 0 1 1565.3 1069.5L493.5 1069.5A537.0 537.0 0 0 1 493.3 1004.5Z"/>
+<circle cx="1029.8" cy="1037.5" r="176.6" fill="#050505"/>
+<circle cx="1029.8" cy="1037.5" r="118.6" fill="#FFFFFF"/>
+</svg>

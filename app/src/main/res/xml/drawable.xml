@@ -5,6 +5,7 @@
     <item drawable="ai_x_grok" />
     <item drawable="app_revenge" />
     <item drawable="app_revenge_manager" />
+    <item drawable="br_com_tapps_evolutiongalaxy" />
     <item drawable="ch_protonmail_android" />
     <item drawable="ch_protonvpn_android" />
     <item drawable="cm_aptoide_pt" />
@@ -21,6 +22,7 @@
     <item drawable="com_android_settings" />
     <item drawable="com_android_vending" />
     <item drawable="com_anthropic_claude" />
+    <item drawable="com_appspot_orium_blog_crossword_eng" />
     <item drawable="com_armmc_app" />
     <item drawable="com_aurora_store" />
     <item drawable="com_azizi_calorie_calculator" />
@@ -47,7 +49,9 @@
     <item drawable="com_digibites_accubattery" />
     <item drawable="com_discord" />
     <item drawable="com_disney_disneyplus" />
+    <item drawable="com_dvdfu_chicken2" />
     <item drawable="com_ea_game_pvzfree_row" />
+    <item drawable="com_ea_gp_bej3" />
     <item drawable="com_einnovation_temu" />
     <item drawable="com_etsy_android" />
     <item drawable="com_etsy_butter_sell_on_etsy" />
@@ -108,6 +112,7 @@
     <item drawable="com_junkfood_seal" />
     <item drawable="com_justwatch_justwatch" />
     <item drawable="com_kaanelloed_iconeration" />
+    <item drawable="com_ketchapp_donttouchthespikes" />
     <item drawable="com_kraken_invest_app" />
     <item drawable="com_kraken_pay_app" />
     <item drawable="com_kraken_superwallet" />
@@ -131,9 +136,11 @@
     <item drawable="com_microsoft_xboxone_smartglass" />
     <item drawable="com_mixplorer" />
     <item drawable="com_mojang_minecraftpe" />
+    <item drawable="com_n3twork_tetris" />
     <item drawable="com_netflix_mediaclient" />
     <item drawable="com_netflix_ngp_tombofthemask" />
     <item drawable="com_netpulse_mobile_thegymgroup" />
+    <item drawable="com_nianticlabs_pokemongo" />
     <item drawable="com_niksoftware_snapseed" />
     <item drawable="com_nintendo_znca" />
     <item drawable="com_nothing_camera" />
@@ -208,6 +215,7 @@
     <item drawable="com_stonegate_mypub_iorder" />
     <item drawable="com_supercell_brawlstars" />
     <item drawable="com_tailscale_ipn" />
+    <item drawable="com_techtreegames_thetower" />
     <item drawable="com_terradefense_myapp" />
     <item drawable="com_thetrainline" />
     <item drawable="com_toofifi_mobile" />
@@ -222,14 +230,21 @@
     <item drawable="com_valvesoftware_android_steam_community" />
     <item drawable="com_valvesoftware_android_steam_friendsui" />
     <item drawable="com_waze" />
+    <item drawable="com_wb_headsup" />
+    <item drawable="com_wemademax_projectsb" />
     <item drawable="com_wetherspoon_orderandpay" />
     <item drawable="com_whatsapp" />
     <item drawable="com_wispr_flowapp" />
     <item drawable="com_xiaomi_smarthome" />
     <item drawable="com_yodo1_crossyroad" />
     <item drawable="com_yoti_mobile_android_live" />
+    <item drawable="com_zeptolab_ctr2_f2p_google" />
+    <item drawable="com_zeptolab_monsters_free_google" />
+    <item drawable="com_zeptolab_thieves_google" />
     <item drawable="com_zhiliaoapp_musically" />
     <item drawable="com_zhiliaoapp_musically_go" />
+    <item drawable="com_zm_nuts" />
+    <item drawable="com_zutgames_ilovehue2" />
     <item drawable="custom_discord" />
     <item drawable="de_mash_android_calendar" />
     <item drawable="dev_netlob_spotistats" />
@@ -248,6 +263,7 @@
     <item drawable="io_attractions_thorpepark" />
     <item drawable="io_github_sds100_keymapper" />
     <item drawable="jp_ne_ibis_ibispaintx_app" />
+    <item drawable="me_pou_app" />
     <item drawable="me_zhanghai_android_files" />
     <item drawable="net_mm2d_android_orientationfaker" />
     <item drawable="net_mullvad_mullvadvpn" />
