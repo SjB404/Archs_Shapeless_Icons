@@ -1,15 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- App icon: a loose orange squiggle, no background shape. -->
+<!-- App icon: the ASI logo (red A, orange S, yellow I), no background shape.
+     Drawn from docs/app_icon.svg. The logo is 1184 x 478, so it fills the full width of a
+     1184 x 1184 square and sits in the middle top to bottom (moved down by 353). -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
-    android:viewportWidth="108"
-    android:viewportHeight="108">
-    <path
-        android:pathData="M30,70 C30,40 54,40 54,54 C54,68 78,68 78,38"
-        android:strokeColor="#FF6A1F"
-        android:strokeWidth="14"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"
-        android:fillColor="#00000000" />
+    android:viewportWidth="1184"
+    android:viewportHeight="1184">
+    <group android:translateY="353">
+        <group
+            android:scaleX="0.927536"
+            android:scaleY="0.927536"
+            android:translateX="-213.328477"
+            android:translateY="-762.621594">
+            <path
+                android:pathData="M409.345,1158.601L230.067,1054.022L487.779,1054.022L409.345,1158.601Z"
+                android:fillColor="#C20A0A" />
+        </group>
+        <group
+            android:translateX="-230"
+            android:translateY="-839">
+            <path
+                android:pathData="M1006.97,1317.686L791.783,1126.62L863.568,1030.951L1078.722,1222.017L1006.97,1317.686Z"
+                android:fillColor="#FF8000" />
+            <group
+                android:translateX="143.401746"
+                android:translateY="-191.338583">
+                <path
+                    android:pathData="M648.382,1317.959L720.134,1222.289L1078.689,1222.289L1006.937,1317.959L648.382,1317.959Z"
+                    android:fillColor="#FFA800" />
+            </group>
+            <group
+                android:translateX="0.032436"
+                android:translateY="-0.272509">
+                <path
+                    android:pathData="M648.382,1317.959L720.134,1222.289L1078.689,1222.289L1006.937,1317.959L648.382,1317.959Z"
+                    android:fillColor="#FF5400" />
+            </group>
+        </group>
+        <group
+            android:translateX="-337.460891"
+            android:translateY="-839">
+            <path
+                android:pathData="M1186.215,1317.959L1401.471,1030.951L1520.989,1030.951L1305.733,1317.959L1186.215,1317.959Z"
+                android:fillColor="#FFBF00" />
+        </group>
+        <group
+            android:translateX="-230"
+            android:translateY="-839">
+            <path
+                android:pathData="M289.826,1317.959L648.382,839.885L648.382,1317.959L552.712,1254.59L552.712,1126.802L409.345,1317.959L289.826,1317.959Z"
+                android:fillColor="#F20D0D" />
+        </group>
+    </group>
 </vector>

@@ -1,19 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="88 116 200 199">
-<!-- Automate: measured from the app's own icon (export bg.png + fg.png, M13): the phone with the smiley and the
-     yellow robot arm whose grey pointer taps the screen; the arm's lower part goes behind the phone. Same sizes
-     and places as the app. Flat (R30); the phone's dark grey is a bit lighter so it reads in the drawer (R10). -->
-<path fill="#DFA22E" d="M97 228L128 225L141 252L151 251L151 300L131 298L119 283Z" stroke="#DFA22E" stroke-width="4" stroke-linejoin="round"/>
-<rect x="148" y="120" width="136" height="191" rx="12" fill="#6B6B6B"/>
-<rect x="164" y="135" width="104" height="153" fill="#F4F4F4"/>
-<g fill="#5A5A5A">
-<path d="M176 209.5A14.5 14.5 0 0 1 205 209.5V211A4 4 0 0 1 201 215H180A4 4 0 0 1 176 211Z"/>
-<path d="M226 209.5A14.5 14.5 0 0 1 255 209.5V211A4 4 0 0 1 251 215H230A4 4 0 0 1 226 211Z"/>
-</g>
-<path d="M182.5 236A34.25 34.25 0 0 0 251 236" fill="none" stroke="#5A5A5A" stroke-width="12.5" stroke-linecap="round"/>
-<path fill="#B4B4B4" d="M197.5 132.5L245 156L195 158Z"/>
-<path fill="#626262" d="M195 164L245 163.5L200 186Z"/>
-<path d="M111.5 215.5L169.5 158.5" stroke="#FDB833" stroke-width="19" stroke-linecap="round"/>
-<circle cx="111.5" cy="215.5" r="20" fill="#FDB833"/>
-<circle cx="169.5" cy="158.5" r="15.5" fill="#FDB833"/>
-<circle cx="192" cy="161.3" r="12" fill="#9E9E9E"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 400 398" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:3;">
+    <g transform="matrix(2.716814,0,0,2.716814,3.043074,-76.83413)">
+        <circle cx="42.638" cy="145.747" r="17.746" style="fill:rgb(223,162,46);"/>
+    </g>
+    <g transform="matrix(2,0,0,2,0.804046,-0.201012)">
+        <path d="M21.249,103.799L47.16,159.649" style="fill:none;stroke:rgb(223,162,46);stroke-width:20px;"/>
+    </g>
+    <g transform="matrix(2,0,0,2,-176,-232)">
+        <path d="M272,120C278.623,120 284,125.377 284,132L284,299C284,305.623 278.623,311 272,311L160,311C153.377,311 148,305.623 148,299L148,132C148,125.377 153.377,120 160,120L272,120Z" style="fill:rgb(107,107,107);"/>
+    </g>
+    <g transform="matrix(2,0,0,2,-176,-232)">
+        <rect x="164" y="135" width="104" height="153" style="fill:rgb(244,244,244);"/>
+    </g>
+    <g transform="matrix(2,0,0,2,-176,-232)">
+        <g transform="matrix(1,0,0,1,0.5,0)">
+            <path d="M176,209.5C176,201.546 182.546,195 190.5,195C198.454,195 205,201.546 205,209.5L205,211C205,213.194 203.194,215 201,215L180,215C177.806,215 176,213.194 176,211L176,209.5Z" style="fill:rgb(90,90,90);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,0.5,0)">
+            <path d="M226,209.5C226,201.546 232.546,195 240.5,195C248.454,195 255,201.546 255,209.5L255,211C255,213.194 253.194,215 251,215L230,215C227.806,215 226,213.194 226,211L226,209.5Z" style="fill:rgb(90,90,90);fill-rule:nonzero;"/>
+        </g>
+    </g>
+    <g transform="matrix(2,0,0,2,-177.5,-233)">
+        <path d="M182.5,236C182.5,254.789 197.961,270.25 216.75,270.25C235.539,270.25 251,254.789 251,236" style="fill:none;fill-rule:nonzero;stroke:rgb(90,90,90);stroke-width:12.5px;stroke-linecap:round;stroke-miterlimit:4;"/>
+    </g>
+    <g transform="matrix(2,0,0,2,-174.713524,-233.447286)">
+        <path d="M197.5,132.5L245,156L191.784,156L197.5,132.5Z" style="fill:rgb(180,180,180);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(2,0,0,2,-176,-232)">
+        <path d="M192.427,163.496L245.643,163.496L198.143,187.246L192.427,163.496Z" style="fill:rgb(98,98,98);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(2,0,0,2,-176,-232)">
+        <path d="M107.417,208.59L169.5,158.5" style="fill:none;fill-rule:nonzero;stroke:rgb(253,184,51);stroke-width:17px;stroke-linecap:round;stroke-miterlimit:4;"/>
+    </g>
+    <g transform="matrix(2,0,0,2,-176,-232)">
+        <circle cx="111.5" cy="215.5" r="20" style="fill:rgb(253,184,51);"/>
+    </g>
+    <g transform="matrix(2,0,0,2,-170.974702,-230.190894)">
+        <circle cx="169.5" cy="158.5" r="15.5" style="fill:rgb(253,184,51);"/>
+    </g>
+    <g transform="matrix(2,0,0,2,-176,-235.730782)">
+        <circle cx="192" cy="161.3" r="12" style="fill:rgb(158,158,158);"/>
+    </g>
 </svg>

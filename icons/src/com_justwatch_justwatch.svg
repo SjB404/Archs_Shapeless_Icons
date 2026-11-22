@@ -1,12 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="120 55 300 300">
-<polygon points="134,66 134,125 190,95.5" fill="#e4b818" stroke="#e4b818" stroke-width="10" stroke-linejoin="round"/>
-<polygon points="134,137 134,196 190,166.5" fill="#e4b818" stroke="#e4b818" stroke-width="10" stroke-linejoin="round"/>
-<polygon points="134,212 134,271 190,241.5" fill="#e4b818" stroke="#e4b818" stroke-width="10" stroke-linejoin="round"/>
-<polygon points="134,287 134,346 190,316.5" fill="#e4b818" stroke="#e4b818" stroke-width="10" stroke-linejoin="round"/>
-<polygon points="208,98 208,157 264,127.5" fill="#ecc22b" stroke="#ecc22b" stroke-width="10" stroke-linejoin="round"/>
-<polygon points="208,175 208,234 264,204.5" fill="#ecc22b" stroke="#ecc22b" stroke-width="10" stroke-linejoin="round"/>
-<polygon points="208,251 208,310 264,280.5" fill="#ecc22b" stroke="#ecc22b" stroke-width="10" stroke-linejoin="round"/>
-<polygon points="282,135 282,194 338,164.5" fill="#f6cf3f" stroke="#f6cf3f" stroke-width="10" stroke-linejoin="round"/>
-<polygon points="282,213 282,272 338,242.5" fill="#f6cf3f" stroke="#f6cf3f" stroke-width="10" stroke-linejoin="round"/>
-<polygon points="357,174 357,233 405,203.5" fill="#f9d345" stroke="#f9d345" stroke-width="10" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;">
+    <g transform="matrix(1,0,0,1,-120,-55)">
+        <path d="M134,66L134,125L190,95.5L134,66Z" style="fill:rgb(228,184,24);fill-rule:nonzero;stroke:rgb(228,184,24);stroke-width:10px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-120,-53)">
+        <path d="M134,137L134,196L190,166.5L134,137Z" style="fill:rgb(228,184,24);fill-rule:nonzero;stroke:rgb(228,184,24);stroke-width:10px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-120,-55)">
+        <path d="M134,212L134,271L190,241.5L134,212Z" style="fill:rgb(228,184,24);fill-rule:nonzero;stroke:rgb(228,184,24);stroke-width:10px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-124.112962,-52.341057)">
+        <path d="M212.113,99.841L212.113,158.841L268.113,129.341L212.113,99.841Z" style="fill:rgb(236,194,43);fill-rule:nonzero;stroke:rgb(236,194,43);stroke-width:10px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-120,-55)">
+        <path d="M208,175.5L208,234.5L264,205L208,175.5Z" style="fill:rgb(236,194,43);fill-rule:nonzero;stroke:rgb(236,194,43);stroke-width:10px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-120,-55)">
+        <path d="M282.335,139L282.335,198L338.335,168.5L282.335,139Z" style="fill:rgb(246,207,63);fill-rule:nonzero;stroke:rgb(246,207,63);stroke-width:10px;"/>
+    </g>
 </svg>

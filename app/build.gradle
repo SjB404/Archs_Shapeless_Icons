@@ -12,7 +12,7 @@ android {
         targetSdk 34
         // Every GitHub build gets a higher number, so a new APK installs over the old one.
         versionCode((System.getenv('GITHUB_RUN_NUMBER') ?: '1').toInteger())
-        // The version people see (8, 8.1, 9...) comes from version.txt.
+        // The version people see (9.9, 10.0, 10.1...) comes from version.txt.
         versionName rootProject.file('version.txt').text.trim()
     }
 

@@ -8,7 +8,7 @@ Android icon pack with no border shapes: just each app's logo, as big as possibl
 - Icon sources: `icons/src/<drawable>.svg` (or `.pixel.png` for pixel art, `.png` as last resort)
 - Notes per icon (sources, decisions): `icons/notes/<drawable>.md`
 - Build: `python3 tools/build_icons.py && python3 tools/build_pack.py`, raise the number in `version.txt`
-  (whole number for a big release: 9; point number for a small one: 8.1, 8.2), then push; GitHub Actions
+  (always by 0.1, big release or small: 9.8, 9.9, 10.0, 10.1), then push; GitHub Actions
   builds the APK and publishes it under Releases as v<version>. A push that doesn't raise the number builds nothing
   (and doesn't fail), so an old release is never overwritten.
 - Arch isn't a designer or a specialist: explain things in plain everyday words.

@@ -1,8 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 63 512 386">
-<!-- Gmail: the 2020 M shape (dashboard-icons gmail) in two reds (Arch): sides dark red #C5221F, the V Google red
-     #EA4335, on a full white envelope rectangle whose corners follow the M's rounded corners, so nothing sticks out -->
-<path fill="#FFFFFF" d="M52.53 63.92H459.47C486.6 63.92 512 85.36 512 116.4V413.1C512 432.4 496.4 448 477.1 448H34.9C15.7 448 0 432.5 0 413.2V116.4C0 85.36 25.4 63.92 52.53 63.92Z"/>
-<path fill="#C5221F" d="M0 116.4C0 73.2 49.2 48.6 83.8 74.5L116.4 99V448H34.9C15.7 448 0 432.5 0 413.2Z"/>
-<path fill="#C5221F" d="M512 116.4C512 73.2 462.8 48.6 428.2 74.5L395.6 99V448H477.1C496.4 448 512 432.4 512 413.1Z"/>
-<path fill="#EA4335" d="M116.4 250.2V99L256 203.7 395.6 99v151.3L256 355Z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 386" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0,-63)">
+        <path d="M52.53,63.92L459.47,63.92C486.6,63.92 496.4,448 477.1,448L34.9,448C15.7,448 25.4,63.92 52.53,63.92Z" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <path d="M414.26,21.976L428.2,11.5C462.8,-14.4 512,10.2 512,53.4L512,350.1C512,369.4 496.4,385 477.1,385L414.26,385L414.26,21.976Z" style="fill:rgb(197,34,31);"/>
+    <path d="M97.74,21.976L116.4,36L256,140.7L395.6,36L414.26,21.976L414.26,160.873L273.624,266.351C263.181,274.183 248.821,274.18 238.382,266.343L97.74,160.76L97.74,21.976Z" style="fill:rgb(234,67,53);"/>
+    <path d="M97.74,21.976L97.74,385L34.9,385C15.7,385 0,369.5 0,350.2L0,53.4C0,10.2 49.2,-14.4 83.8,11.5L97.74,21.976Z" style="fill:rgb(197,34,31);"/>
 </svg>

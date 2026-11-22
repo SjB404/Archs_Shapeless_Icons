@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<!-- Precise Volume: blue gear with rounded teeth, dark ring and lighter disc, white speaker with two sound waves,
-     as in the app icon (M13). The waves are thicker with round ends (R29). -->
-<polygon points="405.4,204.6 453.0,221.3 453.0,290.7 405.4,307.4 398.0,325.3 419.8,370.7 370.7,419.8 325.3,398.0 307.4,405.4 290.7,453.0 221.3,453.0 204.6,405.4 186.7,398.0 141.3,419.8 92.2,370.7 114.0,325.3 106.6,307.4 59.0,290.7 59.0,221.3 106.6,204.6 114.0,186.7 92.2,141.3 141.3,92.2 186.7,114.0 204.6,106.6 221.3,59.0 290.7,59.0 307.4,106.6 325.3,114.0 370.7,92.2 419.8,141.3 398.0,186.7" fill="#3a68df" stroke="#3a68df" stroke-width="30" stroke-linejoin="round"/>
-<circle cx="256" cy="256" r="152" fill="#3a68df"/>
-<circle cx="256" cy="256" r="132" fill="#2d62c8"/>
-<circle cx="256" cy="256" r="112" fill="#417fe6"/>
-<polygon points="185,234 217,234 257,198 257,314 217,278 185,278" fill="#fff" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
-<path d="M279,226 A36,36 0 0 1 279,286" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round"/>
-<path d="M287,196 A68,68 0 0 1 287,316" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;">
+    <path d="M405.4,204.6L453,221.3L453,290.7L405.4,307.4L398,325.3L419.8,370.7L370.7,419.8L325.3,398L307.4,405.4L290.7,453L221.3,453L204.6,405.4L186.7,398L141.3,419.8L92.2,370.7L114,325.3L106.6,307.4L59,290.7L59,221.3L106.6,204.6L114,186.7L92.2,141.3L141.3,92.2L186.7,114L204.6,106.6L221.3,59L290.7,59L307.4,106.6L325.3,114L370.7,92.2L419.8,141.3L398,186.7L405.4,204.6Z" style="fill:rgb(58,104,223);fill-rule:nonzero;"/>
+    <circle cx="256" cy="256" r="152" style="fill:rgb(58,104,223);"/>
+    <circle cx="256" cy="256" r="132" style="fill:rgb(45,98,200);"/>
+    <circle cx="256" cy="256" r="112" style="fill:rgb(65,127,230);"/>
+    <path d="M185,234L217,234L257,198L257,314L217,278L185,278L185,234Z" style="fill:white;fill-rule:nonzero;stroke:white;stroke-width:4px;"/>
+    <path d="M275.521,182.277C308.527,190.555 333,220.442 333,256C333,291.558 308.527,321.445 275.521,329.723L275.521,308.86C297.338,301.206 313,280.418 313,256C313,231.582 297.338,210.794 275.521,203.14L275.521,182.277Z" style="fill:white;"/>
+    <path d="M275.521,217.999C290.194,224.37 300.466,238.995 300.466,256C300.466,273.005 290.194,287.63 275.521,294.001L275.521,277.574C281.403,272.248 285.1,264.552 285.1,256C285.1,247.448 281.403,239.752 275.521,234.426L275.521,217.999Z" style="fill:white;"/>
 </svg>

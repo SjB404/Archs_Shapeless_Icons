@@ -138,7 +138,7 @@ One worker does every step, in this order.
    ```
    python3 tools/build_icons.py     # icons/src  ->  icons/png
    python3 tools/build_pack.py      # icons/png + appfilter.json  ->  app files
-   # raise version.txt: 9 for a big release, 8.1 / 8.2 for a small one
+   # raise version.txt by 0.1 every time: 9.8, 9.9, 10.0, 10.1
    git commit && git push            # GitHub builds the APK and publishes release v<version.txt>
    ```
 8. **Arch checks it on his phone**, sends feedback, which becomes new notes and rules.

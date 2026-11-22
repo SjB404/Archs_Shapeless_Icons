@@ -1,3 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
-<!-- Unity Remote: Unity's current cube logo (Simple Icons), as on the phone. Grey and white on black in the app, so white here (R10). -->
-<path fill="#FFFFFF" d="m12.929 4.294l3.8 2.193c.136.077.141.29 0 .367l-4.515 2.608a.42.42 0 0 1-.425 0L7.274 6.854c-.139-.074-.141-.293 0-.367l3.797-2.193V0L1.376 5.598v11.195l3.718-2.146v-4.385c-.003-.157.18-.269.317-.184l4.515 2.607a.43.43 0 0 1 .214.368v5.213c.002.156-.181.268-.318.184l-3.8-2.193l-3.717 2.145L12 24l9.695-5.598l-3.717-2.145l-3.8 2.192c-.134.082-.323-.024-.318-.183v-5.213c0-.156.087-.296.214-.368l4.515-2.607c.134-.082.322.022.318.184v4.385l3.717 2.146V5.598L12.93 0Z"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path d="M22.624,5.598L12,11.734L1.376,5.598L11.071,0L11.071,4.294L7.274,6.487C7.133,6.561 7.135,6.78 7.274,6.854L12.001,9.585L16.729,6.854C16.87,6.777 16.865,6.564 16.729,6.487L12.929,4.294L12.93,0L22.624,5.598Z" style="fill:white;"/>
+    <path d="M12,24L2.305,18.402L6.022,16.257L9.822,18.45C9.959,18.534 10.142,18.422 10.14,18.266L10.14,12.809L5.411,10.078C5.274,9.993 5.091,10.105 5.094,10.262L5.094,14.647L1.376,16.793L1.376,5.598L12,11.734L12,24Z" style="fill:rgb(230,230,230);"/>
+    <path d="M22.624,5.598L22.624,16.793L18.907,14.647L18.907,10.262C18.911,10.1 18.723,9.996 18.589,10.078L13.86,12.809L13.86,18.266C13.855,18.425 14.044,18.531 14.178,18.449L17.978,16.257L21.695,18.402L12,24L12,11.734L22.624,5.598Z" style="fill:rgb(205,205,205);"/>
+</svg>

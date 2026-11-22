@@ -1,3 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-<!-- Trello: Trello's own mark (Simple Icons), the blue board with its two white columns; the columns are white in Trello's logo (R9 kept as the brand draws it). -->
-<path fill="#FFFFFF" d="M4 3h16v17H4z"/><path fill="#1868DB" d="M21.147 0H2.853A2.86 2.86 0 0 0 0 2.853v18.294A2.86 2.86 0 0 0 2.853 24h18.294A2.86 2.86 0 0 0 24 21.147V2.853A2.86 2.86 0 0 0 21.147 0M10.34 17.287a.953.953 0 0 1-.953.953h-4a.954.954 0 0 1-.954-.953V5.38a.953.953 0 0 1 .954-.953h4a.954.954 0 0 1 .953.953zm9.233-5.467a.944.944 0 0 1-.953.947h-4a.947.947 0 0 1-.953-.947V5.38a.953.953 0 0 1 .953-.953h4a.954.954 0 0 1 .953.953z"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path d="M18.832,-0C20.203,-0 21.517,0.544 22.486,1.514C23.456,2.483 24,3.797 24,5.168L24,18.832C24,20.203 23.456,21.517 22.486,22.486C21.517,23.456 20.203,24 18.832,24L5.168,24C3.797,24 2.483,23.456 1.514,22.486C0.544,21.517 -0,20.203 -0,18.832L0,5.168C-0,3.797 0.544,2.483 1.514,1.514C2.483,0.544 3.797,-0 5.168,-0L18.832,-0Z" style="fill:rgb(24,104,219);"/>
+    <path d="M10.34,17.287C10.34,17.81 9.91,18.24 9.387,18.24L5.387,18.24C4.864,18.24 4.434,17.81 4.433,17.287L4.433,5.38C4.433,4.857 4.864,4.427 5.386,4.427L9.387,4.427C9.91,4.428 10.339,4.857 10.34,5.38L10.34,17.287Z" style="fill:white;"/>
+    <path d="M19.573,11.82L19.573,11.823C19.573,12.341 19.147,12.767 18.629,12.767L18.62,12.767L14.62,12.767L14.614,12.767C14.094,12.767 13.667,12.34 13.667,11.82L13.667,5.38C13.667,4.857 14.097,4.427 14.62,4.427L18.62,4.427C19.143,4.428 19.572,4.857 19.573,5.38L19.573,11.82Z" style="fill:white;"/>
+</svg>

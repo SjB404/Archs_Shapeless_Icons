@@ -1,1 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65"><defs><clipPath id="s"><path d="M32.447 0c.68 0 1.273.465 1.439 1.125a38.904 38.904 0 001.999 5.905c2.152 5 5.105 9.376 8.854 13.125 3.751 3.75 8.126 6.703 13.125 8.855a38.98 38.98 0 005.906 1.999c.66.166 1.124.758 1.124 1.438 0 .68-.464 1.273-1.125 1.439a38.902 38.902 0 00-5.905 1.999c-5 2.152-9.375 5.105-13.125 8.854-3.749 3.751-6.702 8.126-8.854 13.125a38.973 38.973 0 00-2 5.906 1.485 1.485 0 01-1.438 1.124c-.68 0-1.272-.464-1.438-1.125a38.913 38.913 0 00-2-5.905c-2.151-5-5.103-9.375-8.854-13.125-3.75-3.749-8.125-6.702-13.125-8.854a38.973 38.973 0 00-5.905-2A1.485 1.485 0 010 32.448c0-.68.465-1.272 1.125-1.438a38.903 38.903 0 005.905-2c5-2.151 9.376-5.104 13.125-8.854 3.75-3.749 6.703-8.125 8.855-13.125a38.972 38.972 0 001.999-5.905A1.485 1.485 0 0132.447 0z"/></clipPath><radialGradient id="r" cx="0.25" cy="0.15" r="0.6"><stop offset="0.3" stop-color="#EA4335"/><stop offset="1" stop-color="#EA4335" stop-opacity="0"/></radialGradient><radialGradient id="y" cx="0.0" cy="0.5" r="0.5"><stop offset="0.3" stop-color="#FBBC04"/><stop offset="1" stop-color="#FBBC04" stop-opacity="0"/></radialGradient><radialGradient id="gr" cx="0.5" cy="1.0" r="0.55"><stop offset="0.3" stop-color="#34A853"/><stop offset="1" stop-color="#34A853" stop-opacity="0"/></radialGradient></defs><g clip-path="url(#s)"><rect width="65" height="65" fill="#4285F4"/><rect width="65" height="65" fill="url(#r)"/><rect width="65" height="65" fill="url(#y)"/><rect width="65" height="65" fill="url(#gr)"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g>
+        <clipPath id="_clip1">
+            <path d="M32.447,0C33.127,0 33.72,0.465 33.886,1.125C34.393,3.144 35.062,5.118 35.885,7.03C38.037,12.03 40.99,16.406 44.739,20.155C48.49,23.905 52.865,26.858 57.864,29.01C59.776,29.833 61.751,30.501 63.77,31.009C64.43,31.175 64.894,31.767 64.894,32.447C64.894,33.127 64.43,33.72 63.769,33.886C61.75,34.393 59.776,35.062 57.864,35.885C52.864,38.037 48.489,40.99 44.739,44.739C40.99,48.49 38.037,52.865 35.885,57.864C35.062,59.776 34.393,61.751 33.885,63.77C33.72,64.428 33.125,64.893 32.447,64.894C31.767,64.894 31.175,64.43 31.009,63.769C30.501,61.75 29.833,59.776 29.009,57.864C26.858,52.864 23.906,48.489 20.155,44.739C16.405,40.99 12.03,38.037 7.03,35.885C5.118,35.062 3.144,34.393 1.125,33.885C0.467,33.721 0.002,33.126 0,32.448C0,31.768 0.465,31.176 1.125,31.01C3.144,30.502 5.118,29.834 7.03,29.01C12.03,26.859 16.406,23.906 20.155,20.156C23.905,16.407 26.858,12.031 29.01,7.031C29.833,5.119 30.501,3.145 31.009,1.126C31.173,0.468 31.768,0.001 32.447,0Z"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <rect x="0" y="0" width="65" height="65" style="fill:rgb(66,133,244);"/>
+            <g transform="matrix(0.982583,0,0,1.21771,-10.64465,-14.151121)">
+                <rect x="0" y="0" width="65" height="65" style="fill:url(#_Radial2);"/>
+            </g>
+            <g transform="matrix(0.879778,0,0,0.879778,0,0)">
+                <rect x="0" y="0" width="65" height="65" style="fill:url(#_Radial3);"/>
+            </g>
+            <g transform="matrix(0.818742,0,0,0.818742,0,5.890875)">
+                <rect x="0" y="0" width="65" height="65" style="fill:url(#_Radial4);"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <radialGradient id="_Radial2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(35.75,0,0,35.75,32.5,65)"><stop offset="0" style="stop-color:rgb(52,168,83);stop-opacity:1"/><stop offset="0.3" style="stop-color:rgb(52,168,83);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(52,168,83);stop-opacity:0"/></radialGradient>
+        <radialGradient id="_Radial3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(39,0,0,39,16.25,9.75)"><stop offset="0" style="stop-color:rgb(234,67,53);stop-opacity:1"/><stop offset="0.3" style="stop-color:rgb(234,67,53);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(234,67,53);stop-opacity:0"/></radialGradient>
+        <radialGradient id="_Radial4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(32.5,0,0,32.5,0,32.5)"><stop offset="0" style="stop-color:rgb(251,188,4);stop-opacity:1"/><stop offset="0.3" style="stop-color:rgb(251,188,4);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(251,188,4);stop-opacity:0"/></radialGradient>
+    </defs>
+</svg>

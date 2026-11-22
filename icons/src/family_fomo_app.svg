@@ -1,14 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 100 430 312">
-<!-- fomo: the two slanted eyes from the Play Store icon (the same ellipse twice, 173 apart; the right eye sits on top),
-     each with its slanted pupil in the icon's own navy so the pupils read on any background;
-     a thin light rim closes the left eye (Arch: "FOMO is missing a pupil") -->
-<defs>
-<clipPath id="pupA"><path d="M-1000 196.0H182.05L147.55 316.0H-1000Z"/></clipPath>
-<clipPath id="pupB"><path d="M-1000 196.0H364.45L329.95 316.0H-1000Z"/></clipPath>
-</defs>
-<ellipse cx="167.89" cy="255.99" rx="105.41" ry="132.35" transform="rotate(34.07 167.89 255.99)" fill="#E8EBFF"/>
-<g clip-path="url(#pupA)"><ellipse cx="167.89" cy="255.99" rx="89.41" ry="116.35" transform="rotate(34.07 167.89 255.99)" fill="#0B091F"/></g>
-<ellipse cx="340.89" cy="255.99" rx="105.41" ry="132.35" transform="rotate(34.07 340.89 255.99)" fill="#E8EBFF"/>
-<g clip-path="url(#pupB)"><ellipse cx="340.89" cy="255.99" rx="105.41" ry="132.35" transform="rotate(34.07 340.89 255.99)" fill="#0B091F"/></g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 430 312" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.828354,0.560205,-0.560205,0.828354,132.224652,-150.113157)">
+        <ellipse cx="167.89" cy="255.99" rx="105.41" ry="132.35" style="fill:rgb(232,235,255);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-40,-100)">
+        <clipPath id="_clip1">
+            <path d="M-1000,196L182.05,196L147.55,316L-1000,316L-1000,196Z"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(1,0,0,1,40,100)">
+                <path d="M202.033,46.357C250.225,78.949 256.128,154.533 215.207,215.041C174.286,275.549 101.938,298.214 53.747,265.623C5.555,233.031 -0.348,157.447 40.573,96.939C81.494,36.431 153.842,13.766 202.033,46.357Z" style="fill:rgb(11,9,31);"/>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(0.828354,0.560205,-0.560205,0.828354,161.91945,-247.028682)">
+        <ellipse cx="340.89" cy="255.99" rx="105.41" ry="132.35" style="fill:rgb(232,235,255);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-40,-100)">
+        <clipPath id="_clip2">
+            <path d="M-1000,196L364.45,196L329.95,316L-1000,316L-1000,196Z"/>
+        </clipPath>
+        <g clip-path="url(#_clip2)">
+            <g transform="matrix(0.828354,0.560205,-0.560205,0.828354,201.91945,-147.028682)">
+                <ellipse cx="340.89" cy="255.99" rx="105.41" ry="132.35" style="fill:rgb(11,9,31);"/>
+            </g>
+        </g>
+    </g>
 </svg>
-

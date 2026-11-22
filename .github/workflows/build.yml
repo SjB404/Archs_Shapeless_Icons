@@ -23,7 +23,7 @@ jobs:
         with:
           gradle-version: '8.7'
 
-      # The release number comes from version.txt: 9 for a big release, 8.1 for a small one.
+      # The release number comes from version.txt, raised by 0.1 every release: 9.9, 10.0, 10.1.
       # If that number was already released (a push without a version raise), it skips the build and
       # finishes without an error, so an old release is never overwritten.
       - name: Read version

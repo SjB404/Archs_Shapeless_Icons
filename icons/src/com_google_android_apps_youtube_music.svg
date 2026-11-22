@@ -1,3 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 176 176">
-<!-- YouTube Music: the red disc with the play ring (dashboard-icons); the disc is the logo (R8). -->
-<circle cx="88" cy="88" r="88" fill="red"/><path fill="#FFF" d="M88 46c23.1 0 42 18.8 42 42s-18.8 42-42 42-42-18.8-42-42 18.9-42 42-42m0-4c-25.4 0-46 20.6-46 46s20.6 46 46 46 46-20.6 46-46-20.6-46-46-46"/><path fill="#FFF" d="m72 111 39-24-39-22z"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 176 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <circle cx="88" cy="88" r="88" style="fill:rgb(255,0,0);"/>
+    <g transform="matrix(1.251266,0,0,1.251266,-22.111386,-22.111386)">
+        <path d="M88,46C111.1,46 130,64.8 130,88C130,111.2 111.2,130 88,130C64.8,130 46,111.2 46,88C46,64.8 64.9,46 88,46M88,38.27C60.54,38.27 38.27,60.54 38.27,88C38.27,115.46 60.54,137.73 88,137.73C115.46,137.73 137.73,115.46 137.73,88C137.73,60.54 115.46,38.27 88,38.27Z" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1.056313,0,0,1.056313,-5.152598,-4.955504)">
+        <path d="M72,111L111,87L72,65L72,111Z" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+</svg>
