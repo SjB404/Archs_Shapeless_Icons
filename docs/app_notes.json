@@ -3486,7 +3486,8 @@
   "label": "Nothing Alarm",
   "arch_said": [
    "M22 (23 Nov 2026): Nothing Alarm (com.arch.nothingalarm), \"use this\" with his own icon file app_icon_full.svg",
-   "M22: \"no i mean just put the icon i made into the shapeless pack\""
+   "M22: \"no i mean just put the icon i made into the shapeless pack\"",
+   "M22: \"the name is com.arch.nothingalarm\" (the app ID); its launcher screen is .SettingsActivity, from the app's AndroidManifest in the chat where it was built"
   ],
   "rules": [],
   "direction": "Nothing Alarm (Arch's own app): Arch's own icon file used exactly as he made it, dark grey disc included. Arch's own words beat the general rules (R5, R8 don't apply here).",
