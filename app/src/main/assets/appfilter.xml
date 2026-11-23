@@ -21,6 +21,7 @@
     <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="com_android_vending" />
     <item component="ComponentInfo{com.anthropic.claude/com.anthropic.claude.mainactivity.MainActivity}" drawable="com_anthropic_claude" />
     <item component="ComponentInfo{com.appspot.orium_blog.crossword.eng/com.dev_orium.android.crossword.SplashActivity}" drawable="com_appspot_orium_blog_crossword_eng" />
+    <item component="ComponentInfo{com.arch.nothingalarm/com.arch.nothingalarm.MainActivity}" drawable="com_arch_nothingalarm" />
     <item component="ComponentInfo{com.armmc.app/com.armmc.app.MainActivity}" drawable="com_armmc_app" />
     <item component="ComponentInfo{com.aurora.store/com.aurora.store.ComposeActivity}" drawable="com_aurora_store" />
     <item component="ComponentInfo{com.azizi.calorie_calculator/com.azizi.calorie_calculator.MainActivity}" drawable="com_azizi_calorie_calculator" />

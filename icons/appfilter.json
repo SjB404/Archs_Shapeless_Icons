@@ -962,5 +962,8 @@
  ],
  "com_poncle_vampiresurvivors": [
   "ComponentInfo{com.poncle.vampiresurvivors/com.unity3d.player.UnityPlayerActivity}"
+ ],
+ "com_arch_nothingalarm": [
+  "ComponentInfo{com.arch.nothingalarm/com.arch.nothingalarm.MainActivity}"
  ]
 }

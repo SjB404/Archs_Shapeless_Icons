@@ -3481,5 +3481,18 @@
   ],
   "direction": "Vampire Survivors: the vampire, head and shoulders, kept as a picture (painted art); red background and moon left out.",
   "status": "done"
+ },
+ "com_arch_nothingalarm": {
+  "label": "Nothing Alarm",
+  "arch_said": [
+   "M22 (23 Nov 2026): Nothing Alarm (com.arch.nothingalarm), \"use this\" with his own icon file app_icon_full.svg"
+  ],
+  "rules": [
+   "R5",
+   "R8",
+   "R10"
+  ],
+  "direction": "Nothing Alarm (Arch's own app): the 12 white dot-matrix dots and the four corner dots (red #EC1313, orange #FF6D05, amber #FF9500, yellow #FFBF00) exactly as in Arch's own icon file; the dark grey disc behind them left out.",
+  "status": "done"
  }
 }

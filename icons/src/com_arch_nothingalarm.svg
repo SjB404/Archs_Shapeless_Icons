@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108">
+<!-- Nothing Alarm (Arch's own app): from Arch's own icon file (app_icon_full.svg). The 12 white dots of the dot
+     matrix and the four coloured corner dots (red, orange, amber, yellow) keep their exact places, sizes and colours.
+     The dark grey disc behind them is a background shape, so it is left out (R5, R8); white stays white (R10). -->
+<circle cx="15.816" cy="15.816" r="15" fill="#EC1313"/>
+<circle cx="92.184" cy="15.816" r="15" fill="#FF6D05"/>
+<circle cx="92.184" cy="92.184" r="15" fill="#FF9500"/>
+<circle cx="15.816" cy="92.184" r="15" fill="#FFBF00"/>
+<circle cx="26.724" cy="35.899" r="5.0" fill="#FFFFFF"/>
+<circle cx="44.908" cy="35.899" r="5.0" fill="#FFFFFF"/>
+<circle cx="63.092" cy="35.899" r="5.0" fill="#FFFFFF"/>
+<circle cx="81.276" cy="35.899" r="5.0" fill="#FFFFFF"/>
+<circle cx="26.724" cy="54.083" r="5.0" fill="#FFFFFF"/>
+<circle cx="44.908" cy="54.083" r="5.0" fill="#FFFFFF"/>
+<circle cx="63.092" cy="54.083" r="5.0" fill="#FFFFFF"/>
+<circle cx="81.276" cy="54.083" r="5.0" fill="#FFFFFF"/>
+<circle cx="26.724" cy="72.266" r="5.0" fill="#FFFFFF"/>
+<circle cx="44.908" cy="72.266" r="5.0" fill="#FFFFFF"/>
+<circle cx="63.092" cy="72.266" r="5.0" fill="#FFFFFF"/>
+<circle cx="81.276" cy="72.266" r="5.0" fill="#FFFFFF"/>
+</svg>
