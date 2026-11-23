@@ -3485,14 +3485,11 @@
  "com_arch_nothingalarm": {
   "label": "Nothing Alarm",
   "arch_said": [
-   "M22 (23 Nov 2026): Nothing Alarm (com.arch.nothingalarm), \"use this\" with his own icon file app_icon_full.svg"
+   "M22 (23 Nov 2026): Nothing Alarm (com.arch.nothingalarm), \"use this\" with his own icon file app_icon_full.svg",
+   "M22: \"no i mean just put the icon i made into the shapeless pack\""
   ],
-  "rules": [
-   "R5",
-   "R8",
-   "R10"
-  ],
-  "direction": "Nothing Alarm (Arch's own app): the 12 white dot-matrix dots and the four corner dots (red #EC1313, orange #FF6D05, amber #FF9500, yellow #FFBF00) exactly as in Arch's own icon file; the dark grey disc behind them left out.",
+  "rules": [],
+  "direction": "Nothing Alarm (Arch's own app): Arch's own icon file used exactly as he made it, dark grey disc included. Arch's own words beat the general rules (R5, R8 don't apply here).",
   "status": "done"
  }
 }
