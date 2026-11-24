@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="57.12 60 393 393">
+<!-- The Everything Key: the grey hexagon with its six dashes and the centre dot, measured from the 512 px Play Store
+     icon (same design as the icon on Arch's phone) (M17, M22): the hexagon's edges are fitted lines with evenly rounded
+     corners (radius 68), the dashes are equal bars with round ends pointing at 0, 60, 120, 180, 240 and 300 degrees
+     (the top-left and bottom-right ones red), and the dot is an exact circle. The hexagon is the logo itself, so it
+     stays (R8); the white circle around it is left out (R5). Flat colours. -->
+<path fill="#D1D2D2" d="M190.59 434.38A68 68 0 0 1 131.71 400.38L68.20 290.42A68 68 0 0 1 68.22 222.37L131.83 112.34A68 68 0 0 1 190.70 78.38L316.20 78.38A68 68 0 0 1 375.06 112.31L438.74 222.35A68 68 0 0 1 438.76 290.42L375.24 400.39A68 68 0 0 1 316.36 434.38Z"/>
+<g fill="none" stroke-width="30.18" stroke-linecap="round">
+<path d="M293.81 183.22L314.64 147.14" stroke="#1B1D1F"/>
+<path d="M128.86 254.64L170.51 254.64" stroke="#1B1D1F"/>
+<path d="M334.88 254.64L376.54 254.64" stroke="#1B1D1F"/>
+<path d="M190.84 361.35L211.67 325.27" stroke="#1B1D1F"/>
+<path d="M211.63 183.8L190.8 147.72" stroke="#D71921"/>
+<path d="M314.6 361.95L293.77 325.87" stroke="#D71921"/>
+</g>
+<circle cx="251.53" cy="255.29" r="32.31" fill="#1B1D1F"/>
+</svg>

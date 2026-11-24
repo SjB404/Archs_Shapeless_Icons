@@ -3492,5 +3492,17 @@
   "rules": [],
   "direction": "Nothing Alarm (Arch's own app): Arch's own icon file used exactly as he made it, dark grey disc included. Arch's own words beat the general rules (R5, R8 don't apply here).",
   "status": "done"
+ },
+ "com_spandone_everythingkey": {
+  "label": "The Everything Key",
+  "arch_said": [
+   "M23 (24 Nov 2026, export 09:11): \"make everything key icon\""
+  ],
+  "rules": [
+   "R5",
+   "R8"
+  ],
+  "direction": "The Everything Key: the light grey hexagon (#D1D2D2) with its six dashes (black #1B1D1F, top-left and bottom-right red #D71921) and the black centre dot, measured from the 512 px Play Store icon; white circle left out.",
+  "status": "done"
  }
 }

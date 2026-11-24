@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The pack is built for Android 15 (targetSdk 35), so Obtainium can update it without a tap on Android 17.
+         On Android 15 and newer that would make the screen run behind the phone's top and bottom bars; this line keeps
+         the screen exactly as it was. It stops working once the pack is built for Android 16 (targetSdk 36): then the
+         screen has to make room for the bars itself. -->
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+    <style name="MainTheme" parent="@android:style/Theme.DeviceDefault.Wallpaper.NoTitleBar">
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+</resources>

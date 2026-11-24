@@ -4,12 +4,16 @@ plugins {
 
 android {
     namespace 'com.arch.shapeless'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId 'com.arch.shapeless'
         minSdk 29
-        targetSdk 34
+        // Built for Android 15 (35). Obtainium can only update the pack without a tap if this is new enough
+        // for the phone's Android version: Android 16 needs 34+, Android 17 needs 35+, and newer Android versions
+        // will ask for more. Raising it to 36 later also needs the screen to make room for the top and bottom bars
+        // itself (see res/values-v35/styles.xml).
+        targetSdk 35
         // Every GitHub build gets a higher number, so a new APK installs over the old one.
         versionCode((System.getenv('GITHUB_RUN_NUMBER') ?: '1').toInteger())
         // The version people see (9.9, 10.0, 10.1...) comes from version.txt.

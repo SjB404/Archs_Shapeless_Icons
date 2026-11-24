@@ -965,5 +965,8 @@
  ],
  "com_arch_nothingalarm": [
   "ComponentInfo{com.arch.nothingalarm/com.arch.nothingalarm.SettingsActivity}"
+ ],
+ "com_spandone_everythingkey": [
+  "ComponentInfo{com.spandone.everythingkey/com.spandone.everythingkey.MainActivity}"
  ]
 }

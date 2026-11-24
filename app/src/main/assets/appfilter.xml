@@ -227,6 +227,7 @@
     <item component="ComponentInfo{com.sirma.mobile.bible.android/youversion.bible.app.MainActivity}" drawable="com_sirma_mobile_bible_android" />
     <item component="ComponentInfo{com.sony.songpal.mdr/com.sony.songpal.mdr.vim.activity.MdrMainActivity}" drawable="com_sony_songpal_mdr" />
     <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.launcher.LauncherActivity}" drawable="com_soundcloud_android" />
+    <item component="ComponentInfo{com.spandone.everythingkey/com.spandone.everythingkey.MainActivity}" drawable="com_spandone_everythingkey" />
     <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="com_spotify_music" />
     <item component="ComponentInfo{com.squib.buddy/com.squib.buddy.MainActivity}" drawable="com_squib_buddy" />
     <item component="ComponentInfo{com.StellarStudioGames.ABCandyBirds/com.unity3d.player.UnityPlayerActivity}" drawable="com_stellarstudiogames_abcandybirds" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The same system themes the app always used. values-v35/styles.xml adds one line for Android 15 and newer. -->
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+    <style name="MainTheme" parent="@android:style/Theme.DeviceDefault.Wallpaper.NoTitleBar" />
+</resources>

@@ -6,6 +6,21 @@ An Android icon pack with no circles, squircles or other border shapes: just the
 
 Download the newest APK from [Releases](../../releases/latest), install it, then pick **Shapeless Icons** in your launcher's icon pack setting.
 
+## Updates without downloading by hand
+
+Launchers only read icons from inside the installed app, so new icons always come as a new version of the app.
+[Obtainium](https://github.com/ImranR98/Obtainium) can watch this project's releases and install new versions for you:
+
+1. Install Obtainium (from its GitHub releases, F-Droid or IzzyOnDroid).
+2. In Obtainium, open **Add App** (the add button at the top), paste `https://github.com/SjB404/Archs_Shapeless_Icons` and add it.
+3. Install the pack through Obtainium once. Android asks you to confirm this first time, because the version on the
+   phone was installed some other way.
+4. In Obtainium's **Settings → Updates**, set how often it checks and switch on installing updates in the background.
+
+From then on, each new release installs by itself, without a tap. That only works while the pack is built for a new
+enough Android version for the phone (see the note at `targetSdk` in `app/build.gradle`); otherwise Obtainium asks
+you to confirm each update.
+
 ## The app
 
 - **Search bar and icon list**: every icon in the pack, plus the apps on the phone that don't have one yet.
